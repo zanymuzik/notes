@@ -31,7 +31,7 @@ Simple linear curve fitting
 > keras.layers.Dense()
 Define a layer of connected neurons
 
-##### keras.Sequential()
+> keras.Sequential()
 Define successive layers
 
 > model.compile(optimizer='sgd', loss='mean_squared_error')
@@ -43,6 +43,6 @@ actual training of the model
 > model.predict([input])
 inference / find predicted values
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExMzE0OTE3MywtMjEwMzEyMTI5MCwtMT
+eyJoaXN0b3J5IjpbLTY1NTk5MzYwNiwtMjEwMzEyMTI5MCwtMT
 ExNDY4NTQwNywtOTA1NTQ4ODI3LDczMDk5ODExNl19
 -->
