@@ -44,8 +44,10 @@ actual training of the model
 inference / find predicted values
 
 
+
+## [Week 2](https://www.coursera.org/learn/introduction-tensorflow/home/week/2)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQ1Mjk2NTk4LC02NTU5OTM2MDYsLTIxMD
-MxMjEyOTAsLTExMTQ2ODU0MDcsLTkwNTU0ODgyNyw3MzA5OTgx
-MTZdfQ==
+eyJoaXN0b3J5IjpbLTIxMDI1MjcyOTMsNTQ1Mjk2NTk4LC02NT
+U5OTM2MDYsLTIxMDMxMjEyOTAsLTExMTQ2ODU0MDcsLTkwNTU0
+ODgyNyw3MzA5OTgxMTZdfQ==
 -->
