@@ -68,14 +68,14 @@ Takes the input as a linear array
 > keras.layers.Dense(128, activation=tf.nn.relu)
 Hidden Layer
 
-> keras.layers.Dense(128, activation=tf.nn.softmax)
+ > keras.layers.Dense(128, activation=tf.nn.softmax)
 > Output layer
 
 ### Callback to terminate the training
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxMzg3MzEyNCwyMTI1NTM4MTk2LDE1OD
-IzNTAwNTQsLTExOTYyNzM2NTUsNTQ1Mjk2NTk4LC02NTU5OTM2
-MDYsLTIxMDMxMjEyOTAsLTExMTQ2ODU0MDcsLTkwNTU0ODgyNy
-w3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbMTU3MzYxNjc0LDIxMjU1MzgxOTYsMTU4Mj
+M1MDA1NCwtMTE5NjI3MzY1NSw1NDUyOTY1OTgsLTY1NTk5MzYw
+NiwtMjEwMzEyMTI5MCwtMTExNDY4NTQwNywtOTA1NTQ4ODI3LD
+czMDk5ODExNl19
 -->
