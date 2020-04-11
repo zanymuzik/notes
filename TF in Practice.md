@@ -8,7 +8,9 @@ graph LR
 Rules --> A[Traditional Programming]
 Data  --> A
 A --> Answers
-
+```
+```mermaid
+graph LR
 Answers --> B[Machine Learning]
 Data  --> B
 B --> Rules
@@ -21,6 +23,6 @@ B --> Rules
 ### Hello World in TF
 > hello
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3NDU5MjU3MiwtOTA1NTQ4ODI3LDczMD
-k5ODExNl19
+eyJoaXN0b3J5IjpbLTExMTQ2ODU0MDcsLTkwNTU0ODgyNyw3Mz
+A5OTgxMTZdfQ==
 -->
