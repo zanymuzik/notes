@@ -42,7 +42,10 @@ actual training of the model
 
 > model.predict([input])
 inference / find predicted values
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1NTk5MzYwNiwtMjEwMzEyMTI5MCwtMT
-ExNDY4NTQwNywtOTA1NTQ4ODI3LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbNTQ1Mjk2NTk4LC02NTU5OTM2MDYsLTIxMD
+MxMjEyOTAsLTExMTQ2ODU0MDcsLTkwNTU0ODgyNyw3MzA5OTgx
+MTZdfQ==
 -->
