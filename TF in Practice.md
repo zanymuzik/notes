@@ -24,6 +24,7 @@ B --> Rules
 - rules are inferred by ML
 
 ### Hello World on Neural Network
+
 > X = 
 > Y = 
 Simple linear curve fitting  
@@ -39,7 +40,10 @@ define the loss function, and optimizer - to guess the next value (for gradient 
 
 > model.fit(epochs=N)
 actual training of the model
+
+> model.predict([input])
+inference / find predicted values
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2MTY0MDY1NiwtMjEwMzEyMTI5MCwtMT
-ExNDY4NTQwNywtOTA1NTQ4ODI3LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbODQwNDE0MTIsLTIxMDMxMjEyOTAsLTExMT
+Q2ODU0MDcsLTkwNTU0ODgyNyw3MzA5OTgxMTZdfQ==
 -->
