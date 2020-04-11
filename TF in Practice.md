@@ -23,8 +23,7 @@ B --> Rules
 - lots of examples + label
 - rules are inferred by ML
 
-### Hello World on Neural Network
-
+### [Hello World on Neural Network](https://github.com/lmoroney/dlaicourse/blob/master/Course%201%20-%20Part%202%20-%20Lesson%202%20-%20Notebook.ipynb)
 > X = 
 > Y = 
 Simple linear curve fitting  
@@ -32,7 +31,7 @@ Simple linear curve fitting
 > keras.layers.Dense()
 Define a layer of connected neurons
 
-> keras.Sequential()
+##### keras.Sequential()
 Define successive layers
 
 > model.compile(optimizer='sgd', loss='mean_squared_error')
@@ -44,6 +43,6 @@ actual training of the model
 > model.predict([input])
 inference / find predicted values
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQwNDE0MTIsLTIxMDMxMjEyOTAsLTExMT
-Q2ODU0MDcsLTkwNTU0ODgyNyw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbMTExMzE0OTE3MywtMjEwMzEyMTI5MCwtMT
+ExNDY4NTQwNywtOTA1NTQ4ODI3LDczMDk5ODExNl19
 -->
