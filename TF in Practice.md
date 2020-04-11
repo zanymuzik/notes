@@ -65,9 +65,10 @@ inference / find predicted values
 > keras.layers.Flatten(input_shape=(28, 28))
 Takes the input as a linear array
 
+> keras.layers.Dense(128, activation='')
 > 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwNDI0NjM2OCwxNTgyMzUwMDU0LC0xMT
+eyJoaXN0b3J5IjpbLTc1NDY1MzIwMCwxNTgyMzUwMDU0LC0xMT
 k2MjczNjU1LDU0NTI5NjU5OCwtNjU1OTkzNjA2LC0yMTAzMTIx
 MjkwLC0xMTE0Njg1NDA3LC05MDU1NDg4MjcsNzMwOTk4MTE2XX
 0=
