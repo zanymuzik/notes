@@ -46,8 +46,12 @@ inference / find predicted values
 
 
 ## [Week 2](https://www.coursera.org/learn/introduction-tensorflow/home/week/2)
+
+[https://github.com/lmoroney/dlaicourse/blob/master/Course%201%20-%20Part%204%20-%20Lesson%202%20-%20Notebook.ipynb]]
+[]
+(https://github.com/lmoroney/dlaicourse/blob/master/Course%201%20-%20Part%204%20-%20Lesson%202%20-%20Notebook.ipynb)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDI1MjcyOTMsNTQ1Mjk2NTk4LC02NT
-U5OTM2MDYsLTIxMDMxMjEyOTAsLTExMTQ2ODU0MDcsLTkwNTU0
-ODgyNyw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbMTA3NDQ5NjI0Myw1NDUyOTY1OTgsLTY1NT
+k5MzYwNiwtMjEwMzEyMTI5MCwtMTExNDY4NTQwNywtOTA1NTQ4
+ODI3LDczMDk5ODExNl19
 -->
