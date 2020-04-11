@@ -4,9 +4,11 @@
 
 ### Primer
 
+#### Traditional Programming
+
 
 ### Hello World in TF
 > hello
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODEzMDU1ODc1LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbNDI3MDUzODU1LDczMDk5ODExNl19
 -->
