@@ -5,8 +5,9 @@
 ### Primer
 ```mermaid
 graph LR
-Rules -> A[Traditional Programming]
-Data -> 
+Rules --> A[Traditional Programming]
+Data  --> A
+A --> Answers
 ```
 
 
@@ -16,5 +17,5 @@ Data ->
 ### Hello World in TF
 > hello
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1MTYyOTg3Miw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTkwNTU0ODgyNyw3MzA5OTgxMTZdfQ==
 -->
