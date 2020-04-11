@@ -9,6 +9,10 @@ Rules --> A[Traditional Programming]
 Data  --> A
 A --> Answers
 ```
+#### Traditional Programming
+- rules based programming
+- if-then statements
+
 ```mermaid
 graph LR
 Answers --> B[Machine Learning]
@@ -17,12 +21,14 @@ B --> Rules
 ```
 
 
-#### Traditional Programming
 
+Machine Learning
+- lots of examples + label
+- rules are inferred by ML
 
 ### Hello World in TF
 > hello
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTQ2ODU0MDcsLTkwNTU0ODgyNyw3Mz
-A5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbMTA4MDQxNjkxMywtMTExNDY4NTQwNywtOT
+A1NTQ4ODI3LDczMDk5ODExNl19
 -->
