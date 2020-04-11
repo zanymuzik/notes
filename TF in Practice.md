@@ -64,8 +64,11 @@ inference / find predicted values
 ### Coding a CV Neural Network
 > keras.layers.Flatten(input_shape=(28, 28))
 Takes the input as a linear array
+
+> 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4MjM1MDA1NCwtMTE5NjI3MzY1NSw1ND
-UyOTY1OTgsLTY1NTk5MzYwNiwtMjEwMzEyMTI5MCwtMTExNDY4
-NTQwNywtOTA1NTQ4ODI3LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbMTMwNDI0NjM2OCwxNTgyMzUwMDU0LC0xMT
+k2MjczNjU1LDU0NTI5NjU5OCwtNjU1OTkzNjA2LC0yMTAzMTIx
+MjkwLC0xMTE0Njg1NDA3LC05MDU1NDg4MjcsNzMwOTk4MTE2XX
+0=
 -->
