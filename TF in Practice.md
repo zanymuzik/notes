@@ -35,8 +35,11 @@ Define a layer of connected neurons
 Define successive layers
 
 > model.compile(optimizer='sgd', loss='mean_squared_error')
-define the loss function, and optimizer (for gradient descent)
+define the loss function, and optimizer - to guess the next value (for gradient descent)
+
+> model.fit(epochs=N)
+actual training of the model
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyMDg4NDg3NywtMjEwMzEyMTI5MCwtMT
+eyJoaXN0b3J5IjpbMTg2MTY0MDY1NiwtMjEwMzEyMTI5MCwtMT
 ExNDY4NTQwNywtOTA1NTQ4ODI3LDczMDk5ODExNl19
 -->
