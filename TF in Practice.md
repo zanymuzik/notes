@@ -59,10 +59,11 @@ inference / find predicted values
 > (train_images, train_labels), (test_images, test_labels) = fashion_mnist.load_data()
 
 - separated training and test data
-- labels are enum (numbers) instead of strings - to reduce language bias
-- 
+- labels are enum (numbers) instead of strings - to reduce language [bias](https://developers.google.com/machine-learning/fairness-overview/)
+
+### Coding a CV Neural Network
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTYxNjExODA1LC0xMTk2MjczNjU1LDU0NT
-I5NjU5OCwtNjU1OTkzNjA2LC0yMTAzMTIxMjkwLC0xMTE0Njg1
-NDA3LC05MDU1NDg4MjcsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTE5Mjg4MTYxNDcsLTExOTYyNzM2NTUsNT
+Q1Mjk2NTk4LC02NTU5OTM2MDYsLTIxMDMxMjEyOTAsLTExMTQ2
+ODU0MDcsLTkwNTU0ODgyNyw3MzA5OTgxMTZdfQ==
 -->
