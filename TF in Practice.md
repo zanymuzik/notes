@@ -19,16 +19,14 @@ Answers --> B[Machine Learning]
 Data  --> B
 B --> Rules
 ```
-
-
-
-Machine Learning
+#### Machine Learning
 - lots of examples + label
 - rules are inferred by ML
 
-### Hello World in TF
-> hello
+### Hello World on Neural Network
+> X = 
+> Y = 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4MDQxNjkxMywtMTExNDY4NTQwNywtOT
+eyJoaXN0b3J5IjpbMTgwMDQ1MjY4NywtMTExNDY4NTQwNywtOT
 A1NTQ4ODI3LDczMDk5ODExNl19
 -->
