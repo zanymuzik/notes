@@ -59,10 +59,10 @@ inference / find predicted values
 > (train_images, train_labels), (test_images, test_labels) = fashion_mnist.load_data()
 
 - separated training and test data
-- labels are enum (numbers) instead of strings
+- labels are enum (numbers) instead of strings - to reduce language bias
 - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5OTk0OTgxNCwtMTE5NjI3MzY1NSw1ND
-UyOTY1OTgsLTY1NTk5MzYwNiwtMjEwMzEyMTI5MCwtMTExNDY4
-NTQwNywtOTA1NTQ4ODI3LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbOTYxNjExODA1LC0xMTk2MjczNjU1LDU0NT
+I5NjU5OCwtNjU1OTkzNjA2LC0yMTAzMTIxMjkwLC0xMTE0Njg1
+NDA3LC05MDU1NDg4MjcsNzMwOTk4MTE2XX0=
 -->
