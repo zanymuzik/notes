@@ -53,10 +53,12 @@ inference / find predicted values
 ### Intro to Computer Vision
 - Help computers look at the images (and understand the content)
 - [Fashion MNIST](https://github.com/zalandoresearch/fashion-mnist) -  78k images, 10 categories, 28x28 pixels each
-- keras has in-build datasets
- 
+- keras has in-build [datasets] (https://www.tensorflow.org/api_docs/python/tf/keras/datasets) including fashion MNIST
+
+> fashion_mnist = keras.datasets.fashion_mnist
+> fashion_mnist.load_dat
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTQ2NTk3MjksLTExOTYyNzM2NTUsNT
-Q1Mjk2NTk4LC02NTU5OTM2MDYsLTIxMDMxMjEyOTAsLTExMTQ2
-ODU0MDcsLTkwNTU0ODgyNyw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTg2ODMxMjAwOSwtMTE5NjI3MzY1NSw1ND
+UyOTY1OTgsLTY1NTk5MzYwNiwtMjEwMzEyMTI5MCwtMTExNDY4
+NTQwNywtOTA1NTQ4ODI3LDczMDk5ODExNl19
 -->
