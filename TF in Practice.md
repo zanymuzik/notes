@@ -32,9 +32,11 @@ Simple linear curve fitting
 Define a layer of connected neurons
 
 > keras.Sequential()
-Define successsive layers
+Define successive layers
 
+> model.compile(optimizer='sgd', loss='mean_squared_error')
+define the loss function, and optimizer (for gradient descent)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2ODAzOTkzMiwtMjEwMzEyMTI5MCwtMT
+eyJoaXN0b3J5IjpbLTgyMDg4NDg3NywtMjEwMzEyMTI5MCwtMT
 ExNDY4NTQwNywtOTA1NTQ4ODI3LDczMDk5ODExNl19
 -->
