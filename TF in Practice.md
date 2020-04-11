@@ -27,7 +27,14 @@ B --> Rules
 > X = 
 > Y = 
 Simple linear curve fitting  
+
+> keras.layers.Dense()
+Define a layer of connected neurons
+
+> keras.Sequential()
+Define successsive layers
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDMxMjEyOTAsLTExMTQ2ODU0MDcsLT
-kwNTU0ODgyNyw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTg2ODAzOTkzMiwtMjEwMzEyMTI5MCwtMT
+ExNDY4NTQwNywtOTA1NTQ4ODI3LDczMDk5ODExNl19
 -->
