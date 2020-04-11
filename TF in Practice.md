@@ -47,7 +47,7 @@ inference / find predicted values
 
 ## [Week 2](https://www.coursera.org/learn/introduction-tensorflow/home/week/2)
 
-[]
+[colab]
 (https://github.com/lmoroney/dlaicourse/blob/master/Course%201%20-%20Part%204%20-%20Lesson%202%20-%20Notebook.ipynb)
 
 ### Intro to Computer Vision
@@ -56,13 +56,13 @@ inference / find predicted values
 - keras has in-build [datasets] (https://www.tensorflow.org/api_docs/python/tf/keras/datasets) including fashion MNIST
 
 > fashion_mnist = keras.datasets.fashion_mnist
-> (train_images, train_label), (fashion_mnist.load_data()
+> (train_images, train_labels), (test_images, test_labels) = fashion_mnist.load_data()
 
 - separated training and test data
 - labels are enum (numbers) instead of strings
 - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODY0OTE0NTQxLC0xMTk2MjczNjU1LDU0NT
-I5NjU5OCwtNjU1OTkzNjA2LC0yMTAzMTIxMjkwLC0xMTE0Njg1
-NDA3LC05MDU1NDg4MjcsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbMTU5OTk0OTgxNCwtMTE5NjI3MzY1NSw1ND
+UyOTY1OTgsLTY1NTk5MzYwNiwtMjEwMzEyMTI5MCwtMTExNDY4
+NTQwNywtOTA1NTQ4ODI3LDczMDk5ODExNl19
 -->
