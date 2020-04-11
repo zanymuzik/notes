@@ -62,8 +62,10 @@ inference / find predicted values
 - labels are enum (numbers) instead of strings - to reduce language [bias](https://developers.google.com/machine-learning/fairness-overview/)
 
 ### Coding a CV Neural Network
+> keras.layers.Flatten(input_shape=(28, 28))
+Takes the input as a linear array
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Mjg4MTYxNDcsLTExOTYyNzM2NTUsNT
-Q1Mjk2NTk4LC02NTU5OTM2MDYsLTIxMDMxMjEyOTAsLTExMTQ2
-ODU0MDcsLTkwNTU0ODgyNyw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbMTU4MjM1MDA1NCwtMTE5NjI3MzY1NSw1ND
+UyOTY1OTgsLTY1NTk5MzYwNiwtMjEwMzEyMTI5MCwtMTExNDY4
+NTQwNywtOTA1NTQ4ODI3LDczMDk5ODExNl19
 -->
