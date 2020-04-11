@@ -8,6 +8,10 @@ graph LR
 Rules --> A[Traditional Programming]
 Data  --> A
 A --> Answers
+
+Answers --> B[Machine Learning]
+Data  --> B
+B --> Rules
 ```
 
 
@@ -17,5 +21,6 @@ A --> Answers
 ### Hello World in TF
 > hello
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwNTU0ODgyNyw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTM3NDU5MjU3MiwtOTA1NTQ4ODI3LDczMD
+k5ODExNl19
 -->
