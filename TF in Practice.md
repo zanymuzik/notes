@@ -52,9 +52,9 @@ inference / find predicted values
 
 ### Intro to Computer Vision
 - Help computers look at the images (and understand the content)
-- Fashion MNIST (28x28), 78k images, 10 categories
+- [Fashion MNIST](https://github.com/zalandoresearch/fashion-mnist) -  78k images, 10 categories, 28x28 pixels each
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxNzMxMjQzMSw1NDUyOTY1OTgsLTY1NT
-k5MzYwNiwtMjEwMzEyMTI5MCwtMTExNDY4NTQwNywtOTA1NTQ4
-ODI3LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbLTExOTYyNzM2NTUsNTQ1Mjk2NTk4LC02NT
+U5OTM2MDYsLTIxMDMxMjEyOTAsLTExMTQ2ODU0MDcsLTkwNTU0
+ODgyNyw3MzA5OTgxMTZdfQ==
 -->
