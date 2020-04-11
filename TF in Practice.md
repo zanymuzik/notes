@@ -56,9 +56,13 @@ inference / find predicted values
 - keras has in-build [datasets] (https://www.tensorflow.org/api_docs/python/tf/keras/datasets) including fashion MNIST
 
 > fashion_mnist = keras.datasets.fashion_mnist
-> fashion_mnist.load_dat
+> (train_images, train_label), (fashion_mnist.load_data()
+
+- separated training and test data
+- labels are enum (numbers) instead of strings
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2ODMxMjAwOSwtMTE5NjI3MzY1NSw1ND
-UyOTY1OTgsLTY1NTk5MzYwNiwtMjEwMzEyMTI5MCwtMTExNDY4
-NTQwNywtOTA1NTQ4ODI3LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbODY0OTE0NTQxLC0xMTk2MjczNjU1LDU0NT
+I5NjU5OCwtNjU1OTkzNjA2LC0yMTAzMTIxMjkwLC0xMTE0Njg1
+NDA3LC05MDU1NDg4MjcsNzMwOTk4MTE2XX0=
 -->
