@@ -66,11 +66,16 @@ inference / find predicted values
 Takes the input as a linear array
 
 > keras.layers.Dense(128, activation=tf.nn.relu)
+Hidden Layer
+
 > keras.layers.Dense(128, activation=tf.nn.softmax)
-> 
+> Output layer
+
+### Callback to terminate the training
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyNTUzODE5NiwxNTgyMzUwMDU0LC0xMT
-k2MjczNjU1LDU0NTI5NjU5OCwtNjU1OTkzNjA2LC0yMTAzMTIx
-MjkwLC0xMTE0Njg1NDA3LC05MDU1NDg4MjcsNzMwOTk4MTE2XX
-0=
+eyJoaXN0b3J5IjpbLTYxMzg3MzEyNCwyMTI1NTM4MTk2LDE1OD
+IzNTAwNTQsLTExOTYyNzM2NTUsNTQ1Mjk2NTk4LC02NTU5OTM2
+MDYsLTIxMDMxMjEyOTAsLTExMTQ2ODU0MDcsLTkwNTU0ODgyNy
+w3MzA5OTgxMTZdfQ==
 -->
