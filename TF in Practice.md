@@ -26,7 +26,8 @@ B --> Rules
 ### Hello World on Neural Network
 > X = 
 > Y = 
+Simple linear curve fitting 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwMDQ1MjY4NywtMTExNDY4NTQwNywtOT
-A1NTQ4ODI3LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbOTYyMTgzMDM4LC0xMTE0Njg1NDA3LC05MD
+U1NDg4MjcsNzMwOTk4MTE2XX0=
 -->
