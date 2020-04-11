@@ -51,9 +51,10 @@ inference / find predicted values
 (https://github.com/lmoroney/dlaicourse/blob/master/Course%201%20-%20Part%204%20-%20Lesson%202%20-%20Notebook.ipynb)
 
 ### Intro to Computer Vision
-
+- Help computers look at the images (and understand the content)
+- Fashion MNIST (28x28), 78k images, 10 categories
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5NzA0MzExNCw1NDUyOTY1OTgsLTY1NT
+eyJoaXN0b3J5IjpbMTAxNzMxMjQzMSw1NDUyOTY1OTgsLTY1NT
 k5MzYwNiwtMjEwMzEyMTI5MCwtMTExNDY4NTQwNywtOTA1NTQ4
 ODI3LDczMDk5ODExNl19
 -->
