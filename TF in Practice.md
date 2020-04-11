@@ -1,8 +1,8 @@
-[Course 1 Intro to Tensorflow](https://www.coursera.org/learn/introduction-tensorflow/home/welcome)
+# [Course 1 - Intro to Tensorflow](https://www.coursera.org/learn/introduction-tensorflow/home/welcome)
+
+## Week 1
 
 
-
-> Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4ODgwMjA3MCw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbODYyMzMwOTU5LDczMDk5ODExNl19
 -->
