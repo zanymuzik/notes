@@ -98,12 +98,12 @@ Stack the Conv2D and MaxPooling2D before the regular NN layers.
 Shows the NN
 the size of image is smaller in the layers because of conv-layers window
 
-[https://lodev.org/cgtutor/filtering.html](https://lodev.org/cgtutor/filtering.html)
+[Examples of filters](https://lodev.org/cgtutor/filtering.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjUzMjI1ODEsLTE3NjQ0NDkzMDIsNj
-ExODY0MjQ4LDcyMDEzMzU1MCwzNTgxODM3NjgsLTE4NTQ2NTM0
-NzEsMTczNTAxNjgwMyw2OTIzMjQwNDQsMTU3MzYxNjc0LDIxMj
-U1MzgxOTYsMTU4MjM1MDA1NCwtMTE5NjI3MzY1NSw1NDUyOTY1
-OTgsLTY1NTk5MzYwNiwtMjEwMzEyMTI5MCwtMTExNDY4NTQwNy
-wtOTA1NTQ4ODI3LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbLTExMDE5NjIxMTYsLTEwMjUzMjI1ODEsLT
+E3NjQ0NDkzMDIsNjExODY0MjQ4LDcyMDEzMzU1MCwzNTgxODM3
+NjgsLTE4NTQ2NTM0NzEsMTczNTAxNjgwMyw2OTIzMjQwNDQsMT
+U3MzYxNjc0LDIxMjU1MzgxOTYsMTU4MjM1MDA1NCwtMTE5NjI3
+MzY1NSw1NDUyOTY1OTgsLTY1NTk5MzYwNiwtMjEwMzEyMTI5MC
+wtMTExNDY4NTQwNywtOTA1NTQ4ODI3LDczMDk5ODExNl19
 -->
