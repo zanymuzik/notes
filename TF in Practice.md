@@ -88,11 +88,12 @@ model.fit(..., callbacks=[callbacks])
 - Convolutions are like filters to extract features from images
 - Pooling is merging the result of convolution while reducing the image dimention
 
-> tf.keras.layers.Conv2D(num_conv, (s
+> tf.keras.layers.Conv2D(num_conv, (3, 3), activation='relu', input_shape=(28, 28, 1))
+> 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0NDU0Mjc0NywtMTg1NDY1MzQ3MSwxNz
-M1MDE2ODAzLDY5MjMyNDA0NCwxNTczNjE2NzQsMjEyNTUzODE5
-NiwxNTgyMzUwMDU0LC0xMTk2MjczNjU1LDU0NTI5NjU5OCwtNj
-U1OTkzNjA2LC0yMTAzMTIxMjkwLC0xMTE0Njg1NDA3LC05MDU1
-NDg4MjcsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbODgwMjk5NzY0LC0xODU0NjUzNDcxLDE3Mz
+UwMTY4MDMsNjkyMzI0MDQ0LDE1NzM2MTY3NCwyMTI1NTM4MTk2
+LDE1ODIzNTAwNTQsLTExOTYyNzM2NTUsNTQ1Mjk2NTk4LC02NT
+U5OTM2MDYsLTIxMDMxMjEyOTAsLTExMTQ2ODU0MDcsLTkwNTU0
+ODgyNyw3MzA5OTgxMTZdfQ==
 -->
