@@ -94,13 +94,14 @@ model.fit(..., callbacks=[callbacks])
 > tk.keras.layers.MaxPooling2D(2, 2)
 Stack the Conv2D and MaxPooling2D before the regular NN layers.
 
-> model.summary
+> model.summary()
+Shows the NN
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxMzgyNTY4NiwzNTgxODM3NjgsLTE4NT
-Q2NTM0NzEsMTczNTAxNjgwMyw2OTIzMjQwNDQsMTU3MzYxNjc0
-LDIxMjU1MzgxOTYsMTU4MjM1MDA1NCwtMTE5NjI3MzY1NSw1ND
-UyOTY1OTgsLTY1NTk5MzYwNiwtMjEwMzEyMTI5MCwtMTExNDY4
-NTQwNywtOTA1NTQ4ODI3LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbLTE5MDI3MzIwNjYsMzU4MTgzNzY4LC0xOD
+U0NjUzNDcxLDE3MzUwMTY4MDMsNjkyMzI0MDQ0LDE1NzM2MTY3
+NCwyMTI1NTM4MTk2LDE1ODIzNTAwNTQsLTExOTYyNzM2NTUsNT
+Q1Mjk2NTk4LC02NTU5OTM2MDYsLTIxMDMxMjEyOTAsLTExMTQ2
+ODU0MDcsLTkwNTU0ODgyNyw3MzA5OTgxMTZdfQ==
 -->
