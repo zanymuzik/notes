@@ -72,14 +72,15 @@ Hidden Layer
 > Output layer
 
 ### Callback to terminate the training
-// class myCallback(keras.callbacks.Callback):
-// def on_epoch_end(self, epoch, logs={}):
->   if logs.get('loss') < 0.4:
->      self.model.stop_training = True
-
+```
+class myCallback(keras.callbacks.Callback):
+def on_epoch_end(self, epoch, logs={}):
+    if logs.get('loss') < 0.4:
+        self.model.stop_training = True
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1MTE1OTc3OCwxNTczNjE2NzQsMjEyNT
-UzODE5NiwxNTgyMzUwMDU0LC0xMTk2MjczNjU1LDU0NTI5NjU5
-OCwtNjU1OTkzNjA2LC0yMTAzMTIxMjkwLC0xMTE0Njg1NDA3LC
-05MDU1NDg4MjcsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbNjkyMzI0MDQ0LDE1NzM2MTY3NCwyMTI1NT
+M4MTk2LDE1ODIzNTAwNTQsLTExOTYyNzM2NTUsNTQ1Mjk2NTk4
+LC02NTU5OTM2MDYsLTIxMDMxMjEyOTAsLTExMTQ2ODU0MDcsLT
+kwNTU0ODgyNyw3MzA5OTgxMTZdfQ==
 -->
