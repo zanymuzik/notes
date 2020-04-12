@@ -96,13 +96,14 @@ Stack the Conv2D and MaxPooling2D before the regular NN layers.
 
 > model.summary()
 Shows the NN
-the size is smaller because of conv-layers
+the size of image is smaller in the layers because of conv-layers window
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjExODY0MjQ4LDcyMDEzMzU1MCwzNTgxOD
-M3NjgsLTE4NTQ2NTM0NzEsMTczNTAxNjgwMyw2OTIzMjQwNDQs
-MTU3MzYxNjc0LDIxMjU1MzgxOTYsMTU4MjM1MDA1NCwtMTE5Nj
-I3MzY1NSw1NDUyOTY1OTgsLTY1NTk5MzYwNiwtMjEwMzEyMTI5
-MCwtMTExNDY4NTQwNywtOTA1NTQ4ODI3LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbLTE3NjQ0NDkzMDIsNjExODY0MjQ4LDcyMD
+EzMzU1MCwzNTgxODM3NjgsLTE4NTQ2NTM0NzEsMTczNTAxNjgw
+Myw2OTIzMjQwNDQsMTU3MzYxNjc0LDIxMjU1MzgxOTYsMTU4Mj
+M1MDA1NCwtMTE5NjI3MzY1NSw1NDUyOTY1OTgsLTY1NTk5MzYw
+NiwtMjEwMzEyMTI5MCwtMTExNDY4NTQwNywtOTA1NTQ4ODI3LD
+czMDk5ODExNl19
 -->
