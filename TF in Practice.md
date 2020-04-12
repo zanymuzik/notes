@@ -77,10 +77,13 @@ class myCallback(keras.callbacks.Callback):
 def on_epoch_end(self, epoch, logs={}):
     if logs.get('loss') < 0.4:
         self.model.stop_training = True
+
+callbacks = myCallback()
+model.fit(..., callbacks=[callbacks])
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjkyMzI0MDQ0LDE1NzM2MTY3NCwyMTI1NT
-M4MTk2LDE1ODIzNTAwNTQsLTExOTYyNzM2NTUsNTQ1Mjk2NTk4
-LC02NTU5OTM2MDYsLTIxMDMxMjEyOTAsLTExMTQ2ODU0MDcsLT
-kwNTU0ODgyNyw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbMTczNTAxNjgwMyw2OTIzMjQwNDQsMTU3Mz
+YxNjc0LDIxMjU1MzgxOTYsMTU4MjM1MDA1NCwtMTE5NjI3MzY1
+NSw1NDUyOTY1OTgsLTY1NTk5MzYwNiwtMjEwMzEyMTI5MCwtMT
+ExNDY4NTQwNywtOTA1NTQ4ODI3LDczMDk5ODExNl19
 -->
