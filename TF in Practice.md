@@ -84,9 +84,9 @@ model.fit(..., callbacks=[callbacks])
 
 ## [Week 3](https://www.coursera.org/learn/introduction-tensorflow/home/week/3)
 
-### 
+### CNN
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDIxNjMwNTYsMTczNTAxNjgwMyw2OT
+eyJoaXN0b3J5IjpbLTE4NTQ2NTM0NzEsMTczNTAxNjgwMyw2OT
 IzMjQwNDQsMTU3MzYxNjc0LDIxMjU1MzgxOTYsMTU4MjM1MDA1
 NCwtMTE5NjI3MzY1NSw1NDUyOTY1OTgsLTY1NTk5MzYwNiwtMj
 EwMzEyMTI5MCwtMTExNDY4NTQwNywtOTA1NTQ4ODI3LDczMDk5
