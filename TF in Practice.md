@@ -90,11 +90,13 @@ model.fit(..., callbacks=[callbacks])
 
 > tf.keras.layers.Conv2D(num_conv, (3, 3), activation='relu', input_shape=(28, 28, 1))
 > tk.keras.layers.MaxPooling2D(2, 2)
-stack the conv2D and MaxPooling2D before the regular NN layers.
+Stack the Conv2D and MaxPooling2D before the regular NN layers.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTI1NDMxNzIsLTE4NTQ2NTM0NzEsMT
-czNTAxNjgwMyw2OTIzMjQwNDQsMTU3MzYxNjc0LDIxMjU1Mzgx
-OTYsMTU4MjM1MDA1NCwtMTE5NjI3MzY1NSw1NDUyOTY1OTgsLT
-Y1NTk5MzYwNiwtMjEwMzEyMTI5MCwtMTExNDY4NTQwNywtOTA1
-NTQ4ODI3LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbMzU4MTgzNzY4LC0xODU0NjUzNDcxLDE3Mz
+UwMTY4MDMsNjkyMzI0MDQ0LDE1NzM2MTY3NCwyMTI1NTM4MTk2
+LDE1ODIzNTAwNTQsLTExOTYyNzM2NTUsNTQ1Mjk2NTk4LC02NT
+U5OTM2MDYsLTIxMDMxMjEyOTAsLTExMTQ2ODU0MDcsLTkwNTU0
+ODgyNyw3MzA5OTgxMTZdfQ==
 -->
