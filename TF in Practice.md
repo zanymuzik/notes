@@ -84,6 +84,8 @@ model.fit(..., callbacks=[callbacks])
 
 ## [Week 3](https://www.coursera.org/learn/introduction-tensorflow/home/week/3)
 
+[colab](https://colab.sandbox.google.com/github/lmoroney/dlaicourse/blob/master/Course%201%20-%20Part%206%20-%20Lesson%202%20-%20Notebook.ipynb)
+
 ### CNN - Convolutions and Pooling
 - Convolutions are like filters to extract features from images
 - Pooling is merging the result of convolution while reducing the image dimention
@@ -92,11 +94,13 @@ model.fit(..., callbacks=[callbacks])
 > tk.keras.layers.MaxPooling2D(2, 2)
 Stack the Conv2D and MaxPooling2D before the regular NN layers.
 
+> model.summary
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzU4MTgzNzY4LC0xODU0NjUzNDcxLDE3Mz
-UwMTY4MDMsNjkyMzI0MDQ0LDE1NzM2MTY3NCwyMTI1NTM4MTk2
-LDE1ODIzNTAwNTQsLTExOTYyNzM2NTUsNTQ1Mjk2NTk4LC02NT
-U5OTM2MDYsLTIxMDMxMjEyOTAsLTExMTQ2ODU0MDcsLTkwNTU0
-ODgyNyw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTgxMzgyNTY4NiwzNTgxODM3NjgsLTE4NT
+Q2NTM0NzEsMTczNTAxNjgwMyw2OTIzMjQwNDQsMTU3MzYxNjc0
+LDIxMjU1MzgxOTYsMTU4MjM1MDA1NCwtMTE5NjI3MzY1NSw1ND
+UyOTY1OTgsLTY1NTk5MzYwNiwtMjEwMzEyMTI5MCwtMTExNDY4
+NTQwNywtOTA1NTQ4ODI3LDczMDk5ODExNl19
 -->
