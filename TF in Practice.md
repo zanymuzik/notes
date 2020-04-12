@@ -88,7 +88,7 @@ model.fit(..., callbacks=[callbacks])
 
 ### CNN - Convolutions and Pooling
 - Convolutions are like filters to extract features from images
-- Pooling is merging the result of convolution while reducing the image dimention
+- Pooling is compressing the result of convolution while reducing the image dimension
 
 > tf.keras.layers.Conv2D(num_conv, (3, 3), activation='relu', input_shape=(28, 28, 1))
 > tk.keras.layers.MaxPooling2D(2, 2)
@@ -100,9 +100,9 @@ the size is smaller because of conv-layers
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzIwMTMzNTUwLDM1ODE4Mzc2OCwtMTg1ND
-Y1MzQ3MSwxNzM1MDE2ODAzLDY5MjMyNDA0NCwxNTczNjE2NzQs
-MjEyNTUzODE5NiwxNTgyMzUwMDU0LC0xMTk2MjczNjU1LDU0NT
-I5NjU5OCwtNjU1OTkzNjA2LC0yMTAzMTIxMjkwLC0xMTE0Njg1
-NDA3LC05MDU1NDg4MjcsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbNjExODY0MjQ4LDcyMDEzMzU1MCwzNTgxOD
+M3NjgsLTE4NTQ2NTM0NzEsMTczNTAxNjgwMyw2OTIzMjQwNDQs
+MTU3MzYxNjc0LDIxMjU1MzgxOTYsMTU4MjM1MDA1NCwtMTE5Nj
+I3MzY1NSw1NDUyOTY1OTgsLTY1NTk5MzYwNiwtMjEwMzEyMTI5
+MCwtMTExNDY4NTQwNywtOTA1NTQ4ODI3LDczMDk5ODExNl19
 -->
