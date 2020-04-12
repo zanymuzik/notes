@@ -23,7 +23,9 @@ B --> Rules
 - lots of examples + label
 - rules are inferred by ML
 
-### [Hello World on Neural Network](https://github.com/lmoroney/dlaicourse/blob/master/Course%201%20-%20Part%202%20-%20Lesson%202%20-%20Notebook.ipynb)
+### Hello World - Neural Network
+[colab](https://github.com/lmoroney/dlaicourse/blob/master/Course%201%20-%20Part%202%20-%20Lesson%202%20-%20Notebook.ipynb)
+
 > X = 
 > Y = 
 Simple linear curve fitting  
@@ -44,11 +46,9 @@ actual training of the model
 inference / find predicted values
 
 
-
 ## [Week 2](https://www.coursera.org/learn/introduction-tensorflow/home/week/2)
 
-[colab]
-(https://github.com/lmoroney/dlaicourse/blob/master/Course%201%20-%20Part%204%20-%20Lesson%202%20-%20Notebook.ipynb)
+[colab](https://github.com/lmoroney/dlaicourse/blob/master/Course%201%20-%20Part%204%20-%20Lesson%202%20-%20Notebook.ipynb)
 
 ### Intro to Computer Vision
 - Help computers look at the images (and understand the content)
@@ -81,9 +81,14 @@ def on_epoch_end(self, epoch, logs={}):
 callbacks = myCallback()
 model.fit(..., callbacks=[callbacks])
 ```
+
+## [Week 3](https://www.coursera.org/learn/introduction-tensorflow/home/week/3)
+
+### 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczNTAxNjgwMyw2OTIzMjQwNDQsMTU3Mz
-YxNjc0LDIxMjU1MzgxOTYsMTU4MjM1MDA1NCwtMTE5NjI3MzY1
-NSw1NDUyOTY1OTgsLTY1NTk5MzYwNiwtMjEwMzEyMTI5MCwtMT
-ExNDY4NTQwNywtOTA1NTQ4ODI3LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbLTEyNDIxNjMwNTYsMTczNTAxNjgwMyw2OT
+IzMjQwNDQsMTU3MzYxNjc0LDIxMjU1MzgxOTYsMTU4MjM1MDA1
+NCwtMTE5NjI3MzY1NSw1NDUyOTY1OTgsLTY1NTk5MzYwNiwtMj
+EwMzEyMTI5MCwtMTExNDY4NTQwNywtOTA1NTQ4ODI3LDczMDk5
+ODExNl19
 -->
