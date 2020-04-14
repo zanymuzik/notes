@@ -73,7 +73,9 @@ C2 --> S2
     - since the remaining f+1 is a majority of 2f+1
     - if more than f fail (or can't be contacted), no progress
 - often called **quorum** systems
-- a key property of majorities is that any two must intersect
+
+#### Majority - why it matters?
+- a key property of majorities is that any two (majorities) must intersect
   - e.g. successive majorities for Raft leader election must overlap
   - and the intersection can convey information about previous decisions
 
@@ -215,7 +217,7 @@ what if old leader isn't aware a new leader is elected?
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3NTg0Nzg5MywxMjkwODUyNTQsLTQ3Nj
-YzMzM2OCwxNzY5ODA2ODcxLC01MjUwNTU1MjksMjYyNTM0Nzk4
-LC00NTg3NTkxMjJdfQ==
+eyJoaXN0b3J5IjpbLTM3ODk1NDI0NSwtNjc1ODQ3ODkzLDEyOT
+A4NTI1NCwtNDc2NjMzMzY4LDE3Njk4MDY4NzEsLTUyNTA1NTUy
+OSwyNjI1MzQ3OTgsLTQ1ODc1OTEyMl19
 -->
