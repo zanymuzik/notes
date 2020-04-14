@@ -9,7 +9,7 @@
  - In all cases - call rely on a single entity to make critical decisions
     - pro: decisions by a single entity avoid split brain
 
-### Split brain - and why is it damaging?
+### Split brain situation - and why is it damaging?
  - suppose we're replicating a **test-and-set**  service
     - the client request sets the state to 1, server replies w/ previous state
     -  only one client should get a reply with "0"
@@ -208,6 +208,6 @@ what if old leader isn't aware a new leader is elected?
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxMjc3NDc5NSwyNjI1MzQ3OTgsLTQ1OD
+eyJoaXN0b3J5IjpbLTUyNTA1NTUyOSwyNjI1MzQ3OTgsLTQ1OD
 c1OTEyMl19
 -->
