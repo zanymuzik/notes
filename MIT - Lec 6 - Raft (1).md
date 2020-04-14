@@ -88,6 +88,7 @@ C2 --> S2
 ## Raft overview
 [https://raft.github.io/raft.pdf](https://raft.github.io/raft.pdf)
 [https://raft.github.io/](https://raft.github.io/)
+[https://en.wikipedia.org/wiki/Raft_(computer_science)](https://en.wikipedia.org/wiki/Raft_(computer_science))
 
 ### state machine replication with Raft
 - Raft is a library included in each replica
@@ -220,7 +221,7 @@ what if old leader isn't aware a new leader is elected?
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTk1NTQzMjUwLDM3NjE5ODEwMiwtNjc1OD
+eyJoaXN0b3J5IjpbNzcyNTMyNDIzLDM3NjE5ODEwMiwtNjc1OD
 Q3ODkzLDEyOTA4NTI1NCwtNDc2NjMzMzY4LDE3Njk4MDY4NzEs
 LTUyNTA1NTUyOSwyNjI1MzQ3OTgsLTQ1ODc1OTEyMl19
 -->
