@@ -89,12 +89,19 @@ C2 --> S2
 [https://raft.github.io/raft.pdf](https://raft.github.io/raft.pdf)
 [https://raft.github.io/](https://raft.github.io/)
 [https://en.wikipedia.org/wiki/Raft_(computer_science)](https://en.wikipedia.org/wiki/Raft_(computer_science))
+[https://github.com/ankush-phulia/Distributed-Systems/tree/master/Assignment%203%20-%20RAFT](https://github.com/ankush-phulia/Distributed-Systems/tree/master/Assignment%203%20-%20RAFT)
 
-### state machine replication with Raft
+
+### State machine replication with Raft
 - Raft is a library included in each replica
- [diagram: clients, 3 replicas, k/v layer + state, raft layer + logs]
+ diagram: 
+	 - clients, 
+ 3 replicas, 
+ kv layer + state, 
+ raft layer + logs]
 ![enter image description here](https://blog.container-solutions.com/hs-fs/hubfs/Imported_Blog_Media/figure1_raft-1.png?width=994&name=figure1_raft-1.png)
-time diagram of one client command
+
+### time diagram of one client command
   [C, L, F1, F2]
   client sends Put/Get "command" to k/v layer in leader
   leader adds command to log
@@ -221,7 +228,8 @@ what if old leader isn't aware a new leader is elected?
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzcyNTMyNDIzLDM3NjE5ODEwMiwtNjc1OD
-Q3ODkzLDEyOTA4NTI1NCwtNDc2NjMzMzY4LDE3Njk4MDY4NzEs
-LTUyNTA1NTUyOSwyNjI1MzQ3OTgsLTQ1ODc1OTEyMl19
+eyJoaXN0b3J5IjpbLTg3MTQ4MTg4Miw3NzI1MzI0MjMsMzc2MT
+k4MTAyLC02NzU4NDc4OTMsMTI5MDg1MjU0LC00NzY2MzMzNjgs
+MTc2OTgwNjg3MSwtNTI1MDU1NTI5LDI2MjUzNDc5OCwtNDU4Nz
+U5MTIyXX0=
 -->
