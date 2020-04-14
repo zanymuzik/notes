@@ -32,11 +32,11 @@ C2 --> S1
 C2 --> S2
 ```
   
+- if S2 has really crashed, C1 *must* proceed without S2,
+   - otherwise the service doesn't tolerate faults!
  - if S2 is up but network prevents C1 from contacting S2,
    - C1 should *not* proceed without S2,
    - since S2 might be alive and serving client C2
-- if S2 has really crashed, C1 *must* proceed without S2,
-   - otherwise the service doesn't tolerate faults!
   
   With this setup, we're faced with a nasty choice:
     - either no ability to tolerate faults, despite replication, or
@@ -208,6 +208,6 @@ what if old leader isn't aware a new leader is elected?
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyNTA1NTUyOSwyNjI1MzQ3OTgsLTQ1OD
-c1OTEyMl19
+eyJoaXN0b3J5IjpbMTc2OTgwNjg3MSwtNTI1MDU1NTI5LDI2Mj
+UzNDc5OCwtNDU4NzU5MTIyXX0=
 -->
