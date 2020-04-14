@@ -79,14 +79,15 @@ C2 --> S2
   - e.g. successive majorities for Raft leader election must overlap
   - and the intersection can convey information about previous decisions
 
-Two partition-tolerant replication schemes were invented around 1990,
-  Paxos and View-Stamped Replication
-  in the last 15 years this technology has seen a lot of real-world use
-  the Raft paper is a good introduction to modern techniques
+### Two partition-tolerant replication schemes 
+- invented around 1990,
+- Paxos and View-Stamped Replication
+- in the last 15 years this technology has seen a lot of real-world use
+- the Raft paper is a good introduction to modern techniques
 
-*** topic: Raft overview
+## Raft overview
 
-state machine replication with Raft -- Lab 3 as example:
+### state machine replication with Raft
   [diagram: clients, 3 replicas, k/v layer + state, raft layer + logs]
   Raft is a library included in each replica
 
@@ -217,7 +218,7 @@ what if old leader isn't aware a new leader is elected?
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3ODk1NDI0NSwtNjc1ODQ3ODkzLDEyOT
-A4NTI1NCwtNDc2NjMzMzY4LDE3Njk4MDY4NzEsLTUyNTA1NTUy
-OSwyNjI1MzQ3OTgsLTQ1ODc1OTEyMl19
+eyJoaXN0b3J5IjpbLTEyNTc5Mjg2OTUsLTY3NTg0Nzg5MywxMj
+kwODUyNTQsLTQ3NjYzMzM2OCwxNzY5ODA2ODcxLC01MjUwNTU1
+MjksMjYyNTM0Nzk4LC00NTg3NTkxMjJdfQ==
 -->
