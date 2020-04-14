@@ -104,7 +104,9 @@ C2 --> S2
 - clients are not aware of replication in raft
 - makes put/get request
 
-### time diagram of one client command
+### timing diagram of a command
+
+`
 - client sends Put/Get "command" to k/v layer in leader
 - raft leader adds command to log
 - leader sends AppendEntries RPCs to followers
@@ -230,8 +232,8 @@ what if old leader isn't aware a new leader is elected?
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2MzkwNjksNzcyNTMyNDIzLDM3NjE5OD
-EwMiwtNjc1ODQ3ODkzLDEyOTA4NTI1NCwtNDc2NjMzMzY4LDE3
-Njk4MDY4NzEsLTUyNTA1NTUyOSwyNjI1MzQ3OTgsLTQ1ODc1OT
-EyMl19
+eyJoaXN0b3J5IjpbLTI4MTgyNDczNiwtNjYzOTA2OSw3NzI1Mz
+I0MjMsMzc2MTk4MTAyLC02NzU4NDc4OTMsMTI5MDg1MjU0LC00
+NzY2MzMzNjgsMTc2OTgwNjg3MSwtNTI1MDU1NTI5LDI2MjUzND
+c5OCwtNDU4NzU5MTIyXX0=
 -->
