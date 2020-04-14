@@ -135,7 +135,7 @@ S3-->>S1: Reply2
 ### why the logs?
 -  the service keeps the state machine state, e.g. key/value DB
    - why isn't that enough?
- - the log orders the commands
+ - the log **orders** the commands
     - to help replicas agree on a single execution order
     - to help the leader ensure followers have identical logs
  - the log stores tentative commands until committed
@@ -245,8 +245,9 @@ what if old leader isn't aware a new leader is elected?
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3MDMzMzg2MCwtMjgyNTYwNTY4LC02Nj
-M5MDY5LDc3MjUzMjQyMywzNzYxOTgxMDIsLTY3NTg0Nzg5Mywx
-MjkwODUyNTQsLTQ3NjYzMzM2OCwxNzY5ODA2ODcxLC01MjUwNT
-U1MjksMjYyNTM0Nzk4LC00NTg3NTkxMjJdfQ==
+eyJoaXN0b3J5IjpbLTM1ODg0ODU0MCwxNTcwMzMzODYwLC0yOD
+I1NjA1NjgsLTY2MzkwNjksNzcyNTMyNDIzLDM3NjE5ODEwMiwt
+Njc1ODQ3ODkzLDEyOTA4NTI1NCwtNDc2NjMzMzY4LDE3Njk4MD
+Y4NzEsLTUyNTA1NTUyOSwyNjI1MzQ3OTgsLTQ1ODc1OTEyMl19
+
 -->
