@@ -6,10 +6,10 @@
   * MR replicates computation but relies on a single master to organize
   * GFS replicates data but relies on the master to pick primaries
   * VMware FT replicates service but relies on test-and-set to pick primary
- - Call rely on a single entity to make critical decisions
-    - nice: decisions by a single entity avoid split brain
+ - In all cases - call rely on a single entity to make critical decisions
+    - pro: decisions by a single entity avoid split brain
 
-### how could split brain arise, and why is it damaging?
+### Split brain - and why is it damaging?
  - suppose we're replicating a test-and-set service
     - the client request sets the state to 1, server replies w/ previous state
     -  only one client should get a reply with "0" !!! 
@@ -192,5 +192,5 @@ what if old leader isn't aware a new leader is elected?
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3MTU1MDA1NCwtNDU4NzU5MTIyXX0=
+eyJoaXN0b3J5IjpbLTEwMjA4OTc2MzQsLTQ1ODc1OTEyMl19
 -->
