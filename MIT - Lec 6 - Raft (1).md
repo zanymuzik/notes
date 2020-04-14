@@ -149,7 +149,7 @@ S3-->>S1: Reply2
     they'll eventually converge to be identical
     the commit mechanism ensures servers only execute stable entries
   
-lab 2 Raft interface
+### lab 2 Raft interface
   rf.Start(command) (index, term, isleader)
     Lab 3 k/v server's Put()/Get() RPC handlers call Start()
     Start() only makes sense on the leader
@@ -168,9 +168,9 @@ lab 2 Raft interface
     each peer's local service code executes, updates local replica state
     leader sends reply to waiting client RPC
 
-there are two main parts to Raft's design:
-  electing a new leader
-  ensuring identical logs despite failures
+### two main parts to Raft's design:
+ 1. electing a new leader
+ 2. ensuring identical logs despite failures
 
 *** topic: leader election (Lab 2A)
 
@@ -245,9 +245,9 @@ what if old leader isn't aware a new leader is elected?
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjE5NzA0OTYsMTE1NTA4NjY5MiwxNT
-cwMzMzODYwLC0yODI1NjA1NjgsLTY2MzkwNjksNzcyNTMyNDIz
-LDM3NjE5ODEwMiwtNjc1ODQ3ODkzLDEyOTA4NTI1NCwtNDc2Nj
-MzMzY4LDE3Njk4MDY4NzEsLTUyNTA1NTUyOSwyNjI1MzQ3OTgs
-LTQ1ODc1OTEyMl19
+eyJoaXN0b3J5IjpbMTE1ODgzOTQzMywtMTkyMTk3MDQ5NiwxMT
+U1MDg2NjkyLDE1NzAzMzM4NjAsLTI4MjU2MDU2OCwtNjYzOTA2
+OSw3NzI1MzI0MjMsMzc2MTk4MTAyLC02NzU4NDc4OTMsMTI5MD
+g1MjU0LC00NzY2MzMzNjgsMTc2OTgwNjg3MSwtNTI1MDU1NTI5
+LDI2MjUzNDc5OCwtNDU4NzU5MTIyXX0=
 -->
