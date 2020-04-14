@@ -23,8 +23,7 @@ C2 --> S1
 C2 --> S2
 ```
  
-- suppose client C1 can contact replica S1, but not replica S2.
- - should C1 proceed with just replica S1?
+- Suppose client C1 can contact replica S1, but not replica S2. Should C1 proceed with just replica S1?
  ```mermaid
 graph LR
 C1 --> S1
@@ -33,11 +32,12 @@ C2 --> S1
 C2 --> S2
 ```
   
-  if S2 has really crashed, C1 *must* proceed without S2,
-    otherwise the service doesn't tolerate faults!
-  if S2 is up but network prevents C1 from contacting S2,
-    C1 should *not* proceed without S2,
-    since S2 might be alive and serving client C2
+ - if S2 is up but network prevents C1 from contacting S2,
+   -  C1 should *not* proceed without S2,
+    - since S2 might be alive and serving client C2
+ - if S2 has really crashed, C1 *must* proceed without S2,
+   - otherwise the service doesn't tolerate faults!
+    
   with this setup, we're faced with a nasty choice:
     either no ability to tolerate faults, despite replication, or
     the possibility of incorrect operation due to split brain
@@ -208,6 +208,6 @@ what if old leader isn't aware a new leader is elected?
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzOTE3NzEzMSwyNjI1MzQ3OTgsLTQ1OD
-c1OTEyMl19
+eyJoaXN0b3J5IjpbLTIwNjc1MDU1OTksMjYyNTM0Nzk4LC00NT
+g3NTkxMjJdfQ==
 -->
