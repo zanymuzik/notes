@@ -86,9 +86,10 @@ C2 --> S2
 - the Raft paper is a good introduction to modern techniques
 
 ## Raft overview
+[https://raft.github.io/raft.pdf](https://raft.github.io/raft.pdf)
 
 ### state machine replication with Raft
-   Raft is a library included in each replica
+- Raft is a library included in each replica
  [diagram: clients, 3 replicas, k/v layer + state, raft layer + logs]
 
 time diagram of one client command
@@ -218,7 +219,7 @@ what if old leader isn't aware a new leader is elected?
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDIwODgwMjE5LC02NzU4NDc4OTMsMTI5MD
-g1MjU0LC00NzY2MzMzNjgsMTc2OTgwNjg3MSwtNTI1MDU1NTI5
-LDI2MjUzNDc5OCwtNDU4NzU5MTIyXX0=
+eyJoaXN0b3J5IjpbMTk0ODM3NjAzMywtNjc1ODQ3ODkzLDEyOT
+A4NTI1NCwtNDc2NjMzMzY4LDE3Njk4MDY4NzEsLTUyNTA1NTUy
+OSwyNjI1MzQ3OTgsLTQ1ODc1OTEyMl19
 -->
