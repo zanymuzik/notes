@@ -36,7 +36,9 @@ C2 --> S2
 	- situation is worse from a fault tolerant POV
 	- more likely to fail given both servers need to be up  
 2. if it is ok for C1 to talk to either S1 or S2
-	- not ok ag
+	- not ok, because the other one is alive and has another state (and talking to other clients)
+	- split brain situation 
+	
 
 - if S2 has really crashed, C1 *must* proceed without S2,
    - otherwise the service doesn't tolerate faults!
@@ -214,6 +216,6 @@ what if old leader isn't aware a new leader is elected?
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4NTI2NjQ2MSwxNzY5ODA2ODcxLC01Mj
+eyJoaXN0b3J5IjpbLTQ3NjYzMzM2OCwxNzY5ODA2ODcxLC01Mj
 UwNTU1MjksMjYyNTM0Nzk4LC00NTg3NTkxMjJdfQ==
 -->
