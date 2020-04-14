@@ -31,7 +31,9 @@ C1 -.broken.-> S2
 C2 --> S1 
 C2 --> S2
 ```
-  
+
+- if C1 needs to talk to both S1 and S  
+
 - if S2 has really crashed, C1 *must* proceed without S2,
    - otherwise the service doesn't tolerate faults!
  - if S2 is up but network prevents C1 from contacting S2,
@@ -208,6 +210,6 @@ what if old leader isn't aware a new leader is elected?
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2OTgwNjg3MSwtNTI1MDU1NTI5LDI2Mj
-UzNDc5OCwtNDU4NzU5MTIyXX0=
+eyJoaXN0b3J5IjpbLTE3MjM0NTAyMjMsMTc2OTgwNjg3MSwtNT
+I1MDU1NTI5LDI2MjUzNDc5OCwtNDU4NzU5MTIyXX0=
 -->
