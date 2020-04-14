@@ -51,21 +51,21 @@ C2 --> S2
     - the possibility of incorrect operation due to split brain
 
 ### Problem: computers cannot distinguish "server crashed" vs "network broken"
-  the symptom is the same: no response to a query over the network
+- the symptom is the same: no response to a query over the network
   the bad situation is often called "network partition":
-    C1 can talk to S1, C2 can talk to S2,
-    but C1+S1 see no responses from C2+S2
-  this difficulty seemed insurmountable for a long time
-  seemed to require outside agent (a human) to decide when to cut over
-    or a single perfectly reliable server (FT's test-and-set server)
-    or a perfectly reliable network (so "no response" == "crashed")
-  BUT these are all single points of failure -- not desirable
-  can one do better?
+   - C1 can talk to S1, C2 can talk to S2,
+   - but C1+S1 see no responses from C2+S2
+ - this difficulty seemed insurmountable for a long time
+ - seemed to require outside agent (a human) to decide when to cut over
+    - or a single perfectly reliable server (FT's test-and-set server)
+    - or a perfectly reliable network (so "no response" == "crashed")
+ - BUT these are all single points of failure -- not desirable
+	  - can one do better?
 
-The big insight for coping w/ partition: majority vote
-  require an odd number of servers, e.g. 3
-  agreement from a majority is required to do anything -- 2 out of 3
-  why does majority help avoid split brain?
+### The big insight for coping w/ partition: majority vote
+ - require an odd number of servers, e.g. 3
+ - agreement from a majority is required to do anything -- 2 out of 3
+ why does majority help avoid split brain?
     at most one partition can have a majority
     breaks the symmetry we saw with just two servers
   note: majority is out of all servers, not just out of live ones
@@ -216,7 +216,7 @@ what if old leader isn't aware a new leader is elected?
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5MDg1MjU0LC00NzY2MzMzNjgsMTc2OT
-gwNjg3MSwtNTI1MDU1NTI5LDI2MjUzNDc5OCwtNDU4NzU5MTIy
-XX0=
+eyJoaXN0b3J5IjpbLTk0NzIzNDEyOCwxMjkwODUyNTQsLTQ3Nj
+YzMzM2OCwxNzY5ODA2ODcxLC01MjUwNTU1MjksMjYyNTM0Nzk4
+LC00NTg3NTkxMjJdfQ==
 -->
