@@ -42,15 +42,15 @@ C2 --> S2
 
 - if S2 has really crashed, C1 *must* proceed without S2,
    - otherwise the service doesn't tolerate faults!
- - if S2 is up but network prevents C1 from contacting S2,
+- if S2 is up but network prevents C1 from contacting S2,
    - C1 should *not* proceed without S2,
    - since S2 might be alive and serving client C2
-  
-  With this setup, we're faced with a nasty choice:
+ 
+ With this setup, we're faced with a nasty choice:
     - either no ability to tolerate faults, despite replication, or
     - the possibility of incorrect operation due to split brain
 
-the problem: computers cannot distinguish "server crashed" vs "network broken"
+### Problem: computers cannot distinguish "server crashed" vs "network broken"
   the symptom is the same: no response to a query over the network
   the bad situation is often called "network partition":
     C1 can talk to S1, C2 can talk to S2,
@@ -216,6 +216,7 @@ what if old leader isn't aware a new leader is elected?
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3NjYzMzM2OCwxNzY5ODA2ODcxLC01Mj
-UwNTU1MjksMjYyNTM0Nzk4LC00NTg3NTkxMjJdfQ==
+eyJoaXN0b3J5IjpbMTI5MDg1MjU0LC00NzY2MzMzNjgsMTc2OT
+gwNjg3MSwtNTI1MDU1NTI5LDI2MjUzNDc5OCwtNDU4NzU5MTIy
+XX0=
 -->
