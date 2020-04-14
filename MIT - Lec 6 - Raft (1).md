@@ -114,9 +114,9 @@ S1-->>S2: Append Entry1
 S1-->>S3: Append Entry2
 S2-->>S1: Reply1
 S1->>-C1: ACK
+S1--xS2 : Commit1
+S1--xS3 : Commit2
 Note over S1,S3: S1 doesn't need to wait for S3 reply because it already has the quorom
-S1-->S2 : Commit1
-S1-->S3 : Commit2
 S3-->>S1: Reply2
 ```
 
@@ -245,8 +245,8 @@ what if old leader isn't aware a new leader is elected?
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzA3MjQ2MDUsLTI4MjU2MDU2OCwtNj
-YzOTA2OSw3NzI1MzI0MjMsMzc2MTk4MTAyLC02NzU4NDc4OTMs
-MTI5MDg1MjU0LC00NzY2MzMzNjgsMTc2OTgwNjg3MSwtNTI1MD
-U1NTI5LDI2MjUzNDc5OCwtNDU4NzU5MTIyXX0=
+eyJoaXN0b3J5IjpbLTU2MTIyMTQzMywtMjgyNTYwNTY4LC02Nj
+M5MDY5LDc3MjUzMjQyMywzNzYxOTgxMDIsLTY3NTg0Nzg5Mywx
+MjkwODUyNTQsLTQ3NjYzMzM2OCwxNzY5ODA2ODcxLC01MjUwNT
+U1MjksMjYyNTM0Nzk4LC00NTg3NTkxMjJdfQ==
 -->
