@@ -106,16 +106,16 @@ C2 --> S2
 
 ### time diagram of one client command
 - client sends Put/Get "command" to k/v layer in leader
- - leader adds command to log
-  leader sends AppendEntries RPCs to followers
-  followers add command to log
-  leader waits for replies from a bare majority (including itself)
-  entry is "committed" if a majority put it in their logs
-    committed means won't be forgotten even if failures
-    majority -> will be seen by the next leader's vote requests
-  leader executes command, replies to client
-  leader "piggybacks" commit info in next AppendEntries
-  followers execute entry once leader says it's committed
+- raft leader adds command to log
+- leader sends AppendEntries RPCs to followers
+- followers add command to log
+- leader waits for replies from a bare majority (including itself)
+- entry is "committed" if a majority put it in their logs
+   - committed means won't be forgotten even if failures
+   - majority -> will be seen by the next leader's vote requests
+- leader executes command, replies to client
+- leader "piggybacks" commit info in next AppendEntries
+- followers execute entry once leader says it's committed
 
 why the logs?
   the service keeps the state machine state, e.g. key/value DB
@@ -230,7 +230,7 @@ what if old leader isn't aware a new leader is elected?
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyMTc3MDYwNCw3NzI1MzI0MjMsMzc2MT
+eyJoaXN0b3J5IjpbMTEwMTA1NzY2NCw3NzI1MzI0MjMsMzc2MT
 k4MTAyLC02NzU4NDc4OTMsMTI5MDg1MjU0LC00NzY2MzMzNjgs
 MTc2OTgwNjg3MSwtNTI1MDU1NTI5LDI2MjUzNDc5OCwtNDU4Nz
 U5MTIyXX0=
