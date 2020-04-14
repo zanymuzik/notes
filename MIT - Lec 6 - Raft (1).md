@@ -110,9 +110,11 @@ C2 --> S2
 sequenceDiagram
 C1-->>+S1: PUT command
 participant S1 as S1 (Leader)
-S1-->>+S2: Append Entry1
+S1-->>S2: Append Entry1
 S1-->>S3: Append Entry2
-S2-->>-S1: Reply1
+S2-->>S1: Reply1
+S1-->>-C1: ACK
+Note right of S1: S1 doesn't need to wait for S3 reply because it already has the quorom
 S3-->>S1: Reply2
 ```
 
@@ -241,8 +243,8 @@ what if old leader isn't aware a new leader is elected?
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxMTU0ODE2NywtMjgyNTYwNTY4LC02Nj
-M5MDY5LDc3MjUzMjQyMywzNzYxOTgxMDIsLTY3NTg0Nzg5Mywx
-MjkwODUyNTQsLTQ3NjYzMzM2OCwxNzY5ODA2ODcxLC01MjUwNT
-U1MjksMjYyNTM0Nzk4LC00NTg3NTkxMjJdfQ==
+eyJoaXN0b3J5IjpbNDc5Njg5MTkwLC0yODI1NjA1NjgsLTY2Mz
+kwNjksNzcyNTMyNDIzLDM3NjE5ODEwMiwtNjc1ODQ3ODkzLDEy
+OTA4NTI1NCwtNDc2NjMzMzY4LDE3Njk4MDY4NzEsLTUyNTA1NT
+UyOSwyNjI1MzQ3OTgsLTQ1ODc1OTEyMl19
 -->
