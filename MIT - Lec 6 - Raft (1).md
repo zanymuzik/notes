@@ -23,12 +23,12 @@ C2 --> S1
 C2 --> S2
 ```
  
-- suppose client C1 can contact replica S1, but not replica S2
-  - should C1 proceed with just replica S1?
+- suppose client C1 can contact replica S1, but not replica S2.
+ - should C1 proceed with just replica S1?
  ```mermaid
 graph LR
 C1 --> S1
-C1 = S2 
+C1 -.broken.-> S2 
 C2 --> S1 
 C2 --> S2
 ```
@@ -208,6 +208,6 @@ what if old leader isn't aware a new leader is elected?
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2MjA5MjE3MywyNjI1MzQ3OTgsLTQ1OD
+eyJoaXN0b3J5IjpbMTgzOTE3NzEzMSwyNjI1MzQ3OTgsLTQ1OD
 c1OTEyMl19
 -->
