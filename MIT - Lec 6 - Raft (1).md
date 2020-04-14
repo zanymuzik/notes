@@ -104,7 +104,7 @@ C2 --> S2
 - clients are not aware of replication in raft
 - makes put/get request
 
-### timing diagram of a command
+### Timing diagram of a command
 
 ```mermaid
 sequenceDiagram
@@ -133,16 +133,16 @@ S3-->>S1: Reply2
 - followers execute entry once leader says it's committed
 
 ### why the logs?
-  the service keeps the state machine state, e.g. key/value DB
-    why isn't that enough?
-  the log orders the commands
-    to help replicas agree on a single execution order
-    to help the leader ensure followers have identical logs
-  the log stores tentative commands until committed
-  the log stores commands in case leader must re-send to followers
-  the log stores commands persistently for replay after reboot
+-  the service keeps the state machine state, e.g. key/value DB
+   - why isn't that enough?
+ - the log orders the commands
+    - to help replicas agree on a single execution order
+    - to help the leader ensure followers have identical logs
+ - the log stores tentative commands until committed
+ - the log stores commands in case leader must re-send to followers
+ - the log stores commands persistently for replay after reboot
 
-are the servers' logs exact replicas of each other?
+- Are the servers' logs exact replicas of each other?
   no: some replicas may lag
   no: we'll see that they can temporarily have different entries
   the good news:
@@ -245,7 +245,7 @@ what if old leader isn't aware a new leader is elected?
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2MTIyMTQzMywtMjgyNTYwNTY4LC02Nj
+eyJoaXN0b3J5IjpbMjAyNjYzMjQyMCwtMjgyNTYwNTY4LC02Nj
 M5MDY5LDc3MjUzMjQyMywzNzYxOTgxMDIsLTY3NTg0Nzg5Mywx
 MjkwODUyNTQsLTQ3NjYzMzM2OCwxNzY5ODA2ODcxLC01MjUwNT
 U1MjksMjYyNTM0Nzk4LC00NTg3NTkxMjJdfQ==
