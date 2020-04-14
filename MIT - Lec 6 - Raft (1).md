@@ -88,8 +88,8 @@ C2 --> S2
 ## Raft overview
 
 ### state machine replication with Raft
-  [diagram: clients, 3 replicas, k/v layer + state, raft layer + logs]
-  Raft is a library included in each replica
+   Raft is a library included in each replica
+ [diagram: clients, 3 replicas, k/v layer + state, raft layer + logs]
 
 time diagram of one client command
   [C, L, F1, F2]
@@ -218,7 +218,7 @@ what if old leader isn't aware a new leader is elected?
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTc5Mjg2OTUsLTY3NTg0Nzg5MywxMj
-kwODUyNTQsLTQ3NjYzMzM2OCwxNzY5ODA2ODcxLC01MjUwNTU1
-MjksMjYyNTM0Nzk4LC00NTg3NTkxMjJdfQ==
+eyJoaXN0b3J5IjpbNDIwODgwMjE5LC02NzU4NDc4OTMsMTI5MD
+g1MjU0LC00NzY2MzMzNjgsMTc2OTgwNjg3MSwtNTI1MDU1NTI5
+LDI2MjUzNDc5OCwtNDU4NzU5MTIyXX0=
 -->
