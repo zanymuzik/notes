@@ -72,11 +72,10 @@ C2 --> S2
  - more generally 2f+1 can tolerate f failed servers
     - since the remaining f+1 is a majority of 2f+1
     - if more than f fail (or can't be contacted), no progress
- - often called **quorum** systems
-
-a key property of majorities is that any two must intersect
-  e.g. successive majorities for Raft leader election must overlap
-  and the intersection can convey information about previous decisions
+- often called **quorum** systems
+- a key property of majorities is that any two must intersect
+  - e.g. successive majorities for Raft leader election must overlap
+  - and the intersection can convey information about previous decisions
 
 Two partition-tolerant replication schemes were invented around 1990,
   Paxos and View-Stamped Replication
@@ -216,7 +215,7 @@ what if old leader isn't aware a new leader is elected?
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2MTgwODgwNCwxMjkwODUyNTQsLTQ3Nj
+eyJoaXN0b3J5IjpbLTY3NTg0Nzg5MywxMjkwODUyNTQsLTQ3Nj
 YzMzM2OCwxNzY5ODA2ODcxLC01MjUwNTU1MjksMjYyNTM0Nzk4
 LC00NTg3NTkxMjJdfQ==
 -->
