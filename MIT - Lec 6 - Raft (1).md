@@ -172,7 +172,7 @@ S3-->>S1: Reply2
  1. electing a new leader
  2. ensuring identical logs despite failures
 
-*** topic: leader election (Lab 2A)
+## Leader election (Lab 2A)
 
 why a leader?
   ensures all replicas execute the same commands, in the same order
@@ -245,9 +245,9 @@ what if old leader isn't aware a new leader is elected?
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1ODgzOTQzMywtMTkyMTk3MDQ5NiwxMT
-U1MDg2NjkyLDE1NzAzMzM4NjAsLTI4MjU2MDU2OCwtNjYzOTA2
-OSw3NzI1MzI0MjMsMzc2MTk4MTAyLC02NzU4NDc4OTMsMTI5MD
-g1MjU0LC00NzY2MzMzNjgsMTc2OTgwNjg3MSwtNTI1MDU1NTI5
-LDI2MjUzNDc5OCwtNDU4NzU5MTIyXX0=
+eyJoaXN0b3J5IjpbLTIxMTY0NzQ1MjAsLTE5MjE5NzA0OTYsMT
+E1NTA4NjY5MiwxNTcwMzMzODYwLC0yODI1NjA1NjgsLTY2Mzkw
+NjksNzcyNTMyNDIzLDM3NjE5ODEwMiwtNjc1ODQ3ODkzLDEyOT
+A4NTI1NCwtNDc2NjMzMzY4LDE3Njk4MDY4NzEsLTUyNTA1NTUy
+OSwyNjI1MzQ3OTgsLTQ1ODc1OTEyMl19
 -->
