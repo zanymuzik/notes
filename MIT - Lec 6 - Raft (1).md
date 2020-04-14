@@ -33,14 +33,14 @@ C2 --> S2
 ```
   
  - if S2 is up but network prevents C1 from contacting S2,
-   -  C1 should *not* proceed without S2,
-    - since S2 might be alive and serving client C2
- - if S2 has really crashed, C1 *must* proceed without S2,
+   - C1 should *not* proceed without S2,
+   - since S2 might be alive and serving client C2
+- if S2 has really crashed, C1 *must* proceed without S2,
    - otherwise the service doesn't tolerate faults!
-    
-  with this setup, we're faced with a nasty choice:
-    either no ability to tolerate faults, despite replication, or
-    the possibility of incorrect operation due to split brain
+  
+  With this setup, we're faced with a nasty choice:
+    - either no ability to tolerate faults, despite replication, or
+    - the possibility of incorrect operation due to split brain
 
 the problem: computers cannot distinguish "server crashed" vs "network broken"
   the symptom is the same: no response to a query over the network
@@ -208,6 +208,6 @@ what if old leader isn't aware a new leader is elected?
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjc1MDU1OTksMjYyNTM0Nzk4LC00NT
-g3NTkxMjJdfQ==
+eyJoaXN0b3J5IjpbLTgxMjc3NDc5NSwyNjI1MzQ3OTgsLTQ1OD
+c1OTEyMl19
 -->
