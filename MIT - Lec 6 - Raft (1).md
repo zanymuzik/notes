@@ -92,7 +92,7 @@ C2 --> S2
 ### state machine replication with Raft
 - Raft is a library included in each replica
  [diagram: clients, 3 replicas, k/v layer + state, raft layer + logs]
-
+![enter image description here](https://blog.container-solutions.com/hs-fs/hubfs/Imported_Blog_Media/figure1_raft-1.png?width=994&name=figure1_raft-1.png)
 time diagram of one client command
   [C, L, F1, F2]
   client sends Put/Get "command" to k/v layer in leader
@@ -220,7 +220,7 @@ what if old leader isn't aware a new leader is elected?
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzc2MTk4MTAyLC02NzU4NDc4OTMsMTI5MD
-g1MjU0LC00NzY2MzMzNjgsMTc2OTgwNjg3MSwtNTI1MDU1NTI5
-LDI2MjUzNDc5OCwtNDU4NzU5MTIyXX0=
+eyJoaXN0b3J5IjpbNTk1NTQzMjUwLDM3NjE5ODEwMiwtNjc1OD
+Q3ODkzLDEyOTA4NTI1NCwtNDc2NjMzMzY4LDE3Njk4MDY4NzEs
+LTUyNTA1NTUyOSwyNjI1MzQ3OTgsLTQ1ODc1OTEyMl19
 -->
