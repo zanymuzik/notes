@@ -14,6 +14,10 @@
     - the client request sets the state to 1, server replies w/ previous state
     -  only one client should get a reply with "0"
  - it's a lock, only one requester should get it
+ ```mermaid
+ graph LR
+ C1 & C2 -> S1 & S2
+ ```
   [C1, C2, S1, S2]
   suppose client C1 can contact replica S1, but not replica S2
   should C1 proceed with just replica S1?
@@ -192,5 +196,6 @@ what if old leader isn't aware a new leader is elected?
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjYyNTM0Nzk4LC00NTg3NTkxMjJdfQ==
+eyJoaXN0b3J5IjpbLTk1NDEzMTM3OCwyNjI1MzQ3OTgsLTQ1OD
+c1OTEyMl19
 -->
