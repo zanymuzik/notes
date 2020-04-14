@@ -62,17 +62,17 @@ C2 --> S2
  - BUT these are all single points of failure -- not desirable
 	  - can one do better?
 
-### The big insight for coping w/ partition: majority vote
+### Majority Vote
  - require an odd number of servers, e.g. 3
  - agreement from a majority is required to do anything -- 2 out of 3
- why does majority help avoid split brain?
-    at most one partition can have a majority
-    breaks the symmetry we saw with just two servers
-  note: majority is out of all servers, not just out of live ones
-  more generally 2f+1 can tolerate f failed servers
-    since the remaining f+1 is a majority of 2f+1
-    if more than f fail (or can't be contacted), no progress
-  often called "quorum" systems
+ - why does majority help avoid split brain?
+    - at most one partition can have a majority
+    - breaks the symmetry we saw with just two servers
+ - note: majority is out of all servers, not just out of live ones
+ - more generally 2f+1 can tolerate f failed servers
+    - since the remaining f+1 is a majority of 2f+1
+    - if more than f fail (or can't be contacted), no progress
+ - often called **quorum** systems
 
 a key property of majorities is that any two must intersect
   e.g. successive majorities for Raft leader election must overlap
@@ -216,7 +216,7 @@ what if old leader isn't aware a new leader is elected?
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0NzIzNDEyOCwxMjkwODUyNTQsLTQ3Nj
+eyJoaXN0b3J5IjpbMTk2MTgwODgwNCwxMjkwODUyNTQsLTQ3Nj
 YzMzM2OCwxNzY5ODA2ODcxLC01MjUwNTU1MjksMjYyNTM0Nzk4
 LC00NTg3NTkxMjJdfQ==
 -->
