@@ -108,7 +108,8 @@ C2 --> S2
 
 ```mermaid
 sequenceDiagram
-C1-->S1
+C1-->>+S1(L): PUT command
+S1(L)-->>S2: Append Entry
 ```
 
 - client sends Put/Get "command" to k/v layer in leader
@@ -236,7 +237,7 @@ what if old leader isn't aware a new leader is elected?
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyNzY3NzA3LC02NjM5MDY5LDc3MjUzMj
+eyJoaXN0b3J5IjpbNDI5MTA3MDI5LC02NjM5MDY5LDc3MjUzMj
 QyMywzNzYxOTgxMDIsLTY3NTg0Nzg5MywxMjkwODUyNTQsLTQ3
 NjYzMzM2OCwxNzY5ODA2ODcxLC01MjUwNTU1MjksMjYyNTM0Nz
 k4LC00NTg3NTkxMjJdfQ==
