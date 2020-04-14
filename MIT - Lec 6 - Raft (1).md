@@ -117,7 +117,7 @@ C2 --> S2
 - leader "piggybacks" commit info in next AppendEntries
 - followers execute entry once leader says it's committed
 
-why the logs?
+### why the logs?
   the service keeps the state machine state, e.g. key/value DB
     why isn't that enough?
   the log orders the commands
@@ -230,8 +230,8 @@ what if old leader isn't aware a new leader is elected?
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwMTA1NzY2NCw3NzI1MzI0MjMsMzc2MT
-k4MTAyLC02NzU4NDc4OTMsMTI5MDg1MjU0LC00NzY2MzMzNjgs
-MTc2OTgwNjg3MSwtNTI1MDU1NTI5LDI2MjUzNDc5OCwtNDU4Nz
-U5MTIyXX0=
+eyJoaXN0b3J5IjpbLTY2MzkwNjksNzcyNTMyNDIzLDM3NjE5OD
+EwMiwtNjc1ODQ3ODkzLDEyOTA4NTI1NCwtNDc2NjMzMzY4LDE3
+Njk4MDY4NzEsLTUyNTA1NTUyOSwyNjI1MzQ3OTgsLTQ1ODc1OT
+EyMl19
 -->
