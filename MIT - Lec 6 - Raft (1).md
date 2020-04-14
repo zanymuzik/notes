@@ -125,7 +125,7 @@ S3-->>S1: Reply2
 - leader sends AppendEntries RPCs to followers
 - followers add command to log
 - leader waits for replies from a bare majority (including itself)
-- entry is "committed" if a majority put it in their logs
+- entry is **committed** if a majority put it in their logs
    - committed means won't be forgotten even if failures
    - majority -> will be seen by the next leader's vote requests
 - leader executes command, replies to client
@@ -245,7 +245,7 @@ what if old leader isn't aware a new leader is elected?
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyNjYzMjQyMCwtMjgyNTYwNTY4LC02Nj
+eyJoaXN0b3J5IjpbMTU3MDMzMzg2MCwtMjgyNTYwNTY4LC02Nj
 M5MDY5LDc3MjUzMjQyMywzNzYxOTgxMDIsLTY3NTg0Nzg5Mywx
 MjkwODUyNTQsLTQ3NjYzMzM2OCwxNzY5ODA2ODcxLC01MjUwNT
 U1MjksMjYyNTM0Nzk4LC00NTg3NTkxMjJdfQ==
