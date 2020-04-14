@@ -19,6 +19,10 @@
 graph TB
 C1 & C2--> S1 & S2
 ```
+ ```mermaid
+graph TB 
+A & B--> C & D
+ ```
  
   suppose client C1 can contact replica S1, but not replica S2
   should C1 proceed with just replica S1?
@@ -197,6 +201,6 @@ what if old leader isn't aware a new leader is elected?
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0Mjk4MTcyNSwyNjI1MzQ3OTgsLTQ1OD
-c1OTEyMl19
+eyJoaXN0b3J5IjpbLTE4OTg3MDAxMzQsMjYyNTM0Nzk4LC00NT
+g3NTkxMjJdfQ==
 -->
