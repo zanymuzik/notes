@@ -224,7 +224,7 @@ S3-->>S1: Reply2
     - not become candidates
   - randomized delays are a common pattern in network protocols
 
-how to choose the election timeout?
+### how to choose the election timeout?
   * at least a few heartbeat intervals (in case network drops a heartbeat)
     to avoid needless elections, which waste time
   * random part long enough to let one candidate succeed before next starts
@@ -232,7 +232,7 @@ how to choose the election timeout?
   * short enough to allow a few re-tries before tester gets upset
     tester requires election to complete in 5 seconds or less
 
-what if old leader isn't aware a new leader is elected?
+### what if old leader isn't aware a new leader is elected?
   perhaps old leader didn't see election messages
   perhaps old leader is in a minority network partition
   new leader means a majority of servers have incremented currentTerm
@@ -246,7 +246,7 @@ what if old leader isn't aware a new leader is elected?
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODY4MjkyMjksMjA0MTU1NzQwMCwxMj
+eyJoaXN0b3J5IjpbLTE2NTEzNTc3MzUsMjA0MTU1NzQwMCwxMj
 YxMjU5MjM2LC05MzkzMTg2ODQsLTIxMTY0NzQ1MjAsLTE5MjE5
 NzA0OTYsMTE1NTA4NjY5MiwxNTcwMzMzODYwLC0yODI1NjA1Nj
 gsLTY2MzkwNjksNzcyNTMyNDIzLDM3NjE5ODEwMiwtNjc1ODQ3
