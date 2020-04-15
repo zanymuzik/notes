@@ -190,7 +190,7 @@ S3-->>S1: Reply2
   - note: old leader may still be alive and think it is the leader
 
 ### how to ensure at most one leader in a term?
-  (Figure 2 RequestVote RPC and Rules for Servers)
+>  (Figure 2 RequestVote RPC and Rules for Servers)
  - leader must get "yes" votes from a majority of servers
  - each server can cast only one vote per term
     - if candidate, votes for itself
@@ -216,7 +216,7 @@ S3-->>S1: Reply2
 
 ### how does Raft avoid split votes?
   - each server picks a **random election timeout**
-  [diagram of times at which servers' timeouts expire]
+ > [diagram of times at which servers' timeouts expire]
   - randomness breaks symmetry among the servers
     - one will choose lowest random delay
   - hopefully enough time to elect before next timeout expires
@@ -246,10 +246,10 @@ S3-->>S1: Reply2
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5OTQyMDYwMSwyMDQxNTU3NDAwLDEyNj
-EyNTkyMzYsLTkzOTMxODY4NCwtMjExNjQ3NDUyMCwtMTkyMTk3
-MDQ5NiwxMTU1MDg2NjkyLDE1NzAzMzM4NjAsLTI4MjU2MDU2OC
-wtNjYzOTA2OSw3NzI1MzI0MjMsMzc2MTk4MTAyLC02NzU4NDc4
-OTMsMTI5MDg1MjU0LC00NzY2MzMzNjgsMTc2OTgwNjg3MSwtNT
-I1MDU1NTI5LDI2MjUzNDc5OCwtNDU4NzU5MTIyXX0=
+eyJoaXN0b3J5IjpbMzcxMDAwNTE3LDIwNDE1NTc0MDAsMTI2MT
+I1OTIzNiwtOTM5MzE4Njg0LC0yMTE2NDc0NTIwLC0xOTIxOTcw
+NDk2LDExNTUwODY2OTIsMTU3MDMzMzg2MCwtMjgyNTYwNTY4LC
+02NjM5MDY5LDc3MjUzMjQyMywzNzYxOTgxMDIsLTY3NTg0Nzg5
+MywxMjkwODUyNTQsLTQ3NjYzMzM2OCwxNzY5ODA2ODcxLC01Mj
+UwNTU1MjksMjYyNTM0Nzk4LC00NTg3NTkxMjJdfQ==
 -->
