@@ -143,9 +143,9 @@ S3-->>S1: Reply2
  - the log stores commands persistently for replay after reboot
 
 ### Are the servers' logs exact replicas?
-  no: some replicas may lag
-  no: we'll see that they can temporarily have different entries
-  the good news:
+ - no: some replicas may lag
+ - no: we'll see that they can temporarily have different entries
+ - the good news:
     they'll eventually converge to be identical
     the commit mechanism ensures servers only execute stable entries
   
@@ -245,9 +245,9 @@ what if old leader isn't aware a new leader is elected?
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTY0NzQ1MjAsLTE5MjE5NzA0OTYsMT
-E1NTA4NjY5MiwxNTcwMzMzODYwLC0yODI1NjA1NjgsLTY2Mzkw
-NjksNzcyNTMyNDIzLDM3NjE5ODEwMiwtNjc1ODQ3ODkzLDEyOT
-A4NTI1NCwtNDc2NjMzMzY4LDE3Njk4MDY4NzEsLTUyNTA1NTUy
-OSwyNjI1MzQ3OTgsLTQ1ODc1OTEyMl19
+eyJoaXN0b3J5IjpbNzE0NzU0MTk3LC0yMTE2NDc0NTIwLC0xOT
+IxOTcwNDk2LDExNTUwODY2OTIsMTU3MDMzMzg2MCwtMjgyNTYw
+NTY4LC02NjM5MDY5LDc3MjUzMjQyMywzNzYxOTgxMDIsLTY3NT
+g0Nzg5MywxMjkwODUyNTQsLTQ3NjYzMzM2OCwxNzY5ODA2ODcx
+LC01MjUwNTU1MjksMjYyNTM0Nzk4LC00NTg3NTkxMjJdfQ==
 -->
