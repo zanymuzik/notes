@@ -211,11 +211,11 @@ S3-->>S1: Reply2
   - simultaneous candidates split the vote, none gets majority
 
 ### what happens if an election doesn't succeed?
-  another timeout (no heartbeat), a new election (and new term)
-  higher term takes precedence, candidates for older terms quit
+  - another timeout (no heartbeat), a new election (and new term)
+  - higher term takes precedence, candidates for older terms quit
 
 ### how does Raft avoid split votes?
-  - each server picks a random election timeout
+  - each server picks a **random election timeout**
   [diagram of times at which servers' timeouts expire]
   - randomness breaks symmetry among the servers
     - one will choose lowest random delay
@@ -246,10 +246,10 @@ S3-->>S1: Reply2
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTEzNTc3MzUsMjA0MTU1NzQwMCwxMj
-YxMjU5MjM2LC05MzkzMTg2ODQsLTIxMTY0NzQ1MjAsLTE5MjE5
-NzA0OTYsMTE1NTA4NjY5MiwxNTcwMzMzODYwLC0yODI1NjA1Nj
-gsLTY2MzkwNjksNzcyNTMyNDIzLDM3NjE5ODEwMiwtNjc1ODQ3
-ODkzLDEyOTA4NTI1NCwtNDc2NjMzMzY4LDE3Njk4MDY4NzEsLT
-UyNTA1NTUyOSwyNjI1MzQ3OTgsLTQ1ODc1OTEyMl19
+eyJoaXN0b3J5IjpbMTU5OTQyMDYwMSwyMDQxNTU3NDAwLDEyNj
+EyNTkyMzYsLTkzOTMxODY4NCwtMjExNjQ3NDUyMCwtMTkyMTk3
+MDQ5NiwxMTU1MDg2NjkyLDE1NzAzMzM4NjAsLTI4MjU2MDU2OC
+wtNjYzOTA2OSw3NzI1MzI0MjMsMzc2MTk4MTAyLC02NzU4NDc4
+OTMsMTI5MDg1MjU0LC00NzY2MzMzNjgsMTc2OTgwNjg3MSwtNT
+I1MDU1NTI5LDI2MjUzNDc5OCwtNDU4NzU5MTIyXX0=
 -->
