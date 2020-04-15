@@ -200,9 +200,9 @@ S3-->>S1: Reply2
     -> election can succeed even if some servers have failed
 
 ### how does a server learn about newly elected leader?
-  new leader sees yes votes from majority
-  others see AppendEntries heart-beats with a higher term number
-    i.e. from the new leader
+- new leader sees yes votes from majority
+ - others see AppendEntries heart-beats with a higher term number
+    - i.e. from the new leader
   the heart-beats suppress any new election
 
 an election may not succeed for two reasons:
@@ -245,10 +245,10 @@ what if old leader isn't aware a new leader is elected?
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2MTI1OTIzNiwtOTM5MzE4Njg0LC0yMT
-E2NDc0NTIwLC0xOTIxOTcwNDk2LDExNTUwODY2OTIsMTU3MDMz
-Mzg2MCwtMjgyNTYwNTY4LC02NjM5MDY5LDc3MjUzMjQyMywzNz
-YxOTgxMDIsLTY3NTg0Nzg5MywxMjkwODUyNTQsLTQ3NjYzMzM2
-OCwxNzY5ODA2ODcxLC01MjUwNTU1MjksMjYyNTM0Nzk4LC00NT
-g3NTkxMjJdfQ==
+eyJoaXN0b3J5IjpbLTE2MzQwMDc0MDUsMTI2MTI1OTIzNiwtOT
+M5MzE4Njg0LC0yMTE2NDc0NTIwLC0xOTIxOTcwNDk2LDExNTUw
+ODY2OTIsMTU3MDMzMzg2MCwtMjgyNTYwNTY4LC02NjM5MDY5LD
+c3MjUzMjQyMywzNzYxOTgxMDIsLTY3NTg0Nzg5MywxMjkwODUy
+NTQsLTQ3NjYzMzM2OCwxNzY5ODA2ODcxLC01MjUwNTU1MjksMj
+YyNTM0Nzk4LC00NTg3NTkxMjJdfQ==
 -->
