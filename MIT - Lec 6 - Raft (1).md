@@ -205,21 +205,21 @@ S3-->>S1: Reply2
     - i.e. from the new leader
  - the heart-beats suppress any new election
 
-an election may not succeed for two reasons:
+### an election may not succeed for two reasons:
   * less than a majority of servers are reachable
   * simultaneous candidates split the vote, none gets majority
 
-what happens if an election doesn't succeed?
+### what happens if an election doesn't succeed?
   another timeout (no heartbeat), a new election (and new term)
   higher term takes precedence, candidates for older terms quit
 
-how does Raft avoid split votes?
-  each server picks a random election timeout
+### how does Raft avoid split votes?
+  - each server picks a random election timeout
   [diagram of times at which servers' timeouts expire]
-  randomness breaks symmetry among the servers
-    one will choose lowest random delay
-  hopefully enough time to elect before next timeout expires
-  others will see new leader's AppendEntries heartbeats and 
+  - randomness breaks symmetry among the servers
+    - one will choose lowest random delay
+  - hopefully enough time to elect before next timeout expires
+  - others will see new leader's AppendEntries heartbeats and 
     not become candidates
   randomized delays are a common pattern in network protocols
 
@@ -245,10 +245,10 @@ what if old leader isn't aware a new leader is elected?
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0MTU1NzQwMCwxMjYxMjU5MjM2LC05Mz
-kzMTg2ODQsLTIxMTY0NzQ1MjAsLTE5MjE5NzA0OTYsMTE1NTA4
-NjY5MiwxNTcwMzMzODYwLC0yODI1NjA1NjgsLTY2MzkwNjksNz
-cyNTMyNDIzLDM3NjE5ODEwMiwtNjc1ODQ3ODkzLDEyOTA4NTI1
-NCwtNDc2NjMzMzY4LDE3Njk4MDY4NzEsLTUyNTA1NTUyOSwyNj
-I1MzQ3OTgsLTQ1ODc1OTEyMl19
+eyJoaXN0b3J5IjpbMTg5NzA5NzI1NiwyMDQxNTU3NDAwLDEyNj
+EyNTkyMzYsLTkzOTMxODY4NCwtMjExNjQ3NDUyMCwtMTkyMTk3
+MDQ5NiwxMTU1MDg2NjkyLDE1NzAzMzM4NjAsLTI4MjU2MDU2OC
+wtNjYzOTA2OSw3NzI1MzI0MjMsMzc2MTk4MTAyLC02NzU4NDc4
+OTMsMTI5MDg1MjU0LC00NzY2MzMzNjgsMTc2OTgwNjg3MSwtNT
+I1MDU1NTI5LDI2MjUzNDc5OCwtNDU4NzU5MTIyXX0=
 -->
