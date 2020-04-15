@@ -220,8 +220,8 @@ S3-->>S1: Reply2
     - one will choose lowest random delay
   - hopefully enough time to elect before next timeout expires
   - others will see new leader's AppendEntries heartbeats and 
-    not become candidates
-  randomized delays are a common pattern in network protocols
+    - not become candidates
+  - randomized delays are a common pattern in network protocols
 
 how to choose the election timeout?
   * at least a few heartbeat intervals (in case network drops a heartbeat)
@@ -245,10 +245,10 @@ what if old leader isn't aware a new leader is elected?
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5NzA5NzI1NiwyMDQxNTU3NDAwLDEyNj
-EyNTkyMzYsLTkzOTMxODY4NCwtMjExNjQ3NDUyMCwtMTkyMTk3
-MDQ5NiwxMTU1MDg2NjkyLDE1NzAzMzM4NjAsLTI4MjU2MDU2OC
-wtNjYzOTA2OSw3NzI1MzI0MjMsMzc2MTk4MTAyLC02NzU4NDc4
-OTMsMTI5MDg1MjU0LC00NzY2MzMzNjgsMTc2OTgwNjg3MSwtNT
-I1MDU1NTI5LDI2MjUzNDc5OCwtNDU4NzU5MTIyXX0=
+eyJoaXN0b3J5IjpbLTIwMDg1MjUyNDAsMjA0MTU1NzQwMCwxMj
+YxMjU5MjM2LC05MzkzMTg2ODQsLTIxMTY0NzQ1MjAsLTE5MjE5
+NzA0OTYsMTE1NTA4NjY5MiwxNTcwMzMzODYwLC0yODI1NjA1Nj
+gsLTY2MzkwNjksNzcyNTMyNDIzLDM3NjE5ODEwMiwtNjc1ODQ3
+ODkzLDEyOTA4NTI1NCwtNDc2NjMzMzY4LDE3Njk4MDY4NzEsLT
+UyNTA1NTUyOSwyNjI1MzQ3OTgsLTQ1ODc1OTEyMl19
 -->
