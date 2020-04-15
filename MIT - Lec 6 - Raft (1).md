@@ -230,12 +230,12 @@ S3-->>S1: Reply2
   - random part long enough to let one candidate succeed before next starts
   - short enough to react quickly to failure, avoid long pauses
   - short enough to allow a few re-tries before tester gets upset
-    tester requires election to complete in 5 seconds or less
+  - tester requires election to complete in 5 seconds or less
 
 ### what if old leader isn't aware a new leader is elected?
-  perhaps old leader didn't see election messages
-  perhaps old leader is in a minority network partition
-  new leader means a majority of servers have incremented currentTerm
+ - perhaps old leader didn't see election messages
+ - perhaps old leader is in a minority network partition
+ - new leader means a majority of servers have incremented currentTerm
     so old leader (w/ old term) can't get majority for AppendEntries
     so old leader won't commit or execute any new log entries
     thus no split brain
@@ -244,11 +244,11 @@ S3-->>S1: Reply2
       
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTM0MjI4NTIsMzcxMDAwNTE3LDIwND
-E1NTc0MDAsMTI2MTI1OTIzNiwtOTM5MzE4Njg0LC0yMTE2NDc0
-NTIwLC0xOTIxOTcwNDk2LDExNTUwODY2OTIsMTU3MDMzMzg2MC
-wtMjgyNTYwNTY4LC02NjM5MDY5LDc3MjUzMjQyMywzNzYxOTgx
-MDIsLTY3NTg0Nzg5MywxMjkwODUyNTQsLTQ3NjYzMzM2OCwxNz
-Y5ODA2ODcxLC01MjUwNTU1MjksMjYyNTM0Nzk4LC00NTg3NTkx
-MjJdfQ==
+eyJoaXN0b3J5IjpbLTcwNDg5NTEzNCwzNzEwMDA1MTcsMjA0MT
+U1NzQwMCwxMjYxMjU5MjM2LC05MzkzMTg2ODQsLTIxMTY0NzQ1
+MjAsLTE5MjE5NzA0OTYsMTE1NTA4NjY5MiwxNTcwMzMzODYwLC
+0yODI1NjA1NjgsLTY2MzkwNjksNzcyNTMyNDIzLDM3NjE5ODEw
+MiwtNjc1ODQ3ODkzLDEyOTA4NTI1NCwtNDc2NjMzMzY4LDE3Nj
+k4MDY4NzEsLTUyNTA1NTUyOSwyNjI1MzQ3OTgsLTQ1ODc1OTEy
+Ml19
 -->
