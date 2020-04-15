@@ -204,10 +204,11 @@ S3-->>S1: Reply2
  - others see AppendEntries heart-beats with a higher term number
     - i.e. from the new leader
  - the heart-beats suppress any new election
+	 - so everyone knows that there is a new leader
 
 ### an election may not succeed for two reasons:
-  * less than a majority of servers are reachable
-  * simultaneous candidates split the vote, none gets majority
+  - less than a majority of servers are reachable
+  - simultaneous candidates split the vote, none gets majority
 
 ### what happens if an election doesn't succeed?
   another timeout (no heartbeat), a new election (and new term)
@@ -245,7 +246,7 @@ what if old leader isn't aware a new leader is elected?
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDg1MjUyNDAsMjA0MTU1NzQwMCwxMj
+eyJoaXN0b3J5IjpbLTEyODY4MjkyMjksMjA0MTU1NzQwMCwxMj
 YxMjU5MjM2LC05MzkzMTg2ODQsLTIxMTY0NzQ1MjAsLTE5MjE5
 NzA0OTYsMTE1NTA4NjY5MiwxNTcwMzMzODYwLC0yODI1NjA1Nj
 gsLTY2MzkwNjksNzcyNTMyNDIzLDM3NjE5ODEwMiwtNjc1ODQ3
