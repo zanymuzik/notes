@@ -225,11 +225,11 @@ S3-->>S1: Reply2
   - randomized delays are a common pattern in network protocols
 
 ### how to choose the election timeout?
-  * at least a few heartbeat intervals (in case network drops a heartbeat)
-    to avoid needless elections, which waste time
-  * random part long enough to let one candidate succeed before next starts
-  * short enough to react quickly to failure, avoid long pauses
-  * short enough to allow a few re-tries before tester gets upset
+  - at least a few heartbeat intervals (in case network drops a heartbeat)
+    - to avoid needless elections, which waste time
+  - random part long enough to let one candidate succeed before next starts
+  - short enough to react quickly to failure, avoid long pauses
+  - short enough to allow a few re-tries before tester gets upset
     tester requires election to complete in 5 seconds or less
 
 ### what if old leader isn't aware a new leader is elected?
@@ -242,14 +242,13 @@ S3-->>S1: Reply2
     but a minority may accept old server's AppendEntries
       so logs may diverge at end of old term
       
-
-
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzcxMDAwNTE3LDIwNDE1NTc0MDAsMTI2MT
-I1OTIzNiwtOTM5MzE4Njg0LC0yMTE2NDc0NTIwLC0xOTIxOTcw
-NDk2LDExNTUwODY2OTIsMTU3MDMzMzg2MCwtMjgyNTYwNTY4LC
-02NjM5MDY5LDc3MjUzMjQyMywzNzYxOTgxMDIsLTY3NTg0Nzg5
-MywxMjkwODUyNTQsLTQ3NjYzMzM2OCwxNzY5ODA2ODcxLC01Mj
-UwNTU1MjksMjYyNTM0Nzk4LC00NTg3NTkxMjJdfQ==
+eyJoaXN0b3J5IjpbLTE2MTM0MjI4NTIsMzcxMDAwNTE3LDIwND
+E1NTc0MDAsMTI2MTI1OTIzNiwtOTM5MzE4Njg0LC0yMTE2NDc0
+NTIwLC0xOTIxOTcwNDk2LDExNTUwODY2OTIsMTU3MDMzMzg2MC
+wtMjgyNTYwNTY4LC02NjM5MDY5LDc3MjUzMjQyMywzNzYxOTgx
+MDIsLTY3NTg0Nzg5MywxMjkwODUyNTQsLTQ3NjYzMzM2OCwxNz
+Y5ODA2ODcxLC01MjUwNTU1MjksMjYyNTM0Nzk4LC00NTg3NTkx
+MjJdfQ==
 -->
