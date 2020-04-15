@@ -191,15 +191,15 @@ S3-->>S1: Reply2
 
 ### how to ensure at most one leader in a term?
   (Figure 2 RequestVote RPC and Rules for Servers)
-  leader must get "yes" votes from a majority of servers
-  each server can cast only one vote per term
-    if candidate, votes for itself
-    if not a candidate, votes for first that asks (within Figure 2 rules)
-  at most one server can get majority of votes for a given term
+ - leader must get "yes" votes from a majority of servers
+ - each server can cast only one vote per term
+    - if candidate, votes for itself
+    - if not a candidate, votes for first that asks (within Figure 2 rules)
+ - at most one server can get majority of votes for a given term
     -> at most one leader even if network partition
     -> election can succeed even if some servers have failed
 
-how does a server learn about newly elected leader?
+### how does a server learn about newly elected leader?
   new leader sees yes votes from majority
   others see AppendEntries heart-beats with a higher term number
     i.e. from the new leader
@@ -245,10 +245,10 @@ what if old leader isn't aware a new leader is elected?
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODI2NDQ5MTk0LC05MzkzMTg2ODQsLTIxMT
-Y0NzQ1MjAsLTE5MjE5NzA0OTYsMTE1NTA4NjY5MiwxNTcwMzMz
-ODYwLC0yODI1NjA1NjgsLTY2MzkwNjksNzcyNTMyNDIzLDM3Nj
-E5ODEwMiwtNjc1ODQ3ODkzLDEyOTA4NTI1NCwtNDc2NjMzMzY4
-LDE3Njk4MDY4NzEsLTUyNTA1NTUyOSwyNjI1MzQ3OTgsLTQ1OD
-c1OTEyMl19
+eyJoaXN0b3J5IjpbMTI2MTI1OTIzNiwtOTM5MzE4Njg0LC0yMT
+E2NDc0NTIwLC0xOTIxOTcwNDk2LDExNTUwODY2OTIsMTU3MDMz
+Mzg2MCwtMjgyNTYwNTY4LC02NjM5MDY5LDc3MjUzMjQyMywzNz
+YxOTgxMDIsLTY3NTg0Nzg5MywxMjkwODUyNTQsLTQ3NjYzMzM2
+OCwxNzY5ODA2ODcxLC01MjUwNTU1MjksMjYyNTM0Nzk4LC00NT
+g3NTkxMjJdfQ==
 -->
