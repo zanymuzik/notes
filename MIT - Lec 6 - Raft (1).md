@@ -183,13 +183,13 @@ S3-->>S1: Reply2
  - a term has at most one leader; might have no leader
  - the numbering helps servers follow latest leader, not superseded leader
 
-when does a Raft peer start a leader election?
-  when it doesn't hear from current leader for an "election timeout"
-  increments local currentTerm, tries to collect votes
-  note: this can lead to un-needed elections; that's slow but safe
-  note: old leader may still be alive and think it is the leader
+### when does a Raft peer start a leader election?
+  - when it doesn't hear from current leader for an "election timeout"
+  - increments local currentTerm, tries to collect votes
+  - note: this can lead to un-needed elections; that's slow but safe
+  - note: old leader may still be alive and think it is the leader
 
-how to ensure at most one leader in a term?
+### how to ensure at most one leader in a term?
   (Figure 2 RequestVote RPC and Rules for Servers)
   leader must get "yes" votes from a majority of servers
   each server can cast only one vote per term
@@ -245,9 +245,10 @@ what if old leader isn't aware a new leader is elected?
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzOTMxODY4NCwtMjExNjQ3NDUyMCwtMT
-kyMTk3MDQ5NiwxMTU1MDg2NjkyLDE1NzAzMzM4NjAsLTI4MjU2
-MDU2OCwtNjYzOTA2OSw3NzI1MzI0MjMsMzc2MTk4MTAyLC02Nz
-U4NDc4OTMsMTI5MDg1MjU0LC00NzY2MzMzNjgsMTc2OTgwNjg3
-MSwtNTI1MDU1NTI5LDI2MjUzNDc5OCwtNDU4NzU5MTIyXX0=
+eyJoaXN0b3J5IjpbODI2NDQ5MTk0LC05MzkzMTg2ODQsLTIxMT
+Y0NzQ1MjAsLTE5MjE5NzA0OTYsMTE1NTA4NjY5MiwxNTcwMzMz
+ODYwLC0yODI1NjA1NjgsLTY2MzkwNjksNzcyNTMyNDIzLDM3Nj
+E5ODEwMiwtNjc1ODQ3ODkzLDEyOTA4NTI1NCwtNDc2NjMzMzY4
+LDE3Njk4MDY4NzEsLTUyNTA1NTUyOSwyNjI1MzQ3OTgsLTQ1OD
+c1OTEyMl19
 -->
