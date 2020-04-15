@@ -241,14 +241,12 @@ S3-->>S1: Reply2
 - thus no split brain
 - but a minority may accept old server's AppendEntries
     - so logs may diverge at end of old term
-      
-> Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4NTczOTksLTcwNDg5NTEzNCwzNzEwMD
-A1MTcsMjA0MTU1NzQwMCwxMjYxMjU5MjM2LC05MzkzMTg2ODQs
-LTIxMTY0NzQ1MjAsLTE5MjE5NzA0OTYsMTE1NTA4NjY5MiwxNT
-cwMzMzODYwLC0yODI1NjA1NjgsLTY2MzkwNjksNzcyNTMyNDIz
-LDM3NjE5ODEwMiwtNjc1ODQ3ODkzLDEyOTA4NTI1NCwtNDc2Nj
-MzMzY4LDE3Njk4MDY4NzEsLTUyNTA1NTUyOSwyNjI1MzQ3OThd
-fQ==
+eyJoaXN0b3J5IjpbLTEzNjEzNzE0MjUsLTcwNDg5NTEzNCwzNz
+EwMDA1MTcsMjA0MTU1NzQwMCwxMjYxMjU5MjM2LC05MzkzMTg2
+ODQsLTIxMTY0NzQ1MjAsLTE5MjE5NzA0OTYsMTE1NTA4NjY5Mi
+wxNTcwMzMzODYwLC0yODI1NjA1NjgsLTY2MzkwNjksNzcyNTMy
+NDIzLDM3NjE5ODEwMiwtNjc1ODQ3ODkzLDEyOTA4NTI1NCwtND
+c2NjMzMzY4LDE3Njk4MDY4NzEsLTUyNTA1NTUyOSwyNjI1MzQ3
+OThdfQ==
 -->
