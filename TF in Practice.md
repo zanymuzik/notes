@@ -35,8 +35,7 @@ Define successive layers
 
 > keras.layers.Dense()
 Define a layer of connected neurons 
-- this could be done as a list of Dense() inside Sequential() or Sequent
-
+this could be done as a list of Dense() inside Sequential() or Sequential.add(Dense())
 
 > model.compile(optimizer='sgd', loss='mean_squared_error')
 define the loss function, and optimizer - to guess the next value (for gradient descent)
@@ -102,11 +101,11 @@ the size of image is smaller in the layers because of conv-layers window
 
 [Examples of filters](https://lodev.org/cgtutor/filtering.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTE3NzE0MzMsLTExMDE5NjIxMTYsLT
-EwMjUzMjI1ODEsLTE3NjQ0NDkzMDIsNjExODY0MjQ4LDcyMDEz
-MzU1MCwzNTgxODM3NjgsLTE4NTQ2NTM0NzEsMTczNTAxNjgwMy
-w2OTIzMjQwNDQsMTU3MzYxNjc0LDIxMjU1MzgxOTYsMTU4MjM1
-MDA1NCwtMTE5NjI3MzY1NSw1NDUyOTY1OTgsLTY1NTk5MzYwNi
-wtMjEwMzEyMTI5MCwtMTExNDY4NTQwNywtOTA1NTQ4ODI3LDcz
-MDk5ODExNl19
+eyJoaXN0b3J5IjpbNzk2OTYxNTIyLC0xMTAxOTYyMTE2LC0xMD
+I1MzIyNTgxLC0xNzY0NDQ5MzAyLDYxMTg2NDI0OCw3MjAxMzM1
+NTAsMzU4MTgzNzY4LC0xODU0NjUzNDcxLDE3MzUwMTY4MDMsNj
+kyMzI0MDQ0LDE1NzM2MTY3NCwyMTI1NTM4MTk2LDE1ODIzNTAw
+NTQsLTExOTYyNzM2NTUsNTQ1Mjk2NTk4LC02NTU5OTM2MDYsLT
+IxMDMxMjEyOTAsLTExMTQ2ODU0MDcsLTkwNTU0ODgyNyw3MzA5
+OTgxMTZdfQ==
 -->
