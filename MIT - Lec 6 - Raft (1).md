@@ -146,8 +146,8 @@ S3-->>S1: Reply2
  - no: some replicas may lag
  - no: we'll see that they can temporarily have different entries
  - the good news:
-    they'll eventually converge to be identical
-    the commit mechanism ensures servers only execute stable entries
+    - they'll **eventually converge** to be identical
+    - the commit mechanism ensures servers only execute stable entries
   
 ### lab 2 Raft interface
   rf.Start(command) (index, term, isleader)
@@ -174,14 +174,14 @@ S3-->>S1: Reply2
 
 ## Leader election (Lab 2A)
 
-why a leader?
-  ensures all replicas execute the same commands, in the same order
-  (some designs, e.g. Paxos, don't have a leader)
+### why a leader?
+  - ensures all replicas execute the same commands, in the same order
+  - (some designs, e.g. original Paxos, don't have a leader)
 
-Raft numbers the sequence of leaders
-  new leader -> new term
-  a term has at most one leader; might have no leader
-  the numbering helps servers follow latest leader, not superseded leader
+### Raft numbers the sequence of leaders
+ - new leader -> new term
+ - a term has at most one leader; might have no leader
+ - the numbering helps servers follow latest leader, not superseded leader
 
 when does a Raft peer start a leader election?
   when it doesn't hear from current leader for an "election timeout"
@@ -245,9 +245,9 @@ what if old leader isn't aware a new leader is elected?
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzE0NzU0MTk3LC0yMTE2NDc0NTIwLC0xOT
-IxOTcwNDk2LDExNTUwODY2OTIsMTU3MDMzMzg2MCwtMjgyNTYw
-NTY4LC02NjM5MDY5LDc3MjUzMjQyMywzNzYxOTgxMDIsLTY3NT
-g0Nzg5MywxMjkwODUyNTQsLTQ3NjYzMzM2OCwxNzY5ODA2ODcx
-LC01MjUwNTU1MjksMjYyNTM0Nzk4LC00NTg3NTkxMjJdfQ==
+eyJoaXN0b3J5IjpbMTkyMDEwMjI3OSwtMjExNjQ3NDUyMCwtMT
+kyMTk3MDQ5NiwxMTU1MDg2NjkyLDE1NzAzMzM4NjAsLTI4MjU2
+MDU2OCwtNjYzOTA2OSw3NzI1MzI0MjMsMzc2MTk4MTAyLC02Nz
+U4NDc4OTMsMTI5MDg1MjU0LC00NzY2MzMzNjgsMTc2OTgwNjg3
+MSwtNTI1MDU1NTI5LDI2MjUzNDc5OCwtNDU4NzU5MTIyXX0=
 -->
