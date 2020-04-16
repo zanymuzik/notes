@@ -176,9 +176,9 @@ how does the service (e.g. k/v server) recover its state after a crash+reboot?
   but re-play will be too slow for a long-lived system
   faster: use Raft snapshot and replay just the tail of the log
 
-*** topic: log compaction and Snapshots (Lab 3B)
+## Log compaction and Snapshots (Lab 3B)
 
-problem:
+### problem:
   log will get to be huge -- much larger than state-machine state!
   will take a long time to re-play on reboot or send to a new server
 
@@ -230,7 +230,7 @@ practical notes:
     leader should save the log for a while
     or remember which parts of state have been updated
 
-*** linearizability
+### linearizability
 
 we need a definition of "correct" for Lab 3 &c
   how should clients expect Put and Get to behave?
@@ -345,7 +345,7 @@ so: returning the old saved value 3 is correct
 You may find this page useful:
 https://www.anishathalye.com/2017/06/04/testing-distributed-systems-for-linearizability/
 
-*** duplicate RPC detection (Lab 3)
+### duplicate RPC detection (Lab 3)
 
 What should a client do if a Put or Get RPC times out?
   i.e. Call() returns false
@@ -471,9 +471,8 @@ note: for the Labs, you should commit Get()s into the log;
 in practice, people are often (but not always) willing to live with stale
   data in return for higher performance
 
-
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTgyNTEzNjg0LDE1MzY1MjA5MTksLTIwOD
+eyJoaXN0b3J5IjpbMjA1MTYyNzIyLDE1MzY1MjA5MTksLTIwOD
 czMTY2MjJdfQ==
 -->
