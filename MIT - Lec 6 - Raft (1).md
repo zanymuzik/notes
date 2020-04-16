@@ -4,9 +4,9 @@
 - Distributed Consensus
 - Like Paxos, but uses leader election
 
-- Leader Election 
+- Leader Election - based on majority vote
 	- Election Timeout - timeout before leader election happens
-	- Heartbeat timeout (only from the leader) - to ack the presence of a leader
+	- Heartbeat timeout (only from the leader) - to ack the presence of a leader (using AppendEntries)
 - Log replication (consensus on an update before it gets committed)
 
 
@@ -252,11 +252,11 @@ S3-->>S1: Reply2
 - but a minority may accept old server's AppendEntries
     - so logs may diverge at end of old term
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU5OTg5MDg2LC0xNTQ0MDUwNjksLTEzNj
-EzNzE0MjUsLTcwNDg5NTEzNCwzNzEwMDA1MTcsMjA0MTU1NzQw
-MCwxMjYxMjU5MjM2LC05MzkzMTg2ODQsLTIxMTY0NzQ1MjAsLT
-E5MjE5NzA0OTYsMTE1NTA4NjY5MiwxNTcwMzMzODYwLC0yODI1
-NjA1NjgsLTY2MzkwNjksNzcyNTMyNDIzLDM3NjE5ODEwMiwtNj
-c1ODQ3ODkzLDEyOTA4NTI1NCwtNDc2NjMzMzY4LDE3Njk4MDY4
-NzFdfQ==
+eyJoaXN0b3J5IjpbLTYzNTExOTY3OSwtMTU0NDA1MDY5LC0xMz
+YxMzcxNDI1LC03MDQ4OTUxMzQsMzcxMDAwNTE3LDIwNDE1NTc0
+MDAsMTI2MTI1OTIzNiwtOTM5MzE4Njg0LC0yMTE2NDc0NTIwLC
+0xOTIxOTcwNDk2LDExNTUwODY2OTIsMTU3MDMzMzg2MCwtMjgy
+NTYwNTY4LC02NjM5MDY5LDc3MjUzMjQyMywzNzYxOTgxMDIsLT
+Y3NTg0Nzg5MywxMjkwODUyNTQsLTQ3NjYzMzM2OCwxNzY5ODA2
+ODcxXX0=
 -->
