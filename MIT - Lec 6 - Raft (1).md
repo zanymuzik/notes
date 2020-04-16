@@ -3,7 +3,8 @@
 ### TL;DR
 - Distributed Consensus
 - Like Paxos, but uses leader election
-- [Decent explanation](http://thesecretlivesofdata.com/raft/) 
+- [Decent explanation]
+- (http://thesecretlivesofdata.com/raft/) 
 - Leader Election - based on majority vote
 	- Election Timeout - timeout before leader election happens
 	- Heartbeat timeout (only from the leader) - to ack the presence of a leader (using AppendEntries)
@@ -252,11 +253,11 @@ S3-->>S1: Reply2
 - but a minority may accept old server's AppendEntries
     - so logs may diverge at end of old term
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4MjQwMjI1NiwtNjM1MTE5Njc5LC0xNT
-Q0MDUwNjksLTEzNjEzNzE0MjUsLTcwNDg5NTEzNCwzNzEwMDA1
-MTcsMjA0MTU1NzQwMCwxMjYxMjU5MjM2LC05MzkzMTg2ODQsLT
-IxMTY0NzQ1MjAsLTE5MjE5NzA0OTYsMTE1NTA4NjY5MiwxNTcw
-MzMzODYwLC0yODI1NjA1NjgsLTY2MzkwNjksNzcyNTMyNDIzLD
-M3NjE5ODEwMiwtNjc1ODQ3ODkzLDEyOTA4NTI1NCwtNDc2NjMz
-MzY4XX0=
+eyJoaXN0b3J5IjpbMTQ4MzMyOTAzNSwxNDgyNDAyMjU2LC02Mz
+UxMTk2NzksLTE1NDQwNTA2OSwtMTM2MTM3MTQyNSwtNzA0ODk1
+MTM0LDM3MTAwMDUxNywyMDQxNTU3NDAwLDEyNjEyNTkyMzYsLT
+kzOTMxODY4NCwtMjExNjQ3NDUyMCwtMTkyMTk3MDQ5NiwxMTU1
+MDg2NjkyLDE1NzAzMzM4NjAsLTI4MjU2MDU2OCwtNjYzOTA2OS
+w3NzI1MzI0MjMsMzc2MTk4MTAyLC02NzU4NDc4OTMsMTI5MDg1
+MjU0XX0=
 -->
