@@ -1,18 +1,18 @@
 # Lecture 7: Raft (2)
 
-## The Raft log (Lab 2B)
+## The Raft log (Lab 2B) - I skipped the video
 
-### As long as the leader stays up:
+### As long as the leader stays up
   - clients only interact with the leader
   - clients can't see follower states or logs
 
-things get interesting when changing leaders
-  e.g. after the old leader fails
-  how to change leaders without anomalies?
-    diverging replicas, missing operations, repeated operations, &c
+### things get interesting when changing leaders
+ - e.g. after the old leader fails
+ - how to change leaders without anomalies?
+   - diverging replicas, missing operations, repeated operations, &c
 
-what do we want to ensure?
-  if any server executes a given command in a log entry,
+### what do we want to ensure?
+- if any server executes a given command in a log entry,
     then no server executes something else for that log entry
   (Figure 3's State Machine Safety)
   why? if the servers disagree on the operations, then a
@@ -474,6 +474,5 @@ in practice, people are often (but not always) willing to live with stale
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDEzNjI4MzMsLTIwODczMTY2MjJdfQ
-==
+eyJoaXN0b3J5IjpbMTUzNjUyMDkxOSwtMjA4NzMxNjYyMl19
 -->
