@@ -13,11 +13,11 @@
 
 ### what do we want to ensure?
 - if any server executes a given command in a log entry,
-    then no server executes something else for that log entry
+   - then no server executes something else for that log entry
   (Figure 3's State Machine Safety)
   why? if the servers disagree on the operations, then a
     change of leader might change the client-visible state,
-    which violates our goal of mimicing a single server.
+    which violates our goal of mimicking a single server.
   example:
     S1: put(k1,v1) | put(k1,v2) 
     S2: put(k1,v1) | put(k2,x) 
@@ -474,5 +474,6 @@ in practice, people are often (but not always) willing to live with stale
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzNjUyMDkxOSwtMjA4NzMxNjYyMl19
+eyJoaXN0b3J5IjpbLTY5MjIwMjEzNywxNTM2NTIwOTE5LC0yMD
+g3MzE2NjIyXX0=
 -->
