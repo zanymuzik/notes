@@ -1,6 +1,6 @@
-# Lecture 7: Raft (2)
+# Lecture 7: Raft (2) - skipped
 
-## The Raft log (Lab 2B) - I skipped the video
+## The Raft log (Lab 2B)
 
 ### As long as the leader stays up
   - clients only interact with the leader
@@ -123,9 +123,9 @@ how to roll back quickly
   Case 3 (follower's log is too short):
     nextIndex = XLen
 
-*** topic: persistence (Lab 2C)
+## Persistence (Lab 2C)
 
-what would we like to happen after a server crashes?
+### what would we like to happen after a server crashes?
   Raft can continue with one missing server
     but failed server must be repaired soon to avoid dipping below a majority
   two strategies:
@@ -474,6 +474,6 @@ in practice, people are often (but not always) willing to live with stale
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5MjIwMjEzNywxNTM2NTIwOTE5LC0yMD
-g3MzE2NjIyXX0=
+eyJoaXN0b3J5IjpbOTgyNTEzNjg0LDE1MzY1MjA5MTksLTIwOD
+czMTY2MjJdfQ==
 -->
