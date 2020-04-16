@@ -1,5 +1,10 @@
 # Lecture 6: Raft (1)
 
+
+Leader Election 
+Log replication (consensus)
+
+
 ## Raft elections and log handling
 
 - A pattern in the fault-tolerant systems pattern
@@ -242,11 +247,11 @@ S3-->>S1: Reply2
 - but a minority may accept old server's AppendEntries
     - so logs may diverge at end of old term
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjEzNzE0MjUsLTcwNDg5NTEzNCwzNz
-EwMDA1MTcsMjA0MTU1NzQwMCwxMjYxMjU5MjM2LC05MzkzMTg2
-ODQsLTIxMTY0NzQ1MjAsLTE5MjE5NzA0OTYsMTE1NTA4NjY5Mi
-wxNTcwMzMzODYwLC0yODI1NjA1NjgsLTY2MzkwNjksNzcyNTMy
-NDIzLDM3NjE5ODEwMiwtNjc1ODQ3ODkzLDEyOTA4NTI1NCwtND
-c2NjMzMzY4LDE3Njk4MDY4NzEsLTUyNTA1NTUyOSwyNjI1MzQ3
-OThdfQ==
+eyJoaXN0b3J5IjpbLTE1NDQwNTA2OSwtMTM2MTM3MTQyNSwtNz
+A0ODk1MTM0LDM3MTAwMDUxNywyMDQxNTU3NDAwLDEyNjEyNTky
+MzYsLTkzOTMxODY4NCwtMjExNjQ3NDUyMCwtMTkyMTk3MDQ5Ni
+wxMTU1MDg2NjkyLDE1NzAzMzM4NjAsLTI4MjU2MDU2OCwtNjYz
+OTA2OSw3NzI1MzI0MjMsMzc2MTk4MTAyLC02NzU4NDc4OTMsMT
+I5MDg1MjU0LC00NzY2MzMzNjgsMTc2OTgwNjg3MSwtNTI1MDU1
+NTI5XX0=
 -->
