@@ -3,8 +3,8 @@
 ### TL;DR
 - Distributed Consensus
 - Like Paxos, but uses leader election
-- [Decent explanation]
-- (http://thesecretlivesofdata.com/raft/) 
+- [wikipedia](https://en.wikipedia.org/wiki/Raft_(computer_science))
+- [visualization](http://thesecretlivesofdata.com/raft/) 
 - Leader Election - based on majority vote
 	- Election Timeout - timeout before leader election happens
 	- Heartbeat timeout (only from the leader) - to ack the presence of a leader (using AppendEntries)
@@ -252,8 +252,9 @@ S3-->>S1: Reply2
 - thus no split brain
 - but a minority may accept old server's AppendEntries
     - so logs may diverge at end of old term
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4MzMyOTAzNSwxNDgyNDAyMjU2LC02Mz
+eyJoaXN0b3J5IjpbLTQ1NjU3NTc4MSwxNDgyNDAyMjU2LC02Mz
 UxMTk2NzksLTE1NDQwNTA2OSwtMTM2MTM3MTQyNSwtNzA0ODk1
 MTM0LDM3MTAwMDUxNywyMDQxNTU3NDAwLDEyNjEyNTkyMzYsLT
 kzOTMxODY4NCwtMjExNjQ3NDUyMCwtMTkyMTk3MDQ5NiwxMTU1
