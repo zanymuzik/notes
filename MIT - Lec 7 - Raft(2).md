@@ -2,9 +2,9 @@
 
 ## The Raft log (Lab 2B)
 
-as long as the leader stays up:
-  clients only interact with the leader
-  clients can't see follower states or logs
+### As long as the leader stays up:
+  - clients only interact with the leader
+  - clients can't see follower states or logs
 
 things get interesting when changing leaders
   e.g. after the old leader fails
@@ -474,5 +474,6 @@ in practice, people are often (but not always) willing to live with stale
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODczMTY2MjJdfQ==
+eyJoaXN0b3J5IjpbLTEwNDEzNjI4MzMsLTIwODczMTY2MjJdfQ
+==
 -->
