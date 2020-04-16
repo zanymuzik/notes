@@ -1,8 +1,11 @@
 # Lecture 6: Raft (1)
 
-Disctibuted Con
-Leader Election 
-Log replication (consensus)
+### TL;DR
+- Distributed Consensus
+- Like Paxos, but uses leader election
+
+- Leader Election 
+- Log replication (consensus on an update before it gets committed)
 
 
 ## Raft elections and log handling
@@ -247,7 +250,7 @@ S3-->>S1: Reply2
 - but a minority may accept old server's AppendEntries
     - so logs may diverge at end of old term
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwMTcwMzA4MywtMTU0NDA1MDY5LC0xMz
+eyJoaXN0b3J5IjpbMTA5MTQ1MjQwNCwtMTU0NDA1MDY5LC0xMz
 YxMzcxNDI1LC03MDQ4OTUxMzQsMzcxMDAwNTE3LDIwNDE1NTc0
 MDAsMTI2MTI1OTIzNiwtOTM5MzE4Njg0LC0yMTE2NDc0NTIwLC
 0xOTIxOTcwNDk2LDExNTUwODY2OTIsMTU3MDMzMzg2MCwtMjgy
