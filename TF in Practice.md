@@ -91,7 +91,7 @@ model.fit(..., callbacks=[callbacks])
 [Ex 1](https://colab.research.google.com/github/lmoroney/dlaicourse/blob/master/Course%201%20-%20Part%204%20-%20Lesson%202%20-%20Notebook.ipynb#scrollTo=rquQqIx4AaGR) - What are the numbers?
 A - It is the probability that each item is one of the 10 class (and using softmax, we choose the highest probability)
 
-Ex 2
+[Ex 2](https://colab.research.google.com/github/lmoroney/dlaicourse/blob/master/Course%201%20-%20Part%204%20-%20Lesson%202%20-%20Notebook.ipynb#scrollTo=OgQSIfDSOWv6) Impact of la
 
 ## [Week 3](https://www.coursera.org/learn/introduction-tensorflow/home/week/3)
 
@@ -111,11 +111,11 @@ the size of image is smaller in the layers because of conv-layers window
 
 [Examples of filters](https://lodev.org/cgtutor/filtering.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Nzg0OTQ1MjUsLTU1NzI1OTA3Myw3OT
-Y5NjE1MjIsLTExMDE5NjIxMTYsLTEwMjUzMjI1ODEsLTE3NjQ0
-NDkzMDIsNjExODY0MjQ4LDcyMDEzMzU1MCwzNTgxODM3NjgsLT
-E4NTQ2NTM0NzEsMTczNTAxNjgwMyw2OTIzMjQwNDQsMTU3MzYx
-Njc0LDIxMjU1MzgxOTYsMTU4MjM1MDA1NCwtMTE5NjI3MzY1NS
-w1NDUyOTY1OTgsLTY1NTk5MzYwNiwtMjEwMzEyMTI5MCwtMTEx
-NDY4NTQwN119
+eyJoaXN0b3J5IjpbLTg2MDM1NTk4MywtNTU3MjU5MDczLDc5Nj
+k2MTUyMiwtMTEwMTk2MjExNiwtMTAyNTMyMjU4MSwtMTc2NDQ0
+OTMwMiw2MTE4NjQyNDgsNzIwMTMzNTUwLDM1ODE4Mzc2OCwtMT
+g1NDY1MzQ3MSwxNzM1MDE2ODAzLDY5MjMyNDA0NCwxNTczNjE2
+NzQsMjEyNTUzODE5NiwxNTgyMzUwMDU0LC0xMTk2MjczNjU1LD
+U0NTI5NjU5OCwtNjU1OTkzNjA2LC0yMTAzMTIxMjkwLC0xMTE0
+Njg1NDA3XX0=
 -->
