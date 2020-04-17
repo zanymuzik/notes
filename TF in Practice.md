@@ -92,7 +92,9 @@ model.fit(..., callbacks=[callbacks])
 A - It is the probability that each item is one of the 10 class (and using softmax, we choose the highest probability)
 
 [Ex 2](https://colab.research.google.com/github/lmoroney/dlaicourse/blob/master/Course%201%20-%20Part%204%20-%20Lesson%202%20-%20Notebook.ipynb#scrollTo=OgQSIfDSOWv6) Impact of larger neurons in the hidden layer(512)?
-A- More neurons = slower (and more accurate) training; till an extend 
+A- More neurons = slower (and more accurate) training; till an extend.
+
+[Ex 5](https://colab.research.google.com/github/lmoroney/dlaicourse/blob/master/Course%201%20-%20Part%204%20-%20Lesson%202%20-%20Notebook.ipynb#scrollTo=-0lF5MuvSuZF) What is the affect of adding additional hidden layer?
 
 ## [Week 3](https://www.coursera.org/learn/introduction-tensorflow/home/week/3)
 
@@ -112,11 +114,11 @@ the size of image is smaller in the layers because of conv-layers window
 
 [Examples of filters](https://lodev.org/cgtutor/filtering.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDM2NjU3MTAsLTU1NzI1OTA3Myw3OT
-Y5NjE1MjIsLTExMDE5NjIxMTYsLTEwMjUzMjI1ODEsLTE3NjQ0
-NDkzMDIsNjExODY0MjQ4LDcyMDEzMzU1MCwzNTgxODM3NjgsLT
-E4NTQ2NTM0NzEsMTczNTAxNjgwMyw2OTIzMjQwNDQsMTU3MzYx
-Njc0LDIxMjU1MzgxOTYsMTU4MjM1MDA1NCwtMTE5NjI3MzY1NS
-w1NDUyOTY1OTgsLTY1NTk5MzYwNiwtMjEwMzEyMTI5MCwtMTEx
-NDY4NTQwN119
+eyJoaXN0b3J5IjpbMjIwNDk1OTUzLC01NTcyNTkwNzMsNzk2OT
+YxNTIyLC0xMTAxOTYyMTE2LC0xMDI1MzIyNTgxLC0xNzY0NDQ5
+MzAyLDYxMTg2NDI0OCw3MjAxMzM1NTAsMzU4MTgzNzY4LC0xOD
+U0NjUzNDcxLDE3MzUwMTY4MDMsNjkyMzI0MDQ0LDE1NzM2MTY3
+NCwyMTI1NTM4MTk2LDE1ODIzNTAwNTQsLTExOTYyNzM2NTUsNT
+Q1Mjk2NTk4LC02NTU5OTM2MDYsLTIxMDMxMjEyOTAsLTExMTQ2
+ODU0MDddfQ==
 -->
