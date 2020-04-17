@@ -105,6 +105,9 @@ A - Usually more helpful but in this particular case, adding an additional layer
 - Convolutions are like filters to extract features from images
 - Pooling is compressing the result of convolution while reducing the image dimension
 
+> training_images=training_images.reshape(60000, 28, 28, 1)
+reshape the input
+
 > tf.keras.layers.Conv2D(num_conv, (3, 3), activation='relu', input_shape=(28, 28, 1))
 > tk.keras.layers.MaxPooling2D(2, 2)
 Stack the Conv2D and MaxPooling2D before the regular NN layers.
@@ -115,11 +118,11 @@ the size of image is smaller in the layers because of conv-layers window
 
 [Examples of filters](https://lodev.org/cgtutor/filtering.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzE2NDE5ODQsODIyODkyNTMwLC01NT
-cyNTkwNzMsNzk2OTYxNTIyLC0xMTAxOTYyMTE2LC0xMDI1MzIy
-NTgxLC0xNzY0NDQ5MzAyLDYxMTg2NDI0OCw3MjAxMzM1NTAsMz
-U4MTgzNzY4LC0xODU0NjUzNDcxLDE3MzUwMTY4MDMsNjkyMzI0
-MDQ0LDE1NzM2MTY3NCwyMTI1NTM4MTk2LDE1ODIzNTAwNTQsLT
-ExOTYyNzM2NTUsNTQ1Mjk2NTk4LC02NTU5OTM2MDYsLTIxMDMx
-MjEyOTBdfQ==
+eyJoaXN0b3J5IjpbMjQ0MzIxNzQ2LC0xMTMxNjQxOTg0LDgyMj
+g5MjUzMCwtNTU3MjU5MDczLDc5Njk2MTUyMiwtMTEwMTk2MjEx
+NiwtMTAyNTMyMjU4MSwtMTc2NDQ0OTMwMiw2MTE4NjQyNDgsNz
+IwMTMzNTUwLDM1ODE4Mzc2OCwtMTg1NDY1MzQ3MSwxNzM1MDE2
+ODAzLDY5MjMyNDA0NCwxNTczNjE2NzQsMjEyNTUzODE5NiwxNT
+gyMzUwMDU0LC0xMTk2MjczNjU1LDU0NTI5NjU5OCwtNjU1OTkz
+NjA2XX0=
 -->
