@@ -46,6 +46,9 @@ actual training of the model
 > model.predict([input])
 inference / find predicted values
 
+### Colab
+- Simple training 
+
 
 ## [Week 2](https://www.coursera.org/learn/introduction-tensorflow/home/week/2)
 
@@ -101,11 +104,11 @@ the size of image is smaller in the layers because of conv-layers window
 
 [Examples of filters](https://lodev.org/cgtutor/filtering.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk2OTYxNTIyLC0xMTAxOTYyMTE2LC0xMD
-I1MzIyNTgxLC0xNzY0NDQ5MzAyLDYxMTg2NDI0OCw3MjAxMzM1
-NTAsMzU4MTgzNzY4LC0xODU0NjUzNDcxLDE3MzUwMTY4MDMsNj
-kyMzI0MDQ0LDE1NzM2MTY3NCwyMTI1NTM4MTk2LDE1ODIzNTAw
-NTQsLTExOTYyNzM2NTUsNTQ1Mjk2NTk4LC02NTU5OTM2MDYsLT
-IxMDMxMjEyOTAsLTExMTQ2ODU0MDcsLTkwNTU0ODgyNyw3MzA5
-OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbMTAxOTk1ODAyOSw3OTY5NjE1MjIsLTExMD
+E5NjIxMTYsLTEwMjUzMjI1ODEsLTE3NjQ0NDkzMDIsNjExODY0
+MjQ4LDcyMDEzMzU1MCwzNTgxODM3NjgsLTE4NTQ2NTM0NzEsMT
+czNTAxNjgwMyw2OTIzMjQwNDQsMTU3MzYxNjc0LDIxMjU1Mzgx
+OTYsMTU4MjM1MDA1NCwtMTE5NjI3MzY1NSw1NDUyOTY1OTgsLT
+Y1NTk5MzYwNiwtMjEwMzEyMTI5MCwtMTExNDY4NTQwNywtOTA1
+NTQ4ODI3XX0=
 -->
