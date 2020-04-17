@@ -86,7 +86,7 @@ callbacks = myCallback()
 model.fit(..., callbacks=[callbacks])
 ```
 ### Colab Exporations
-- Simple NN (28x28 Flatten, 128 relu, 10 softmax) - no CNN
+> Simple NN (28x28 Flatten, 128 relu, 10 softmax) - no CNN
 
 [Ex 1](https://colab.research.google.com/github/lmoroney/dlaicourse/blob/master/Course%201%20-%20Part%204%20-%20Lesson%202%20-%20Notebook.ipynb#scrollTo=rquQqIx4AaGR) - What are the numbers?
 A - It is the probability that each item is one of the 10 class (and using softmax, we choose the highest probability)
@@ -121,11 +121,11 @@ the size of image is smaller in the layers because of conv-layers window
  ### Colab Exporations
 -  CNN = Conv(64 x (3,3)), MP(2,2), Conv(64 x (3,3)), MP(2,2), 28x28 Flatten, 128 relu, 10 softmax) - no CNN
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5MDI4ODg0MSwyNDQzMjE3NDYsLTExMz
-E2NDE5ODQsODIyODkyNTMwLC01NTcyNTkwNzMsNzk2OTYxNTIy
-LC0xMTAxOTYyMTE2LC0xMDI1MzIyNTgxLC0xNzY0NDQ5MzAyLD
-YxMTg2NDI0OCw3MjAxMzM1NTAsMzU4MTgzNzY4LC0xODU0NjUz
-NDcxLDE3MzUwMTY4MDMsNjkyMzI0MDQ0LDE1NzM2MTY3NCwyMT
-I1NTM4MTk2LDE1ODIzNTAwNTQsLTExOTYyNzM2NTUsNTQ1Mjk2
-NTk4XX0=
+eyJoaXN0b3J5IjpbLTUwMTExNjA4LC01OTAyODg4NDEsMjQ0Mz
+IxNzQ2LC0xMTMxNjQxOTg0LDgyMjg5MjUzMCwtNTU3MjU5MDcz
+LDc5Njk2MTUyMiwtMTEwMTk2MjExNiwtMTAyNTMyMjU4MSwtMT
+c2NDQ0OTMwMiw2MTE4NjQyNDgsNzIwMTMzNTUwLDM1ODE4Mzc2
+OCwtMTg1NDY1MzQ3MSwxNzM1MDE2ODAzLDY5MjMyNDA0NCwxNT
+czNjE2NzQsMjEyNTUzODE5NiwxNTgyMzUwMDU0LC0xMTk2Mjcz
+NjU1XX0=
 -->
