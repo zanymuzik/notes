@@ -85,10 +85,9 @@ def on_epoch_end(self, epoch, logs={}):
 callbacks = myCallback()
 model.fit(..., callbacks=[callbacks])
 ```
-### Colab
+### Colab Exporations
 - Simple NN (28x28 Flatten, 128 relu, 10 softmax) - no CNN
-- Exploration 
-	- Ex 1 - Wha
+- Ex 1 - Wha
 
 
 ## [Week 3](https://www.coursera.org/learn/introduction-tensorflow/home/week/3)
@@ -109,7 +108,7 @@ the size of image is smaller in the layers because of conv-layers window
 
 [Examples of filters](https://lodev.org/cgtutor/filtering.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTYwMjk2MzMsLTU1NzI1OTA3Myw3OT
+eyJoaXN0b3J5IjpbLTE1OTA5NzU4NDUsLTU1NzI1OTA3Myw3OT
 Y5NjE1MjIsLTExMDE5NjIxMTYsLTEwMjUzMjI1ODEsLTE3NjQ0
 NDkzMDIsNjExODY0MjQ4LDcyMDEzMzU1MCwzNTgxODM3NjgsLT
 E4NTQ2NTM0NzEsMTczNTAxNjgwMyw2OTIzMjQwNDQsMTU3MzYx
