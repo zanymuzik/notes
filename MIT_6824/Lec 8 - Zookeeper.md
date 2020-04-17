@@ -5,6 +5,9 @@ Reading: "ZooKeeper: wait-free coordination for internet-scale systems", Patrick
 Hunt, Mahadev Konar, Flavio P. Junqueira, Benjamin Reed.  Proceedings of the 2010
 USENIX Annual Technical Conference.
 
+[https://www.youtube.com/watch?v=gZj16chk0Ss](https://www.youtube.com/watch?v=gZj16chk0Ss)
+
+
 What questions does this paper shed light on?
   * Can we have coordination as a stand-alone general-purpose service?
     What should the API look like?
@@ -271,5 +274,5 @@ References:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3Mzc3MTUwMF19
+eyJoaXN0b3J5IjpbLTEwNjIzMTA5MTcsMTM3Mzc3MTUwMF19
 -->
