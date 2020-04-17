@@ -119,13 +119,13 @@ the size of image is smaller in the layers because of conv-layers window
 [Examples of filters](https://lodev.org/cgtutor/filtering.html)
 
  ### Colab Exporations
--  CNN = Conv(64 x (3,3)), MP(2,2), Conv(64 x (3,3)), MP(2,2), 28x28 Flatten, 128 relu, 10 softmax) - no CNN
+> CNN = Conv(64 x (3,3)), MP(2,2), Conv(64 x (3,3)), MP(2,2),  Flatten, Dense(128) + relu, Dense(10) + softmax
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwMTExNjA4LC01OTAyODg4NDEsMjQ0Mz
-IxNzQ2LC0xMTMxNjQxOTg0LDgyMjg5MjUzMCwtNTU3MjU5MDcz
-LDc5Njk2MTUyMiwtMTEwMTk2MjExNiwtMTAyNTMyMjU4MSwtMT
-c2NDQ0OTMwMiw2MTE4NjQyNDgsNzIwMTMzNTUwLDM1ODE4Mzc2
-OCwtMTg1NDY1MzQ3MSwxNzM1MDE2ODAzLDY5MjMyNDA0NCwxNT
-czNjE2NzQsMjEyNTUzODE5NiwxNTgyMzUwMDU0LC0xMTk2Mjcz
-NjU1XX0=
+eyJoaXN0b3J5IjpbMTI0MDU1MTU3LC01MDExMTYwOCwtNTkwMj
+g4ODQxLDI0NDMyMTc0NiwtMTEzMTY0MTk4NCw4MjI4OTI1MzAs
+LTU1NzI1OTA3Myw3OTY5NjE1MjIsLTExMDE5NjIxMTYsLTEwMj
+UzMjI1ODEsLTE3NjQ0NDkzMDIsNjExODY0MjQ4LDcyMDEzMzU1
+MCwzNTgxODM3NjgsLTE4NTQ2NTM0NzEsMTczNTAxNjgwMyw2OT
+IzMjQwNDQsMTU3MzYxNjc0LDIxMjU1MzgxOTYsMTU4MjM1MDA1
+NF19
 -->
