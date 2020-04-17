@@ -46,11 +46,8 @@ actual training of the model
 > model.predict([input])
 inference / find predicted values
 
-> model.evaluate(
-
-### Colab
-- Simple NN (28x28 Flatten, 128 relu, 10 softmax) - no CNN
-- Exploration 
+> model.evaluate(test_images, test_labels)
+evaluate the test set
 
 
 ## [Week 2](https://www.coursera.org/learn/introduction-tensorflow/home/week/2)
@@ -88,6 +85,10 @@ def on_epoch_end(self, epoch, logs={}):
 callbacks = myCallback()
 model.fit(..., callbacks=[callbacks])
 ```
+### Colab
+- Simple NN (28x28 Flatten, 128 relu, 10 softmax) - no CNN
+- Exploration 
+
 
 ## [Week 3](https://www.coursera.org/learn/introduction-tensorflow/home/week/3)
 
@@ -107,11 +108,11 @@ the size of image is smaller in the layers because of conv-layers window
 
 [Examples of filters](https://lodev.org/cgtutor/filtering.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1ODkwNzAyNSw3OTY5NjE1MjIsLTExMD
-E5NjIxMTYsLTEwMjUzMjI1ODEsLTE3NjQ0NDkzMDIsNjExODY0
-MjQ4LDcyMDEzMzU1MCwzNTgxODM3NjgsLTE4NTQ2NTM0NzEsMT
-czNTAxNjgwMyw2OTIzMjQwNDQsMTU3MzYxNjc0LDIxMjU1Mzgx
-OTYsMTU4MjM1MDA1NCwtMTE5NjI3MzY1NSw1NDUyOTY1OTgsLT
-Y1NTk5MzYwNiwtMjEwMzEyMTI5MCwtMTExNDY4NTQwNywtOTA1
-NTQ4ODI3XX0=
+eyJoaXN0b3J5IjpbLTEyNDY4OTcxMjMsNzk2OTYxNTIyLC0xMT
+AxOTYyMTE2LC0xMDI1MzIyNTgxLC0xNzY0NDQ5MzAyLDYxMTg2
+NDI0OCw3MjAxMzM1NTAsMzU4MTgzNzY4LC0xODU0NjUzNDcxLD
+E3MzUwMTY4MDMsNjkyMzI0MDQ0LDE1NzM2MTY3NCwyMTI1NTM4
+MTk2LDE1ODIzNTAwNTQsLTExOTYyNzM2NTUsNTQ1Mjk2NTk4LC
+02NTU5OTM2MDYsLTIxMDMxMjEyOTAsLTExMTQ2ODU0MDcsLTkw
+NTU0ODgyN119
 -->
