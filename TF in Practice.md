@@ -120,13 +120,13 @@ the size of image is smaller in the layers because of conv-layers window
 
  ### Colab Exporations
 > CNN = Conv(64 x (3,3)), MP(2,2), Conv(64 x (3,3)), MP(2,2),  Flatten, Dense(128) + relu, Dense(10) + softmax
-Ex 1
+Ex 1 - More training might lead to smaller loss with training set but not with validation set (
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2ODg5NTE2OSwxMjQwNTUxNTcsLTUwMT
-ExNjA4LC01OTAyODg4NDEsMjQ0MzIxNzQ2LC0xMTMxNjQxOTg0
-LDgyMjg5MjUzMCwtNTU3MjU5MDczLDc5Njk2MTUyMiwtMTEwMT
-k2MjExNiwtMTAyNTMyMjU4MSwtMTc2NDQ0OTMwMiw2MTE4NjQy
-NDgsNzIwMTMzNTUwLDM1ODE4Mzc2OCwtMTg1NDY1MzQ3MSwxNz
-M1MDE2ODAzLDY5MjMyNDA0NCwxNTczNjE2NzQsMjEyNTUzODE5
-Nl19
+eyJoaXN0b3J5IjpbMjQ2MjY3NzE5LDEyNDA1NTE1NywtNTAxMT
+E2MDgsLTU5MDI4ODg0MSwyNDQzMjE3NDYsLTExMzE2NDE5ODQs
+ODIyODkyNTMwLC01NTcyNTkwNzMsNzk2OTYxNTIyLC0xMTAxOT
+YyMTE2LC0xMDI1MzIyNTgxLC0xNzY0NDQ5MzAyLDYxMTg2NDI0
+OCw3MjAxMzM1NTAsMzU4MTgzNzY4LC0xODU0NjUzNDcxLDE3Mz
+UwMTY4MDMsNjkyMzI0MDQ0LDE1NzM2MTY3NCwyMTI1NTM4MTk2
+XX0=
 -->
