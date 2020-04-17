@@ -87,8 +87,11 @@ model.fit(..., callbacks=[callbacks])
 ```
 ### Colab Exporations
 - Simple NN (28x28 Flatten, 128 relu, 10 softmax) - no CNN
-- [Ex 1](https://colab.research.google.com/github/lmoroney/dlaicourse/blob/master/Course%201%20-%20Part%204%20-%20Lesson%202%20-%20Notebook.ipynb#scrollTo=rquQqIx4AaGR) - What are the numbers?
-- A - It is the probability that each item is one of the 10 class (and using softmax, we choose the highest probability)
+
+>
+>
+[Ex 1](https://colab.research.google.com/github/lmoroney/dlaicourse/blob/master/Course%201%20-%20Part%204%20-%20Lesson%202%20-%20Notebook.ipynb#scrollTo=rquQqIx4AaGR) - What are the numbers?
+A - It is the probability that each item is one of the 10 class (and using softmax, we choose the highest probability)
 
 
 ## [Week 3](https://www.coursera.org/learn/introduction-tensorflow/home/week/3)
@@ -109,7 +112,7 @@ the size of image is smaller in the layers because of conv-layers window
 
 [Examples of filters](https://lodev.org/cgtutor/filtering.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyOTE5MTk0MiwtNTU3MjU5MDczLDc5Nj
+eyJoaXN0b3J5IjpbMjA5Mjk1NjY5OCwtNTU3MjU5MDczLDc5Nj
 k2MTUyMiwtMTEwMTk2MjExNiwtMTAyNTMyMjU4MSwtMTc2NDQ0
 OTMwMiw2MTE4NjQyNDgsNzIwMTMzNTUwLDM1ODE4Mzc2OCwtMT
 g1NDY1MzQ3MSwxNzM1MDE2ODAzLDY5MjMyNDA0NCwxNTczNjE2
