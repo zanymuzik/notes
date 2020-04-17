@@ -47,7 +47,8 @@ actual training of the model
 inference / find predicted values
 
 ### Colab
-- Simple training 
+- Simple (28x28, 128, 10) NN - no CNN
+- 
 
 
 ## [Week 2](https://www.coursera.org/learn/introduction-tensorflow/home/week/2)
@@ -104,11 +105,11 @@ the size of image is smaller in the layers because of conv-layers window
 
 [Examples of filters](https://lodev.org/cgtutor/filtering.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxOTk1ODAyOSw3OTY5NjE1MjIsLTExMD
-E5NjIxMTYsLTEwMjUzMjI1ODEsLTE3NjQ0NDkzMDIsNjExODY0
-MjQ4LDcyMDEzMzU1MCwzNTgxODM3NjgsLTE4NTQ2NTM0NzEsMT
-czNTAxNjgwMyw2OTIzMjQwNDQsMTU3MzYxNjc0LDIxMjU1Mzgx
-OTYsMTU4MjM1MDA1NCwtMTE5NjI3MzY1NSw1NDUyOTY1OTgsLT
-Y1NTk5MzYwNiwtMjEwMzEyMTI5MCwtMTExNDY4NTQwNywtOTA1
-NTQ4ODI3XX0=
+eyJoaXN0b3J5IjpbLTE1OTAxNTU4NDYsNzk2OTYxNTIyLC0xMT
+AxOTYyMTE2LC0xMDI1MzIyNTgxLC0xNzY0NDQ5MzAyLDYxMTg2
+NDI0OCw3MjAxMzM1NTAsMzU4MTgzNzY4LC0xODU0NjUzNDcxLD
+E3MzUwMTY4MDMsNjkyMzI0MDQ0LDE1NzM2MTY3NCwyMTI1NTM4
+MTk2LDE1ODIzNTAwNTQsLTExOTYyNzM2NTUsNTQ1Mjk2NTk4LC
+02NTU5OTM2MDYsLTIxMDMxMjEyOTAsLTExMTQ2ODU0MDcsLTkw
+NTU0ODgyN119
 -->
