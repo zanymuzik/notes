@@ -95,6 +95,7 @@ A - It is the probability that each item is one of the 10 class (and using softm
 A- More neurons = slower (and more accurate) training; till an extend.
 
 [Ex 5](https://colab.research.google.com/github/lmoroney/dlaicourse/blob/master/Course%201%20-%20Part%204%20-%20Lesson%202%20-%20Notebook.ipynb#scrollTo=-0lF5MuvSuZF) What is the affect of adding additional hidden layer?
+A - Usually mor eh
 
 ## [Week 3](https://www.coursera.org/learn/introduction-tensorflow/home/week/3)
 
@@ -114,11 +115,11 @@ the size of image is smaller in the layers because of conv-layers window
 
 [Examples of filters](https://lodev.org/cgtutor/filtering.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjIwNDk1OTUzLC01NTcyNTkwNzMsNzk2OT
-YxNTIyLC0xMTAxOTYyMTE2LC0xMDI1MzIyNTgxLC0xNzY0NDQ5
-MzAyLDYxMTg2NDI0OCw3MjAxMzM1NTAsMzU4MTgzNzY4LC0xOD
-U0NjUzNDcxLDE3MzUwMTY4MDMsNjkyMzI0MDQ0LDE1NzM2MTY3
-NCwyMTI1NTM4MTk2LDE1ODIzNTAwNTQsLTExOTYyNzM2NTUsNT
-Q1Mjk2NTk4LC02NTU5OTM2MDYsLTIxMDMxMjEyOTAsLTExMTQ2
-ODU0MDddfQ==
+eyJoaXN0b3J5IjpbLTIzNTY0NDU2NywtNTU3MjU5MDczLDc5Nj
+k2MTUyMiwtMTEwMTk2MjExNiwtMTAyNTMyMjU4MSwtMTc2NDQ0
+OTMwMiw2MTE4NjQyNDgsNzIwMTMzNTUwLDM1ODE4Mzc2OCwtMT
+g1NDY1MzQ3MSwxNzM1MDE2ODAzLDY5MjMyNDA0NCwxNTczNjE2
+NzQsMjEyNTUzODE5NiwxNTgyMzUwMDU0LC0xMTk2MjczNjU1LD
+U0NTI5NjU5OCwtNjU1OTkzNjA2LC0yMTAzMTIxMjkwLC0xMTE0
+Njg1NDA3XX0=
 -->
