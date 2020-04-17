@@ -2,7 +2,8 @@
 ## Lecture 8: Zookeeper Case Study
 
 Reading: "ZooKeeper: wait-free coordination for internet-scale systems", Patrick
-Hunt, Mahadev Konar, Flavio P. Junqueira, Benjamin Reed.  Proceedings of the 2010
+Hunt, Mahadev Konar, Flavio P. Junqueira, Benjamin Reed.  
+Proceedings of the 2010
 USENIX Annual Technical Conference.
 
 [YT Overview](https://www.youtube.com/watch?v=gZj16chk0Ss)
@@ -274,6 +275,6 @@ References:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjkzMTM2MDQ3LC0xMDYyMzEwOTE3LDEzNz
-M3NzE1MDBdfQ==
+eyJoaXN0b3J5IjpbLTE0NjY1OTY5MjcsMjkzMTM2MDQ3LC0xMD
+YyMzEwOTE3LDEzNzM3NzE1MDBdfQ==
 -->
