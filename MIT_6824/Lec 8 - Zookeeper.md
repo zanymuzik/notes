@@ -4,7 +4,7 @@
 ### TL; DR
 [YT Overview](https://www.youtube.com/watch?v=gZj16chk0Ss)
 
-- Simple registry to reme
+- Simple registry to store 
 
 Reading: "ZooKeeper: wait-free coordination for internet-scale systems", Patrick Hunt, Mahadev Konar, Flavio P. Junqueira, Benjamin Reed.  
 Proceedings of the 2010 USENIX Annual Technical Conference.
@@ -276,7 +276,7 @@ References:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3MjA5MDEzNywxMTE2MjMyOTgzLC0xND
-Y2NTk2OTI3LDI5MzEzNjA0NywtMTA2MjMxMDkxNywxMzczNzcx
-NTAwXX0=
+eyJoaXN0b3J5IjpbNjUwMjcyOTQxLDE3NzIwOTAxMzcsMTExNj
+IzMjk4MywtMTQ2NjU5NjkyNywyOTMxMzYwNDcsLTEwNjIzMTA5
+MTcsMTM3Mzc3MTUwMF19
 -->
