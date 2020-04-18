@@ -1,10 +1,13 @@
 
 ## Lecture 8: Zookeeper Case Study
 
+### TL; DR
+[YT Overview](https://www.youtube.com/watch?v=gZj16chk0Ss)
+
+- Simple registry to reme
+
 Reading: "ZooKeeper: wait-free coordination for internet-scale systems", Patrick Hunt, Mahadev Konar, Flavio P. Junqueira, Benjamin Reed.  
 Proceedings of the 2010 USENIX Annual Technical Conference.
-
-[YT Overview](https://www.youtube.com/watch?v=gZj16chk0Ss)
 
 
 What questions does this paper shed light on?
@@ -273,6 +276,7 @@ References:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExNjIzMjk4MywtMTQ2NjU5NjkyNywyOT
-MxMzYwNDcsLTEwNjIzMTA5MTcsMTM3Mzc3MTUwMF19
+eyJoaXN0b3J5IjpbMTc3MjA5MDEzNywxMTE2MjMyOTgzLC0xND
+Y2NTk2OTI3LDI5MzEzNjA0NywtMTA2MjMxMDkxNywxMzczNzcx
+NTAwXX0=
 -->
