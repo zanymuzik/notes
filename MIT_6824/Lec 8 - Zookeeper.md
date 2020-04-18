@@ -267,15 +267,14 @@ Topics not covered:
   duplicate client request detection
 
 References:
-  https://zookeeper.apache.org/doc/r3.4.8/api/org/apache/zookeeper/ZooKeeper.html
-  ZAB: http://dl.acm.org/citation.cfm?id=2056409
+ - [Apache doc](https://zookeeper.apache.org/doc/r3.4.8/api/org/apache/zookeeper/ZooKeeper.html)
+- [ZAB: http://dl.acm.org/citation.cfm?id=2056409
   https://zookeeper.apache.org/
-  https://cs.brown.edu/~mph/Herlihy91/p124-herlihy.pdf  (wait free, universal
-  objects, etc.)
+  https://cs.brown.edu/~mph/Herlihy91/p124-herlihy.pdf  (wait free, universal objects, etc.)
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzM1MTk2NTIsLTEwNTE2MDI0NzAsMT
-c3MjA5MDEzNywxMTE2MjMyOTgzLC0xNDY2NTk2OTI3LDI5MzEz
-NjA0NywtMTA2MjMxMDkxNywxMzczNzcxNTAwXX0=
+eyJoaXN0b3J5IjpbMjA1NDk2MjI1NCwtMTA1MTYwMjQ3MCwxNz
+cyMDkwMTM3LDExMTYyMzI5ODMsLTE0NjY1OTY5MjcsMjkzMTM2
+MDQ3LC0xMDYyMzEwOTE3LDEzNzM3NzE1MDBdfQ==
 -->
