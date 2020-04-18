@@ -11,20 +11,17 @@
 Reading: "ZooKeeper: wait-free coordination for internet-scale systems", Patrick Hunt, Mahadev Konar, Flavio P. Junqueira, Benjamin Reed.  
 Proceedings of the 2010 USENIX Annual Technical Conference.
 
+### Questions
+  - Can we have coordination as a stand-alone general-purpose service?
+    - What should the API look like?
+    - How can other distributed applications use it?
+  - We paid lots of money for Nx replica servers.
+    - Can we get Nx performance from them?
 
-What questions does this paper shed light on?
-  * Can we have coordination as a stand-alone general-purpose service?
-    What should the API look like?
-    How can other distributed applications use it?
-  * We paid lots of money for Nx replica servers.
-    Can we get Nx performance from them?
+-  ZooKeeper as some service replicated with a Raft-like scheme.
+  - [clients, leader/state/log, followers/state/log]
 
-First, performance.
-  For now, view ZooKeeper as some service replicated with a Raft-like scheme.
-  Much like Lab 3.
-  [clients, leader/state/log, followers/state/log]
-
-Does this replication arrangement get faster as we add more servers?
+### Does this replication arrangement get faster as we add more servers?
   Assume a busy system, lots of active clients.
   Writes probably get slower with more replicas!
     Since leader must send each write to growing # of followers.
@@ -278,7 +275,7 @@ References:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTE2MDI0NzAsMTc3MjA5MDEzNywxMT
-E2MjMyOTgzLC0xNDY2NTk2OTI3LDI5MzEzNjA0NywtMTA2MjMx
-MDkxNywxMzczNzcxNTAwXX0=
+eyJoaXN0b3J5IjpbLTE0MzM1MTk2NTIsLTEwNTE2MDI0NzAsMT
+c3MjA5MDEzNywxMTE2MjMyOTgzLC0xNDY2NTk2OTI3LDI5MzEz
+NjA0NywtMTA2MjMxMDkxNywxMzczNzcxNTAwXX0=
 -->
