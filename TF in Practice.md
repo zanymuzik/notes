@@ -1,3 +1,5 @@
+[https://www.coursera.org/specializations/tensorflow-in-practice](https://www.coursera.org/specializations/tensorflow-in-practice)
+
 # [Course 1 - Intro to Tensorflow](https://www.coursera.org/learn/introduction-tensorflow/home/welcome)
 
 ## [Week 1](https://www.coursera.org/learn/introduction-tensorflow/home/week/1)
@@ -184,11 +186,11 @@ verbose=2)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU4ODY5MzUsMTEyODc0Njc0LDE4OTU1Mj
-MzMzAsNjY4NzQyODk0LC0xMjQ3MTYzOSwtMTk1NTY0NjkzMyw5
-NzcxMDYwNTUsMTI2OTU0NTc2OSwxMjg3NDU1NjQsLTEzNzUwMz
-IxMTIsMTEyNDA0NDA3MSwtMTQxMTI4ODA1NSw5MzE4MTQwNSwy
-MDE1NTE0OTQwLDEyNTEyMjc3NDQsLTY1MTIzMzYzLDEyNDA1NT
-E1NywtNTAxMTE2MDgsLTU5MDI4ODg0MSwyNDQzMjE3NDZdfQ==
+eyJoaXN0b3J5IjpbLTk0MzQxNjMzMiw5NTg4NjkzNSwxMTI4Nz
+Q2NzQsMTg5NTUyMzMzMCw2Njg3NDI4OTQsLTEyNDcxNjM5LC0x
+OTU1NjQ2OTMzLDk3NzEwNjA1NSwxMjY5NTQ1NzY5LDEyODc0NT
+U2NCwtMTM3NTAzMjExMiwxMTI0MDQ0MDcxLC0xNDExMjg4MDU1
+LDkzMTgxNDA1LDIwMTU1MTQ5NDAsMTI1MTIyNzc0NCwtNjUxMj
+MzNjMsMTI0MDU1MTU3LC01MDExMTYwOCwtNTkwMjg4ODQxXX0=
 
 -->
