@@ -146,12 +146,19 @@ because we are using binary classifier
 > to specify learning rate
 
 > model.fit_generator(train_generator, 
+> steps_per_epoch=8,
+> epocs=15,
+> validation_data=validation_generator,
+> validation_steps=8,
+> verbose=2)
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTA5ODg5OTcsLTEzNzUwMzIxMTIsMT
-EyNDA0NDA3MSwtMTQxMTI4ODA1NSw5MzE4MTQwNSwyMDE1NTE0
-OTQwLDEyNTEyMjc3NDQsLTY1MTIzMzYzLDEyNDA1NTE1NywtNT
-AxMTE2MDgsLTU5MDI4ODg0MSwyNDQzMjE3NDYsLTExMzE2NDE5
-ODQsODIyODkyNTMwLC01NTcyNTkwNzMsNzk2OTYxNTIyLC0xMT
-AxOTYyMTE2LC0xMDI1MzIyNTgxLC0xNzY0NDQ5MzAyLDYxMTg2
-NDI0OF19
+eyJoaXN0b3J5IjpbMTI4NzQ1NTY0LC0xMzc1MDMyMTEyLDExMj
+QwNDQwNzEsLTE0MTEyODgwNTUsOTMxODE0MDUsMjAxNTUxNDk0
+MCwxMjUxMjI3NzQ0LC02NTEyMzM2MywxMjQwNTUxNTcsLTUwMT
+ExNjA4LC01OTAyODg4NDEsMjQ0MzIxNzQ2LC0xMTMxNjQxOTg0
+LDgyMjg5MjUzMCwtNTU3MjU5MDczLDc5Njk2MTUyMiwtMTEwMT
+k2MjExNiwtMTAyNTMyMjU4MSwtMTc2NDQ0OTMwMiw2MTE4NjQy
+NDhdfQ==
 -->
