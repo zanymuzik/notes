@@ -128,25 +128,23 @@ Ex 1 - More training might lead to smaller loss with training set but not with v
 - [No Validation](https://github.com/lmoroney/dlaicourse/blob/master/Course%201%20-%20Part%208%20-%20Lesson%202%20-%20Notebook.ipynb)
 - [With Validation](https://github.com/lmoroney/dlaicourse/blob/master/Course%201%20-%20Part%208%20-%20Lesson%203%20-%20Notebook.ipynb)
 - [Reduced complexity](https://github.com/lmoroney/dlaicourse/blob/master/Course%201%20-%20Part%208%20-%20Lesson%204%20-%20Notebook.ipynb)
-- 
+
 ### Non-uniform/complex images
 - different location of subject in the image
 - much cleaner data
 
 ### ImageGenerator in TF
-- Creates directory structures to classify images??
-- images need to be of same size
-- resized when they are loaded
+- Uses the directory structure to pick up labels
+- images need to be of same size (for the TF code) 
+- resized when they are loaded (done by ImageGenerator)
 
 ### Convnet Code
-- 3 layers of CNN 16 -> 32 -> 64 
+- 5 layers of CNN 16 -> 32 -> 64 ->64 -> 64
 - 3 channels in inputs (RGB)
 - Output is single-neuron with sigmoid
-	- could have used 2 with softmax
+	- could have used 2 neurons with softmax
 
 > model.compile(loss='binary_crossentropy',
-because we are using binary classifier
-
 > optimizer =RMSProp(lr=0.001)
 > to specify learning rate
 
@@ -174,11 +172,11 @@ because we are using binary classifier
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDk5MDIxNzAsLTE5NTU2NDY5MzMsOT
-c3MTA2MDU1LDEyNjk1NDU3NjksMTI4NzQ1NTY0LC0xMzc1MDMy
-MTEyLDExMjQwNDQwNzEsLTE0MTEyODgwNTUsOTMxODE0MDUsMj
-AxNTUxNDk0MCwxMjUxMjI3NzQ0LC02NTEyMzM2MywxMjQwNTUx
-NTcsLTUwMTExNjA4LC01OTAyODg4NDEsMjQ0MzIxNzQ2LC0xMT
-MxNjQxOTg0LDgyMjg5MjUzMCwtNTU3MjU5MDczLDc5Njk2MTUy
-Ml19
+eyJoaXN0b3J5IjpbMTcwMDMzODYwNywtMTk1NTY0NjkzMyw5Nz
+cxMDYwNTUsMTI2OTU0NTc2OSwxMjg3NDU1NjQsLTEzNzUwMzIx
+MTIsMTEyNDA0NDA3MSwtMTQxMTI4ODA1NSw5MzE4MTQwNSwyMD
+E1NTE0OTQwLDEyNTEyMjc3NDQsLTY1MTIzMzYzLDEyNDA1NTE1
+NywtNTAxMTE2MDgsLTU5MDI4ODg0MSwyNDQzMjE3NDYsLTExMz
+E2NDE5ODQsODIyODkyNTMwLC01NTcyNTkwNzMsNzk2OTYxNTIy
+XX0=
 -->
