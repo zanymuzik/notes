@@ -80,6 +80,7 @@ Hidden Layer
 class myCallback(keras.callbacks.Callback):
 def on_epoch_end(self, epoch, logs={}):
     if logs.get('loss') < 0.4:
+    
         self.model.stop_training = True
 
 callbacks = myCallback()
@@ -183,11 +184,11 @@ verbose=2)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyODc0Njc0LDE4OTU1MjMzMzAsNjY4Nz
-QyODk0LC0xMjQ3MTYzOSwtMTk1NTY0NjkzMyw5NzcxMDYwNTUs
-MTI2OTU0NTc2OSwxMjg3NDU1NjQsLTEzNzUwMzIxMTIsMTEyND
-A0NDA3MSwtMTQxMTI4ODA1NSw5MzE4MTQwNSwyMDE1NTE0OTQw
-LDEyNTEyMjc3NDQsLTY1MTIzMzYzLDEyNDA1NTE1NywtNTAxMT
-E2MDgsLTU5MDI4ODg0MSwyNDQzMjE3NDYsLTExMzE2NDE5ODRd
-fQ==
+eyJoaXN0b3J5IjpbOTA5MTY1MDI0LDExMjg3NDY3NCwxODk1NT
+IzMzMwLDY2ODc0Mjg5NCwtMTI0NzE2MzksLTE5NTU2NDY5MzMs
+OTc3MTA2MDU1LDEyNjk1NDU3NjksMTI4NzQ1NTY0LC0xMzc1MD
+MyMTEyLDExMjQwNDQwNzEsLTE0MTEyODgwNTUsOTMxODE0MDUs
+MjAxNTUxNDk0MCwxMjUxMjI3NzQ0LC02NTEyMzM2MywxMjQwNT
+UxNTcsLTUwMTExNjA4LC01OTAyODg4NDEsMjQ0MzIxNzQ2XX0=
+
 -->
