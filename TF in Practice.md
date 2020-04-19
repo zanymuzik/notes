@@ -148,13 +148,14 @@ Ex 1 - More training might lead to smaller loss with training set but not with v
 	- save value is num_images / batch_size so that every image is processed once in the epoch
 
 ### ConvNet Code
+
+- binary_crossentropy because we are using a binary classifier
+- RMSProp to specify learning rate
 ```
-model.compile(loss='binary_crossentropy',
+from tensorflow.keras.optimizers import RMSpropmodel.compile(loss='binary_crossentropy',
               optimizer=RMSprop(lr=0.001),
               metrics=['accuracy'])
 ```
-- because we are using binary classifier
-- RMSProp to specify learning rate
 
 ```
 # All images will be resized to 150x150
@@ -181,11 +182,11 @@ verbose=2)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwNTE1MzgyMSwtMTI0NzE2MzksLTE5NT
-U2NDY5MzMsOTc3MTA2MDU1LDEyNjk1NDU3NjksMTI4NzQ1NTY0
-LC0xMzc1MDMyMTEyLDExMjQwNDQwNzEsLTE0MTEyODgwNTUsOT
-MxODE0MDUsMjAxNTUxNDk0MCwxMjUxMjI3NzQ0LC02NTEyMzM2
-MywxMjQwNTUxNTcsLTUwMTExNjA4LC01OTAyODg4NDEsMjQ0Mz
-IxNzQ2LC0xMTMxNjQxOTg0LDgyMjg5MjUzMCwtNTU3MjU5MDcz
-XX0=
+eyJoaXN0b3J5IjpbLTEwMzcwNjM2NTIsLTEyNDcxNjM5LC0xOT
+U1NjQ2OTMzLDk3NzEwNjA1NSwxMjY5NTQ1NzY5LDEyODc0NTU2
+NCwtMTM3NTAzMjExMiwxMTI0MDQ0MDcxLC0xNDExMjg4MDU1LD
+kzMTgxNDA1LDIwMTU1MTQ5NDAsMTI1MTIyNzc0NCwtNjUxMjMz
+NjMsMTI0MDU1MTU3LC01MDExMTYwOCwtNTkwMjg4ODQxLDI0ND
+MyMTc0NiwtMTEzMTY0MTk4NCw4MjI4OTI1MzAsLTU1NzI1OTA3
+M119
 -->
