@@ -156,20 +156,23 @@ model.compile(loss='binary_crossentropy',
 - because we are using binary classifier
 - RMSProp to specify learning rate
 
-> train_datagen = ImageDataGenerator(rescale=1/255)
-> train_generator = train_datagen.flow_from_directory('/tmp/horse-or-human/', 
-> #This is the source directory for training images
-> target_size=(300, 300), # All images will be resized to 150x150
-> batch_size=128, 
-> #Since we use binary_crossentropy loss, we need binary labels
-> class_mode='binary')
+```
+# All images will be resized to 150x150
+train_datagen = ImageDataGenerator(rescale=1/255)
+train_generator = train_datagen.flow_from_directory('/tmp/horse-or-human/', 
+target_size=(300, 300), 
+batch_size=128, 
+class_mode='binary')
+```
 
-> model.fit_generator(train_generator, 
-> steps_per_epoch=8,
-> epocs=15,
-> validation_data=validation_generator,
-> validation_steps=8,
-> verbose=2)
+```
+model.fit_generator(train_generator, 
+steps_per_epoch=8,
+epocs=15,
+validation_data=validation_generator,
+validation_steps=8,
+verbose=2)
+```
 
 ###  Speed up (at cost of accuracy)
 - by reducing image size
@@ -178,11 +181,11 @@ model.compile(loss='binary_crossentropy',
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODU2MzQ5NzIsLTEyNDcxNjM5LC0xOT
-U1NjQ2OTMzLDk3NzEwNjA1NSwxMjY5NTQ1NzY5LDEyODc0NTU2
-NCwtMTM3NTAzMjExMiwxMTI0MDQ0MDcxLC0xNDExMjg4MDU1LD
-kzMTgxNDA1LDIwMTU1MTQ5NDAsMTI1MTIyNzc0NCwtNjUxMjMz
-NjMsMTI0MDU1MTU3LC01MDExMTYwOCwtNTkwMjg4ODQxLDI0ND
-MyMTc0NiwtMTEzMTY0MTk4NCw4MjI4OTI1MzAsLTU1NzI1OTA3
-M119
+eyJoaXN0b3J5IjpbLTUwNTE1MzgyMSwtMTI0NzE2MzksLTE5NT
+U2NDY5MzMsOTc3MTA2MDU1LDEyNjk1NDU3NjksMTI4NzQ1NTY0
+LC0xMzc1MDMyMTEyLDExMjQwNDQwNzEsLTE0MTEyODgwNTUsOT
+MxODE0MDUsMjAxNTUxNDk0MCwxMjUxMjI3NzQ0LC02NTEyMzM2
+MywxMjQwNTUxNTcsLTUwMTExNjA4LC01OTAyODg4NDEsMjQ0Mz
+IxNzQ2LC0xMTMxNjQxOTg0LDgyMjg5MjUzMCwtNTU3MjU5MDcz
+XX0=
 -->
