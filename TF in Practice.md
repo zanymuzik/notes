@@ -128,7 +128,7 @@ Ex 1 - More training might lead to smaller loss with training set but not with v
 - different location of subject in the image
 - much cleaner data
 
-### ImageGenerator in TF`````````````````
+### ImageGenerator in TF
 - Creates directory structures to classify images??
 - images need to be of same size
 - resized when they are loaded
@@ -145,8 +145,9 @@ because we are using binary classifier
 > optimizer =RMSProp(lr=0.001)
 > to specify learning rate
 
+> model.fit_generator(train_generator, 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODEzMjkzOTMsLTEzNzUwMzIxMTIsMT
+eyJoaXN0b3J5IjpbLTE0MTA5ODg5OTcsLTEzNzUwMzIxMTIsMT
 EyNDA0NDA3MSwtMTQxMTI4ODA1NSw5MzE4MTQwNSwyMDE1NTE0
 OTQwLDEyNTEyMjc3NDQsLTY1MTIzMzYzLDEyNDA1NTE1NywtNT
 AxMTE2MDgsLTU5MDI4ODg0MSwyNDQzMjE3NDYsLTExMzE2NDE5
