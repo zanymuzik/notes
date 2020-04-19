@@ -139,13 +139,18 @@ Ex 1 - More training might lead to smaller loss with training set but not with v
 - Output is single-neuron with sigmoid
 	- could have used 2 with softmax
 
-model
+> model.compile(loss='binary_crossentropy',
+because we are using binary classifier
+
+> optimizer =RMSProp(lr=0.001)
+> to specify learning rate
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1MDMyNDUzLC0xMzc1MDMyMTEyLDExMj
-QwNDQwNzEsLTE0MTEyODgwNTUsOTMxODE0MDUsMjAxNTUxNDk0
-MCwxMjUxMjI3NzQ0LC02NTEyMzM2MywxMjQwNTUxNTcsLTUwMT
-ExNjA4LC01OTAyODg4NDEsMjQ0MzIxNzQ2LC0xMTMxNjQxOTg0
-LDgyMjg5MjUzMCwtNTU3MjU5MDczLDc5Njk2MTUyMiwtMTEwMT
-k2MjExNiwtMTAyNTMyMjU4MSwtMTc2NDQ0OTMwMiw2MTE4NjQy
-NDhdfQ==
+eyJoaXN0b3J5IjpbLTE5ODEzMjkzOTMsLTEzNzUwMzIxMTIsMT
+EyNDA0NDA3MSwtMTQxMTI4ODA1NSw5MzE4MTQwNSwyMDE1NTE0
+OTQwLDEyNTEyMjc3NDQsLTY1MTIzMzYzLDEyNDA1NTE1NywtNT
+AxMTE2MDgsLTU5MDI4ODg0MSwyNDQzMjE3NDYsLTExMzE2NDE5
+ODQsODIyODkyNTMwLC01NTcyNTkwNzMsNzk2OTYxNTIyLC0xMT
+AxOTYyMTE2LC0xMDI1MzIyNTgxLC0xNzY0NDQ5MzAyLDYxMTg2
+NDI0OF19
 -->
