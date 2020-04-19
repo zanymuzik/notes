@@ -139,13 +139,13 @@ Ex 1 - More training might lead to smaller loss with training set but not with v
 - Output is single-neuron with sigmoid
 	- could have used 2 with softmax
 
-[https://github.com/lmoroney/dlaicourse/blob/master/Horse_or_Human_NoValidation.ipynb](https://github.com/lmoroney/dlaicourse/blob/master/Horse_or_Human_NoValidation.ipynb)
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyNDA0NDA3MSwtMTQxMTI4ODA1NSw5Mz
-E4MTQwNSwyMDE1NTE0OTQwLDEyNTEyMjc3NDQsLTY1MTIzMzYz
-LDEyNDA1NTE1NywtNTAxMTE2MDgsLTU5MDI4ODg0MSwyNDQzMj
-E3NDYsLTExMzE2NDE5ODQsODIyODkyNTMwLC01NTcyNTkwNzMs
-Nzk2OTYxNTIyLC0xMTAxOTYyMTE2LC0xMDI1MzIyNTgxLC0xNz
-Y0NDQ5MzAyLDYxMTg2NDI0OCw3MjAxMzM1NTAsMzU4MTgzNzY4
-XX0=
+eyJoaXN0b3J5IjpbLTEzNzUwMzIxMTIsMTEyNDA0NDA3MSwtMT
+QxMTI4ODA1NSw5MzE4MTQwNSwyMDE1NTE0OTQwLDEyNTEyMjc3
+NDQsLTY1MTIzMzYzLDEyNDA1NTE1NywtNTAxMTE2MDgsLTU5MD
+I4ODg0MSwyNDQzMjE3NDYsLTExMzE2NDE5ODQsODIyODkyNTMw
+LC01NTcyNTkwNzMsNzk2OTYxNTIyLC0xMTAxOTYyMTE2LC0xMD
+I1MzIyNTgxLC0xNzY0NDQ5MzAyLDYxMTg2NDI0OCw3MjAxMzM1
+NTBdfQ==
 -->
