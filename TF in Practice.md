@@ -129,9 +129,11 @@ Ex 1 - More training might lead to smaller loss with training set but not with v
 - much cleaner data
 
 ### ImageGenerator in TF
-- Creates dir
+- Creates directory structures to classify images??
+- images need to be of same size
+- resize
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2ODAyNTk3MywyMDE1NTE0OTQwLDEyNT
+eyJoaXN0b3J5IjpbMTAzNTM5MjkyNCwyMDE1NTE0OTQwLDEyNT
 EyMjc3NDQsLTY1MTIzMzYzLDEyNDA1NTE1NywtNTAxMTE2MDgs
 LTU5MDI4ODg0MSwyNDQzMjE3NDYsLTExMzE2NDE5ODQsODIyOD
 kyNTMwLC01NTcyNTkwNzMsNzk2OTYxNTIyLC0xMTAxOTYyMTE2
