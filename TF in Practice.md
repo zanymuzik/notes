@@ -143,7 +143,9 @@ Ex 1 - More training might lead to smaller loss with training set but not with v
 - 3 channels in inputs (RGB)
 - Output is single-neuron with sigmoid
 	- could have used 2 neurons with softmax
-	- 
+- batch_size : to handle multiple input images together
+- steps_per_epoch : number of steps to train in an epoch
+	- save value is num_images / 
 
 > model.compile(loss='binary_crossentropy',
 - because we are using binary classifier
@@ -173,7 +175,7 @@ Ex 1 - More training might lead to smaller loss with training set but not with v
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4MDMyNjI5OSwtMTk1NTY0NjkzMyw5Nz
+eyJoaXN0b3J5IjpbMTQzODAwMzg4MCwtMTk1NTY0NjkzMyw5Nz
 cxMDYwNTUsMTI2OTU0NTc2OSwxMjg3NDU1NjQsLTEzNzUwMzIx
 MTIsMTEyNDA0NDA3MSwtMTQxMTI4ODA1NSw5MzE4MTQwNSwyMD
 E1NTE0OTQwLDEyNTEyMjc3NDQsLTY1MTIzMzYzLDEyNDA1NTE1
