@@ -123,12 +123,14 @@ the size of image is smaller in the layers because of conv-layers window
 Ex 1 - More training might lead to smaller loss with training set but not with validation set (overfitting).
 
 ## [Week 4](https://www.coursera.org/learn/introduction-tensorflow/home/week/4)
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1MTIyNzc0NCwtNjUxMjMzNjMsMTI0MD
-U1MTU3LC01MDExMTYwOCwtNTkwMjg4ODQxLDI0NDMyMTc0Niwt
-MTEzMTY0MTk4NCw4MjI4OTI1MzAsLTU1NzI1OTA3Myw3OTY5Nj
-E1MjIsLTExMDE5NjIxMTYsLTEwMjUzMjI1ODEsLTE3NjQ0NDkz
-MDIsNjExODY0MjQ4LDcyMDEzMzU1MCwzNTgxODM3NjgsLTE4NT
-Q2NTM0NzEsMTczNTAxNjgwMyw2OTIzMjQwNDQsMTU3MzYxNjc0
-XX0=
+eyJoaXN0b3J5IjpbMjAxNTUxNDk0MCwxMjUxMjI3NzQ0LC02NT
+EyMzM2MywxMjQwNTUxNTcsLTUwMTExNjA4LC01OTAyODg4NDEs
+MjQ0MzIxNzQ2LC0xMTMxNjQxOTg0LDgyMjg5MjUzMCwtNTU3Mj
+U5MDczLDc5Njk2MTUyMiwtMTEwMTk2MjExNiwtMTAyNTMyMjU4
+MSwtMTc2NDQ0OTMwMiw2MTE4NjQyNDgsNzIwMTMzNTUwLDM1OD
+E4Mzc2OCwtMTg1NDY1MzQ3MSwxNzM1MDE2ODAzLDY5MjMyNDA0
+NF19
 -->
