@@ -132,15 +132,15 @@ Ex 1 - More training might lead to smaller loss with training set but not with v
 - Creates directory structures to classify images??
 - images need to be of same size
 - resized when they are loaded
-[https://github.com/lmoroney/dlaicourse/blob/master/Horse_or_Human_NoValidation.ipynb]
 
-(https://github.com/lmoroney/dlaicourse/blob/master/Horse_or_Human_NoValidation.ipynb)
+
+[https://github.com/lmoroney/dlaicourse/blob/master/Horse_or_Human_NoValidation.ipynb](https://github.com/lmoroney/dlaicourse/blob/master/Horse_or_Human_NoValidation.ipynb)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDA0NDg5MDUsOTMxODE0MDUsMjAxNTUxND
-k0MCwxMjUxMjI3NzQ0LC02NTEyMzM2MywxMjQwNTUxNTcsLTUw
-MTExNjA4LC01OTAyODg4NDEsMjQ0MzIxNzQ2LC0xMTMxNjQxOT
-g0LDgyMjg5MjUzMCwtNTU3MjU5MDczLDc5Njk2MTUyMiwtMTEw
-MTk2MjExNiwtMTAyNTMyMjU4MSwtMTc2NDQ0OTMwMiw2MTE4Nj
-QyNDgsNzIwMTMzNTUwLDM1ODE4Mzc2OCwtMTg1NDY1MzQ3MV19
-
+eyJoaXN0b3J5IjpbLTE0MTEyODgwNTUsOTMxODE0MDUsMjAxNT
+UxNDk0MCwxMjUxMjI3NzQ0LC02NTEyMzM2MywxMjQwNTUxNTcs
+LTUwMTExNjA4LC01OTAyODg4NDEsMjQ0MzIxNzQ2LC0xMTMxNj
+QxOTg0LDgyMjg5MjUzMCwtNTU3MjU5MDczLDc5Njk2MTUyMiwt
+MTEwMTk2MjExNiwtMTAyNTMyMjU4MSwtMTc2NDQ0OTMwMiw2MT
+E4NjQyNDgsNzIwMTMzNTUwLDM1ODE4Mzc2OCwtMTg1NDY1MzQ3
+MV19
 -->
