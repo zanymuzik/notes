@@ -143,19 +143,19 @@ Ex 1 - More training might lead to smaller loss with training set but not with v
 - 3 channels in inputs (RGB)
 - Output is single-neuron with sigmoid
 	- could have used 2 neurons with softmax
+	- 
 
 > model.compile(loss='binary_crossentropy',
 - because we are using binary classifier
 > optimizer =RMSProp(lr=0.001)
--  to specify learning rate
+- to specify learning rate
 
-- > #All images will be rescaled by 1./255
+
 > train_datagen = ImageDataGenerator(rescale=1/255)
-> #Flow training images in batches of 128 using train_datagen generator
 > train_generator = train_datagen.flow_from_directory('/tmp/horse-or-human/', 
 > #This is the source directory for training images
 > target_size=(300, 300), # All images will be resized to 150x150
-> batch_size=128,
+> batch_size=128, 
 > #Since we use binary_crossentropy loss, we need binary labels
 > class_mode='binary')
 
@@ -173,11 +173,11 @@ Ex 1 - More training might lead to smaller loss with training set but not with v
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU1NzIyNTM4LC0xOTU1NjQ2OTMzLDk3Nz
-EwNjA1NSwxMjY5NTQ1NzY5LDEyODc0NTU2NCwtMTM3NTAzMjEx
-MiwxMTI0MDQ0MDcxLC0xNDExMjg4MDU1LDkzMTgxNDA1LDIwMT
-U1MTQ5NDAsMTI1MTIyNzc0NCwtNjUxMjMzNjMsMTI0MDU1MTU3
-LC01MDExMTYwOCwtNTkwMjg4ODQxLDI0NDMyMTc0NiwtMTEzMT
-Y0MTk4NCw4MjI4OTI1MzAsLTU1NzI1OTA3Myw3OTY5NjE1MjJd
-fQ==
+eyJoaXN0b3J5IjpbLTQ4MDMyNjI5OSwtMTk1NTY0NjkzMyw5Nz
+cxMDYwNTUsMTI2OTU0NTc2OSwxMjg3NDU1NjQsLTEzNzUwMzIx
+MTIsMTEyNDA0NDA3MSwtMTQxMTI4ODA1NSw5MzE4MTQwNSwyMD
+E1NTE0OTQwLDEyNTEyMjc3NDQsLTY1MTIzMzYzLDEyNDA1NTE1
+NywtNTAxMTE2MDgsLTU5MDI4ODg0MSwyNDQzMjE3NDYsLTExMz
+E2NDE5ODQsODIyODkyNTMwLC01NTcyNTkwNzMsNzk2OTYxNTIy
+XX0=
 -->
