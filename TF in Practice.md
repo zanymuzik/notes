@@ -152,7 +152,8 @@ Ex 1 - More training might lead to smaller loss with training set but not with v
 - binary_crossentropy because we are using a binary classifier
 - RMSProp to specify learning rate
 ```
-from tensorflow.keras.optimizers import RMSpropmodel.compile(loss='binary_crossentropy',
+from tensorflow.keras.optimizers import RMSprop
+model.compile(loss='binary_crossentropy',
               optimizer=RMSprop(lr=0.001),
               metrics=['accuracy'])
 ```
@@ -182,11 +183,11 @@ verbose=2)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzcwNjM2NTIsLTEyNDcxNjM5LC0xOT
-U1NjQ2OTMzLDk3NzEwNjA1NSwxMjY5NTQ1NzY5LDEyODc0NTU2
-NCwtMTM3NTAzMjExMiwxMTI0MDQ0MDcxLC0xNDExMjg4MDU1LD
-kzMTgxNDA1LDIwMTU1MTQ5NDAsMTI1MTIyNzc0NCwtNjUxMjMz
-NjMsMTI0MDU1MTU3LC01MDExMTYwOCwtNTkwMjg4ODQxLDI0ND
-MyMTc0NiwtMTEzMTY0MTk4NCw4MjI4OTI1MzAsLTU1NzI1OTA3
-M119
+eyJoaXN0b3J5IjpbNjY4NzQyODk0LC0xMjQ3MTYzOSwtMTk1NT
+Y0NjkzMyw5NzcxMDYwNTUsMTI2OTU0NTc2OSwxMjg3NDU1NjQs
+LTEzNzUwMzIxMTIsMTEyNDA0NDA3MSwtMTQxMTI4ODA1NSw5Mz
+E4MTQwNSwyMDE1NTE0OTQwLDEyNTEyMjc3NDQsLTY1MTIzMzYz
+LDEyNDA1NTE1NywtNTAxMTE2MDgsLTU5MDI4ODg0MSwyNDQzMj
+E3NDYsLTExMzE2NDE5ODQsODIyODkyNTMwLC01NTcyNTkwNzNd
+fQ==
 -->
