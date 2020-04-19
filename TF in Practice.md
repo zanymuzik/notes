@@ -148,9 +148,11 @@ Ex 1 - More training might lead to smaller loss with training set but not with v
 	- save value is num_images / batch_size so that every image is processed once in the epoch
 
 ### ConvNet Code
-> model.compile(loss='binary_crossentropy',
+```
+model.compile(loss='binary_crossentropy',
+```
 - because we are using binary classifier
-> optimizer =RMSProp(lr=0.001)
+
 - to specify learning rate
 
 
@@ -176,11 +178,11 @@ Ex 1 - More training might lead to smaller loss with training set but not with v
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDcxNjM5LC0xOTU1NjQ2OTMzLDk3Nz
-EwNjA1NSwxMjY5NTQ1NzY5LDEyODc0NTU2NCwtMTM3NTAzMjEx
-MiwxMTI0MDQ0MDcxLC0xNDExMjg4MDU1LDkzMTgxNDA1LDIwMT
-U1MTQ5NDAsMTI1MTIyNzc0NCwtNjUxMjMzNjMsMTI0MDU1MTU3
-LC01MDExMTYwOCwtNTkwMjg4ODQxLDI0NDMyMTc0NiwtMTEzMT
-Y0MTk4NCw4MjI4OTI1MzAsLTU1NzI1OTA3Myw3OTY5NjE1MjJd
-fQ==
+eyJoaXN0b3J5IjpbLTEwNTc1MDA2MjMsLTEyNDcxNjM5LC0xOT
+U1NjQ2OTMzLDk3NzEwNjA1NSwxMjY5NTQ1NzY5LDEyODc0NTU2
+NCwtMTM3NTAzMjExMiwxMTI0MDQ0MDcxLC0xNDExMjg4MDU1LD
+kzMTgxNDA1LDIwMTU1MTQ5NDAsMTI1MTIyNzc0NCwtNjUxMjMz
+NjMsMTI0MDU1MTU3LC01MDExMTYwOCwtNTkwMjg4ODQxLDI0ND
+MyMTc0NiwtMTEzMTY0MTk4NCw4MjI4OTI1MzAsLTU1NzI1OTA3
+M119
 -->
