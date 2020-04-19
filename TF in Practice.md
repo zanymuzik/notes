@@ -183,17 +183,18 @@ verbose=2)
 - by reducing image size
 - changing number of CNN layers
 
+# [Course 2 - CNN in Tensorflow](https://www.coursera.org/learn/convolutional-neural-networks-tensorflow)
 
-[Course 2 - CN](https://www.coursera.org/learn/convolutional-neural-networks-tensorflow)
+## [Week 1](https://www.coursera.org/learn/convolutional-neural-networks-tensorflow/home/week/1)
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4NDkyMDQ3Miw5NTg4NjkzNSwxMTI4Nz
-Q2NzQsMTg5NTUyMzMzMCw2Njg3NDI4OTQsLTEyNDcxNjM5LC0x
-OTU1NjQ2OTMzLDk3NzEwNjA1NSwxMjY5NTQ1NzY5LDEyODc0NT
-U2NCwtMTM3NTAzMjExMiwxMTI0MDQ0MDcxLC0xNDExMjg4MDU1
-LDkzMTgxNDA1LDIwMTU1MTQ5NDAsMTI1MTIyNzc0NCwtNjUxMj
-MzNjMsMTI0MDU1MTU3LC01MDExMTYwOCwtNTkwMjg4ODQxXX0=
+eyJoaXN0b3J5IjpbLTE3OTA1MjQyNDEsOTU4ODY5MzUsMTEyOD
+c0Njc0LDE4OTU1MjMzMzAsNjY4NzQyODk0LC0xMjQ3MTYzOSwt
+MTk1NTY0NjkzMyw5NzcxMDYwNTUsMTI2OTU0NTc2OSwxMjg3ND
+U1NjQsLTEzNzUwMzIxMTIsMTEyNDA0NDA3MSwtMTQxMTI4ODA1
+NSw5MzE4MTQwNSwyMDE1NTE0OTQwLDEyNTEyMjc3NDQsLTY1MT
+IzMzYzLDEyNDA1NTE1NywtNTAxMTE2MDgsLTU5MDI4ODg0MV19
 
 -->
