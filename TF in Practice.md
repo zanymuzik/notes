@@ -131,13 +131,13 @@ Ex 1 - More training might lead to smaller loss with training set but not with v
 ### ImageGenerator in TF
 - Creates directory structures to classify images??
 - images need to be of same size
-- resize
+- resized when they are loaded
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzNTM5MjkyNCwyMDE1NTE0OTQwLDEyNT
-EyMjc3NDQsLTY1MTIzMzYzLDEyNDA1NTE1NywtNTAxMTE2MDgs
-LTU5MDI4ODg0MSwyNDQzMjE3NDYsLTExMzE2NDE5ODQsODIyOD
-kyNTMwLC01NTcyNTkwNzMsNzk2OTYxNTIyLC0xMTAxOTYyMTE2
-LC0xMDI1MzIyNTgxLC0xNzY0NDQ5MzAyLDYxMTg2NDI0OCw3Mj
-AxMzM1NTAsMzU4MTgzNzY4LC0xODU0NjUzNDcxLDE3MzUwMTY4
-MDNdfQ==
+eyJoaXN0b3J5IjpbOTMxODE0MDUsMjAxNTUxNDk0MCwxMjUxMj
+I3NzQ0LC02NTEyMzM2MywxMjQwNTUxNTcsLTUwMTExNjA4LC01
+OTAyODg4NDEsMjQ0MzIxNzQ2LC0xMTMxNjQxOTg0LDgyMjg5Mj
+UzMCwtNTU3MjU5MDczLDc5Njk2MTUyMiwtMTEwMTk2MjExNiwt
+MTAyNTMyMjU4MSwtMTc2NDQ0OTMwMiw2MTE4NjQyNDgsNzIwMT
+MzNTUwLDM1ODE4Mzc2OCwtMTg1NDY1MzQ3MSwxNzM1MDE2ODAz
+XX0=
 -->
