@@ -138,7 +138,7 @@ Ex 1 - More training might lead to smaller loss with training set but not with v
 - images need to be of same size (for the TF code) 
 - resized when they are loaded (done by ImageGenerator)
 
-### Convnet Code
+### ConvNet params
 - 5 layers of CNN 16 -> 32 -> 64 ->64 -> 64
 - 3 channels in inputs (RGB)
 - Output is single-neuron with sigmoid
@@ -147,6 +147,7 @@ Ex 1 - More training might lead to smaller loss with training set but not with v
 - steps_per_epoch : number of steps to train in an epoch
 	- save value is num_images / batch_size so that every image is processed once in the epoch
 
+### ConvNet Code
 > model.compile(loss='binary_crossentropy',
 - because we are using binary classifier
 > optimizer =RMSProp(lr=0.001)
@@ -175,11 +176,11 @@ Ex 1 - More training might lead to smaller loss with training set but not with v
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjEyNzMwMjQ1LC0xOTU1NjQ2OTMzLDk3Nz
-EwNjA1NSwxMjY5NTQ1NzY5LDEyODc0NTU2NCwtMTM3NTAzMjEx
-MiwxMTI0MDQ0MDcxLC0xNDExMjg4MDU1LDkzMTgxNDA1LDIwMT
-U1MTQ5NDAsMTI1MTIyNzc0NCwtNjUxMjMzNjMsMTI0MDU1MTU3
-LC01MDExMTYwOCwtNTkwMjg4ODQxLDI0NDMyMTc0NiwtMTEzMT
-Y0MTk4NCw4MjI4OTI1MzAsLTU1NzI1OTA3Myw3OTY5NjE1MjJd
-fQ==
+eyJoaXN0b3J5IjpbLTE0NTQ1MTUxNDMsLTE5NTU2NDY5MzMsOT
+c3MTA2MDU1LDEyNjk1NDU3NjksMTI4NzQ1NTY0LC0xMzc1MDMy
+MTEyLDExMjQwNDQwNzEsLTE0MTEyODgwNTUsOTMxODE0MDUsMj
+AxNTUxNDk0MCwxMjUxMjI3NzQ0LC02NTEyMzM2MywxMjQwNTUx
+NTcsLTUwMTExNjA4LC01OTAyODg4NDEsMjQ0MzIxNzQ2LC0xMT
+MxNjQxOTg0LDgyMjg5MjUzMCwtNTU3MjU5MDczLDc5Njk2MTUy
+Ml19
 -->
