@@ -124,13 +124,18 @@ Ex 1 - More training might lead to smaller loss with training set but not with v
 
 ## [Week 4](https://www.coursera.org/learn/introduction-tensorflow/home/week/4)
 
+### Non-uniform images
+- different location of subject in the image
+- much cleaner data
 
+### ImageGenerator in TF
+- Creates dir
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxNTUxNDk0MCwxMjUxMjI3NzQ0LC02NT
-EyMzM2MywxMjQwNTUxNTcsLTUwMTExNjA4LC01OTAyODg4NDEs
-MjQ0MzIxNzQ2LC0xMTMxNjQxOTg0LDgyMjg5MjUzMCwtNTU3Mj
-U5MDczLDc5Njk2MTUyMiwtMTEwMTk2MjExNiwtMTAyNTMyMjU4
-MSwtMTc2NDQ0OTMwMiw2MTE4NjQyNDgsNzIwMTMzNTUwLDM1OD
-E4Mzc2OCwtMTg1NDY1MzQ3MSwxNzM1MDE2ODAzLDY5MjMyNDA0
-NF19
+eyJoaXN0b3J5IjpbMTg2ODAyNTk3MywyMDE1NTE0OTQwLDEyNT
+EyMjc3NDQsLTY1MTIzMzYzLDEyNDA1NTE1NywtNTAxMTE2MDgs
+LTU5MDI4ODg0MSwyNDQzMjE3NDYsLTExMzE2NDE5ODQsODIyOD
+kyNTMwLC01NTcyNTkwNzMsNzk2OTYxNTIyLC0xMTAxOTYyMTE2
+LC0xMDI1MzIyNTgxLC0xNzY0NDQ5MzAyLDYxMTg2NDI0OCw3Mj
+AxMzM1NTAsMzU4MTgzNzY4LC0xODU0NjUzNDcxLDE3MzUwMTY4
+MDNdfQ==
 -->
