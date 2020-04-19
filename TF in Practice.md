@@ -166,9 +166,11 @@ because we are using binary classifier
 reduce image size
 change number of CNN layers
 
-No Valia
+No Validation
+Validation
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxMzczNzM4MSw5NzcxMDYwNTUsMTI2OT
+eyJoaXN0b3J5IjpbMTgxODU0ODc3OCw5NzcxMDYwNTUsMTI2OT
 U0NTc2OSwxMjg3NDU1NjQsLTEzNzUwMzIxMTIsMTEyNDA0NDA3
 MSwtMTQxMTI4ODA1NSw5MzE4MTQwNSwyMDE1NTE0OTQwLDEyNT
 EyMjc3NDQsLTY1MTIzMzYzLDEyNDA1NTE1NywtNTAxMTE2MDgs
