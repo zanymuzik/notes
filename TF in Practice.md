@@ -124,6 +124,11 @@ Ex 1 - More training might lead to smaller loss with training set but not with v
 
 ## [Week 4](https://www.coursera.org/learn/introduction-tensorflow/home/week/4)
 
+### Colabs
+- [No Validation](https://github.com/lmoroney/dlaicourse/blob/master/Course%201%20-%20Part%208%20-%20Lesson%202%20-%20Notebook.ipynb)
+- [With Validation](https://github.com/lmoroney/dlaicourse/blob/master/Course%201%20-%20Part%208%20-%20Lesson%203%20-%20Notebook.ipynb)
+- [Reduced complexity](https://github.com/lmoroney/dlaicourse/blob/master/Course%201%20-%20Part%208%20-%20Lesson%204%20-%20Notebook.ipynb)
+- 
 ### Non-uniform/complex images
 - different location of subject in the image
 - much cleaner data
@@ -166,16 +171,14 @@ because we are using binary classifier
 - reduce image size
 - change number of CNN layers
 
-### Colabs
-No Validation
-Validation
-Reduced complexity
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTU2NDY5MzMsOTc3MTA2MDU1LDEyNj
-k1NDU3NjksMTI4NzQ1NTY0LC0xMzc1MDMyMTEyLDExMjQwNDQw
-NzEsLTE0MTEyODgwNTUsOTMxODE0MDUsMjAxNTUxNDk0MCwxMj
-UxMjI3NzQ0LC02NTEyMzM2MywxMjQwNTUxNTcsLTUwMTExNjA4
-LC01OTAyODg4NDEsMjQ0MzIxNzQ2LC0xMTMxNjQxOTg0LDgyMj
-g5MjUzMCwtNTU3MjU5MDczLDc5Njk2MTUyMiwtMTEwMTk2MjEx
-Nl19
+eyJoaXN0b3J5IjpbLTEwNDk5MDIxNzAsLTE5NTU2NDY5MzMsOT
+c3MTA2MDU1LDEyNjk1NDU3NjksMTI4NzQ1NTY0LC0xMzc1MDMy
+MTEyLDExMjQwNDQwNzEsLTE0MTEyODgwNTUsOTMxODE0MDUsMj
+AxNTUxNDk0MCwxMjUxMjI3NzQ0LC02NTEyMzM2MywxMjQwNTUx
+NTcsLTUwMTExNjA4LC01OTAyODg4NDEsMjQ0MzIxNzQ2LC0xMT
+MxNjQxOTg0LDgyMjg5MjUzMCwtNTU3MjU5MDczLDc5Njk2MTUy
+Ml19
 -->
