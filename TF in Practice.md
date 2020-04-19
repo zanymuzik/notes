@@ -133,14 +133,18 @@ Ex 1 - More training might lead to smaller loss with training set but not with v
 - images need to be of same size
 - resized when they are loaded
 
+### Convnet Code
+- 3 layers of CNN 16 -> 32 -> 64 
+- 3 channels in inputs (RGB)
+- Output is single-neuron with sigmore
 
 [https://github.com/lmoroney/dlaicourse/blob/master/Horse_or_Human_NoValidation.ipynb](https://github.com/lmoroney/dlaicourse/blob/master/Horse_or_Human_NoValidation.ipynb)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTEyODgwNTUsOTMxODE0MDUsMjAxNT
-UxNDk0MCwxMjUxMjI3NzQ0LC02NTEyMzM2MywxMjQwNTUxNTcs
-LTUwMTExNjA4LC01OTAyODg4NDEsMjQ0MzIxNzQ2LC0xMTMxNj
-QxOTg0LDgyMjg5MjUzMCwtNTU3MjU5MDczLDc5Njk2MTUyMiwt
-MTEwMTk2MjExNiwtMTAyNTMyMjU4MSwtMTc2NDQ0OTMwMiw2MT
-E4NjQyNDgsNzIwMTMzNTUwLDM1ODE4Mzc2OCwtMTg1NDY1MzQ3
-MV19
+eyJoaXN0b3J5IjpbMTI4MTg0MjYyOCwtMTQxMTI4ODA1NSw5Mz
+E4MTQwNSwyMDE1NTE0OTQwLDEyNTEyMjc3NDQsLTY1MTIzMzYz
+LDEyNDA1NTE1NywtNTAxMTE2MDgsLTU5MDI4ODg0MSwyNDQzMj
+E3NDYsLTExMzE2NDE5ODQsODIyODkyNTMwLC01NTcyNTkwNzMs
+Nzk2OTYxNTIyLC0xMTAxOTYyMTE2LC0xMDI1MzIyNTgxLC0xNz
+Y0NDQ5MzAyLDYxMTg2NDI0OCw3MjAxMzM1NTAsMzU4MTgzNzY4
+XX0=
 -->
