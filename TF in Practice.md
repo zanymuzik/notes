@@ -150,11 +150,11 @@ Ex 1 - More training might lead to smaller loss with training set but not with v
 ### ConvNet Code
 ```
 model.compile(loss='binary_crossentropy',
+              optimizer=RMSprop(lr=0.001),
+              metrics=['accuracy'])
 ```
 - because we are using binary classifier
-
-- to specify learning rate
-
+- RMSProp to specify learning rate
 
 > train_datagen = ImageDataGenerator(rescale=1/255)
 > train_generator = train_datagen.flow_from_directory('/tmp/horse-or-human/', 
@@ -178,7 +178,7 @@ model.compile(loss='binary_crossentropy',
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTc1MDA2MjMsLTEyNDcxNjM5LC0xOT
+eyJoaXN0b3J5IjpbLTE3ODU2MzQ5NzIsLTEyNDcxNjM5LC0xOT
 U1NjQ2OTMzLDk3NzEwNjA1NSwxMjY5NTQ1NzY5LDEyODc0NTU2
 NCwtMTM3NTAzMjExMiwxMTI0MDQ0MDcxLC0xNDExMjg4MDU1LD
 kzMTgxNDA1LDIwMTU1MTQ5NDAsMTI1MTIyNzc0NCwtNjUxMjMz
