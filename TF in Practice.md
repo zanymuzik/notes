@@ -145,6 +145,20 @@ because we are using binary classifier
 > optimizer =RMSProp(lr=0.001)
 > to specify learning rate
 
+> # All images will be rescaled by 1./255
+> train_datagen = ImageDataGenerator(rescale=1/255)
+> # Flow training images in batches of 128 using train_datagen generator
+> train_generator = train_datagen.flow_from_directory('/tmp/horse-or-human/', 
+> # This is the source directory for training images
+> target_size=(300, 300), # All images will be resized to 150x150
+
+batch_size=128,
+
+# Since we use binary_crossentropy loss, we need binary labels
+
+class_mode='binary')
+
+
 > model.fit_generator(train_generator, 
 > steps_per_epoch=8,
 > epocs=15,
@@ -154,11 +168,11 @@ because we are using binary classifier
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4NzQ1NTY0LC0xMzc1MDMyMTEyLDExMj
-QwNDQwNzEsLTE0MTEyODgwNTUsOTMxODE0MDUsMjAxNTUxNDk0
-MCwxMjUxMjI3NzQ0LC02NTEyMzM2MywxMjQwNTUxNTcsLTUwMT
-ExNjA4LC01OTAyODg4NDEsMjQ0MzIxNzQ2LC0xMTMxNjQxOTg0
-LDgyMjg5MjUzMCwtNTU3MjU5MDczLDc5Njk2MTUyMiwtMTEwMT
-k2MjExNiwtMTAyNTMyMjU4MSwtMTc2NDQ0OTMwMiw2MTE4NjQy
-NDhdfQ==
+eyJoaXN0b3J5IjpbLTIxMTgxMDc1MTMsMTI4NzQ1NTY0LC0xMz
+c1MDMyMTEyLDExMjQwNDQwNzEsLTE0MTEyODgwNTUsOTMxODE0
+MDUsMjAxNTUxNDk0MCwxMjUxMjI3NzQ0LC02NTEyMzM2MywxMj
+QwNTUxNTcsLTUwMTExNjA4LC01OTAyODg4NDEsMjQ0MzIxNzQ2
+LC0xMTMxNjQxOTg0LDgyMjg5MjUzMCwtNTU3MjU5MDczLDc5Nj
+k2MTUyMiwtMTEwMTk2MjExNiwtMTAyNTMyMjU4MSwtMTc2NDQ0
+OTMwMl19
 -->
