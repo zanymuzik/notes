@@ -136,11 +136,12 @@ Ex 1 - More training might lead to smaller loss with training set but not with v
 ### Convnet Code
 - 3 layers of CNN 16 -> 32 -> 64 
 - 3 channels in inputs (RGB)
-- Output is single-neuron with sigmore
+- Output is single-neuron with sigmoid
+	- could have used 2 with softmax
 
 [https://github.com/lmoroney/dlaicourse/blob/master/Horse_or_Human_NoValidation.ipynb](https://github.com/lmoroney/dlaicourse/blob/master/Horse_or_Human_NoValidation.ipynb)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4MTg0MjYyOCwtMTQxMTI4ODA1NSw5Mz
+eyJoaXN0b3J5IjpbMTEyNDA0NDA3MSwtMTQxMTI4ODA1NSw5Mz
 E4MTQwNSwyMDE1NTE0OTQwLDEyNTEyMjc3NDQsLTY1MTIzMzYz
 LDEyNDA1NTE1NywtNTAxMTE2MDgsLTU5MDI4ODg0MSwyNDQzMj
 E3NDYsLTExMzE2NDE5ODQsODIyODkyNTMwLC01NTcyNTkwNzMs
