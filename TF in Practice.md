@@ -1,4 +1,4 @@
-[https://www.coursera.org/specializations/tensorflow-in-practice](https://www.coursera.org/specializations/tensorflow-in-practice)
+# [Specialization - Tensorflow in Practice](https://www.coursera.org/specializations/tensorflow-in-practice)
 
 # [Course 1 - Intro to Tensorflow](https://www.coursera.org/learn/introduction-tensorflow/home/welcome)
 
@@ -184,9 +184,12 @@ verbose=2)
 - changing number of CNN layers
 
 
+[Course 2 - CN](https://www.coursera.org/learn/convolutional-neural-networks-tensorflow)
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0MzQxNjMzMiw5NTg4NjkzNSwxMTI4Nz
+eyJoaXN0b3J5IjpbLTk4NDkyMDQ3Miw5NTg4NjkzNSwxMTI4Nz
 Q2NzQsMTg5NTUyMzMzMCw2Njg3NDI4OTQsLTEyNDcxNjM5LC0x
 OTU1NjQ2OTMzLDk3NzEwNjA1NSwxMjY5NTQ1NzY5LDEyODc0NT
 U2NCwtMTM3NTAzMjExMiwxMTI0MDQ0MDcxLC0xNDExMjg4MDU1
