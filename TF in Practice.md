@@ -188,17 +188,21 @@ verbose=2)
 ## [Week 1](https://www.coursera.org/learn/convolutional-neural-networks-tensorflow/home/week/1)
 
 
-- Data is more real-world
+### Data is coming from real-world
 - less cleaner
 - the previous structure works well
 
 ```
 history = model.fit()
+acc = history.history[ 'accuracy' ]
+val_acc = history.history[ 'val_accuracy' ]
+loss = history.history[ 'loss' ]
+val_loss = history.history['val_loss' ]
 ```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxNDQ1Mjg2MiwxMTYwNzU0NzU2LC0xNz
+eyJoaXN0b3J5IjpbMjEwNzg3ODM5OCwxMTYwNzU0NzU2LC0xNz
 kwNTI0MjQxLDk1ODg2OTM1LDExMjg3NDY3NCwxODk1NTIzMzMw
 LDY2ODc0Mjg5NCwtMTI0NzE2MzksLTE5NTU2NDY5MzMsOTc3MT
 A2MDU1LDEyNjk1NDU3NjksMTI4NzQ1NTY0LC0xMzc1MDMyMTEy
