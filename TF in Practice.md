@@ -192,8 +192,13 @@ verbose=2)
 - less cleaner
 - the previous structure works well
 
+```
+history = model.fit()
+```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxNDcwNTI0NiwxMTYwNzU0NzU2LC0xNz
+eyJoaXN0b3J5IjpbLTMxNDQ1Mjg2MiwxMTYwNzU0NzU2LC0xNz
 kwNTI0MjQxLDk1ODg2OTM1LDExMjg3NDY3NCwxODk1NTIzMzMw
 LDY2ODc0Mjg5NCwtMTI0NzE2MzksLTE5NTU2NDY5MzMsOTc3MT
 A2MDU1LDEyNjk1NDU3NjksMTI4NzQ1NTY0LC0xMzc1MDMyMTEy
