@@ -272,7 +272,7 @@ Current status?
     GFS replaced Colossus (no good description), and BigTable.
 
 
-Conclusion
+### Conclusion
   MapReduce single-handedly made big cluster computation popular.
   - Not the most efficient or flexible.
   + Scales well.
@@ -283,9 +283,6 @@ Conclusion
 
 
 [a]This is not true
-
-
-> Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2MjM1NTkwNF19
+eyJoaXN0b3J5IjpbLTE5NzMyMzg4MTEsMTM2MjM1NTkwNF19
 -->
