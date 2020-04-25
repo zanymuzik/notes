@@ -188,15 +188,16 @@ verbose=2)
 ## [Week 1](https://www.coursera.org/learn/convolutional-neural-networks-tensorflow/home/week/1)
 
 
-- Data is more real world
+- Data is more real-world
 - less cleaner
-- 
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2MDc1NDc1NiwtMTc5MDUyNDI0MSw5NT
-g4NjkzNSwxMTI4NzQ2NzQsMTg5NTUyMzMzMCw2Njg3NDI4OTQs
-LTEyNDcxNjM5LC0xOTU1NjQ2OTMzLDk3NzEwNjA1NSwxMjY5NT
-Q1NzY5LDEyODc0NTU2NCwtMTM3NTAzMjExMiwxMTI0MDQ0MDcx
-LC0xNDExMjg4MDU1LDkzMTgxNDA1LDIwMTU1MTQ5NDAsMTI1MT
-IyNzc0NCwtNjUxMjMzNjMsMTI0MDU1MTU3LC01MDExMTYwOF19
+- the previous structure works well
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTMxNDcwNTI0NiwxMTYwNzU0NzU2LC0xNz
+kwNTI0MjQxLDk1ODg2OTM1LDExMjg3NDY3NCwxODk1NTIzMzMw
+LDY2ODc0Mjg5NCwtMTI0NzE2MzksLTE5NTU2NDY5MzMsOTc3MT
+A2MDU1LDEyNjk1NDU3NjksMTI4NzQ1NTY0LC0xMzc1MDMyMTEy
+LDExMjQwNDQwNzEsLTE0MTEyODgwNTUsOTMxODE0MDUsMjAxNT
+UxNDk0MCwxMjUxMjI3NzQ0LC02NTEyMzM2MywxMjQwNTUxNTdd
+fQ==
 -->
