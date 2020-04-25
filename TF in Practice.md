@@ -188,9 +188,11 @@ verbose=2)
 ## [Week 1](https://www.coursera.org/learn/convolutional-neural-networks-tensorflow/home/week/1)
 
 
-- Data is more real work
+- Data is more real world
+- less cleaner
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3NTY1NDYzNiwtMTc5MDUyNDI0MSw5NT
+eyJoaXN0b3J5IjpbMTE2MDc1NDc1NiwtMTc5MDUyNDI0MSw5NT
 g4NjkzNSwxMTI4NzQ2NzQsMTg5NTUyMzMzMCw2Njg3NDI4OTQs
 LTEyNDcxNjM5LC0xOTU1NjQ2OTMzLDk3NzEwNjA1NSwxMjY5NT
 Q1NzY5LDEyODc0NTU2NCwtMTM3NTAzMjExMiwxMTI0MDQ0MDcx
