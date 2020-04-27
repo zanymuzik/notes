@@ -205,13 +205,23 @@ val_loss = history.history['val_loss' ]
 ### Data Augmentation
 - No additional storage, all transformation are in memory while reading the data
 - Reduce overfitting
-- 
+-
+
+```
+train_datagen = ImageDataGenerator(      
+	rotation_range=40,      
+	width_shift_range=0.2,      
+	height_shift_range=0.2,      
+	shear_range=0.2,      
+	zoom_range=0.2,      
+	horizontal_flip=True,      fill_mode='nearest')
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDg0NjExNTk2LDIxMDc4NzgzOTgsMTE2MD
-c1NDc1NiwtMTc5MDUyNDI0MSw5NTg4NjkzNSwxMTI4NzQ2NzQs
-MTg5NTUyMzMzMCw2Njg3NDI4OTQsLTEyNDcxNjM5LC0xOTU1Nj
-Q2OTMzLDk3NzEwNjA1NSwxMjY5NTQ1NzY5LDEyODc0NTU2NCwt
-MTM3NTAzMjExMiwxMTI0MDQ0MDcxLC0xNDExMjg4MDU1LDkzMT
-gxNDA1LDIwMTU1MTQ5NDAsMTI1MTIyNzc0NCwtNjUxMjMzNjNd
+eyJoaXN0b3J5IjpbNzM0NDQ4MzM2LDQ4NDYxMTU5NiwyMTA3OD
+c4Mzk4LDExNjA3NTQ3NTYsLTE3OTA1MjQyNDEsOTU4ODY5MzUs
+MTEyODc0Njc0LDE4OTU1MjMzMzAsNjY4NzQyODk0LC0xMjQ3MT
+YzOSwtMTk1NTY0NjkzMyw5NzcxMDYwNTUsMTI2OTU0NTc2OSwx
+Mjg3NDU1NjQsLTEzNzUwMzIxMTIsMTEyNDA0NDA3MSwtMTQxMT
+I4ODA1NSw5MzE4MTQwNSwyMDE1NTE0OTQwLDEyNTEyMjc3NDRd
 fQ==
 -->
