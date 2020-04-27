@@ -200,13 +200,18 @@ loss = history.history[ 'loss' ]
 val_loss = history.history['val_loss' ]
 ```
 
+## [Week 2](https://www.coursera.org/learn/convolutional-neural-networks-tensorflow/home/week/2)
 
+### Data Augmentation
+- No additional storage, all transformation are in memory while reading the data
+- Reduce overfitting
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwNzg3ODM5OCwxMTYwNzU0NzU2LC0xNz
-kwNTI0MjQxLDk1ODg2OTM1LDExMjg3NDY3NCwxODk1NTIzMzMw
-LDY2ODc0Mjg5NCwtMTI0NzE2MzksLTE5NTU2NDY5MzMsOTc3MT
-A2MDU1LDEyNjk1NDU3NjksMTI4NzQ1NTY0LC0xMzc1MDMyMTEy
-LDExMjQwNDQwNzEsLTE0MTEyODgwNTUsOTMxODE0MDUsMjAxNT
-UxNDk0MCwxMjUxMjI3NzQ0LC02NTEyMzM2MywxMjQwNTUxNTdd
+eyJoaXN0b3J5IjpbNDg0NjExNTk2LDIxMDc4NzgzOTgsMTE2MD
+c1NDc1NiwtMTc5MDUyNDI0MSw5NTg4NjkzNSwxMTI4NzQ2NzQs
+MTg5NTUyMzMzMCw2Njg3NDI4OTQsLTEyNDcxNjM5LC0xOTU1Nj
+Q2OTMzLDk3NzEwNjA1NSwxMjY5NTQ1NzY5LDEyODc0NTU2NCwt
+MTM3NTAzMjExMiwxMTI0MDQ0MDcxLC0xNDExMjg4MDU1LDkzMT
+gxNDA1LDIwMTU1MTQ5NDAsMTI1MTIyNzc0NCwtNjUxMjMzNjNd
 fQ==
 -->
