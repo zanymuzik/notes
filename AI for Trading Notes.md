@@ -36,8 +36,8 @@ B-->C[Modeling]
 
 ## Text Processing
 [text_processing Notebook](https://github.com/udacity/AIND-NLP/blob/master/text_processing.ipynb)
+
 ![NLP Pipeline](https://miro.medium.com/max/2000/1*ZIM9cAZY_KnJSL-T7-RTKg.png)
-https://miro.medium.com/max/2000/1*ZIM9cAZY_KnJSL-T7-RTKg.png
 
 ### Capturing Text
 - Text (using file IO)
@@ -135,5 +135,5 @@ https://miro.medium.com/max/2000/1*ZIM9cAZY_KnJSL-T7-RTKg.png
 [NLP in stock market](https://towardsdatascience.com/nlp-in-the-stock-market-8760d062eb92)
 [Numpy Python Cheat Sheet.pdf](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Numpy_Python_Cheat_Sheet.pdf)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjczNTg2OCwzMzgyNTA5NzZdfQ==
+eyJoaXN0b3J5IjpbMTU2MDAyNTQ5LDMzODI1MDk3Nl19
 -->
