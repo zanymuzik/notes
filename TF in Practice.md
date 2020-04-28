@@ -216,12 +216,23 @@ train_datagen = ImageDataGenerator(
 	horizontal_flip=True,      
 	fill_mode='nearest')
 ```
+
+From [https://www.tensorflow.org/tensorboard/tensorboard_in_notebooks](https://www.tensorflow.org/tensorboard/tensorboard_in_notebooks)
+```
+%load_ext tensorboard
+import datetime
+logdir = os.path.join("logs", datetime.datetime.now().strftime("%Y%m%d-%H%M%S"))
+tensorboard_callback = tf.keras.callbacks.TensorBoard(logdir, histogram_freq=1)
+%tensorboard --logdir logs
+
+model.fit(..., 
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjI1ODYyMDUsNDg0NjExNTk2LDIxMD
-c4NzgzOTgsMTE2MDc1NDc1NiwtMTc5MDUyNDI0MSw5NTg4Njkz
-NSwxMTI4NzQ2NzQsMTg5NTUyMzMzMCw2Njg3NDI4OTQsLTEyND
-cxNjM5LC0xOTU1NjQ2OTMzLDk3NzEwNjA1NSwxMjY5NTQ1NzY5
-LDEyODc0NTU2NCwtMTM3NTAzMjExMiwxMTI0MDQ0MDcxLC0xND
-ExMjg4MDU1LDkzMTgxNDA1LDIwMTU1MTQ5NDAsMTI1MTIyNzc0
-NF19
+eyJoaXN0b3J5IjpbLTEwOTg3NDYyMiwtMTMyMjU4NjIwNSw0OD
+Q2MTE1OTYsMjEwNzg3ODM5OCwxMTYwNzU0NzU2LC0xNzkwNTI0
+MjQxLDk1ODg2OTM1LDExMjg3NDY3NCwxODk1NTIzMzMwLDY2OD
+c0Mjg5NCwtMTI0NzE2MzksLTE5NTU2NDY5MzMsOTc3MTA2MDU1
+LDEyNjk1NDU3NjksMTI4NzQ1NTY0LC0xMzc1MDMyMTEyLDExMj
+QwNDQwNzEsLTE0MTEyODgwNTUsOTMxODE0MDUsMjAxNTUxNDk0
+MF19
 -->
