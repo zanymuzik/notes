@@ -263,9 +263,9 @@ we need a definition of "correct" for Lab 3 &c
 - draw the constraint arrows:
   - the order obeys value constraints (W -> R)
   - the order obeys real-time constraints (Wx1 -> Wx2)
-this order satisfies the constraints:
-  Wx1 Rx1 Wx2 Rx2
-  so the history is linearizable
+- this order satisfies the constraints:
+  - Wx1 Rx1 Wx2 Rx2
+  - so the history is linearizable
 
 note: the definition is based on external behavior
   so we can apply it without having to know how service works
@@ -273,10 +273,13 @@ note: histories explicitly incorporates concurrency in the form of
   overlapping operations (ops don't occur at a point in time), thus good
   match for how distributed systems operate.
 
-example history 2:
+#### example history 2:
+ ```
   |-Wx1-| |-Wx2-|
     |--Rx2--|
               |-Rx1-|
+```
+
 draw the constraint arrows:
   Wx1 before Wx2 (time)
   Wx2 before Rx2 (value)
@@ -474,5 +477,5 @@ in practice, people are often (but not always) willing to live with stale
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODU1MTAzNDY1LDIwNTE2MjcyMl19
+eyJoaXN0b3J5IjpbODc0MzM1MjgyLDIwNTE2MjcyMl19
 -->
