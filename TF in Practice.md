@@ -227,12 +227,17 @@ tensorboard_callback = tf.keras.callbacks.TensorBoard(logdir, histogram_freq=1)
 
 model.fit(..., callbacks=[tensorboard_callback])
 ```
+
+### Do we need to augment validation data?
+
+[https://www.kaggle.com/c/dogs-vs-cats/overview](https://www.kaggle.com/c/dogs-vs-cats/overview)
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTE4Njc5NTgsLTEzMjI1ODYyMDUsND
-g0NjExNTk2LDIxMDc4NzgzOTgsMTE2MDc1NDc1NiwtMTc5MDUy
-NDI0MSw5NTg4NjkzNSwxMTI4NzQ2NzQsMTg5NTUyMzMzMCw2Nj
-g3NDI4OTQsLTEyNDcxNjM5LC0xOTU1NjQ2OTMzLDk3NzEwNjA1
-NSwxMjY5NTQ1NzY5LDEyODc0NTU2NCwtMTM3NTAzMjExMiwxMT
-I0MDQ0MDcxLC0xNDExMjg4MDU1LDkzMTgxNDA1LDIwMTU1MTQ5
-NDBdfQ==
+eyJoaXN0b3J5IjpbNDIwMDc1ODMxLC0xMzkxODY3OTU4LC0xMz
+IyNTg2MjA1LDQ4NDYxMTU5NiwyMTA3ODc4Mzk4LDExNjA3NTQ3
+NTYsLTE3OTA1MjQyNDEsOTU4ODY5MzUsMTEyODc0Njc0LDE4OT
+U1MjMzMzAsNjY4NzQyODk0LC0xMjQ3MTYzOSwtMTk1NTY0Njkz
+Myw5NzcxMDYwNTUsMTI2OTU0NTc2OSwxMjg3NDU1NjQsLTEzNz
+UwMzIxMTIsMTEyNDA0NDA3MSwtMTQxMTI4ODA1NSw5MzE4MTQw
+NV19
 -->
