@@ -244,21 +244,25 @@ we need a definition of "correct" for Lab 3 &c
 - formalizes behavior expected of a single server ("strong" consistency)
 
 #### linearizability definition:
- - an execution history is linearizable if
-    - one can find a total order of all operations, that matches real-time (for non-overlapping ops), and in which each read sees the value from the write preceding it in the order.
+ - an execution history is linearizable if one can find a total order of all operations, 
+ that matches real-time (for non-overlapping ops), and in which each read sees 
+ the value from the write preceding it in the order.
 
-a history is a record of client operations, each with
+- a history is a record of client operations, each with
   arguments, return value, time of start, time completed
 
-example history 1:
+#### example history 1:
+  ```
   |-Wx1-| |-Wx2-|
     |---Rx2---|
       |-Rx1-|
-"Wx1" means "write value 1 to record x"
-"Rx1" means "a read of record x yielded value 1"
-draw the constraint arrows:
-  the order obeys value constraints (W -> R)
-  the order obeys real-time constraints (Wx1 -> Wx2)
+ ```
+
+- "Wx1" means "write value 1 to record x"
+- "Rx1" means "a read of record x yielded value 1"
+- draw the constraint arrows:
+  - the order obeys value constraints (W -> R)
+  - the order obeys real-time constraints (Wx1 -> Wx2)
 this order satisfies the constraints:
   Wx1 Rx1 Wx2 Rx2
   so the history is linearizable
@@ -470,5 +474,5 @@ in practice, people are often (but not always) willing to live with stale
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDIxMDAxMTQsMjA1MTYyNzIyXX0=
+eyJoaXN0b3J5IjpbODU1MTAzNDY1LDIwNTE2MjcyMl19
 -->
