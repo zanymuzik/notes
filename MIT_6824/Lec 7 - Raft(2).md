@@ -230,7 +230,7 @@ practical notes:
     leader should save the log for a while
     or remember which parts of state have been updated
 
-### linearizability
+### Linearizability
 
 we need a definition of "correct" for Lab 3 &c
   how should clients expect Put and Get to behave?
@@ -240,15 +240,12 @@ we need a definition of "correct" for Lab 3 &c
          leader changes, optimizations
   we'll see many consistency definitions in 6.824
 
-"linearizability" is the most common and intuitive definition
-  formalizes behavior expected of a single server ("strong" consistency)
+- "linearizability" is the most common and intuitive definition
+- formalizes behavior expected of a single server ("strong" consistency)
 
-linearizability definition:
-  an execution history is linearizable if
-    one can find a total order of all operations,
-    that matches real-time (for non-overlapping ops), and
-    in which each read sees the value from the
-    write preceding it in the order.
+#### linearizability definition:
+ - an execution history is linearizable if
+    - one can find a total order of all operations, that matches real-time (for non-overlapping ops), and in which each read sees the value from the write preceding it in the order.
 
 a history is a record of client operations, each with
   arguments, return value, time of start, time completed
@@ -473,5 +470,5 @@ in practice, people are often (but not always) willing to live with stale
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1MTYyNzIyXX0=
+eyJoaXN0b3J5IjpbLTEzNDIxMDAxMTQsMjA1MTYyNzIyXX0=
 -->
