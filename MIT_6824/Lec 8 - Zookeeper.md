@@ -3,12 +3,12 @@
 
 ### TL; DR
 [YT Overview](https://www.youtube.com/watch?v=gZj16chk0Ss)
-
 - Simple registry to store mapping for servers
 - use a simple directory structure to traverse
 - entries could be ephemeral or more permanent
 
-Reading: "ZooKeeper: wait-free coordination for internet-scale systems", Patrick Hunt, Mahadev Konar, Flavio P. Junqueira, Benjamin Reed.  
+Reading: "ZooKeeper: wait-free coordination for internet-scale systems", 
+By Patrick Hunt, Mahadev Konar, Flavio P. Junqueira, Benjamin Reed.  
 Proceedings of the 2010 USENIX Annual Technical Conference.
 
 ### Questions
@@ -274,7 +274,8 @@ References:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDc1NzUzNzcsLTEwNTE2MDI0NzAsMT
-c3MjA5MDEzNywxMTE2MjMyOTgzLC0xNDY2NTk2OTI3LDI5MzEz
-NjA0NywtMTA2MjMxMDkxNywxMzczNzcxNTAwXX0=
+eyJoaXN0b3J5IjpbODQyMTU1MDc4LC0xMjQ3NTc1Mzc3LC0xMD
+UxNjAyNDcwLDE3NzIwOTAxMzcsMTExNjIzMjk4MywtMTQ2NjU5
+NjkyNywyOTMxMzYwNDcsLTEwNjIzMTA5MTcsMTM3Mzc3MTUwMF
+19
 -->
