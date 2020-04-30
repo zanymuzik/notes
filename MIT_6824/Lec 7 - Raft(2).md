@@ -307,6 +307,8 @@ so:
             |--Wx2--|
 C1:     |-Rx2-| |-Rx1-|
 C2:     |-Rx1-| |-Rx2-|
+```
+
 what are the constraints?
   Wx2 then C1:Rx2 (value)
   C1:Rx2 then Wx1 (value)
@@ -319,10 +321,12 @@ so:
   this is important when we have replicas or caches
     they have to all agree on the order in which operations occur
 
-example history 5:
+#### example history 5:
+```
 |-Wx1-|
         |-Wx2-|
                 |-Rx1-|
+```
 constraints:
   Wx2 before Rx1 (time)
   Rx1 before Wx2 (value)
@@ -480,6 +484,6 @@ in practice, people are often (but not always) willing to live with stale
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjE0Mjc1NjYsODc0MzM1MjgyLDIwNT
-E2MjcyMl19
+eyJoaXN0b3J5IjpbMTU1NDkzNTMyNiw4NzQzMzUyODIsMjA1MT
+YyNzIyXX0=
 -->
