@@ -251,6 +251,9 @@ we need a definition of "correct" for Lab 3 &c
 - a history is a record of client operations, each with
   arguments, return value, time of start, time completed
 
+Explanation
+https://www.anishathalye.com/2017/06/04/testing-distributed-systems-for-linearizability/
+
 #### example history 1:
   ```
   |-Wx1-| |-Wx2-|
@@ -355,8 +358,6 @@ C2:          |-Rx3-------------|
 order: Wx3 Rx3 Wx4
 so: returning the old saved value 3 is correct
 
-You may find this page useful:
-https://www.anishathalye.com/2017/06/04/testing-distributed-systems-for-linearizability/
 
 ### duplicate RPC detection (Lab 3)
 
@@ -486,6 +487,6 @@ in practice, people are often (but not always) willing to live with stale
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDU2NDYxNjQsODc0MzM1MjgyLDIwNT
-E2MjcyMl19
+eyJoaXN0b3J5IjpbMTg3MzQxNjg3MywtMTkwNTY0NjE2NCw4Nz
+QzMzUyODIsMjA1MTYyNzIyXX0=
 -->
