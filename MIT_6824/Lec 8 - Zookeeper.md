@@ -22,10 +22,10 @@ Proceedings of the 2010 USENIX Annual Technical Conference.
   - [clients, leader/state/log, followers/state/log]
 
 ### Does this replication arrangement get faster as we add more servers?
-  Assume a busy system, lots of active clients.
-  Writes probably get slower with more replicas!
-    Since leader must send each write to growing # of followers.
-  What about reads?
+- Assume a busy system, lots of active clients.
+ - Writes probably get slower with more replicas!
+   -  Since leader must send each write to growing # of followers.
+ - What about reads?
 
 Q: Can replicas serve read-only client requests form their local state?
    Without involving the leader or other replicas?
@@ -274,8 +274,8 @@ References:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQyMTU1MDc4LC0xMjQ3NTc1Mzc3LC0xMD
-UxNjAyNDcwLDE3NzIwOTAxMzcsMTExNjIzMjk4MywtMTQ2NjU5
-NjkyNywyOTMxMzYwNDcsLTEwNjIzMTA5MTcsMTM3Mzc3MTUwMF
-19
+eyJoaXN0b3J5IjpbNzgzOTE4OTUyLDg0MjE1NTA3OCwtMTI0Nz
+U3NTM3NywtMTA1MTYwMjQ3MCwxNzcyMDkwMTM3LDExMTYyMzI5
+ODMsLTE0NjY1OTY5MjcsMjkzMTM2MDQ3LC0xMDYyMzEwOTE3LD
+EzNzM3NzE1MDBdfQ==
 -->
