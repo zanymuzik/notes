@@ -341,15 +341,17 @@ so:
     forgetting committed writes after a reboot
     reading from lagging replicas
 
-example history 6:
+#### example history 6:
 suppose clients re-send requests if they don't get a reply
 in case it was the response that was lost:
   leader remembers client requests it has already seen
   if sees duplicate, replies with saved response from first execution
 but this may yield a saved value from long ago -- a stale value!
 what does linearizabilty say?
+```
 C1: |-Wx3-|          |-Wx4-|
 C2:          |-Rx3-------------|
+```
 order: Wx3 Rx3 Wx4
 so: returning the old saved value 3 is correct
 
@@ -484,6 +486,6 @@ in practice, people are often (but not always) willing to live with stale
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1NDkzNTMyNiw4NzQzMzUyODIsMjA1MT
-YyNzIyXX0=
+eyJoaXN0b3J5IjpbLTE5MDU2NDYxNjQsODc0MzM1MjgyLDIwNT
+E2MjcyMl19
 -->
