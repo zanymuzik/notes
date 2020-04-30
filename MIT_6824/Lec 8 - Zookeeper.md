@@ -7,6 +7,9 @@
 - use a simple directory structure to traverse
 - entries could be ephemeral or more permanent
 
+### Overview
+[https://distributedalgorithm.wordpress.com/page/1/](https://distributedalgorithm.wordpress.com/page/1/)
+
 Reading: "ZooKeeper: wait-free coordination for internet-scale systems", 
 By Patrick Hunt, Mahadev Konar, Flavio P. Junqueira, Benjamin Reed.  
 Proceedings of the 2010 USENIX Annual Technical Conference.
@@ -25,6 +28,8 @@ Proceedings of the 2010 USENIX Annual Technical Conference.
 - Assume a busy system, lots of active clients.
  - Writes probably get slower with more replicas!
    -  Since leader must send each write to growing # of followers.
+   -  More servers -> slower system
+   -
  - What about reads?
 
 Q: Can replicas serve read-only client requests form their local state?
@@ -274,8 +279,8 @@ References:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzgzOTE4OTUyLDg0MjE1NTA3OCwtMTI0Nz
-U3NTM3NywtMTA1MTYwMjQ3MCwxNzcyMDkwMTM3LDExMTYyMzI5
-ODMsLTE0NjY1OTY5MjcsMjkzMTM2MDQ3LC0xMDYyMzEwOTE3LD
-EzNzM3NzE1MDBdfQ==
+eyJoaXN0b3J5IjpbLTkxMDAzNjY4Niw3ODM5MTg5NTIsODQyMT
+U1MDc4LC0xMjQ3NTc1Mzc3LC0xMDUxNjAyNDcwLDE3NzIwOTAx
+MzcsMTExNjIzMjk4MywtMTQ2NjU5NjkyNywyOTMxMzYwNDcsLT
+EwNjIzMTA5MTcsMTM3Mzc3MTUwMF19
 -->
