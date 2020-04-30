@@ -289,17 +289,20 @@ there's a cycle -- so it cannot be turned into a linear order. so this
 history is not linearizable. (it would be linearizable w/o Rx2, even
 though Rx1 overlaps with Wx2.)
 
-example history 3:
+#### example history 3:
+```
 |--Wx0--|  |--Wx1--|
             |--Wx2--|
         |-Rx2-| |-Rx1-|
+```
 order: Wx0 Wx2 Rx2 Wx1 Rx1
 so the history linearizable.
 so:
   the service can pick either order for concurrent writes.
   e.g. Raft placing concurrent ops in the log.
 
-example history 4:
+#### example history 4:
+```
 |--Wx0--|  |--Wx1--|
             |--Wx2--|
 C1:     |-Rx2-| |-Rx1-|
@@ -477,5 +480,6 @@ in practice, people are often (but not always) willing to live with stale
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODc0MzM1MjgyLDIwNTE2MjcyMl19
+eyJoaXN0b3J5IjpbLTEyMjE0Mjc1NjYsODc0MzM1MjgyLDIwNT
+E2MjcyMl19
 -->
