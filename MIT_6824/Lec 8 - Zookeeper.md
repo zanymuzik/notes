@@ -29,9 +29,8 @@ Proceedings of the 2010 USENIX Annual Technical Conference.
  - Writes probably get slower with more replicas!
    -  Since leader must send each write to growing # of followers.
    -  More servers -> slower system
-   -
- - What about reads?
 
+ - What about reads?
 Q: Can replicas serve read-only client requests form their local state?
    Without involving the leader or other replicas?
    Then total read capacity would be O(# servers), not O(1)!
@@ -279,8 +278,8 @@ References:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxMDAzNjY4Niw3ODM5MTg5NTIsODQyMT
-U1MDc4LC0xMjQ3NTc1Mzc3LC0xMDUxNjAyNDcwLDE3NzIwOTAx
-MzcsMTExNjIzMjk4MywtMTQ2NjU5NjkyNywyOTMxMzYwNDcsLT
-EwNjIzMTA5MTcsMTM3Mzc3MTUwMF19
+eyJoaXN0b3J5IjpbNzQ0NTQ0OTQ1LDc4MzkxODk1Miw4NDIxNT
+UwNzgsLTEyNDc1NzUzNzcsLTEwNTE2MDI0NzAsMTc3MjA5MDEz
+NywxMTE2MjMyOTgzLC0xNDY2NTk2OTI3LDI5MzEzNjA0NywtMT
+A2MjMxMDkxNywxMzczNzcxNTAwXX0=
 -->
