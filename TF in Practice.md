@@ -237,7 +237,24 @@ model.fit(..., callbacks=[tensorboard_callback])
 ### Transfer Learning
 - Take an existing model and keep the weights of the top layers fixed
 
+```
+from tensorflow.keras.applications.inception_v3 import InceptionV3
 
+local_weights_file = '/tmp/inception_v3_weights_tf_dim_ordering_tf_kernels_notop.h5'
+pre_trained_model = InceptionV3(input_shape = (150, 150, 3), include_top = False, weights = None)
+pre_trained_model.load_weights(local_weights_file)
+
+for layer in pre_trained_model.layers:
+	layer.trainable = False
+
+pre_trained_model.summary()
+
+last_layer = pre_trained_model.get_layer('mixed7')
+print('last layer output shape: ', last_layer.output_shape)
+last_output = last_layer.output
+```
+
+### Training for transfer learning
 
 ```
 # Flatten the output layer to 1 dimension
@@ -260,11 +277,11 @@ model = Model( pre_trained_model.input, x)
 - Use for overfitting - mostly for CNN
 - Cost function (J) is harder to define
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4NzcwMzkyMiwzNjU0MjQyNzMsLTgyOT
-UxNjI3NCw0MjAwNzU4MzEsLTEzOTE4Njc5NTgsLTEzMjI1ODYy
-MDUsNDg0NjExNTk2LDIxMDc4NzgzOTgsMTE2MDc1NDc1NiwtMT
-c5MDUyNDI0MSw5NTg4NjkzNSwxMTI4NzQ2NzQsMTg5NTUyMzMz
-MCw2Njg3NDI4OTQsLTEyNDcxNjM5LC0xOTU1NjQ2OTMzLDk3Nz
-EwNjA1NSwxMjY5NTQ1NzY5LDEyODc0NTU2NCwtMTM3NTAzMjEx
-Ml19
+eyJoaXN0b3J5IjpbLTIxMjYzMDcyNjUsMTU4NzcwMzkyMiwzNj
+U0MjQyNzMsLTgyOTUxNjI3NCw0MjAwNzU4MzEsLTEzOTE4Njc5
+NTgsLTEzMjI1ODYyMDUsNDg0NjExNTk2LDIxMDc4NzgzOTgsMT
+E2MDc1NDc1NiwtMTc5MDUyNDI0MSw5NTg4NjkzNSwxMTI4NzQ2
+NzQsMTg5NTUyMzMzMCw2Njg3NDI4OTQsLTEyNDcxNjM5LC0xOT
+U1NjQ2OTMzLDk3NzEwNjA1NSwxMjY5NTQ1NzY5LDEyODc0NTU2
+NF19
 -->
