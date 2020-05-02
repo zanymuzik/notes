@@ -273,15 +273,16 @@ model = Model(pre_trained_model.input, x)
 ```
 
 ### Dropout
+[https://www.tensorflow.org/api_docs/python/tf/keras/layers/Dropout](https://www.tensorflow.org/api_docs/python/tf/keras/layers/Dropout)
 - Regularization feature
 - Use for overfitting - mostly for CNN
 - Cost function (J) is harder to define
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzYwNDYxOTc3LC0yMTI2MzA3MjY1LDE1OD
-c3MDM5MjIsMzY1NDI0MjczLC04Mjk1MTYyNzQsNDIwMDc1ODMx
-LC0xMzkxODY3OTU4LC0xMzIyNTg2MjA1LDQ4NDYxMTU5NiwyMT
-A3ODc4Mzk4LDExNjA3NTQ3NTYsLTE3OTA1MjQyNDEsOTU4ODY5
-MzUsMTEyODc0Njc0LDE4OTU1MjMzMzAsNjY4NzQyODk0LC0xMj
-Q3MTYzOSwtMTk1NTY0NjkzMyw5NzcxMDYwNTUsMTI2OTU0NTc2
-OV19
+eyJoaXN0b3J5IjpbLTE4MDgxMDM5MzAsNzYwNDYxOTc3LC0yMT
+I2MzA3MjY1LDE1ODc3MDM5MjIsMzY1NDI0MjczLC04Mjk1MTYy
+NzQsNDIwMDc1ODMxLC0xMzkxODY3OTU4LC0xMzIyNTg2MjA1LD
+Q4NDYxMTU5NiwyMTA3ODc4Mzk4LDExNjA3NTQ3NTYsLTE3OTA1
+MjQyNDEsOTU4ODY5MzUsMTEyODc0Njc0LDE4OTU1MjMzMzAsNj
+Y4NzQyODk0LC0xMjQ3MTYzOSwtMTk1NTY0NjkzMyw5NzcxMDYw
+NTVdfQ==
 -->
