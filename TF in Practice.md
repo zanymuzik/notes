@@ -267,9 +267,9 @@ x = layers.Dense(1024, activation='relu')(x)
 x = layers.Dropout(0.2)(x)
 
 # Add a final sigmoid layer for classification
-x = layers.Dense (1, activation='sigmoid')(x)
+x = layers.Dense(1, activation='sigmoid')(x)
 
-model = Model( pre_trained_model.input, x)
+model = Model(pre_trained_model.input, x)
 ```
 
 ### Dropout
@@ -277,11 +277,11 @@ model = Model( pre_trained_model.input, x)
 - Use for overfitting - mostly for CNN
 - Cost function (J) is harder to define
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjYzMDcyNjUsMTU4NzcwMzkyMiwzNj
-U0MjQyNzMsLTgyOTUxNjI3NCw0MjAwNzU4MzEsLTEzOTE4Njc5
-NTgsLTEzMjI1ODYyMDUsNDg0NjExNTk2LDIxMDc4NzgzOTgsMT
-E2MDc1NDc1NiwtMTc5MDUyNDI0MSw5NTg4NjkzNSwxMTI4NzQ2
-NzQsMTg5NTUyMzMzMCw2Njg3NDI4OTQsLTEyNDcxNjM5LC0xOT
-U1NjQ2OTMzLDk3NzEwNjA1NSwxMjY5NTQ1NzY5LDEyODc0NTU2
-NF19
+eyJoaXN0b3J5IjpbNzYwNDYxOTc3LC0yMTI2MzA3MjY1LDE1OD
+c3MDM5MjIsMzY1NDI0MjczLC04Mjk1MTYyNzQsNDIwMDc1ODMx
+LC0xMzkxODY3OTU4LC0xMzIyNTg2MjA1LDQ4NDYxMTU5NiwyMT
+A3ODc4Mzk4LDExNjA3NTQ3NTYsLTE3OTA1MjQyNDEsOTU4ODY5
+MzUsMTEyODc0Njc0LDE4OTU1MjMzMzAsNjY4NzQyODk0LC0xMj
+Q3MTYzOSwtMTk1NTY0NjkzMyw5NzcxMDYwNTUsMTI2OTU0NTc2
+OV19
 -->
