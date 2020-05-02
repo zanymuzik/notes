@@ -200,7 +200,7 @@ loss = history.history[ 'loss' ]
 val_loss = history.history['val_loss' ]
 ```
 
-## [Week 2](https://www.coursera.org/learn/convolutional-neural-networks-tensorflow/home/week/2)
+## [Week 2 - Image Augmentation](https://www.coursera.org/learn/convolutional-neural-networks-tensorflow/home/week/2)
 
 ### Data Augmentation
 - No additional storage, all transformation are in memory while reading the data
@@ -232,12 +232,13 @@ model.fit(..., callbacks=[tensorboard_callback])
 
 [https://www.kaggle.com/c/dogs-vs-cats/overview](https://www.kaggle.com/c/dogs-vs-cats/overview)
 
+## [Week 3 - Transfer Learning](https://www.coursera.org/learn/convolutional-neural-networks-tensorflow/home/week/3)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDIwMDc1ODMxLC0xMzkxODY3OTU4LC0xMz
-IyNTg2MjA1LDQ4NDYxMTU5NiwyMTA3ODc4Mzk4LDExNjA3NTQ3
-NTYsLTE3OTA1MjQyNDEsOTU4ODY5MzUsMTEyODc0Njc0LDE4OT
-U1MjMzMzAsNjY4NzQyODk0LC0xMjQ3MTYzOSwtMTk1NTY0Njkz
-Myw5NzcxMDYwNTUsMTI2OTU0NTc2OSwxMjg3NDU1NjQsLTEzNz
-UwMzIxMTIsMTEyNDA0NDA3MSwtMTQxMTI4ODA1NSw5MzE4MTQw
-NV19
+eyJoaXN0b3J5IjpbNDA1NzY0OTA1LDQyMDA3NTgzMSwtMTM5MT
+g2Nzk1OCwtMTMyMjU4NjIwNSw0ODQ2MTE1OTYsMjEwNzg3ODM5
+OCwxMTYwNzU0NzU2LC0xNzkwNTI0MjQxLDk1ODg2OTM1LDExMj
+g3NDY3NCwxODk1NTIzMzMwLDY2ODc0Mjg5NCwtMTI0NzE2Mzks
+LTE5NTU2NDY5MzMsOTc3MTA2MDU1LDEyNjk1NDU3NjksMTI4Nz
+Q1NTY0LC0xMzc1MDMyMTEyLDExMjQwNDQwNzEsLTE0MTEyODgw
+NTVdfQ==
 -->
