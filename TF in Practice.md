@@ -235,13 +235,31 @@ model.fit(..., callbacks=[tensorboard_callback])
 ## [Week 3 - Transfer Learning](https://www.coursera.org/learn/convolutional-neural-networks-tensorflow/home/week/3)
 
 ### Transfer Learning
-- Take an existing model 
+- Take an existing model and fixed the top layers
+
+
+
+```
+# Flatten the output layer to 1 dimension
+x = layers.Flatten()(last_output)
+
+# Add a fully connected layer with 1,024 hidden units and ReLU activation
+x = layers.Dense(1024, activation='relu')(x)
+
+# Add a dropout rate of 0.2
+x = layers.Dropout(0.2)(x)
+
+# Add a final sigmoid layer for classification
+x = layers.Dense (1, activation='sigmoid')(x)
+
+model = Model( pre_trained_model.input, x)
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyOTUxNjI3NCw0MjAwNzU4MzEsLTEzOT
-E4Njc5NTgsLTEzMjI1ODYyMDUsNDg0NjExNTk2LDIxMDc4Nzgz
-OTgsMTE2MDc1NDc1NiwtMTc5MDUyNDI0MSw5NTg4NjkzNSwxMT
-I4NzQ2NzQsMTg5NTUyMzMzMCw2Njg3NDI4OTQsLTEyNDcxNjM5
-LC0xOTU1NjQ2OTMzLDk3NzEwNjA1NSwxMjY5NTQ1NzY5LDEyOD
-c0NTU2NCwtMTM3NTAzMjExMiwxMTI0MDQ0MDcxLC0xNDExMjg4
-MDU1XX0=
+eyJoaXN0b3J5IjpbMzY1NDI0MjczLC04Mjk1MTYyNzQsNDIwMD
+c1ODMxLC0xMzkxODY3OTU4LC0xMzIyNTg2MjA1LDQ4NDYxMTU5
+NiwyMTA3ODc4Mzk4LDExNjA3NTQ3NTYsLTE3OTA1MjQyNDEsOT
+U4ODY5MzUsMTEyODc0Njc0LDE4OTU1MjMzMzAsNjY4NzQyODk0
+LC0xMjQ3MTYzOSwtMTk1NTY0NjkzMyw5NzcxMDYwNTUsMTI2OT
+U0NTc2OSwxMjg3NDU1NjQsLTEzNzUwMzIxMTIsMTEyNDA0NDA3
+MV19
 -->
