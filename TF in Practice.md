@@ -233,12 +233,15 @@ model.fit(..., callbacks=[tensorboard_callback])
 [https://www.kaggle.com/c/dogs-vs-cats/overview](https://www.kaggle.com/c/dogs-vs-cats/overview)
 
 ## [Week 3 - Transfer Learning](https://www.coursera.org/learn/convolutional-neural-networks-tensorflow/home/week/3)
+
+### Transfer Learning
+- Take an existing model 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDA1NzY0OTA1LDQyMDA3NTgzMSwtMTM5MT
-g2Nzk1OCwtMTMyMjU4NjIwNSw0ODQ2MTE1OTYsMjEwNzg3ODM5
-OCwxMTYwNzU0NzU2LC0xNzkwNTI0MjQxLDk1ODg2OTM1LDExMj
-g3NDY3NCwxODk1NTIzMzMwLDY2ODc0Mjg5NCwtMTI0NzE2Mzks
-LTE5NTU2NDY5MzMsOTc3MTA2MDU1LDEyNjk1NDU3NjksMTI4Nz
-Q1NTY0LC0xMzc1MDMyMTEyLDExMjQwNDQwNzEsLTE0MTEyODgw
-NTVdfQ==
+eyJoaXN0b3J5IjpbLTgyOTUxNjI3NCw0MjAwNzU4MzEsLTEzOT
+E4Njc5NTgsLTEzMjI1ODYyMDUsNDg0NjExNTk2LDIxMDc4Nzgz
+OTgsMTE2MDc1NDc1NiwtMTc5MDUyNDI0MSw5NTg4NjkzNSwxMT
+I4NzQ2NzQsMTg5NTUyMzMzMCw2Njg3NDI4OTQsLTEyNDcxNjM5
+LC0xOTU1NjQ2OTMzLDk3NzEwNjA1NSwxMjY5NTQ1NzY5LDEyOD
+c0NTU2NCwtMTM3NTAzMjExMiwxMTI0MDQ0MDcxLC0xNDExMjg4
+MDU1XX0=
 -->
