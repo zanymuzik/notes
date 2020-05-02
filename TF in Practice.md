@@ -235,7 +235,7 @@ model.fit(..., callbacks=[tensorboard_callback])
 ## [Week 3 - Transfer Learning](https://www.coursera.org/learn/convolutional-neural-networks-tensorflow/home/week/3)
 
 ### Transfer Learning
-- Take an existing model and fixed the top layers
+- Take an existing model and keep the weights of the top layers fixed
 
 
 
@@ -254,12 +254,17 @@ x = layers.Dense (1, activation='sigmoid')(x)
 
 model = Model( pre_trained_model.input, x)
 ```
+
+### Dropout
+- Regularization feature
+- Use for overfitting - mostly for CNN
+- Cost function (J) is harder to define
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzY1NDI0MjczLC04Mjk1MTYyNzQsNDIwMD
-c1ODMxLC0xMzkxODY3OTU4LC0xMzIyNTg2MjA1LDQ4NDYxMTU5
-NiwyMTA3ODc4Mzk4LDExNjA3NTQ3NTYsLTE3OTA1MjQyNDEsOT
-U4ODY5MzUsMTEyODc0Njc0LDE4OTU1MjMzMzAsNjY4NzQyODk0
-LC0xMjQ3MTYzOSwtMTk1NTY0NjkzMyw5NzcxMDYwNTUsMTI2OT
-U0NTc2OSwxMjg3NDU1NjQsLTEzNzUwMzIxMTIsMTEyNDA0NDA3
-MV19
+eyJoaXN0b3J5IjpbMTU4NzcwMzkyMiwzNjU0MjQyNzMsLTgyOT
+UxNjI3NCw0MjAwNzU4MzEsLTEzOTE4Njc5NTgsLTEzMjI1ODYy
+MDUsNDg0NjExNTk2LDIxMDc4NzgzOTgsMTE2MDc1NDc1NiwtMT
+c5MDUyNDI0MSw5NTg4NjkzNSwxMTI4NzQ2NzQsMTg5NTUyMzMz
+MCw2Njg3NDI4OTQsLTEyNDcxNjM5LC0xOTU1NjQ2OTMzLDk3Nz
+EwNjA1NSwxMjY5NTQ1NzY5LDEyODc0NTU2NCwtMTM3NTAzMjEx
+Ml19
 -->
