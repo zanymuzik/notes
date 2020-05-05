@@ -290,14 +290,14 @@ model = Model(pre_trained_model.input, x)
 |---	|---	|---	|
 train_generator|flow_from_directory(... , class_mode='binary') | flow_from_directory(... , class_mode='categorical')  
 |  final layer 	| keras.layers.Dense(1, activation='sigmoid') | keras.layers.Dense(N, activation='softmax')  	| 
-| loss fxn  	| loss='binart_ctossentropy' 	|   	|   	|
+| loss fxn  	| loss='binary_crossentropy' | loss='catagorical_crossentropy'  	|
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2NTQ4ODIyMCwtMTI1NzQzNDE1OSwtMT
-g2NDQ2OTE4MiwtMTgwODEwMzkzMCw3NjA0NjE5NzcsLTIxMjYz
-MDcyNjUsMTU4NzcwMzkyMiwzNjU0MjQyNzMsLTgyOTUxNjI3NC
-w0MjAwNzU4MzEsLTEzOTE4Njc5NTgsLTEzMjI1ODYyMDUsNDg0
-NjExNTk2LDIxMDc4NzgzOTgsMTE2MDc1NDc1NiwtMTc5MDUyND
-I0MSw5NTg4NjkzNSwxMTI4NzQ2NzQsMTg5NTUyMzMzMCw2Njg3
-NDI4OTRdfQ==
+eyJoaXN0b3J5IjpbMTY4OTI2ODA1LC0xMjU3NDM0MTU5LC0xOD
+Y0NDY5MTgyLC0xODA4MTAzOTMwLDc2MDQ2MTk3NywtMjEyNjMw
+NzI2NSwxNTg3NzAzOTIyLDM2NTQyNDI3MywtODI5NTE2Mjc0LD
+QyMDA3NTgzMSwtMTM5MTg2Nzk1OCwtMTMyMjU4NjIwNSw0ODQ2
+MTE1OTYsMjEwNzg3ODM5OCwxMTYwNzU0NzU2LC0xNzkwNTI0Mj
+QxLDk1ODg2OTM1LDExMjg3NDY3NCwxODk1NTIzMzMwLDY2ODc0
+Mjg5NF19
 -->
