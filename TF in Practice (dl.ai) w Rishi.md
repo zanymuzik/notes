@@ -13,6 +13,7 @@
     <div class="stackedit__toc">
       
 <ul>
+<li><a href="#specialization---tensorflow-in-practice">Specialization - Tensorflow in Practice</a></li>
 <li><a href="#course-1---intro-to-tensorflow">Course 1 - Intro to Tensorflow</a>
 <ul>
 <li><a href="#week-1">Week 1</a></li>
@@ -21,22 +22,31 @@
 <li><a href="#week-4">Week 4</a></li>
 </ul>
 </li>
+<li><a href="#course-2---cnn-in-tensorflow">Course 2 - CNN in Tensorflow</a>
+<ul>
+<li><a href="#week-1-1">Week 1</a></li>
+<li><a href="#week-2---image-augmentation">Week 2 - Image Augmentation</a></li>
+<li><a href="#week-3---transfer-learning">Week 3 - Transfer Learning</a></li>
+<li><a href="#week-4---multiclass-classification">Week 4 - Multiclass Classification</a></li>
+</ul>
+</li>
 </ul>
 
     </div>
   </div>
   <div class="stackedit__right">
     <div class="stackedit__html">
-      <h1 id="course-1---intro-to-tensorflow"><a href="https://www.coursera.org/learn/introduction-tensorflow/home/welcome">Course 1 - Intro to Tensorflow</a></h1>
+      <h1 id="specialization---tensorflow-in-practice"><a href="https://www.coursera.org/specializations/tensorflow-in-practice">Specialization - Tensorflow in Practice</a></h1>
+<h1 id="course-1---intro-to-tensorflow"><a href="https://www.coursera.org/learn/introduction-tensorflow/home/welcome">Course 1 - Intro to Tensorflow</a></h1>
 <h2 id="week-1"><a href="https://www.coursera.org/learn/introduction-tensorflow/home/week/1">Week 1</a></h2>
 <h3 id="primer">Primer</h3>
-<div class="mermaid"><svg xmlns="http://www.w3.org/2000/svg" id="mermaid-svg-Do5LaivblN2XJZm4" width="100%" style="max-width: 391.390625px;" viewBox="0 0 391.390625 147.59375"><g transform="translate(-12, -12)"><g class="output"><g class="clusters"></g><g class="edgePaths"><g class="edgePath" style="opacity: 1;"><path class="path" d="M70.21875,40.3984375L95.21875,40.3984375L152.196894897608,65.3984375" marker-end="url(#arrowhead73)" style="fill:none"></path><defs><marker id="arrowhead73" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath" style="opacity: 1;"><path class="path" d="M68.546875,131.1953125L95.21875,131.1953125L152.196894897608,106.1953125" marker-end="url(#arrowhead74)" style="fill:none"></path><defs><marker id="arrowhead74" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath" style="opacity: 1;"><path class="path" d="M277.15625,85.796875L302.15625,85.796875L327.15625,85.796875" marker-end="url(#arrowhead75)" style="fill:none"></path><defs><marker id="arrowhead75" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g></g><g class="edgeLabels"><g class="edgeLabel" transform="" style="opacity: 1;"><g transform="translate(0,0)" class="label"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel" transform="" style="opacity: 1;"><g transform="translate(0,0)" class="label"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel" transform="" style="opacity: 1;"><g transform="translate(0,0)" class="label"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel"></span></div></foreignObject></g></g></g><g class="nodes"><g class="node" id="Rules" transform="translate(45.109375,40.3984375)" style="opacity: 1;"><rect rx="0" ry="0" x="-25.109375" y="-20.3984375" width="50.21875" height="40.796875"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-15.109375,-10.3984375)"><foreignObject width="30.2249755859375" height="20.80000114440918"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">Rules</div></foreignObject></g></g></g><g class="node" id="A" transform="translate(198.6875,85.796875)" style="opacity: 1;"><rect rx="0" ry="0" x="-78.46875" y="-20.3984375" width="156.9375" height="40.796875"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-68.46875,-10.3984375)"><foreignObject width="136.95001220703125" height="20.80000114440918"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">Traditional Programming</div></foreignObject></g></g></g><g class="node" id="Data" transform="translate(45.109375,131.1953125)" style="opacity: 1;"><rect rx="0" ry="0" x="-23.4375" y="-20.3984375" width="46.875" height="40.796875"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-13.4375,-10.3984375)"><foreignObject width="26.88751220703125" height="20.80000114440918"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">Data</div></foreignObject></g></g></g><g class="node" id="Answers" transform="translate(361.2734375,85.796875)" style="opacity: 1;"><rect rx="0" ry="0" x="-34.1171875" y="-20.3984375" width="68.234375" height="40.796875"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-24.1171875,-10.3984375)"><foreignObject width="48.23748779296875" height="20.80000114440918"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">Answers</div></foreignObject></g></g></g></g></g></g></svg></div>
+<div class="mermaid"><svg xmlns="http://www.w3.org/2000/svg" id="mermaid-svg-0YI9D68HvM1YWRVZ" width="100%" style="max-width: 445.265625px;" viewBox="0 0 445.265625 158"><g transform="translate(-12, -12)"><g class="output"><g class="clusters"></g><g class="edgePaths"><g class="edgePath" style="opacity: 1;"><path class="path" d="M77.78125,43L102.78125,43L165.59049479166666,68" marker-end="url(#arrowhead61)" style="fill:none"></path><defs><marker id="arrowhead61" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath" style="opacity: 1;"><path class="path" d="M75.6953125,139L102.78125,139L165.59049479166666,114" marker-end="url(#arrowhead62)" style="fill:none"></path><defs><marker id="arrowhead62" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath" style="opacity: 1;"><path class="path" d="M318.96875,91L343.96875,91L368.96875,91" marker-end="url(#arrowhead63)" style="fill:none"></path><defs><marker id="arrowhead63" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g></g><g class="edgeLabels"><g class="edgeLabel" transform="" style="opacity: 1;"><g transform="translate(0,0)" class="label"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel" transform="" style="opacity: 1;"><g transform="translate(0,0)" class="label"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel" transform="" style="opacity: 1;"><g transform="translate(0,0)" class="label"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel"></span></div></foreignObject></g></g></g><g class="nodes"><g class="node" id="Rules" transform="translate(48.890625,43)" style="opacity: 1;"><rect rx="0" ry="0" x="-28.890625" y="-23" width="57.78125" height="46"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-18.890625,-13)"><foreignObject width="37.78125" height="26"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">Rules</div></foreignObject></g></g></g><g class="node" id="A" transform="translate(223.375,91)" style="opacity: 1;"><rect rx="0" ry="0" x="-95.59375" y="-23" width="191.1875" height="46"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-85.59375,-13)"><foreignObject width="171.1875" height="26"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">Traditional Programming</div></foreignObject></g></g></g><g class="node" id="Data" transform="translate(48.890625,139)" style="opacity: 1;"><rect rx="0" ry="0" x="-26.8046875" y="-23" width="53.609375" height="46"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-16.8046875,-13)"><foreignObject width="33.609375" height="26"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">Data</div></foreignObject></g></g></g><g class="node" id="Answers" transform="translate(409.1171875,91)" style="opacity: 1;"><rect rx="0" ry="0" x="-40.1484375" y="-23" width="80.296875" height="46"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-30.1484375,-13)"><foreignObject width="60.296875" height="26"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">Answers</div></foreignObject></g></g></g></g></g></g></svg></div>
 <h4 id="traditional-programming">Traditional Programming</h4>
 <ul>
 <li>rules based programming</li>
 <li>if-then statements</li>
 </ul>
-<div class="mermaid"><svg xmlns="http://www.w3.org/2000/svg" id="mermaid-svg-F1tUQVvyaFNdF8li" width="100%" style="max-width: 353.90625px;" viewBox="0 0 353.90625 147.59375"><g transform="translate(-12, -12)"><g class="output"><g class="clusters"></g><g class="edgePaths"><g class="edgePath" style="opacity: 1;"><path class="path" d="M88.234375,40.3984375L113.234375,40.3984375L159.89157685854414,65.3984375" marker-end="url(#arrowhead88)" style="fill:none"></path><defs><marker id="arrowhead88" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath" style="opacity: 1;"><path class="path" d="M77.5546875,131.1953125L113.234375,131.1953125L159.89157685854414,106.1953125" marker-end="url(#arrowhead89)" style="fill:none"></path><defs><marker id="arrowhead89" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath" style="opacity: 1;"><path class="path" d="M257.6875,85.796875L282.6875,85.796875L307.6875,85.796875" marker-end="url(#arrowhead90)" style="fill:none"></path><defs><marker id="arrowhead90" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g></g><g class="edgeLabels"><g class="edgeLabel" transform="" style="opacity: 1;"><g transform="translate(0,0)" class="label"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel" transform="" style="opacity: 1;"><g transform="translate(0,0)" class="label"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel" transform="" style="opacity: 1;"><g transform="translate(0,0)" class="label"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel"></span></div></foreignObject></g></g></g><g class="nodes"><g class="node" id="Answers" transform="translate(54.1171875,40.3984375)" style="opacity: 1;"><rect rx="0" ry="0" x="-34.1171875" y="-20.3984375" width="68.234375" height="40.796875"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-24.1171875,-10.3984375)"><foreignObject width="48.23748779296875" height="20.80000114440918"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">Answers</div></foreignObject></g></g></g><g class="node" id="B" transform="translate(197.9609375,85.796875)" style="opacity: 1;"><rect rx="0" ry="0" x="-59.7265625" y="-20.3984375" width="119.453125" height="40.796875"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-49.7265625,-10.3984375)"><foreignObject width="99.4625244140625" height="20.80000114440918"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">Machine Learning</div></foreignObject></g></g></g><g class="node" id="Data" transform="translate(54.1171875,131.1953125)" style="opacity: 1;"><rect rx="0" ry="0" x="-23.4375" y="-20.3984375" width="46.875" height="40.796875"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-13.4375,-10.3984375)"><foreignObject width="26.88751220703125" height="20.80000114440918"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">Data</div></foreignObject></g></g></g><g class="node" id="Rules" transform="translate(332.796875,85.796875)" style="opacity: 1;"><rect rx="0" ry="0" x="-25.109375" y="-20.3984375" width="50.21875" height="40.796875"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-15.109375,-10.3984375)"><foreignObject width="30.2249755859375" height="20.80000114440918"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">Rules</div></foreignObject></g></g></g></g></g></g></svg></div>
+<div class="mermaid"><svg xmlns="http://www.w3.org/2000/svg" id="mermaid-svg-8FZID4aewrrvbIEl" width="100%" style="max-width: 398.40625px;" viewBox="0 0 398.40625 158"><g transform="translate(-12, -12)"><g class="output"><g class="clusters"></g><g class="edgePaths"><g class="edgePath" style="opacity: 1;"><path class="path" d="M100.296875,43L125.296875,43L175.90315755208334,68" marker-end="url(#arrowhead76)" style="fill:none"></path><defs><marker id="arrowhead76" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath" style="opacity: 1;"><path class="path" d="M86.953125,139L125.296875,139L175.90315755208334,114" marker-end="url(#arrowhead77)" style="fill:none"></path><defs><marker id="arrowhead77" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath" style="opacity: 1;"><path class="path" d="M294.625,91L319.625,91L344.625,91" marker-end="url(#arrowhead78)" style="fill:none"></path><defs><marker id="arrowhead78" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g></g><g class="edgeLabels"><g class="edgeLabel" transform="" style="opacity: 1;"><g transform="translate(0,0)" class="label"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel" transform="" style="opacity: 1;"><g transform="translate(0,0)" class="label"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel" transform="" style="opacity: 1;"><g transform="translate(0,0)" class="label"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel"></span></div></foreignObject></g></g></g><g class="nodes"><g class="node" id="Answers" transform="translate(60.1484375,43)" style="opacity: 1;"><rect rx="0" ry="0" x="-40.1484375" y="-23" width="80.296875" height="46"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-30.1484375,-13)"><foreignObject width="60.296875" height="26"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">Answers</div></foreignObject></g></g></g><g class="node" id="B" transform="translate(222.4609375,91)" style="opacity: 1;"><rect rx="0" ry="0" x="-72.1640625" y="-23" width="144.328125" height="46"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-62.1640625,-13)"><foreignObject width="124.328125" height="26"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">Machine Learning</div></foreignObject></g></g></g><g class="node" id="Data" transform="translate(60.1484375,139)" style="opacity: 1;"><rect rx="0" ry="0" x="-26.8046875" y="-23" width="53.609375" height="46"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-16.8046875,-13)"><foreignObject width="33.609375" height="26"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">Data</div></foreignObject></g></g></g><g class="node" id="Rules" transform="translate(373.515625,91)" style="opacity: 1;"><rect rx="0" ry="0" x="-28.890625" y="-23" width="57.78125" height="46"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-18.890625,-13)"><foreignObject width="37.78125" height="26"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">Rules</div></foreignObject></g></g></g></g></g></g></svg></div>
 <h4 id="machine-learning">Machine Learning</h4>
 <ul>
 <li>lots of examples + label</li>
@@ -213,6 +223,92 @@ verbose=2)
 <li>by reducing image size</li>
 <li>changing number of CNN layers</li>
 </ul>
+<h1 id="course-2---cnn-in-tensorflow"><a href="https://www.coursera.org/learn/convolutional-neural-networks-tensorflow">Course 2 - CNN in Tensorflow</a></h1>
+<h2 id="week-1-1"><a href="https://www.coursera.org/learn/convolutional-neural-networks-tensorflow/home/week/1">Week 1</a></h2>
+<h3 id="data-is-coming-from-real-world">Data is coming from real-world</h3>
+<ul>
+<li>less cleaner</li>
+<li>the previous structure works well</li>
+</ul>
+<pre><code>history = model.fit()
+acc = history.history[ 'accuracy' ]
+val_acc = history.history[ 'val_accuracy' ]
+loss = history.history[ 'loss' ]
+val_loss = history.history['val_loss' ]
+</code></pre>
+<h2 id="week-2---image-augmentation"><a href="https://www.coursera.org/learn/convolutional-neural-networks-tensorflow/home/week/2">Week 2 - Image Augmentation</a></h2>
+<h3 id="data-augmentation">Data Augmentation</h3>
+<ul>
+<li>No additional storage, all transformation are in memory while reading the data</li>
+<li>Reduce overfitting</li>
+</ul>
+<pre><code>train_datagen = ImageDataGenerator(      
+	rotation_range=40,      
+	width_shift_range=0.2,      
+	height_shift_range=0.2,      
+	shear_range=0.2,      
+	zoom_range=0.2,      
+	horizontal_flip=True,      
+	fill_mode='nearest')
+</code></pre>
+<p>From <a href="https://www.tensorflow.org/tensorboard/tensorboard_in_notebooks">Tensorboard in notebook</a></p>
+<pre><code>%load_ext tensorboard
+import datetime
+logdir = os.path.join("logs", datetime.datetime.now().strftime("%Y%m%d-%H%M%S"))
+tensorboard_callback = tf.keras.callbacks.TensorBoard(logdir, histogram_freq=1)
+%tensorboard --logdir logs
+
+model.fit(..., callbacks=[tensorboard_callback])
+</code></pre>
+<h3 id="do-we-need-to-augment-validation-data">Do we need to augment validation data?</h3>
+<p><a href="https://www.kaggle.com/c/dogs-vs-cats/overview">https://www.kaggle.com/c/dogs-vs-cats/overview</a></p>
+<h2 id="week-3---transfer-learning"><a href="https://www.coursera.org/learn/convolutional-neural-networks-tensorflow/home/week/3">Week 3 - Transfer Learning</a></h2>
+<h3 id="transfer-learning">Transfer Learning</h3>
+<ul>
+<li>Take an existing (trained) model and keep the weights of the top layers fixed(towards CNN) fixed</li>
+<li>Enable the lower layers to change</li>
+<li>Plug the model in a new model with required output (classification, prediction etc)</li>
+<li>Train on new data</li>
+</ul>
+<p><a href="https://github.com/PracticalDL/Practical-Deep-Learning-Book/blob/master/code/chapter-3/1-keras-custom-classifier-with-transfer-learning.ipynb">Code example</a> from PracticalDL book</p>
+<pre><code>from tensorflow.keras.applications.inception_v3 import InceptionV3
+
+local_weights_file = '/tmp/inception_v3_weights_tf_dim_ordering_tf_kernels_notop.h5'
+pre_trained_model = InceptionV3(input_shape = (150, 150, 3), include_top = False, weights = None)
+pre_trained_model.load_weights(local_weights_file)
+
+for layer in pre_trained_model.layers:
+	layer.trainable = False
+
+pre_trained_model.summary()
+
+last_layer = pre_trained_model.get_layer('mixed7')
+print('last layer output shape: ', last_layer.output_shape)
+last_output = last_layer.output
+</code></pre>
+<h3 id="training-for-transfer-learning">Training for transfer learning</h3>
+<pre><code># Flatten the output layer to 1 dimension
+x = layers.Flatten()(last_output)
+
+# Add a fully connected layer with 1,024 hidden units and ReLU activation
+x = layers.Dense(1024, activation='relu')(x)
+
+# Add a dropout rate of 0.2
+x = layers.Dropout(0.2)(x)
+
+# Add a final sigmoid layer for classification
+x = layers.Dense(1, activation='sigmoid')(x)
+
+model = Model(pre_trained_model.input, x)
+</code></pre>
+<h3 id="dropout">Dropout</h3>
+<p><a href="https://www.tensorflow.org/api_docs/python/tf/keras/layers/Dropout">https://www.tensorflow.org/api_docs/python/tf/keras/layers/Dropout</a></p>
+<ul>
+<li>Regularization feature</li>
+<li>Use for overfitting - mostly for CNN</li>
+<li>Cost function (J) is harder to define</li>
+</ul>
+<h2 id="week-4---multiclass-classification"><a href="https://www.coursera.org/learn/convolutional-neural-networks-tensorflow/home/week/4">Week 4 - Multiclass Classification</a></h2>
 
     </div>
   </div>
