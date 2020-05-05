@@ -290,10 +290,10 @@ model = Model(pre_trained_model.input, x)
 |---	|---	|---	|
 train_generator|flow_from_directory(... , class_mode='binary') | flow_from_directory(... , class_mode='categorical')  
 |  final layer 	| keras.layers.Dense(1, activation='sigmoid') | keras.layers.Dense(N, activation='softmax')  	| 
-|   	|   	|   	|   	|
+| loss fxn  	| loss='binart_ctossentropy' 	|   	|   	|
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4ODEwMDYwOSwtMTI1NzQzNDE1OSwtMT
+eyJoaXN0b3J5IjpbMTM2NTQ4ODIyMCwtMTI1NzQzNDE1OSwtMT
 g2NDQ2OTE4MiwtMTgwODEwMzkzMCw3NjA0NjE5NzcsLTIxMjYz
 MDcyNjUsMTU4NzcwMzkyMiwzNjU0MjQyNzMsLTgyOTUxNjI3NC
 w0MjAwNzU4MzEsLTEzOTE4Njc5NTgsLTEzMjI1ODYyMDUsNDg0
