@@ -235,7 +235,12 @@ model.fit(..., callbacks=[tensorboard_callback])
 ## [Week 3 - Transfer Learning](https://www.coursera.org/learn/convolutional-neural-networks-tensorflow/home/week/3)
 
 ### Transfer Learning
-- Take an existing model and keep the weights of the top layers fixed
+- Take an existing (trained) model and keep the weights of the top layers fixed(towards CNN) fixed
+- Enable the lower layers to change
+- Plug the model in a new model with required output (classification, prediction etc)
+- Train on new data
+
+[Code example](https://github.com/PracticalDL/Practical-Deep-Learning-Book/blob/master/code/chapter-3/1-keras-custom-classifier-with-transfer-learning.ipynb) from PracticalDL book
 
 ```
 from tensorflow.keras.applications.inception_v3 import InceptionV3
@@ -277,12 +282,16 @@ model = Model(pre_trained_model.input, x)
 - Regularization feature
 - Use for overfitting - mostly for CNN
 - Cost function (J) is harder to define
+
+## [Week 4 - Multiclass Classification](https://www.coursera.org/learn/convolutional-neural-networks-tensorflow/home/week/4)
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDgxMDM5MzAsNzYwNDYxOTc3LC0yMT
-I2MzA3MjY1LDE1ODc3MDM5MjIsMzY1NDI0MjczLC04Mjk1MTYy
-NzQsNDIwMDc1ODMxLC0xMzkxODY3OTU4LC0xMzIyNTg2MjA1LD
-Q4NDYxMTU5NiwyMTA3ODc4Mzk4LDExNjA3NTQ3NTYsLTE3OTA1
-MjQyNDEsOTU4ODY5MzUsMTEyODc0Njc0LDE4OTU1MjMzMzAsNj
-Y4NzQyODk0LC0xMjQ3MTYzOSwtMTk1NTY0NjkzMyw5NzcxMDYw
-NTVdfQ==
+eyJoaXN0b3J5IjpbLTE4NjQ0NjkxODIsLTE4MDgxMDM5MzAsNz
+YwNDYxOTc3LC0yMTI2MzA3MjY1LDE1ODc3MDM5MjIsMzY1NDI0
+MjczLC04Mjk1MTYyNzQsNDIwMDc1ODMxLC0xMzkxODY3OTU4LC
+0xMzIyNTg2MjA1LDQ4NDYxMTU5NiwyMTA3ODc4Mzk4LDExNjA3
+NTQ3NTYsLTE3OTA1MjQyNDEsOTU4ODY5MzUsMTEyODc0Njc0LD
+E4OTU1MjMzMzAsNjY4NzQyODk0LC0xMjQ3MTYzOSwtMTk1NTY0
+NjkzM119
 -->
