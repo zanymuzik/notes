@@ -285,16 +285,16 @@ model = Model(pre_trained_model.input, x)
 
 ## [Week 4 - Multiclass Classification](https://www.coursera.org/learn/convolutional-neural-networks-tensorflow/home/week/4)
 
-Binary      |    Multiclass
-------------|-----------------
-
+ Code       |Binary      |    Multiclass
+------------|------------|-----------------
+train_generator
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTc0MzQxNTksLTE4NjQ0NjkxODIsLT
-E4MDgxMDM5MzAsNzYwNDYxOTc3LC0yMTI2MzA3MjY1LDE1ODc3
-MDM5MjIsMzY1NDI0MjczLC04Mjk1MTYyNzQsNDIwMDc1ODMxLC
-0xMzkxODY3OTU4LC0xMzIyNTg2MjA1LDQ4NDYxMTU5NiwyMTA3
-ODc4Mzk4LDExNjA3NTQ3NTYsLTE3OTA1MjQyNDEsOTU4ODY5Mz
-UsMTEyODc0Njc0LDE4OTU1MjMzMzAsNjY4NzQyODk0LC0xMjQ3
-MTYzOV19
+eyJoaXN0b3J5IjpbLTExNDMyMjQ4MCwtMTI1NzQzNDE1OSwtMT
+g2NDQ2OTE4MiwtMTgwODEwMzkzMCw3NjA0NjE5NzcsLTIxMjYz
+MDcyNjUsMTU4NzcwMzkyMiwzNjU0MjQyNzMsLTgyOTUxNjI3NC
+w0MjAwNzU4MzEsLTEzOTE4Njc5NTgsLTEzMjI1ODYyMDUsNDg0
+NjExNTk2LDIxMDc4NzgzOTgsMTE2MDc1NDc1NiwtMTc5MDUyND
+I0MSw5NTg4NjkzNSwxMTI4NzQ2NzQsMTg5NTUyMzMzMCw2Njg3
+NDI4OTRdfQ==
 -->
