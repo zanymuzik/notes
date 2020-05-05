@@ -289,11 +289,11 @@ model = Model(pre_trained_model.input, x)
 | Code  	| Binary  	| Multiclass  	|
 |---	|---	|---	|
 train_generator|flow_from_directory(... , class_mode='binary') | flow_from_directory(... , class_mode='categorical')  
-|  final layer 	| keras.layers.Dense(1, activation='sigmoid') | keras.layers.Dense(N, activation='softmax')  	| 
-| loss fxn  	| model.compile(..., loss='binary_crossentropy') | mode.compile(loss='catagorical_crossentropy'  	|
+|  final layer 	| keras.layers.Dense(1, activation='sigmoid') | keras.layers.Dense(num_classes, activation='softmax')  	| 
+| loss fxn  	| model.compile(..., loss='binary_crossentropy') | mode.compile(..., loss='catagorical_crossentropy')  |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5ODY4MTA0OCwtMTI1NzQzNDE1OSwtMT
+eyJoaXN0b3J5IjpbMTg2OTE0NzU5OCwtMTI1NzQzNDE1OSwtMT
 g2NDQ2OTE4MiwtMTgwODEwMzkzMCw3NjA0NjE5NzcsLTIxMjYz
 MDcyNjUsMTU4NzcwMzkyMiwzNjU0MjQyNzMsLTgyOTUxNjI3NC
 w0MjAwNzU4MzEsLTEzOTE4Njc5NTgsLTEzMjI1ODYyMDUsNDg0
