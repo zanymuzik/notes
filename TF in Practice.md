@@ -285,29 +285,22 @@ model = Model(pre_trained_model.input, x)
 
 ## [Week 4 - Multiclass Classification](https://www.coursera.org/learn/convolutional-neural-networks-tensorflow/home/week/4)
 
- Code          |Binary      |    Multiclass
----------------|------------|-----------------
-
-train_generator|flow_from_directory(... , class_mode='binary') |  
-
 
 | Code  	| Binary  	| Multiclass  	|
 |---	|---	|---	|
-train_generator|  |
-
- | flow_from_directory(... , class_mode='binary') |  
-|   	|   	|   	|   	|
+train_generator|flow_from_directory(... , class_mode='binary') | flow_from_directory(... , class_mode='categorical')  
+|  final layer 	| keras.layers.Dense(1, activation='sigmoid')  	|   	|   	|
 |   	|   	|   	|   	|
 |   	|   	|   	|   	|
 |   	|   	|   	|   	|
 |   	|   	|   	|   	|
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwMDg0Mzc3LC0xMjU3NDM0MTU5LC0xOD
-Y0NDY5MTgyLC0xODA4MTAzOTMwLDc2MDQ2MTk3NywtMjEyNjMw
-NzI2NSwxNTg3NzAzOTIyLDM2NTQyNDI3MywtODI5NTE2Mjc0LD
-QyMDA3NTgzMSwtMTM5MTg2Nzk1OCwtMTMyMjU4NjIwNSw0ODQ2
-MTE1OTYsMjEwNzg3ODM5OCwxMTYwNzU0NzU2LC0xNzkwNTI0Mj
-QxLDk1ODg2OTM1LDExMjg3NDY3NCwxODk1NTIzMzMwLDY2ODc0
-Mjg5NF19
+eyJoaXN0b3J5IjpbLTE0NzgxNzI3OTAsLTEyNTc0MzQxNTksLT
+E4NjQ0NjkxODIsLTE4MDgxMDM5MzAsNzYwNDYxOTc3LC0yMTI2
+MzA3MjY1LDE1ODc3MDM5MjIsMzY1NDI0MjczLC04Mjk1MTYyNz
+QsNDIwMDc1ODMxLC0xMzkxODY3OTU4LC0xMzIyNTg2MjA1LDQ4
+NDYxMTU5NiwyMTA3ODc4Mzk4LDExNjA3NTQ3NTYsLTE3OTA1Mj
+QyNDEsOTU4ODY5MzUsMTEyODc0Njc0LDE4OTU1MjMzMzAsNjY4
+NzQyODk0XX0=
 -->
