@@ -301,15 +301,15 @@ sparse_categorical_crossentropy vs categorical_crossentropy
 
 1-hot encoding vs labels directly 
 
-# [Course 3 - NLP in Tensorflow]([https://www.coursera.org/learn/natural-language-processing-tensorflow](https://www.coursera.org/learn/natural-language-processing-tensorflow))
+# [Course 3 - NLP in Tensorflow](https://www.coursera.org/learn/natural-language-processing-tensorflow)
 
 ## [Week 1](https://www.coursera.org/learn/convolutional-neural-networks-tensorflow/home/week/1)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzY5MTI3NzEsLTU2MDcwNjc1NiwxOT
-I0ODAwOTk2LDE4NjkxNDc1OTgsLTEyNTc0MzQxNTksLTE4NjQ0
-NjkxODIsLTE4MDgxMDM5MzAsNzYwNDYxOTc3LC0yMTI2MzA3Mj
-Y1LDE1ODc3MDM5MjIsMzY1NDI0MjczLC04Mjk1MTYyNzQsNDIw
-MDc1ODMxLC0xMzkxODY3OTU4LC0xMzIyNTg2MjA1LDQ4NDYxMT
-U5NiwyMTA3ODc4Mzk4LDExNjA3NTQ3NTYsLTE3OTA1MjQyNDEs
-OTU4ODY5MzVdfQ==
+eyJoaXN0b3J5IjpbLTc0Mzk4ODYxMCwtNTYwNzA2NzU2LDE5Mj
+Q4MDA5OTYsMTg2OTE0NzU5OCwtMTI1NzQzNDE1OSwtMTg2NDQ2
+OTE4MiwtMTgwODEwMzkzMCw3NjA0NjE5NzcsLTIxMjYzMDcyNj
+UsMTU4NzcwMzkyMiwzNjU0MjQyNzMsLTgyOTUxNjI3NCw0MjAw
+NzU4MzEsLTEzOTE4Njc5NTgsLTEzMjI1ODYyMDUsNDg0NjExNT
+k2LDIxMDc4NzgzOTgsMTE2MDc1NDc1NiwtMTc5MDUyNDI0MSw5
+NTg4NjkzNV19
 -->
