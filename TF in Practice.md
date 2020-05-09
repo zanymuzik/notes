@@ -292,10 +292,11 @@ train_generator|flow_from_directory(... , class_mode='binary') | flow_from_direc
 |  final layer 	| keras.layers.Dense(1, activation='sigmoid') | keras.layers.Dense(num_classes, activation='softmax')  	| 
 | loss fxn  	| model.compile(..., loss='binary_crossentropy') | mode.compile(..., loss='catagorical_crossentropy')  |
 
+Need to resear
 sparse_categorical_crossentropy
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTQzODk3NjksMTg2OTE0NzU5OCwtMT
+eyJoaXN0b3J5IjpbLTExNDgwOTQxODIsMTg2OTE0NzU5OCwtMT
 I1NzQzNDE1OSwtMTg2NDQ2OTE4MiwtMTgwODEwMzkzMCw3NjA0
 NjE5NzcsLTIxMjYzMDcyNjUsMTU4NzcwMzkyMiwzNjU0MjQyNz
 MsLTgyOTUxNjI3NCw0MjAwNzU4MzEsLTEzOTE4Njc5NTgsLTEz
