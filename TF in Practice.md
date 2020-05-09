@@ -323,16 +323,23 @@ lexicon = tokenizer.word_index
 sequences = tokenizer.texts_to_sequences(sentences)
 ```
 
-### Preprocessing
-- Padding - change sentence length to same
 
+### Preprocessing
+#### Missing words
+- Handled by an OOV token
+```
+tokenizer = Tokenizer(num_words = 100, oov_token="<OOV>")
+```
+
+#### Padding 
+- change sentence length to same
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2MzU2NzEzMSwtMTUzNDQ4OTY2MiwyMD
-AxODcyNTY4LDE0MzY3MTA2NzYsMTQyMzQwNDE5NCwtNTYwNzA2
-NzU2LDE5MjQ4MDA5OTYsMTg2OTE0NzU5OCwtMTI1NzQzNDE1OS
-wtMTg2NDQ2OTE4MiwtMTgwODEwMzkzMCw3NjA0NjE5NzcsLTIx
-MjYzMDcyNjUsMTU4NzcwMzkyMiwzNjU0MjQyNzMsLTgyOTUxNj
-I3NCw0MjAwNzU4MzEsLTEzOTE4Njc5NTgsLTEzMjI1ODYyMDUs
-NDg0NjExNTk2XX0=
+eyJoaXN0b3J5IjpbLTEzNjU1MzkxNTgsMTM2MzU2NzEzMSwtMT
+UzNDQ4OTY2MiwyMDAxODcyNTY4LDE0MzY3MTA2NzYsMTQyMzQw
+NDE5NCwtNTYwNzA2NzU2LDE5MjQ4MDA5OTYsMTg2OTE0NzU5OC
+wtMTI1NzQzNDE1OSwtMTg2NDQ2OTE4MiwtMTgwODEwMzkzMCw3
+NjA0NjE5NzcsLTIxMjYzMDcyNjUsMTU4NzcwMzkyMiwzNjU0Mj
+QyNzMsLTgyOTUxNjI3NCw0MjAwNzU4MzEsLTEzOTE4Njc5NTgs
+LTEzMjI1ODYyMDVdfQ==
 -->
