@@ -311,6 +311,7 @@ sparse_categorical_crossentropy vs categorical_crossentropy
 	- ex. LISTEN vs SILENT
 - Idea2: Tokenizing at word level
 	- tf and keras have in-build API - tokenizer
+	- strips punctuations and lowercases automatically
 
 ```
 tokenizer = Tokenizer(num_words = 100)
@@ -318,7 +319,7 @@ tokenizer.fit_on_texts(sentences)
 word_index = tokenizer.word_index
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwOTM0NzE0MSwxNDM2NzEwNjc2LDE0Mj
+eyJoaXN0b3J5IjpbMjAwMTg3MjU2OCwxNDM2NzEwNjc2LDE0Mj
 M0MDQxOTQsLTU2MDcwNjc1NiwxOTI0ODAwOTk2LDE4NjkxNDc1
 OTgsLTEyNTc0MzQxNTksLTE4NjQ0NjkxODIsLTE4MDgxMDM5Mz
 AsNzYwNDYxOTc3LC0yMTI2MzA3MjY1LDE1ODc3MDM5MjIsMzY1
