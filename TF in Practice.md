@@ -318,19 +318,21 @@ sparse_categorical_crossentropy vs categorical_crossentropy
 from tensorflow.keras.preprocessing.text import Tokenizer
 tokenizer = Tokenizer(num_words = 100)
 tokenizer.fit_on_texts(sentences)
-word_index = tokenizer.word_index
+lexicon = tokenizer.word_index
+
+sequences = tokenizer.texts_to_sequences(sentences)
 ```
 
 ### Preprocessing
-- 
+- Padding - change sentence length to same
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzM2MTg2NzIsLTE1MzQ0ODk2NjIsMj
-AwMTg3MjU2OCwxNDM2NzEwNjc2LDE0MjM0MDQxOTQsLTU2MDcw
-Njc1NiwxOTI0ODAwOTk2LDE4NjkxNDc1OTgsLTEyNTc0MzQxNT
-ksLTE4NjQ0NjkxODIsLTE4MDgxMDM5MzAsNzYwNDYxOTc3LC0y
-MTI2MzA3MjY1LDE1ODc3MDM5MjIsMzY1NDI0MjczLC04Mjk1MT
-YyNzQsNDIwMDc1ODMxLC0xMzkxODY3OTU4LC0xMzIyNTg2MjA1
-LDQ4NDYxMTU5Nl19
+eyJoaXN0b3J5IjpbMTM2MzU2NzEzMSwtMTUzNDQ4OTY2MiwyMD
+AxODcyNTY4LDE0MzY3MTA2NzYsMTQyMzQwNDE5NCwtNTYwNzA2
+NzU2LDE5MjQ4MDA5OTYsMTg2OTE0NzU5OCwtMTI1NzQzNDE1OS
+wtMTg2NDQ2OTE4MiwtMTgwODEwMzkzMCw3NjA0NjE5NzcsLTIx
+MjYzMDcyNjUsMTU4NzcwMzkyMiwzNjU0MjQyNzMsLTgyOTUxNj
+I3NCw0MjAwNzU4MzEsLTEzOTE4Njc5NTgsLTEzMjI1ODYyMDUs
+NDg0NjExNTk2XX0=
 -->
