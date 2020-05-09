@@ -310,13 +310,19 @@ sparse_categorical_crossentropy vs categorical_crossentropy
 	- same characters (in different order) could mean different things 
 	- ex. LISTEN vs SILENT
 - Idea2: Tokenizing at word level
-	- tf and keras have inbuild API
+	- tf and keras have in-build API - tokenizer
+
+```
+tokenizer = Tokenizer(num_words = 100)
+tokenizer.fit_on_texts(sentences)
+word_index = tokenizer.word_index
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzNjcxMDY3NiwxNDIzNDA0MTk0LC01Nj
-A3MDY3NTYsMTkyNDgwMDk5NiwxODY5MTQ3NTk4LC0xMjU3NDM0
-MTU5LC0xODY0NDY5MTgyLC0xODA4MTAzOTMwLDc2MDQ2MTk3Ny
-wtMjEyNjMwNzI2NSwxNTg3NzAzOTIyLDM2NTQyNDI3MywtODI5
-NTE2Mjc0LDQyMDA3NTgzMSwtMTM5MTg2Nzk1OCwtMTMyMjU4Nj
-IwNSw0ODQ2MTE1OTYsMjEwNzg3ODM5OCwxMTYwNzU0NzU2LC0x
-NzkwNTI0MjQxXX0=
+eyJoaXN0b3J5IjpbMTcwOTM0NzE0MSwxNDM2NzEwNjc2LDE0Mj
+M0MDQxOTQsLTU2MDcwNjc1NiwxOTI0ODAwOTk2LDE4NjkxNDc1
+OTgsLTEyNTc0MzQxNTksLTE4NjQ0NjkxODIsLTE4MDgxMDM5Mz
+AsNzYwNDYxOTc3LC0yMTI2MzA3MjY1LDE1ODc3MDM5MjIsMzY1
+NDI0MjczLC04Mjk1MTYyNzQsNDIwMDc1ODMxLC0xMzkxODY3OT
+U4LC0xMzIyNTg2MjA1LDQ4NDYxMTU5NiwyMTA3ODc4Mzk4LDEx
+NjA3NTQ3NTZdfQ==
 -->
