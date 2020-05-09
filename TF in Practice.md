@@ -310,9 +310,9 @@ sparse_categorical_crossentropy vs categorical_crossentropy
 	- same characters (in different order) could mean different things 
 	- ex. LISTEN vs SILENT
 - Idea2: Tokenizing at word level
-	- 
+	- tf and keras have inbuild API
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwNTU1NjA4OCwxNDIzNDA0MTk0LC01Nj
+eyJoaXN0b3J5IjpbMTQzNjcxMDY3NiwxNDIzNDA0MTk0LC01Nj
 A3MDY3NTYsMTkyNDgwMDk5NiwxODY5MTQ3NTk4LC0xMjU3NDM0
 MTU5LC0xODY0NDY5MTgyLC0xODA4MTAzOTMwLDc2MDQ2MTk3Ny
 wtMjEyNjMwNzI2NSwxNTg3NzAzOTIyLDM2NTQyNDI3MywtODI5
