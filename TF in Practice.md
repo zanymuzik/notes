@@ -298,12 +298,13 @@ train_generator|flow_from_directory(... , class_mode='binary') | flow_from_direc
 sparse_categorical_crossentropy vs categorical_crossentropy
 [https://jovianlin.io/cat-crossentropy-vs-sparse-cat-crossentropy/](https://jovianlin.io/cat-crossentropy-vs-sparse-cat-crossentropy/)
 
+1-hot encoding vs labels directly 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2MDcwNjc1NiwxOTI0ODAwOTk2LDE4Nj
-kxNDc1OTgsLTEyNTc0MzQxNTksLTE4NjQ0NjkxODIsLTE4MDgx
-MDM5MzAsNzYwNDYxOTc3LC0yMTI2MzA3MjY1LDE1ODc3MDM5Mj
-IsMzY1NDI0MjczLC04Mjk1MTYyNzQsNDIwMDc1ODMxLC0xMzkx
-ODY3OTU4LC0xMzIyNTg2MjA1LDQ4NDYxMTU5NiwyMTA3ODc4Mz
-k4LDExNjA3NTQ3NTYsLTE3OTA1MjQyNDEsOTU4ODY5MzUsMTEy
-ODc0Njc0XX0=
+eyJoaXN0b3J5IjpbLTE4NDQwODE1MDgsLTU2MDcwNjc1NiwxOT
+I0ODAwOTk2LDE4NjkxNDc1OTgsLTEyNTc0MzQxNTksLTE4NjQ0
+NjkxODIsLTE4MDgxMDM5MzAsNzYwNDYxOTc3LC0yMTI2MzA3Mj
+Y1LDE1ODc3MDM5MjIsMzY1NDI0MjczLC04Mjk1MTYyNzQsNDIw
+MDc1ODMxLC0xMzkxODY3OTU4LC0xMzIyNTg2MjA1LDQ4NDYxMT
+U5NiwyMTA3ODc4Mzk4LDExNjA3NTQ3NTYsLTE3OTA1MjQyNDEs
+OTU4ODY5MzVdfQ==
 -->
