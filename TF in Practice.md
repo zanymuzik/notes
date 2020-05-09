@@ -292,11 +292,13 @@ train_generator|flow_from_directory(... , class_mode='binary') | flow_from_direc
 |  final layer 	| keras.layers.Dense(1, activation='sigmoid') | keras.layers.Dense(num_classes, activation='softmax')  	| 
 | loss fxn  	| model.compile(..., loss='binary_crossentropy') | mode.compile(..., loss='catagorical_crossentropy')  |
 
-AI: Need to research-
-sparse_categorical_crossentropy
+ AI: Need to research-
+keras.losses()
+sparse_categorical_crossentropy vx
+[https://jovianlin.io/cat-crossentropy-vs-sparse-cat-crossentropy/](https://jovianlin.io/cat-crossentropy-vs-sparse-cat-crossentropy/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5MTQ1MDk2NiwxOTI0ODAwOTk2LDE4Nj
+eyJoaXN0b3J5IjpbMTc5ODEzNzU0NSwxOTI0ODAwOTk2LDE4Nj
 kxNDc1OTgsLTEyNTc0MzQxNTksLTE4NjQ0NjkxODIsLTE4MDgx
 MDM5MzAsNzYwNDYxOTc3LC0yMTI2MzA3MjY1LDE1ODc3MDM5Mj
 IsMzY1NDI0MjczLC04Mjk1MTYyNzQsNDIwMDc1ODMxLC0xMzkx
