@@ -293,18 +293,21 @@ train_generator|flow_from_directory(... , class_mode='binary') | flow_from_direc
 | loss fxn  	| model.compile(..., loss='binary_crossentropy') | mode.compile(..., loss='catagorical_crossentropy')  |
 
 ### AI: Need to research-
-[https://keras.io/api/losses/](https://keras.io/api/losses/)
+1 [https://keras.io/api/losses/](https://keras.io/api/losses/)
+2. Try with one-hot encoding
 
 sparse_categorical_crossentropy vs categorical_crossentropy
 [https://jovianlin.io/cat-crossentropy-vs-sparse-cat-crossentropy/](https://jovianlin.io/cat-crossentropy-vs-sparse-cat-crossentropy/)
 
 1-hot encoding vs labels directly 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDQwODE1MDgsLTU2MDcwNjc1NiwxOT
-I0ODAwOTk2LDE4NjkxNDc1OTgsLTEyNTc0MzQxNTksLTE4NjQ0
-NjkxODIsLTE4MDgxMDM5MzAsNzYwNDYxOTc3LC0yMTI2MzA3Mj
-Y1LDE1ODc3MDM5MjIsMzY1NDI0MjczLC04Mjk1MTYyNzQsNDIw
-MDc1ODMxLC0xMzkxODY3OTU4LC0xMzIyNTg2MjA1LDQ4NDYxMT
-U5NiwyMTA3ODc4Mzk4LDExNjA3NTQ3NTYsLTE3OTA1MjQyNDEs
-OTU4ODY5MzVdfQ==
+eyJoaXN0b3J5IjpbMzc0Nzc1NzAzLC01NjA3MDY3NTYsMTkyND
+gwMDk5NiwxODY5MTQ3NTk4LC0xMjU3NDM0MTU5LC0xODY0NDY5
+MTgyLC0xODA4MTAzOTMwLDc2MDQ2MTk3NywtMjEyNjMwNzI2NS
+wxNTg3NzAzOTIyLDM2NTQyNDI3MywtODI5NTE2Mjc0LDQyMDA3
+NTgzMSwtMTM5MTg2Nzk1OCwtMTMyMjU4NjIwNSw0ODQ2MTE1OT
+YsMjEwNzg3ODM5OCwxMTYwNzU0NzU2LC0xNzkwNTI0MjQxLDk1
+ODg2OTM1XX0=
 -->
