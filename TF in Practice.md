@@ -305,13 +305,16 @@ sparse_categorical_crossentropy vs categorical_crossentropy
 
 ## [Week 1](https://www.coursera.org/learn/natural-language-processing-tensorflow/home/week/1)
 
-### 
+### Word Based Encodings
+- Idea1: Use ASCII values
+	- same characters (in different order) could mean different things 
+	- ex. LISTEN vs SILENTG
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyMzQwNDE5NCwtNTYwNzA2NzU2LDE5Mj
-Q4MDA5OTYsMTg2OTE0NzU5OCwtMTI1NzQzNDE1OSwtMTg2NDQ2
-OTE4MiwtMTgwODEwMzkzMCw3NjA0NjE5NzcsLTIxMjYzMDcyNj
-UsMTU4NzcwMzkyMiwzNjU0MjQyNzMsLTgyOTUxNjI3NCw0MjAw
-NzU4MzEsLTEzOTE4Njc5NTgsLTEzMjI1ODYyMDUsNDg0NjExNT
-k2LDIxMDc4NzgzOTgsMTE2MDc1NDc1NiwtMTc5MDUyNDI0MSw5
-NTg4NjkzNV19
+eyJoaXN0b3J5IjpbMTAwMzI1OTAsMTQyMzQwNDE5NCwtNTYwNz
+A2NzU2LDE5MjQ4MDA5OTYsMTg2OTE0NzU5OCwtMTI1NzQzNDE1
+OSwtMTg2NDQ2OTE4MiwtMTgwODEwMzkzMCw3NjA0NjE5NzcsLT
+IxMjYzMDcyNjUsMTU4NzcwMzkyMiwzNjU0MjQyNzMsLTgyOTUx
+NjI3NCw0MjAwNzU4MzEsLTEzOTE4Njc5NTgsLTEzMjI1ODYyMD
+UsNDg0NjExNTk2LDIxMDc4NzgzOTgsMTE2MDc1NDc1NiwtMTc5
+MDUyNDI0MV19
 -->
