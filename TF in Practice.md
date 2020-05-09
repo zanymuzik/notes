@@ -312,6 +312,7 @@ sparse_categorical_crossentropy vs categorical_crossentropy
 - Idea2: Tokenizing at word level
 	- tf and keras have in-build API - tokenizer
 	- strips punctuations and lowercases automatically
+	- builds a dictionary of tokens
 
 ```
 from tensorflow.keras.preprocessing.text import Tokenizer
@@ -322,7 +323,7 @@ word_index = tokenizer.word_index
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODg4MTk1NzYsMjAwMTg3MjU2OCwxND
+eyJoaXN0b3J5IjpbLTE1MzQ0ODk2NjIsMjAwMTg3MjU2OCwxND
 M2NzEwNjc2LDE0MjM0MDQxOTQsLTU2MDcwNjc1NiwxOTI0ODAw
 OTk2LDE4NjkxNDc1OTgsLTEyNTc0MzQxNTksLTE4NjQ0NjkxOD
 IsLTE4MDgxMDM5MzAsNzYwNDYxOTc3LC0yMTI2MzA3MjY1LDE1
