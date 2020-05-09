@@ -293,16 +293,17 @@ train_generator|flow_from_directory(... , class_mode='binary') | flow_from_direc
 | loss fxn  	| model.compile(..., loss='binary_crossentropy') | mode.compile(..., loss='catagorical_crossentropy')  |
 
 ### AI: Need to research-
-keras.losses()
-sparse_categorical_crossentropy vx
+[https://keras.io/api/losses/](https://keras.io/api/losses/)
+
+sparse_categorical_crossentropy vs categorical_crossentropy
 [https://jovianlin.io/cat-crossentropy-vs-sparse-cat-crossentropy/](https://jovianlin.io/cat-crossentropy-vs-sparse-cat-crossentropy/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTk1NDkyNDYsMTkyNDgwMDk5NiwxOD
-Y5MTQ3NTk4LC0xMjU3NDM0MTU5LC0xODY0NDY5MTgyLC0xODA4
-MTAzOTMwLDc2MDQ2MTk3NywtMjEyNjMwNzI2NSwxNTg3NzAzOT
-IyLDM2NTQyNDI3MywtODI5NTE2Mjc0LDQyMDA3NTgzMSwtMTM5
-MTg2Nzk1OCwtMTMyMjU4NjIwNSw0ODQ2MTE1OTYsMjEwNzg3OD
-M5OCwxMTYwNzU0NzU2LC0xNzkwNTI0MjQxLDk1ODg2OTM1LDEx
-Mjg3NDY3NF19
+eyJoaXN0b3J5IjpbLTU2MDcwNjc1NiwxOTI0ODAwOTk2LDE4Nj
+kxNDc1OTgsLTEyNTc0MzQxNTksLTE4NjQ0NjkxODIsLTE4MDgx
+MDM5MzAsNzYwNDYxOTc3LC0yMTI2MzA3MjY1LDE1ODc3MDM5Mj
+IsMzY1NDI0MjczLC04Mjk1MTYyNzQsNDIwMDc1ODMxLC0xMzkx
+ODY3OTU4LC0xMzIyNTg2MjA1LDQ4NDYxMTU5NiwyMTA3ODc4Mz
+k4LDExNjA3NTQ3NTYsLTE3OTA1MjQyNDEsOTU4ODY5MzUsMTEy
+ODc0Njc0XX0=
 -->
