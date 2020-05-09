@@ -314,16 +314,19 @@ sparse_categorical_crossentropy vs categorical_crossentropy
 	- strips punctuations and lowercases automatically
 
 ```
+from tensorflow.keras.preprocessing.text import Tokenizer
 tokenizer = Tokenizer(num_words = 100)
 tokenizer.fit_on_texts(sentences)
 word_index = tokenizer.word_index
 ```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwMTg3MjU2OCwxNDM2NzEwNjc2LDE0Mj
-M0MDQxOTQsLTU2MDcwNjc1NiwxOTI0ODAwOTk2LDE4NjkxNDc1
-OTgsLTEyNTc0MzQxNTksLTE4NjQ0NjkxODIsLTE4MDgxMDM5Mz
-AsNzYwNDYxOTc3LC0yMTI2MzA3MjY1LDE1ODc3MDM5MjIsMzY1
-NDI0MjczLC04Mjk1MTYyNzQsNDIwMDc1ODMxLC0xMzkxODY3OT
-U4LC0xMzIyNTg2MjA1LDQ4NDYxMTU5NiwyMTA3ODc4Mzk4LDEx
-NjA3NTQ3NTZdfQ==
+eyJoaXN0b3J5IjpbLTE5ODg4MTk1NzYsMjAwMTg3MjU2OCwxND
+M2NzEwNjc2LDE0MjM0MDQxOTQsLTU2MDcwNjc1NiwxOTI0ODAw
+OTk2LDE4NjkxNDc1OTgsLTEyNTc0MzQxNTksLTE4NjQ0NjkxOD
+IsLTE4MDgxMDM5MzAsNzYwNDYxOTc3LC0yMTI2MzA3MjY1LDE1
+ODc3MDM5MjIsMzY1NDI0MjczLC04Mjk1MTYyNzQsNDIwMDc1OD
+MxLC0xMzkxODY3OTU4LC0xMzIyNTg2MjA1LDQ4NDYxMTU5Niwy
+MTA3ODc4Mzk4XX0=
 -->
