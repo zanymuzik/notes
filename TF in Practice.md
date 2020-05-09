@@ -303,9 +303,11 @@ sparse_categorical_crossentropy vs categorical_crossentropy
 
 # [Course 3 - NLP in Tensorflow](https://www.coursera.org/learn/natural-language-processing-tensorflow)
 
-## [Week 1](https://www.coursera.org/learn/convolutional-neural-networks-tensorflow/home/week/1)
+## [Week 1](https://www.coursera.org/learn/natural-language-processing-tensorflow/home/week/1)
+
+### 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0Mzk4ODYxMCwtNTYwNzA2NzU2LDE5Mj
+eyJoaXN0b3J5IjpbMTQyMzQwNDE5NCwtNTYwNzA2NzU2LDE5Mj
 Q4MDA5OTYsMTg2OTE0NzU5OCwtMTI1NzQzNDE1OSwtMTg2NDQ2
 OTE4MiwtMTgwODEwMzkzMCw3NjA0NjE5NzcsLTIxMjYzMDcyNj
 UsMTU4NzcwMzkyMiwzNjU0MjQyNzMsLTgyOTUxNjI3NCw0MjAw
