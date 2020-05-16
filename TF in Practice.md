@@ -303,7 +303,7 @@ sparse_categorical_crossentropy vs categorical_crossentropy
 
 # [Course 3 - NLP in Tensorflow](https://www.coursera.org/learn/natural-language-processing-tensorflow)
 
-## [Week 1](https://www.coursera.org/learn/natural-language-processing-tensorflow/home/week/1)
+## [Week 1 - Tokenization](https://www.coursera.org/learn/natural-language-processing-tensorflow/home/week/1)
 
 [Week 1 Notebook](https://github.com/lmoroney/dlaicourse/blob/master/TensorFlow%20In%20Practice/Course%203%20-%20NLP/Course%203%20-%20Week%201%20-%20Lesson%203.ipynb)
 
@@ -340,13 +340,14 @@ from tensorflow.keras.preprocessing.sequence import pad_sequences
 padded = pad_sequences(test_seq, maxlen=10, padding='post')
 ```
 
+## [Week 2](https://www.coursera.org/learn/natural-language-processing-tensorflow/home/week/2)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzNTA0MDY0NSwtMzg3OTc5MTEzLDU0MD
-ExOTMzNCwtMTg0MDc2NDI1MCwtMTM2NTUzOTE1OCwxMzYzNTY3
-MTMxLC0xNTM0NDg5NjYyLDIwMDE4NzI1NjgsMTQzNjcxMDY3Ni
-wxNDIzNDA0MTk0LC01NjA3MDY3NTYsMTkyNDgwMDk5NiwxODY5
-MTQ3NTk4LC0xMjU3NDM0MTU5LC0xODY0NDY5MTgyLC0xODA4MT
-AzOTMwLDc2MDQ2MTk3NywtMjEyNjMwNzI2NSwxNTg3NzAzOTIy
-LDM2NTQyNDI3M119
+eyJoaXN0b3J5IjpbLTcxODcwNjExNiwyMDM1MDQwNjQ1LC0zOD
+c5NzkxMTMsNTQwMTE5MzM0LC0xODQwNzY0MjUwLC0xMzY1NTM5
+MTU4LDEzNjM1NjcxMzEsLTE1MzQ0ODk2NjIsMjAwMTg3MjU2OC
+wxNDM2NzEwNjc2LDE0MjM0MDQxOTQsLTU2MDcwNjc1NiwxOTI0
+ODAwOTk2LDE4NjkxNDc1OTgsLTEyNTc0MzQxNTksLTE4NjQ0Nj
+kxODIsLTE4MDgxMDM5MzAsNzYwNDYxOTc3LC0yMTI2MzA3MjY1
+LDE1ODc3MDM5MjJdfQ==
 -->
