@@ -9,6 +9,7 @@
 	- Election Timeout - timeout before leader election happens
 	- Heartbeat timeout (only from the leader) - to ack the presence of a leader (using AppendEntries)
 - Log replication (consensus on an update before it gets committed)
+- [https://www.micahlerner.com/2020/05/08/understanding-raft-consensus.html](https://www.micahlerner.com/2020/05/08/understanding-raft-consensus.html)
 
 
 ## Raft elections and log handling
@@ -254,5 +255,5 @@ S3-->>S1: Reply2
     - so logs may diverge at end of old term
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1NjU3NTc4MV19
+eyJoaXN0b3J5IjpbNTQzNjAzNjI1LC00NTY1NzU3ODFdfQ==
 -->
