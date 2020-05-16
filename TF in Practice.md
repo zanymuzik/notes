@@ -332,18 +332,18 @@ tokenizer = Tokenizer(num_words = 100, oov_token="<OOV>")
 ```
 
 #### Padding 
-- change sentence length to same
+- change sentence length to same by pre/post padding with zeros
 ```
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 padded = pad_sequences(test_seq, maxlen=10, padding='post')
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQwMTE5MzM0LC0xODQwNzY0MjUwLC0xMz
-Y1NTM5MTU4LDEzNjM1NjcxMzEsLTE1MzQ0ODk2NjIsMjAwMTg3
-MjU2OCwxNDM2NzEwNjc2LDE0MjM0MDQxOTQsLTU2MDcwNjc1Ni
-wxOTI0ODAwOTk2LDE4NjkxNDc1OTgsLTEyNTc0MzQxNTksLTE4
-NjQ0NjkxODIsLTE4MDgxMDM5MzAsNzYwNDYxOTc3LC0yMTI2Mz
-A3MjY1LDE1ODc3MDM5MjIsMzY1NDI0MjczLC04Mjk1MTYyNzQs
-NDIwMDc1ODMxXX0=
+eyJoaXN0b3J5IjpbLTM4Nzk3OTExMyw1NDAxMTkzMzQsLTE4ND
+A3NjQyNTAsLTEzNjU1MzkxNTgsMTM2MzU2NzEzMSwtMTUzNDQ4
+OTY2MiwyMDAxODcyNTY4LDE0MzY3MTA2NzYsMTQyMzQwNDE5NC
+wtNTYwNzA2NzU2LDE5MjQ4MDA5OTYsMTg2OTE0NzU5OCwtMTI1
+NzQzNDE1OSwtMTg2NDQ2OTE4MiwtMTgwODEwMzkzMCw3NjA0Nj
+E5NzcsLTIxMjYzMDcyNjUsMTU4NzcwMzkyMiwzNjU0MjQyNzMs
+LTgyOTUxNjI3NF19
 -->
