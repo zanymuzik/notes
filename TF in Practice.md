@@ -305,6 +305,8 @@ sparse_categorical_crossentropy vs categorical_crossentropy
 
 ## [Week 1](https://www.coursera.org/learn/natural-language-processing-tensorflow/home/week/1)
 
+[Week 1 Notebook](https://github.com/lmoroney/dlaicourse/blob/master/TensorFlow%20In%20Practice/Course%203%20-%20NLP/Course%203%20-%20Week%201%20-%20Lesson%203.ipynb)
+
 ### Word Based Encodings
 - Idea1: Use ASCII values for characters
 	- same characters (in different order) could mean different things 
@@ -338,12 +340,13 @@ from tensorflow.keras.preprocessing.sequence import pad_sequences
 padded = pad_sequences(test_seq, maxlen=10, padding='post')
 ```
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4Nzk3OTExMyw1NDAxMTkzMzQsLTE4ND
-A3NjQyNTAsLTEzNjU1MzkxNTgsMTM2MzU2NzEzMSwtMTUzNDQ4
-OTY2MiwyMDAxODcyNTY4LDE0MzY3MTA2NzYsMTQyMzQwNDE5NC
-wtNTYwNzA2NzU2LDE5MjQ4MDA5OTYsMTg2OTE0NzU5OCwtMTI1
-NzQzNDE1OSwtMTg2NDQ2OTE4MiwtMTgwODEwMzkzMCw3NjA0Nj
-E5NzcsLTIxMjYzMDcyNjUsMTU4NzcwMzkyMiwzNjU0MjQyNzMs
-LTgyOTUxNjI3NF19
+eyJoaXN0b3J5IjpbMjAzNTA0MDY0NSwtMzg3OTc5MTEzLDU0MD
+ExOTMzNCwtMTg0MDc2NDI1MCwtMTM2NTUzOTE1OCwxMzYzNTY3
+MTMxLC0xNTM0NDg5NjYyLDIwMDE4NzI1NjgsMTQzNjcxMDY3Ni
+wxNDIzNDA0MTk0LC01NjA3MDY3NTYsMTkyNDgwMDk5NiwxODY5
+MTQ3NTk4LC0xMjU3NDM0MTU5LC0xODY0NDY5MTgyLC0xODA4MT
+AzOTMwLDc2MDQ2MTk3NywtMjEyNjMwNzI2NSwxNTg3NzAzOTIy
+LDM2NTQyNDI3M119
 -->
