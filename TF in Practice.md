@@ -343,12 +343,25 @@ padded = pad_sequences(test_seq, maxlen=10, padding='post')
 ## [Week 2 - Embeddings](https://www.coursera.org/learn/natural-language-processing-tensorflow/home/week/2)
 
 ### 
+
+
+```
+model = tf.keras.Sequential([
+tf.keras.layers.Embedding(vocab_size, embedding_dim, input_length=max_length),
+tf.keras.layers.Flatten(),
+tf.keras.layers.Dense(6, activation='relu'),
+tf.keras.layers.Dense(1, activation='sigmoid')
+])
+
+model.compile(loss='binary_crossentropy',optimizer='adam',metrics=['accuracy'])
+model.summary()
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDc0NDk0OTgsMjAzNTA0MDY0NSwtMz
-g3OTc5MTEzLDU0MDExOTMzNCwtMTg0MDc2NDI1MCwtMTM2NTUz
-OTE1OCwxMzYzNTY3MTMxLC0xNTM0NDg5NjYyLDIwMDE4NzI1Nj
-gsMTQzNjcxMDY3NiwxNDIzNDA0MTk0LC01NjA3MDY3NTYsMTky
-NDgwMDk5NiwxODY5MTQ3NTk4LC0xMjU3NDM0MTU5LC0xODY0ND
-Y5MTgyLC0xODA4MTAzOTMwLDc2MDQ2MTk3NywtMjEyNjMwNzI2
-NSwxNTg3NzAzOTIyXX0=
+eyJoaXN0b3J5IjpbLTEzNTg1MDU3NDgsLTE4NDc0NDk0OTgsMj
+AzNTA0MDY0NSwtMzg3OTc5MTEzLDU0MDExOTMzNCwtMTg0MDc2
+NDI1MCwtMTM2NTUzOTE1OCwxMzYzNTY3MTMxLC0xNTM0NDg5Nj
+YyLDIwMDE4NzI1NjgsMTQzNjcxMDY3NiwxNDIzNDA0MTk0LC01
+NjA3MDY3NTYsMTkyNDgwMDk5NiwxODY5MTQ3NTk4LC0xMjU3ND
+M0MTU5LC0xODY0NDY5MTgyLC0xODA4MTAzOTMwLDc2MDQ2MTk3
+NywtMjEyNjMwNzI2NV19
 -->
