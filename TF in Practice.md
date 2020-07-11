@@ -342,8 +342,7 @@ padded = pad_sequences(test_seq, maxlen=10, padding='post')
 
 ## [Week 2 - Embeddings](https://www.coursera.org/learn/natural-language-processing-tensorflow/home/week/2)
 
-### 
-
+### FIX ME
 
 ```
 model = tf.keras.Sequential([
@@ -642,11 +641,12 @@ tf.keras.callback.LearningRateScheduler(lambda epoch: 1e-8 * 10**(epoch/20))
 - AI: understand how the learning rate schedule works. It is not intuitive to have a plot of LR wrt loss to estimate the best LR for the network.
 
 ### LSTM
-- some magic with 
+- some magic with state (which is missing in RNN)
+- state could be bi-directional
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3NjUzODk2NSwtMTM1ODUwNTc0OCwtMT
+eyJoaXN0b3J5IjpbLTM3MDM0MzExNCwtMTM1ODUwNTc0OCwtMT
 g0NzQ0OTQ5OCwyMDM1MDQwNjQ1LC0zODc5NzkxMTMsNTQwMTE5
 MzM0LC0xODQwNzY0MjUwLC0xMzY1NTM5MTU4LDEzNjM1NjcxMz
 EsLTE1MzQ0ODk2NjIsMjAwMTg3MjU2OCwxNDM2NzEwNjc2LDE0
