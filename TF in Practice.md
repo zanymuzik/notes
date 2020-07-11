@@ -642,15 +642,16 @@ tf.keras.callback.LearningRateScheduler(lambda epoch: 1e-8 * 10**(epoch/20))
 - AI: understand how the learning rate schedule works. It is not intuitive to have a plot of LR wrt loss to estimate the best LR for the network.
 
 ### LSTM
-
+- some magic with state
+- state could be bi-directional
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTQ4MzY5NTcsLTEzNTg1MDU3NDgsLT
-E4NDc0NDk0OTgsMjAzNTA0MDY0NSwtMzg3OTc5MTEzLDU0MDEx
-OTMzNCwtMTg0MDc2NDI1MCwtMTM2NTUzOTE1OCwxMzYzNTY3MT
-MxLC0xNTM0NDg5NjYyLDIwMDE4NzI1NjgsMTQzNjcxMDY3Niwx
-NDIzNDA0MTk0LC01NjA3MDY3NTYsMTkyNDgwMDk5NiwxODY5MT
-Q3NTk4LC0xMjU3NDM0MTU5LC0xODY0NDY5MTgyLC0xODA4MTAz
-OTMwLDc2MDQ2MTk3N119
+eyJoaXN0b3J5IjpbMTczMTYyOTU2MCwtMTM1ODUwNTc0OCwtMT
+g0NzQ0OTQ5OCwyMDM1MDQwNjQ1LC0zODc5NzkxMTMsNTQwMTE5
+MzM0LC0xODQwNzY0MjUwLC0xMzY1NTM5MTU4LDEzNjM1NjcxMz
+EsLTE1MzQ0ODk2NjIsMjAwMTg3MjU2OCwxNDM2NzEwNjc2LDE0
+MjM0MDQxOTQsLTU2MDcwNjc1NiwxOTI0ODAwOTk2LDE4NjkxND
+c1OTgsLTEyNTc0MzQxNTksLTE4NjQ0NjkxODIsLTE4MDgxMDM5
+MzAsNzYwNDYxOTc3XX0=
 -->
