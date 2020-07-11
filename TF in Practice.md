@@ -293,7 +293,7 @@ train_generator|flow_from_directory(... , class_mode='binary') | flow_from_direc
 | loss fxn  	| model.compile(..., loss='binary_crossentropy') | mode.compile(..., loss='catagorical_crossentropy')  |
 
 ### AI: Need to research-
-1 [https://keras.io/api/losses/](https://keras.io/api/losses/)
+1 [https://keras.io/api/lKeras::Losses/](https://keras.io/api/losses/)
 2. Try with one-hot encoding
 
 sparse_categorical_crossentropy vs categorical_crossentropy
@@ -355,13 +355,302 @@ tf.keras.layers.Dense(1, activation='sigmoid')
 
 model.compile(loss='binary_crossentropy',optimizer='adam',metrics=['accuracy'])
 model.summary()
+```Embeddings
+- Another level after tokenization
+- Meaning of words in n-dim space
+
+### Build-in datasets in TF
+- IMDB dataset for sentiment analysis
+- [https://www.tensorflow.org/datasets/catalog/overview](https://www.tensorflow.org/datasets/catalog/overview)
+- [https://github.com/tensorflow/datasets/tree/master/docs/catalog](https://github.com/tensorflow/datasets/tree/master/docs/catalog)
+
 ```
+import tensorflow_datasets as tfds
+imdb, info = tfds.load("imdb_reviews", with_info=True, as_supervised=True)
+```
+
+### Code pointers
+- Tokenize both datasets and feed in the NN
+- Lexicon is based on training set so expect more OOV in test set
+- Words are represented as vectors - that are input to the NN
+- NN learns to associate the vectors with labels based on the training
+- Embedding layer in the beginning
+- Result of embedding layer is matrix [length of words x num-dim of embeddings]
+- Flatten or GlobalAveragePooling1D to create single dim vector
+- Flatten is slower and more accurate
+- train and visualize the embedding vectors on http://projector.tensorflow.org 
+```
+model = tf.keras.Sequential([
+tf.keras.layers.Embedding(vocab_size, embedding_dim, input_length=max_length),
+tf.keras.layers.Flatten(),
+tf.keras.layers.Dense(6, activation='relu'),
+tf.keras.layers.Dense(1, activation='sigmoid')
+])
+
+model.compile(loss='binary_crossentropy',optimizer='adam',metrics=['accuracy'])
+model.summary()
+
+num_epochs = 10
+model.fit(padded, training_labels_final, epochs=num_epochs, validation_data=(testing_padded, testing_labels_final))
+```
+
+### SubwordsTextEncoder
+- [SubwordTextEncoder](https://www.tensorflow.org/datasets/api_docs/python/tfds/features/text/SubwordTextEncoder)
+
+```
+import tensorflow_datasets as tfds
+imdb, info = tfds.load("imdb_reviews/subwords8k", with_info=True, as_supervised=True)
+tokenizer = info.features['text'].encoder
+
+tokenized_string = tokenizer.encode(sample_string)
+print ('Tokenized string is {}'.format(tokenized_string))
+
+original_string = tokenizer.decode(tokenized_string)
+print ('The original string: {}'.format(original_string))
+```
+
+
+### AI - need to research
+- [keras::PoolingLayer](https://keras.io/api/layers/pooling_layers/)
+- GlobalAveragePooling1D vs Flatten
+- Q - Is any forcing function sufficient (ratings, sarcasm etc) to generate the embeddings? how are the embeddings affected by the forcing fxn?
+
+## [Week 3 - Sequence Models](https://www.coursera.org/learn/natural-language-processing-tensorflow/home/week/3)
+
+### RNN - LSTM
+- Context is important - and it could be much earlier in a sentence
+
+#### Single LSTM
+```
+model = tf.keras.Sequential([
+tf.keras.layers.Embedding(tokenizer.vocab_size, 64),
+tf.keras.layers.Bidirectional(tf.keras.layers.LSTM(64)),
+tf.keras.layers.Dense(64, activation='relu'),
+tf.keras.layers.Dense(1, activation='sigmoid')
+])
+```
+
+#### Dual LSTM
+```
+model = tf.keras.Sequential([
+tf.keras.layers.Embedding(tokenizer.vocab_size, 64),
+tf.keras.layers.Bidirectional(tf.keras.layers.LSTM(64, return_sequences=True)),
+tf.keras.layers.Bidirectional(tf.keras.layers.LSTM(32)),
+tf.keras.layers.Dense(64, activation='relu'),
+tf.keras.layers.Dense(1, activation='sigmoid')
+])
+```
+
+#### Conv1D
+```
+model = tf.keras.Sequential([
+tf.keras.layers.Embedding(tokenizer.vocab_size, 64),
+tf.keras.layers.Conv1D(128, 5, activation='relu'),
+tf.keras.layers.GlobalAveragePooling1D(),
+tf.keras.layers.Dense(64, activation='relu'),
+tf.keras.layers.Dense(1, activation='sigmoid')
+])
+```
+
+#### AI - Return and finish this week
+
+## [Week 4 - Text Synthesis](https://www.coursera.org/learn/natural-language-processing-tensorflow/home/week/4)
+
+### Text Generation
+- Actually a prediction problem
+- Next word = y, previous word = x (and use a DNN)
+- Using Embedding in the input and 1-hot in the output
+
+
+### Example 
+- Tokenize a paragraph of text
+- For bigger corpus, it makes sense to use character-level generation (to reduce the size in one-hot encoding y)
+- [https://www.tensorflow.org/tutorials/text/text_generation](https://www.tensorflow.org/tutorials/text/text_generation)
+- https://stackabuse.com/text-generation-with-python-and-tensorflow-keras/](https://stackabuse.com/text-generation-with-python-and-tensorflow-keras/)
+
+### Questions
+- Why do we 1-hot encode only the y?
+- Ans - no, in this case, they used the embedding layer for the x (input). In general, 1-hot is used for both. (insert keras example)
+ 
+# [Course 4 - Seq, TS, Prediction](https://www.coursera.org/learn/tensorflow-sequences-time-series-and-prediction/)
+
+## [Week 1 - Time Series](https://www.coursera.org/learn/tensorflow-sequences-time-series-and-prediction/home/week/1)
+
+### Time Series
+- Stock Markets, Weather, Moore's law etc
+- Single value per time step = univariate
+- Multiple values per time step = multivariate
+
+#### Anything that has a time factor
+- ML helps with
+	- forecasting
+	- imputation (looking back and filling in data)
+	- filling holes from missing data
+	- detecting DOS
+	- split sequence - for example, sound
+	
+#### Common Patterns in TS
+- Trends - specific direction
+- Seasonality - particular intervals
+	- Sometimes Trends + Seasonality combo  
+- Auto-correlated (correlates with delayed copy of itself = lag)
+	- TS with memory
+	- Unpredictable spikes = innovations 
+- White noise (no correlation)
+- Real time TS are mix of all 4 
+
+#### Non-stationary TS
+- Big events can change the TS characters
+- Better to use a time window and be specific in time while training
+
+### Forecasting Techniques
+#### Fixed Partitioning 
+- Validating based on (training, validation and test periods)
+- Train model and test and then retrain using the test data (to capture the latest data)
+
+### Metrics
+- Error = forecast - predicted
+- MSE = Means Square Error  =  
+	- np.square(error).mean()
+-  RMSE = Root Mean Square Error = 
+	- np.sqrt(mse)
+- MAE = Mean Absolute Error = 
+	- np.abs(error).mean()
+- MAPE = Mean Absolute Percentage Error
+	- np.abs(errors / x_valid).mean() 
+
+### Types of Forecasts
+#### Naive forecasting 
+- next value = last value
+- Trend + seasonality + noise
+
+#### Moving Average 
+- Moving window of average from past values
+- Removes the noise
+- But doesn't capture trend and seasonality 
+
+#### Differencing 
+- NewSeries(t) = Series(t) - Series(t - T), sayT = 365
+- Removes seasonality and trends
+- Now use moving average on the new series to predict 
+- And add back Series(t - T)
+- This keeps the noise because of past values
+	- which could be fixed by another moving average over those values
+
+#### Exercises
+- [Week1-Lesson2](https://colab.research.google.com/github/lmoroney/dlaicourse/blob/master/TensorFlow%20In%20Practice/Course%204%20-%20S%2BP/S%2BP_Week_1_Lesson_2.ipynb)
+- [Week1-Lesson3](https://colab.research.google.com/github/lmoroney/dlaicourse/blob/master/TensorFlow%20In%20Practice/Course%204%20-%20S%2BP/S%2BP%20Week%201%20-%20Lesson%203%20-%20Notebook.ipynb#scrollTo=y7QztBIVR1tb)
+
+Q: Does the moving average of Series(t-T) has a different window size?
+Q: What the hell is a centered window? ([https://www.coursera.org/learn/tensorflow-sequences-time-series-and-prediction/lecture/4s0E8/trailing-versus-centered-windows](https://www.coursera.org/learn/tensorflow-sequences-time-series-and-prediction/lecture/4s0E8/trailing-versus-centered-windows))
+
+## [Week 2 - ML for Time Series](https://www.coursera.org/learn/tensorflow-sequences-time-series-and-prediction/home/week/2)
+
+### AI - redo this week if possible
+
+### Features and Labels
+- Features = Number of values
+- Labels = Next value
+
+#### Colab 1
+- Week 2 - Lesson 1](https://colab.research.google.com/github/lmoroney/dlaicourse/blob/master/TensorFlow%20In%20Practice/Course%204%20-%20S%2BP/S%2BP%20Week%202%20Lesson%201.ipynb)
+
+```
+dataset = tf.data.Dataset.range(10)
+for val in dataset:
+	print(val.numpy())
+```
+
+- Window
+```
+dataset = dataset.window(5, shift=1)
+for window_dataset in dataset:
+	for val in window_dataset:
+		print(val.numpy(), end=" ")
+	print()
+```
+[missing]
+- Final code
+```
+dataset = tf.data.Dataset.range(10)
+dataset = dataset.window(5, shift=1, drop_remainder=True)
+dataset = dataset.flat_map(lambda window: window.batch(5))
+dataset = dataset.map(lambda window:  (window[:-1], window[-1:]))
+dataset = dataset.shuffle(buffer_size=10)
+dataset = dataset.batch(2).prefetch(1)
+for x,y in dataset:
+	print("x = ", x.numpy())
+	print("y = ", y.numpy())
+```
+
+- Sequence Bias
+Order of the input can mess the selection
+
+#### Windowed dataset into Neural Network
+- Use of a shuffle buffer
+```
+def  windowed_dataset(series, window_size, batch_size, shuffle_buffer):
+	dataset = tf.data.Dataset.from_tensor_slices(series)
+	dataset = dataset.window(window_size + 1, shift=1, drop_remainder=True)
+	dataset = dataset.flat_map(lambda window: window.batch(window_size + 1))
+	dataset = dataset.shuffle(shuffle_buffer).map(lambda window:  (window[:-1], window[-1]))
+	dataset = dataset.batch(batch_size).prefetch(1)
+	return dataset
+```
+
+#### Single layer Neural Network
+
+## [Week 3 - RNN for Time Series](https://www.coursera.org/learn/tensorflow-sequences-time-series-and-prediction/home/week/3)
+
+### RNN for prediction
+```mermaid
+forecasts
+Dense
+Recurrent
+Recurrent
+TS data (input windowx x shape [batch size, #time steps, #dims]
+```
+
+### Shape of the data
+- Input =  Batch size x Window size x data-dim (1 for univariate)
+- Output = Batch size x  Window size x Memory size (3 in this example) 
+- Hi = Yi (in simple RNN)
+- set input_shape = [None] to take any size (for the data-dim)
+	- so we can use the same code for any number of layers for the input data
+- Sequence to vector RNN
+	- the intermediate outputs (Y0 to YN-1) are not really important
+	- ignore all output except the last one
+	- controlled by return_sequences = True
+- If this is the intermediate RNN, then we do need the intermediate layer (for the higher level RNN)
+	- last RNN layer typically has return_sequences = False
+
+
+### lambda layers
+```
+# help with dimentions (to go from univariate data -> vector)
+keras.layers.Lambda(lambda x: tf.expand_dims(x, axis = -1), input_shape = [None])
+
+# scaling inputs
+keras.layers.Lambda(lambda x: x * 100.0)
+
+# Tune the learning rate
+tf.keras.callback.LearningRateScheduler(lambda epoch: 1e-8 * 10**(epoch/20)) 
+```
+
+### Estimate learning rate
+- [Huber Loss](https://en.wikipedia.org/wiki/Huber_loss)
+- AI: understand how the learning rate schedule works. It is not intuitive to have a plot of LR wrt loss to estimate the best LR for the network.
+
+### LSTM
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTg1MDU3NDgsLTE4NDc0NDk0OTgsMj
-AzNTA0MDY0NSwtMzg3OTc5MTEzLDU0MDExOTMzNCwtMTg0MDc2
-NDI1MCwtMTM2NTUzOTE1OCwxMzYzNTY3MTMxLC0xNTM0NDg5Nj
-YyLDIwMDE4NzI1NjgsMTQzNjcxMDY3NiwxNDIzNDA0MTk0LC01
-NjA3MDY3NTYsMTkyNDgwMDk5NiwxODY5MTQ3NTk4LC0xMjU3ND
-M0MTU5LC0xODY0NDY5MTgyLC0xODA4MTAzOTMwLDc2MDQ2MTk3
-NywtMjEyNjMwNzI2NV19
+eyJoaXN0b3J5IjpbLTE3MTQ4MzY5NTcsLTEzNTg1MDU3NDgsLT
+E4NDc0NDk0OTgsMjAzNTA0MDY0NSwtMzg3OTc5MTEzLDU0MDEx
+OTMzNCwtMTg0MDc2NDI1MCwtMTM2NTUzOTE1OCwxMzYzNTY3MT
+MxLC0xNTM0NDg5NjYyLDIwMDE4NzI1NjgsMTQzNjcxMDY3Niwx
+NDIzNDA0MTk0LC01NjA3MDY3NTYsMTkyNDgwMDk5NiwxODY5MT
+Q3NTk4LC0xMjU3NDM0MTU5LC0xODY0NDY5MTgyLC0xODA4MTAz
+OTMwLDc2MDQ2MTk3N119
 -->
