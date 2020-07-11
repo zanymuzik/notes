@@ -613,6 +613,7 @@ TS data (input windowx x shape [batch size, #time steps, #dims]
 ### Shape of the data
 - Input =  Batch size x Window size x data-dim (1 for univariate)
 - Output = Batch size x  Window size x Memory size (3 in this example) 
+	- Add explanation as explained to Rishi on the phone
 - Hi = Yi (in simple RNN)
 - set input_shape = [None] to take any size (for the data-dim)
 	- so we can use the same code for any number of layers for the input data
@@ -646,11 +647,11 @@ tf.keras.callback.LearningRateScheduler(lambda epoch: 1e-8 * 10**(epoch/20))
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3MDM0MzExNCwtMTM1ODUwNTc0OCwtMT
-g0NzQ0OTQ5OCwyMDM1MDQwNjQ1LC0zODc5NzkxMTMsNTQwMTE5
-MzM0LC0xODQwNzY0MjUwLC0xMzY1NTM5MTU4LDEzNjM1NjcxMz
-EsLTE1MzQ0ODk2NjIsMjAwMTg3MjU2OCwxNDM2NzEwNjc2LDE0
-MjM0MDQxOTQsLTU2MDcwNjc1NiwxOTI0ODAwOTk2LDE4NjkxND
-c1OTgsLTEyNTc0MzQxNTksLTE4NjQ0NjkxODIsLTE4MDgxMDM5
-MzAsNzYwNDYxOTc3XX0=
+eyJoaXN0b3J5IjpbODgyNDY2ODUzLC0zNzAzNDMxMTQsLTEzNT
+g1MDU3NDgsLTE4NDc0NDk0OTgsMjAzNTA0MDY0NSwtMzg3OTc5
+MTEzLDU0MDExOTMzNCwtMTg0MDc2NDI1MCwtMTM2NTUzOTE1OC
+wxMzYzNTY3MTMxLC0xNTM0NDg5NjYyLDIwMDE4NzI1NjgsMTQz
+NjcxMDY3NiwxNDIzNDA0MTk0LC01NjA3MDY3NTYsMTkyNDgwMD
+k5NiwxODY5MTQ3NTk4LC0xMjU3NDM0MTU5LC0xODY0NDY5MTgy
+LC0xODA4MTAzOTMwXX0=
 -->
