@@ -606,7 +606,7 @@ graph BT
 Dense --> forecasts;
 Recurrent2 --> Dense;
 Recurrent1 --> Recurrent2;
-TS data (shape [batch size, #time steps, #dims]) --> Recurrent2
+Input(TS data "\(shape \[batch size, \#time steps, \#dims\]\)") --> Recurrent1;
 ```
 
 ### Shape of the data
@@ -646,11 +646,11 @@ tf.keras.callback.LearningRateScheduler(lambda epoch: 1e-8 * 10**(epoch/20))
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Mjc5MzM1MDksODgyNDY2ODUzLC0zNz
-AzNDMxMTQsLTEzNTg1MDU3NDgsLTE4NDc0NDk0OTgsMjAzNTA0
-MDY0NSwtMzg3OTc5MTEzLDU0MDExOTMzNCwtMTg0MDc2NDI1MC
-wtMTM2NTUzOTE1OCwxMzYzNTY3MTMxLC0xNTM0NDg5NjYyLDIw
-MDE4NzI1NjgsMTQzNjcxMDY3NiwxNDIzNDA0MTk0LC01NjA3MD
-Y3NTYsMTkyNDgwMDk5NiwxODY5MTQ3NTk4LC0xMjU3NDM0MTU5
-LC0xODY0NDY5MTgyXX0=
+eyJoaXN0b3J5IjpbLTMyOTQ3MDg1Miw4ODI0NjY4NTMsLTM3MD
+M0MzExNCwtMTM1ODUwNTc0OCwtMTg0NzQ0OTQ5OCwyMDM1MDQw
+NjQ1LC0zODc5NzkxMTMsNTQwMTE5MzM0LC0xODQwNzY0MjUwLC
+0xMzY1NTM5MTU4LDEzNjM1NjcxMzEsLTE1MzQ0ODk2NjIsMjAw
+MTg3MjU2OCwxNDM2NzEwNjc2LDE0MjM0MDQxOTQsLTU2MDcwNj
+c1NiwxOTI0ODAwOTk2LDE4NjkxNDc1OTgsLTEyNTc0MzQxNTks
+LTE4NjQ0NjkxODJdfQ==
 -->
