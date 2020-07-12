@@ -603,8 +603,8 @@ def  windowed_dataset(series, window_size, batch_size, shuffle_buffer):
 ### RNN for prediction
 ```mermaid
 graph BT
-forecasts --> Dense 
-Dense --> Recurrent1;
+Dense --> forecasts;
+Recurrent1 --> Dense;
 Recurrent1 --> Recurrent2;
 Recurrent2 --> "TS data (input windowx x shape [batch size, #time steps, #dims]"
 ```
@@ -646,11 +646,11 @@ tf.keras.callback.LearningRateScheduler(lambda epoch: 1e-8 * 10**(epoch/20))
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjc5NTk0NTk2LDg4MjQ2Njg1MywtMzcwMz
-QzMTE0LC0xMzU4NTA1NzQ4LC0xODQ3NDQ5NDk4LDIwMzUwNDA2
-NDUsLTM4Nzk3OTExMyw1NDAxMTkzMzQsLTE4NDA3NjQyNTAsLT
-EzNjU1MzkxNTgsMTM2MzU2NzEzMSwtMTUzNDQ4OTY2MiwyMDAx
-ODcyNTY4LDE0MzY3MTA2NzYsMTQyMzQwNDE5NCwtNTYwNzA2Nz
-U2LDE5MjQ4MDA5OTYsMTg2OTE0NzU5OCwtMTI1NzQzNDE1OSwt
-MTg2NDQ2OTE4Ml19
+eyJoaXN0b3J5IjpbLTg0NzExNjEzNSw4ODI0NjY4NTMsLTM3MD
+M0MzExNCwtMTM1ODUwNTc0OCwtMTg0NzQ0OTQ5OCwyMDM1MDQw
+NjQ1LC0zODc5NzkxMTMsNTQwMTE5MzM0LC0xODQwNzY0MjUwLC
+0xMzY1NTM5MTU4LDEzNjM1NjcxMzEsLTE1MzQ0ODk2NjIsMjAw
+MTg3MjU2OCwxNDM2NzEwNjc2LDE0MjM0MDQxOTQsLTU2MDcwNj
+c1NiwxOTI0ODAwOTk2LDE4NjkxNDc1OTgsLTEyNTc0MzQxNTks
+LTE4NjQ0NjkxODJdfQ==
 -->
