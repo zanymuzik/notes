@@ -606,7 +606,9 @@ graph BT
 Dense --> forecasts;
 Recurrent2 --> Dense;
 Recurrent1 --> Recurrent2;
-Input(TS data "\(shape \[batch size, \#time steps, \#dims\]\)") --> Recurrent1;
+TSData[(Database)];
+TSData --> Recurrent1;
+TSData(TS data "\(shape \[batch size, \#time steps, \#dims\]\)") 
 ```
 
 ### Shape of the data
@@ -646,7 +648,7 @@ tf.keras.callback.LearningRateScheduler(lambda epoch: 1e-8 * 10**(epoch/20))
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyOTQ3MDg1Miw4ODI0NjY4NTMsLTM3MD
+eyJoaXN0b3J5IjpbLTg1NjczMTY2OCw4ODI0NjY4NTMsLTM3MD
 M0MzExNCwtMTM1ODUwNTc0OCwtMTg0NzQ0OTQ5OCwyMDM1MDQw
 NjQ1LC0zODc5NzkxMTMsNTQwMTE5MzM0LC0xODQwNzY0MjUwLC
 0xMzY1NTM5MTU4LDEzNjM1NjcxMzEsLTE1MzQ0ODk2NjIsMjAw
