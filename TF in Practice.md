@@ -341,9 +341,6 @@ padded = pad_sequences(test_seq, maxlen=10, padding='post')
 ```
 
 ## [Week 2 - Embeddings](https://www.coursera.org/learn/natural-language-processing-tensorflow/home/week/2)
-
-### FIX ME
-
 ```
 model = tf.keras.Sequential([
 tf.keras.layers.Embedding(vocab_size, embedding_dim, input_length=max_length),
@@ -354,7 +351,9 @@ tf.keras.layers.Dense(1, activation='sigmoid')
 
 model.compile(loss='binary_crossentropy',optimizer='adam',metrics=['accuracy'])
 model.summary()
-```Embeddings
+```
+
+Embeddings
 - Another level after tokenization
 - Meaning of words in n-dim space
 
@@ -647,11 +646,11 @@ tf.keras.callback.LearningRateScheduler(lambda epoch: 1e-8 * 10**(epoch/20))
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODgyNDY2ODUzLC0zNzAzNDMxMTQsLTEzNT
-g1MDU3NDgsLTE4NDc0NDk0OTgsMjAzNTA0MDY0NSwtMzg3OTc5
-MTEzLDU0MDExOTMzNCwtMTg0MDc2NDI1MCwtMTM2NTUzOTE1OC
-wxMzYzNTY3MTMxLC0xNTM0NDg5NjYyLDIwMDE4NzI1NjgsMTQz
-NjcxMDY3NiwxNDIzNDA0MTk0LC01NjA3MDY3NTYsMTkyNDgwMD
-k5NiwxODY5MTQ3NTk4LC0xMjU3NDM0MTU5LC0xODY0NDY5MTgy
-LC0xODA4MTAzOTMwXX0=
+eyJoaXN0b3J5IjpbLTc0ODAwODc4OSw4ODI0NjY4NTMsLTM3MD
+M0MzExNCwtMTM1ODUwNTc0OCwtMTg0NzQ0OTQ5OCwyMDM1MDQw
+NjQ1LC0zODc5NzkxMTMsNTQwMTE5MzM0LC0xODQwNzY0MjUwLC
+0xMzY1NTM5MTU4LDEzNjM1NjcxMzEsLTE1MzQ0ODk2NjIsMjAw
+MTg3MjU2OCwxNDM2NzEwNjc2LDE0MjM0MDQxOTQsLTU2MDcwNj
+c1NiwxOTI0ODAwOTk2LDE4NjkxNDc1OTgsLTEyNTc0MzQxNTks
+LTE4NjQ0NjkxODJdfQ==
 -->
