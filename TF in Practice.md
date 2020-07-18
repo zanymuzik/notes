@@ -647,15 +647,23 @@ tf.keras.callback.LearningRateScheduler(lambda epoch: 1e-8 * 10**(epoch/20))
 - state could be bi-directional
 
 ```
+model = tf.keras.models.Sequential([
+tf.keras.layers.Lambda(lambda x: tf.expand_dims(x, axis=-1),input_shape=[None]),
+tf.keras.layers.Bidirectional(tf.keras.layers.LSTM(32, return_sequences=True)),
+tf.keras.layers.Bidirectional(tf.keras.layers.LSTM(32)), 
+tf.keras.layers.Dense(1),
+tf.keras.layers.Lambda(lambda x: x * 100.0)
+])
+```
 
 ## [Week 4 - CNN for Time Series](https://www.coursera.org/learn/tensorflow-sequences-time-series-and-prediction/home/week/4)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2NjEzMjgyOCw3NjU4NTE4OCwtMjA5Nj
-E1MDAwOCw4ODI0NjY4NTMsLTM3MDM0MzExNCwtMTM1ODUwNTc0
-OCwtMTg0NzQ0OTQ5OCwyMDM1MDQwNjQ1LC0zODc5NzkxMTMsNT
-QwMTE5MzM0LC0xODQwNzY0MjUwLC0xMzY1NTM5MTU4LDEzNjM1
-NjcxMzEsLTE1MzQ0ODk2NjIsMjAwMTg3MjU2OCwxNDM2NzEwNj
-c2LDE0MjM0MDQxOTQsLTU2MDcwNjc1NiwxOTI0ODAwOTk2LDE4
-NjkxNDc1OThdfQ==
+eyJoaXN0b3J5IjpbLTExMzAzNzIwNTQsNzY1ODUxODgsLTIwOT
+YxNTAwMDgsODgyNDY2ODUzLC0zNzAzNDMxMTQsLTEzNTg1MDU3
+NDgsLTE4NDc0NDk0OTgsMjAzNTA0MDY0NSwtMzg3OTc5MTEzLD
+U0MDExOTMzNCwtMTg0MDc2NDI1MCwtMTM2NTUzOTE1OCwxMzYz
+NTY3MTMxLC0xNTM0NDg5NjYyLDIwMDE4NzI1NjgsMTQzNjcxMD
+Y3NiwxNDIzNDA0MTk0LC01NjA3MDY3NTYsMTkyNDgwMDk5Niwx
+ODY5MTQ3NTk4XX0=
 -->
