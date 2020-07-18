@@ -646,13 +646,14 @@ tf.keras.callback.LearningRateScheduler(lambda epoch: 1e-8 * 10**(epoch/20))
 - some magic with state (which is missing in RNN)
 - state could be bi-directional
 
+## [Week 4 - CNN for Time Series](https://www.coursera.org/learn/tensorflow-sequences-time-series-and-prediction/home/week/4)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTYxNTAwMDgsODgyNDY2ODUzLC0zNz
-AzNDMxMTQsLTEzNTg1MDU3NDgsLTE4NDc0NDk0OTgsMjAzNTA0
-MDY0NSwtMzg3OTc5MTEzLDU0MDExOTMzNCwtMTg0MDc2NDI1MC
-wtMTM2NTUzOTE1OCwxMzYzNTY3MTMxLC0xNTM0NDg5NjYyLDIw
-MDE4NzI1NjgsMTQzNjcxMDY3NiwxNDIzNDA0MTk0LC01NjA3MD
-Y3NTYsMTkyNDgwMDk5NiwxODY5MTQ3NTk4LC0xMjU3NDM0MTU5
-LC0xODY0NDY5MTgyXX0=
+eyJoaXN0b3J5IjpbNzY1ODUxODgsLTIwOTYxNTAwMDgsODgyND
+Y2ODUzLC0zNzAzNDMxMTQsLTEzNTg1MDU3NDgsLTE4NDc0NDk0
+OTgsMjAzNTA0MDY0NSwtMzg3OTc5MTEzLDU0MDExOTMzNCwtMT
+g0MDc2NDI1MCwtMTM2NTUzOTE1OCwxMzYzNTY3MTMxLC0xNTM0
+NDg5NjYyLDIwMDE4NzI1NjgsMTQzNjcxMDY3NiwxNDIzNDA0MT
+k0LC01NjA3MDY3NTYsMTkyNDgwMDk5NiwxODY5MTQ3NTk4LC0x
+MjU3NDM0MTU5XX0=
 -->
