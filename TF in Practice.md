@@ -659,10 +659,10 @@ tf.keras.layers.Lambda(lambda x: x * 100.0)
 ## [Week 4 - CNN for Time Series](https://www.coursera.org/learn/tensorflow-sequences-time-series-and-prediction/home/week/4)
 
 - Real World Data 
-- 1 Dim CNN window + LSTM
+- 1 Dim CNN window (input_shape = [None, 1])
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4ODk4OTk1OSw4ODE0NTY3ODEsLTExMz
+eyJoaXN0b3J5IjpbLTc1NjY5MTEwNSw4ODE0NTY3ODEsLTExMz
 AzNzIwNTQsNzY1ODUxODgsLTIwOTYxNTAwMDgsODgyNDY2ODUz
 LC0zNzAzNDMxMTQsLTEzNTg1MDU3NDgsLTE4NDc0NDk0OTgsMj
 AzNTA0MDY0NSwtMzg3OTc5MTEzLDU0MDExOTMzNCwtMTg0MDc2
