@@ -74,8 +74,13 @@ return{ xs: Object.values(xs), ys: Object.values(labels)};
 
 ## [Week 2 - CNN in js](https://www.coursera.org/learn/browser-based-models-tensorflow/home/week/2)
 
-### CNN Training in breo
+### CNN Training in browser
+
+```
+model = tf.sequencial()
+
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4NjU3NzkwMCwyMDI4NDU3NzkzXX0=
+eyJoaXN0b3J5IjpbLTY2MDU2MDc2OSwyMDI4NDU3NzkzXX0=
 -->
