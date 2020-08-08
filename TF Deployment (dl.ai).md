@@ -78,7 +78,7 @@ return{ xs: Object.values(xs), ys: Object.values(labels)};
 ### CNN Training in browser
 [code](https://github.com/lmoroney/dlaicourse/blob/master/TensorFlow%20Deployment/Course%201%20-%20TensorFlow-JS/Week%202/Examples/script.js)
 
-- Defining the CNN model
+#### Defining the CNN model
 ```
 function getModel() {
 	model = tf.sequential();
@@ -97,7 +97,7 @@ function getModel() {
 }
 ```
 
-- Training the model
+#### Training the model
 ```
 const fitCallbacks = tfvis.show.fitCallbacks(container, metrics);
 
@@ -111,8 +111,10 @@ return model.fit(trainXs, trainYs, {
 ```
 - fitCallbacks are provided by [tfjs-vis](https://github.com/tensorflow/tfjs/tree/master/tfjs-vis) library for visualizations
 
+#### Sprite Sheets
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQyOTY1NjMyLC0xMzMzNjAxMzI2LDEzMD
+eyJoaXN0b3J5IjpbMTU2NjgxMjE2LC0xMzMzNjAxMzI2LDEzMD
 Y4MDc0Myw2MzI2NTY1NjQsLTY4MjU5MzkzNSwtNjYwNTYwNzY5
 LDIwMjg0NTc3OTNdfQ==
 -->
