@@ -112,9 +112,10 @@ return model.fit(trainXs, trainYs, {
 - fitCallbacks are provided by [tfjs-vis](https://github.com/tensorflow/tfjs/tree/master/tfjs-vis) library for visualizations
 
 #### Sprite Sheets
-- p
+- prohibilitely expensive to load individual images (from a web browser)
+- load them all together as a sprite sheet ex - [MNIST sprite sheet.png](https://storage.googleapis.com/learnjs-data/model-builder/mnist_images.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzk2MTk4NjgsMTU2NjgxMjE2LC0xMz
-MzNjAxMzI2LDEzMDY4MDc0Myw2MzI2NTY1NjQsLTY4MjU5Mzkz
-NSwtNjYwNTYwNzY5LDIwMjg0NTc3OTNdfQ==
+eyJoaXN0b3J5IjpbNDY1NDAyMTE1LDE1NjY4MTIxNiwtMTMzMz
+YwMTMyNiwxMzA2ODA3NDMsNjMyNjU2NTY0LC02ODI1OTM5MzUs
+LTY2MDU2MDc2OSwyMDI4NDU3NzkzXX0=
 -->
