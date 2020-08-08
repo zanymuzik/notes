@@ -98,9 +98,23 @@ function getModel() {
 
 - Training the model
 ```
+return model.fit(trainXs, trainYs, {
 
+batchSize: BATCH_SIZE,
+
+validationData: [testXs, testYs],
+
+epochs: 20,
+
+shuffle: true,
+
+callbacks: fitCallbacks
+
+});
 ```
+
+- fitCallbacks are provided by tf-vis 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjMyNjU2NTY0LC02ODI1OTM5MzUsLTY2MD
-U2MDc2OSwyMDI4NDU3NzkzXX0=
+eyJoaXN0b3J5IjpbMTMwNjgwNzQzLDYzMjY1NjU2NCwtNjgyNT
+kzOTM1LC02NjA1NjA3NjksMjAyODQ1Nzc5M119
 -->
