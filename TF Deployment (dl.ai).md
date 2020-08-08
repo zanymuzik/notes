@@ -98,23 +98,19 @@ function getModel() {
 
 - Training the model
 ```
+const fitCallbacks = tfvis.show.fitCallbacks(container, metrics);
+
 return model.fit(trainXs, trainYs, {
-
-batchSize: BATCH_SIZE,
-
-validationData: [testXs, testYs],
-
-epochs: 20,
-
-shuffle: true,
-
-callbacks: fitCallbacks
-
+	batchSize: BATCH_SIZE,
+	validationData: [testXs, testYs],
+	epochs: 20,
+	shuffle: true,
+	callbacks: fitCallbacks
 });
 ```
-
-- fitCallbacks are provided by tf-vis 
+- fitCallbacks are provided by [tfjs-vis](https://github.com/tensorflow/tfjs/tree/master/tfjs-vis) library
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwNjgwNzQzLDYzMjY1NjU2NCwtNjgyNT
-kzOTM1LC02NjA1NjA3NjksMjAyODQ1Nzc5M119
+eyJoaXN0b3J5IjpbMTY2NTk0NTgxNSwxMzA2ODA3NDMsNjMyNj
+U2NTY0LC02ODI1OTM5MzUsLTY2MDU2MDc2OSwyMDI4NDU3Nzkz
+XX0=
 -->
