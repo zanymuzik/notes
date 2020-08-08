@@ -74,6 +74,8 @@ return{ xs: Object.values(xs), ys: Object.values(labels)};
 
 ## [Week 2 - CNN in js](https://www.coursera.org/learn/browser-based-models-tensorflow/home/week/2)
 
+### CNN Training in browser
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyODQ1Nzc5M119
+eyJoaXN0b3J5IjpbLTE2NzcyMzQ3NTgsMjAyODQ1Nzc5M119
 -->
