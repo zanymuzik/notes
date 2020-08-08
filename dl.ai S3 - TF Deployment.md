@@ -1,6 +1,7 @@
 # Specialization TF Deployment
 
 # Course 1 - Browser Based Models with TF.js
+## [Javascript in TensorFlow](https://www.tensorflow.org/js)
 
 ## [Week 1 - simple NN in js](https://www.coursera.org/learn/browser-based-models-tensorflow/home/week/1)
 
@@ -108,9 +109,9 @@ return model.fit(trainXs, trainYs, {
 	callbacks: fitCallbacks
 });
 ```
-- fitCallbacks are provided by [tfjs-vis](https://github.com/tensorflow/tfjs/tree/master/tfjs-vis) library
+- fitCallbacks are provided by [tfjs-vis](https://github.com/tensorflow/tfjs/tree/master/tfjs-vis) library for visualizations
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2NTk0NTgxNSwxMzA2ODA3NDMsNjMyNj
-U2NTY0LC02ODI1OTM5MzUsLTY2MDU2MDc2OSwyMDI4NDU3Nzkz
-XX0=
+eyJoaXN0b3J5IjpbLTEzMzM2MDEzMjYsMTMwNjgwNzQzLDYzMj
+Y1NjU2NCwtNjgyNTkzOTM1LC02NjA1NjA3NjksMjAyODQ1Nzc5
+M119
 -->
