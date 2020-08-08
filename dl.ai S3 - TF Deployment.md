@@ -75,12 +75,25 @@ return{ xs: Object.values(xs), ys: Object.values(labels)};
 ## [Week 2 - CNN in js](https://www.coursera.org/learn/browser-based-models-tensorflow/home/week/2)
 
 ### CNN Training in browser
+[Code](https://github.com/lmoroney/dlaicourse/tree/master/TensorFlow%20Deployment/Course%201%20-%20TensorFlow-JS/Week%202/Examples)
 
 ```
-model = tf.sequencial()
+function getModel() {
+	model = tf.sequential();
+	model.add(tf.layers.conv2d({inputShape: [28, 28, 1], kernelSize: 3, filters: 8, activation: 'relu'}));
+	model.add(tf.layers.maxPooling2d({poolSize: [2, 2]}));
+	model.add(tf.layers.conv2d({filters: 16, kernelSize: 3, activation: 'relu'}));
+	model.add(tf.layers.maxPooling2d({poolSize: [2, 2]}));
+	model.add(tf.layers.flatten());
+	model.add(tf.layers.dense({units: 128, activation: 'relu'}));
+	model.add(tf.layers.dense({units: 10, activation: 'softmax'}));
+	model.compile({optimizer: tf.train.adam(), loss: 'categoricalCrossentropy', metrics: ['accuracy']});
 
+	return model;
+}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2MDU2MDc2OSwyMDI4NDU3NzkzXX0=
+eyJoaXN0b3J5IjpbLTY4MjU5MzkzNSwtNjYwNTYwNzY5LDIwMj
+g0NTc3OTNdfQ==
 -->
