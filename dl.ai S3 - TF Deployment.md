@@ -77,6 +77,7 @@ return{ xs: Object.values(xs), ys: Object.values(labels)};
 ### CNN Training in browser
 [Code](https://github.com/lmoroney/dlaicourse/tree/master/TensorFlow%20Deployment/Course%201%20-%20TensorFlow-JS/Week%202/Examples)
 
+- Defining the CNN model
 ```
 function getModel() {
 	model = tf.sequential();
@@ -88,14 +89,18 @@ function getModel() {
 	model.add(tf.layers.flatten());
 	model.add(tf.layers.dense({units: 128, activation: 'relu'}));
 	model.add(tf.layers.dense({units: 10, activation: 'softmax'}));
-	model.compile({optimizer: tf.train.adam(), 
-					loss: 'categoricalCrossentropy', metrics: ['accuracy']});
-
+	model.compile({ optimizer: tf.train.adam(), 
+					loss: 'categoricalCrossentropy', 
+					metrics: ['accuracy']});
 	return model;
 }
 ```
 
+- Training the model
+```
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1NDMxMjEwNywtNjgyNTkzOTM1LC02Nj
-A1NjA3NjksMjAyODQ1Nzc5M119
+eyJoaXN0b3J5IjpbLTIxMDQyNTQ5NjAsLTY4MjU5MzkzNSwtNj
+YwNTYwNzY5LDIwMjg0NTc3OTNdfQ==
 -->
