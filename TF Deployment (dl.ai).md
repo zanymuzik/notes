@@ -110,8 +110,9 @@ return model.fit(trainXs, trainYs, {
 });
 ```
 - fitCallbacks are provided by [tfjs-vis](https://github.com/tensorflow/tfjs/tree/master/tfjs-vis) library for visualizations
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzM2MDEzMjYsMTMwNjgwNzQzLDYzMj
-Y1NjU2NCwtNjgyNTkzOTM1LC02NjA1NjA3NjksMjAyODQ1Nzc5
-M119
+eyJoaXN0b3J5IjpbMzQyOTY1NjMyLC0xMzMzNjAxMzI2LDEzMD
+Y4MDc0Myw2MzI2NTY1NjQsLTY4MjU5MzkzNSwtNjYwNTYwNzY5
+LDIwMjg0NTc3OTNdfQ==
 -->
