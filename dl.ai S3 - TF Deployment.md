@@ -76,6 +76,11 @@ return{ xs: Object.values(xs), ys: Object.values(labels)};
 
 ### CNN Training in browser
 
+```
+model = tf.sequencial()
+
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzcyMzQ3NTgsMjAyODQ1Nzc5M119
+eyJoaXN0b3J5IjpbLTY2MDU2MDc2OSwyMDI4NDU3NzkzXX0=
 -->
