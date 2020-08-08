@@ -75,7 +75,7 @@ return{ xs: Object.values(xs), ys: Object.values(labels)};
 ## [Week 2 - CNN in js](https://www.coursera.org/learn/browser-based-models-tensorflow/home/week/2)
 
 ### CNN Training in browser
-[Code](https://github.com/lmoroney/dlaicourse/tree/master/TensorFlow%20Deployment/Course%201%20-%20TensorFlow-JS/Week%202/Examples)
+[code](https://github.com/lmoroney/dlaicourse/blob/master/TensorFlow%20Deployment/Course%201%20-%20TensorFlow-JS/Week%202/Examples/script.js)
 
 - Defining the CNN model
 ```
@@ -101,6 +101,6 @@ function getModel() {
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDQyNTQ5NjAsLTY4MjU5MzkzNSwtNj
-YwNTYwNzY5LDIwMjg0NTc3OTNdfQ==
+eyJoaXN0b3J5IjpbNjMyNjU2NTY0LC02ODI1OTM5MzUsLTY2MD
+U2MDc2OSwyMDI4NDU3NzkzXX0=
 -->
