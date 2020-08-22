@@ -217,7 +217,8 @@ tflite_convert --output_file=model.tflite --keras_model_file=model.h5
 	- vs quantizing the model during training
 - Improvement in model size and latency
 	- at the cost of degradation in model accuracy 
-- Quantization uses onk
+- Quantization uses only integers 
+	- 
 
 
 
@@ -230,7 +231,7 @@ tflite_convert --output_file=model.tflite --keras_model_file=model.h5
 # Course 4 - Advanced Deployment Scenarios
 ## 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1ODcwMjQxNCwtMTMwNjg2NDA1LDkwMT
+eyJoaXN0b3J5IjpbLTE3MzYxMTgzOCwtMTMwNjg2NDA1LDkwMT
 AwOTA4OCwxOTAzOTY1MTkyLC0xNDYwMzY3OTAzLDEwMzMyNDI0
 ODAsLTIwNDk5OTcwOCw3NzAxMTExMTEsLTEzNDcwNzc0NDcsOT
 U5OTMzNDk5LDQ3MDg3MzAxNyw0NjU0MDIxMTUsMTU2NjgxMjE2
