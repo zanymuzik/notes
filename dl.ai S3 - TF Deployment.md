@@ -188,7 +188,23 @@ tflite_model_file = pathlib.Path('/tmp/foo.tflite')
 tflite_model_file.write_bytes(tflite_model)
 ```
 
-#### 
+#### From Keras (Pre-existing model)
+```
+# Load the Mobilenet tf.keras model
+model = tf.keras.applications.MobileNetV2(weights="imagenet", input_shape=(224, 224, 3))
+tf.saved_model.save(model, export_dir)
+
+# Convert
+converter = tf.lite.TFLiteConverter.from_saved_model(export_dir)
+tflite_model = converter.convert()
+
+# Save the tflite model
+tflite_model_file = pathlib.Path('/tmp/foo.tflite')
+tflite_model_file.write_bytes(tflite_model)
+```
+
+
+
 
 
 
@@ -199,10 +215,10 @@ tflite_model_file.write_bytes(tflite_model)
 # Course 4 - Advanced Deployment Scenarios
 ## 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQ3NzY5NTEsOTAxMDA5MDg4LDE5MDM5Nj
-UxOTIsLTE0NjAzNjc5MDMsMTAzMzI0MjQ4MCwtMjA0OTk5NzA4
-LDc3MDExMTExMSwtMTM0NzA3NzQ0Nyw5NTk5MzM0OTksNDcwOD
-czMDE3LDQ2NTQwMjExNSwxNTY2ODEyMTYsLTEzMzM2MDEzMjYs
-MTMwNjgwNzQzLDYzMjY1NjU2NCwtNjgyNTkzOTM1LC02NjA1Nj
-A3NjksMjAyODQ1Nzc5M119
+eyJoaXN0b3J5IjpbLTE4MTA1MTg0MTcsOTAxMDA5MDg4LDE5MD
+M5NjUxOTIsLTE0NjAzNjc5MDMsMTAzMzI0MjQ4MCwtMjA0OTk5
+NzA4LDc3MDExMTExMSwtMTM0NzA3NzQ0Nyw5NTk5MzM0OTksND
+cwODczMDE3LDQ2NTQwMjExNSwxNTY2ODEyMTYsLTEzMzM2MDEz
+MjYsMTMwNjgwNzQzLDYzMjY1NjU2NCwtNjgyNTkzOTM1LC02Nj
+A1NjA3NjksMjAyODQ1Nzc5M119
 -->
