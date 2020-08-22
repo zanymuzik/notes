@@ -217,7 +217,9 @@ tflite_convert --output_file=model.tflite --keras_model_file=model.h5
 	- vs quantizing the model during training
 - Improvement in model size and latency
 	- at the cost of degradation in model accuracy 
-- Quantization uses only integers 
+- OPTIMIZE_FOR_SIZE or OPTIMIZE_FOR_LATENCY
+	- or let it choose the right balance 	
+- Quantization uses only integers for Edge TPUs, can reduce size by 4x
 	- 
 
 
@@ -235,7 +237,7 @@ tflite_convert --output_file=model.tflite --keras_model_file=model.h5
 # Course 4 - Advanced Deployment Scenarios
 ## 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0MjczNDgzOCwtMTMwNjg2NDA1LDkwMT
+eyJoaXN0b3J5IjpbMTUzMTMyMjEzNywtMTMwNjg2NDA1LDkwMT
 AwOTA4OCwxOTAzOTY1MTkyLC0xNDYwMzY3OTAzLDEwMzMyNDI0
 ODAsLTIwNDk5OTcwOCw3NzAxMTExMTEsLTEzNDcwNzc0NDcsOT
 U5OTMzNDk5LDQ3MDg3MzAxNyw0NjU0MDIxMTUsMTU2NjgxMjE2
