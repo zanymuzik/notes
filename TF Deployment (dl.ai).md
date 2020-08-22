@@ -167,8 +167,10 @@ tf.lite.TFLiteConverter.from_saved_model() or
 tf.lite.TFLiteConverter.from_keras_model() or
 tf.lite.TFLiteConverter.from_concrete_functions()
 ```
-- SavedModel is universal for saving a model
+- SavedModel is universal API for saving a TF model
 	- Metagraph for metadata in the model
+	- Allows versioning of models
+	- 
 
 
 
@@ -181,10 +183,10 @@ tf.lite.TFLiteConverter.from_concrete_functions()
 # Course 4 - Advanced Deployment Scenarios
 ## 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODA0NjY2OTUsMTkwMzk2NTE5MiwtMT
-Q2MDM2NzkwMywxMDMzMjQyNDgwLC0yMDQ5OTk3MDgsNzcwMTEx
-MTExLC0xMzQ3MDc3NDQ3LDk1OTkzMzQ5OSw0NzA4NzMwMTcsND
-Y1NDAyMTE1LDE1NjY4MTIxNiwtMTMzMzYwMTMyNiwxMzA2ODA3
-NDMsNjMyNjU2NTY0LC02ODI1OTM5MzUsLTY2MDU2MDc2OSwyMD
-I4NDU3NzkzXX0=
+eyJoaXN0b3J5IjpbOTAxMDA5MDg4LDE5MDM5NjUxOTIsLTE0Nj
+AzNjc5MDMsMTAzMzI0MjQ4MCwtMjA0OTk5NzA4LDc3MDExMTEx
+MSwtMTM0NzA3NzQ0Nyw5NTk5MzM0OTksNDcwODczMDE3LDQ2NT
+QwMjExNSwxNTY2ODEyMTYsLTEzMzM2MDEzMjYsMTMwNjgwNzQz
+LDYzMjY1NjU2NCwtNjgyNTkzOTM1LC02NjA1NjA3NjksMjAyOD
+Q1Nzc5M119
 -->
