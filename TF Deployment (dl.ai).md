@@ -219,7 +219,8 @@ tflite_convert --output_file=model.tflite --keras_model_file=model.h5
 	- at the cost of degradation in model accuracy 
 - OPTIMIZE_FOR_SIZE or OPTIMIZE_FOR_LATENCY
 	- or let it choose the right balance 	
-- Quantization uses only integers for Edge TPUs, can reduce size by 4x
+- For Edge TPUs, accelerator uses only integers for Edge TPUs
+	- quantization can reduce size by 4x
 	- 
 
 
@@ -237,10 +238,10 @@ tflite_convert --output_file=model.tflite --keras_model_file=model.h5
 # Course 4 - Advanced Deployment Scenarios
 ## 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzMTMyMjEzNywtMTMwNjg2NDA1LDkwMT
-AwOTA4OCwxOTAzOTY1MTkyLC0xNDYwMzY3OTAzLDEwMzMyNDI0
-ODAsLTIwNDk5OTcwOCw3NzAxMTExMTEsLTEzNDcwNzc0NDcsOT
-U5OTMzNDk5LDQ3MDg3MzAxNyw0NjU0MDIxMTUsMTU2NjgxMjE2
-LC0xMzMzNjAxMzI2LDEzMDY4MDc0Myw2MzI2NTY1NjQsLTY4Mj
-U5MzkzNSwtNjYwNTYwNzY5LDIwMjg0NTc3OTNdfQ==
+eyJoaXN0b3J5IjpbLTIwNDM5ODU1NTcsLTEzMDY4NjQwNSw5MD
+EwMDkwODgsMTkwMzk2NTE5MiwtMTQ2MDM2NzkwMywxMDMzMjQy
+NDgwLC0yMDQ5OTk3MDgsNzcwMTExMTExLC0xMzQ3MDc3NDQ3LD
+k1OTkzMzQ5OSw0NzA4NzMwMTcsNDY1NDAyMTE1LDE1NjY4MTIx
+NiwtMTMzMzYwMTMyNiwxMzA2ODA3NDMsNjMyNjU2NTY0LC02OD
+I1OTM5MzUsLTY2MDU2MDc2OSwyMDI4NDU3NzkzXX0=
 -->
