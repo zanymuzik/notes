@@ -118,7 +118,7 @@ return model.fit(trainXs, trainYs, {
 ## Course Incomplete
 
 # Course 2 - Device based Models with TFLite
-## [Devices in TF](https://www.coursera.org/learn/device-based-models-tensorflow)
+## [Devices inTF](https://www.coursera.org/learn/device-based-models-tensorflow)
 
 
 
@@ -132,8 +132,8 @@ return model.fit(trainXs, trainYs, {
 # Course 4 - Advanced Deployment Scenarios
 ## 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU5OTMzNDk5LDQ3MDg3MzAxNyw0NjU0MD
-IxMTUsMTU2NjgxMjE2LC0xMzMzNjAxMzI2LDEzMDY4MDc0Myw2
-MzI2NTY1NjQsLTY4MjU5MzkzNSwtNjYwNTYwNzY5LDIwMjg0NT
-c3OTNdfQ==
+eyJoaXN0b3J5IjpbOTgzNjU0MjE5LDk1OTkzMzQ5OSw0NzA4Nz
+MwMTcsNDY1NDAyMTE1LDE1NjY4MTIxNiwtMTMzMzYwMTMyNiwx
+MzA2ODA3NDMsNjMyNjU2NTY0LC02ODI1OTM5MzUsLTY2MDU2MD
+c2OSwyMDI4NDU3NzkzXX0=
 -->
