@@ -161,13 +161,14 @@ return model.fit(trainXs, trainYs, {
 - Optimize models for special purpose HW accelerators (TPUs)
 
 ### Save Model Format
-- TF Model -> Saved Model -> Convertor -> tflite model
+- TF Model -> Saved Model -> | Convertor | -> tflite model
 ```
-tf.lite.TFLiteConverter.from_saved_model()
-tf.lite.TFLiteConverter.from_keras_model()
-tf.lite.TFLiteConverter.from_concrete_fu_model()
-
+tf.lite.TFLiteConverter.from_saved_model() or
+tf.lite.TFLiteConverter.from_keras_model() or
+tf.lite.TFLiteConverter.from_concrete_functions()
 ```
+- SavedModel is universal for saving a model
+	- Metagraph for metadata in the model
 
 
 
@@ -180,7 +181,7 @@ tf.lite.TFLiteConverter.from_concrete_fu_model()
 # Course 4 - Advanced Deployment Scenarios
 ## 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDQ1OTk3ODcsMTkwMzk2NTE5MiwtMT
+eyJoaXN0b3J5IjpbLTExODA0NjY2OTUsMTkwMzk2NTE5MiwtMT
 Q2MDM2NzkwMywxMDMzMjQyNDgwLC0yMDQ5OTk3MDgsNzcwMTEx
 MTExLC0xMzQ3MDc3NDQ3LDk1OTkzMzQ5OSw0NzA4NzMwMTcsND
 Y1NDAyMTE1LDE1NjY4MTIxNiwtMTMzMzYwMTMyNiwxMzA2ODA3
