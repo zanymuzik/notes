@@ -148,6 +148,7 @@ return model.fit(trainXs, trainYs, {
 
 ### Techniques
 #### Quantization
+
 #### Weight Pruning
 #### 
 
@@ -164,9 +165,10 @@ return model.fit(trainXs, trainYs, {
 # Course 4 - Advanced Deployment Scenarios
 ## 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwMzk2NTE5MiwtMTQ2MDM2NzkwMywxMD
-MzMjQyNDgwLC0yMDQ5OTk3MDgsNzcwMTExMTExLC0xMzQ3MDc3
-NDQ3LDk1OTkzMzQ5OSw0NzA4NzMwMTcsNDY1NDAyMTE1LDE1Nj
-Y4MTIxNiwtMTMzMzYwMTMyNiwxMzA2ODA3NDMsNjMyNjU2NTY0
-LC02ODI1OTM5MzUsLTY2MDU2MDc2OSwyMDI4NDU3NzkzXX0=
+eyJoaXN0b3J5IjpbLTg3NzkwMzAxNCwxOTAzOTY1MTkyLC0xND
+YwMzY3OTAzLDEwMzMyNDI0ODAsLTIwNDk5OTcwOCw3NzAxMTEx
+MTEsLTEzNDcwNzc0NDcsOTU5OTMzNDk5LDQ3MDg3MzAxNyw0Nj
+U0MDIxMTUsMTU2NjgxMjE2LC0xMzMzNjAxMzI2LDEzMDY4MDc0
+Myw2MzI2NTY1NjQsLTY4MjU5MzkzNSwtNjYwNTYwNzY5LDIwMj
+g0NTc3OTNdfQ==
 -->
