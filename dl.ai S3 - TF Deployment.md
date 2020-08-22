@@ -215,7 +215,9 @@ tflite_convert --output_file=model.tflite --keras_model_file=model.h5
 ### Post training Quantization
 - Quantization after training is done on the model
 	- vs quantizing the model during training
-
+- Improvement in model size and latency
+- at the cost of degradation in model accuracy 
+-
 
 
 
@@ -228,10 +230,10 @@ tflite_convert --output_file=model.tflite --keras_model_file=model.h5
 # Course 4 - Advanced Deployment Scenarios
 ## 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDY4NjQwNSw5MDEwMDkwODgsMTkwMz
-k2NTE5MiwtMTQ2MDM2NzkwMywxMDMzMjQyNDgwLC0yMDQ5OTk3
-MDgsNzcwMTExMTExLC0xMzQ3MDc3NDQ3LDk1OTkzMzQ5OSw0Nz
-A4NzMwMTcsNDY1NDAyMTE1LDE1NjY4MTIxNiwtMTMzMzYwMTMy
-NiwxMzA2ODA3NDMsNjMyNjU2NTY0LC02ODI1OTM5MzUsLTY2MD
-U2MDc2OSwyMDI4NDU3NzkzXX0=
+eyJoaXN0b3J5IjpbLTc4NDk2MTk1MywtMTMwNjg2NDA1LDkwMT
+AwOTA4OCwxOTAzOTY1MTkyLC0xNDYwMzY3OTAzLDEwMzMyNDI0
+ODAsLTIwNDk5OTcwOCw3NzAxMTExMTEsLTEzNDcwNzc0NDcsOT
+U5OTMzNDk5LDQ3MDg3MzAxNyw0NjU0MDIxMTUsMTU2NjgxMjE2
+LC0xMzMzNjAxMzI2LDEzMDY4MDc0Myw2MzI2NTY1NjQsLTY4Mj
+U5MzkzNSwtNjYwNTYwNzY5LDIwMjg0NTc3OTNdfQ==
 -->
