@@ -226,6 +226,7 @@ tflite_convert --output_file=model.tflite --keras_model_file=model.h5
 
 ### TF-Select
 - Not all models are supported for conversion
+- TF-Select to overcome unsupported ops
 - 
 
 
@@ -243,11 +244,11 @@ tflite_convert --output_file=model.tflite --keras_model_file=model.h5
 # Course 4 - Advanced Deployment Scenarios
 ## 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjU3NDIwMzcsNTI1NTAyOTQxLC0yMD
-QzOTg1NTU3LC0xMzA2ODY0MDUsOTAxMDA5MDg4LDE5MDM5NjUx
-OTIsLTE0NjAzNjc5MDMsMTAzMzI0MjQ4MCwtMjA0OTk5NzA4LD
-c3MDExMTExMSwtMTM0NzA3NzQ0Nyw5NTk5MzM0OTksNDcwODcz
-MDE3LDQ2NTQwMjExNSwxNTY2ODEyMTYsLTEzMzM2MDEzMjYsMT
-MwNjgwNzQzLDYzMjY1NjU2NCwtNjgyNTkzOTM1LC02NjA1NjA3
-NjldfQ==
+eyJoaXN0b3J5IjpbMTUzNTczNTU3LDUyNTUwMjk0MSwtMjA0Mz
+k4NTU1NywtMTMwNjg2NDA1LDkwMTAwOTA4OCwxOTAzOTY1MTky
+LC0xNDYwMzY3OTAzLDEwMzMyNDI0ODAsLTIwNDk5OTcwOCw3Nz
+AxMTExMTEsLTEzNDcwNzc0NDcsOTU5OTMzNDk5LDQ3MDg3MzAx
+Nyw0NjU0MDIxMTUsMTU2NjgxMjE2LC0xMzMzNjAxMzI2LDEzMD
+Y4MDc0Myw2MzI2NTY1NjQsLTY4MjU5MzkzNSwtNjYwNTYwNzY5
+XX0=
 -->
