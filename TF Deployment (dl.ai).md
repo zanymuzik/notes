@@ -144,7 +144,7 @@ return model.fit(trainXs, trainYs, {
 	- hardware - use edge TPU, GPU or CPU optimizations
 - Delegates 
 	- graph execution happens on hardware, using device GPU
-	- 
+	- Optimize ops based on coaslesces and re-writes
 
 
 
@@ -160,9 +160,9 @@ return model.fit(trainXs, trainYs, {
 # Course 4 - Advanced Deployment Scenarios
 ## 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODA5NzI4NDY3LC0yMDQ5OTk3MDgsNzcwMT
-ExMTExLC0xMzQ3MDc3NDQ3LDk1OTkzMzQ5OSw0NzA4NzMwMTcs
-NDY1NDAyMTE1LDE1NjY4MTIxNiwtMTMzMzYwMTMyNiwxMzA2OD
-A3NDMsNjMyNjU2NTY0LC02ODI1OTM5MzUsLTY2MDU2MDc2OSwy
-MDI4NDU3NzkzXX0=
+eyJoaXN0b3J5IjpbMTAzMzI0MjQ4MCwtMjA0OTk5NzA4LDc3MD
+ExMTExMSwtMTM0NzA3NzQ0Nyw5NTk5MzM0OTksNDcwODczMDE3
+LDQ2NTQwMjExNSwxNTY2ODEyMTYsLTEzMzM2MDEzMjYsMTMwNj
+gwNzQzLDYzMjY1NjU2NCwtNjgyNTkzOTM1LC02NjA1NjA3Njks
+MjAyODQ1Nzc5M119
 -->
