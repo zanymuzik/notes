@@ -13,7 +13,7 @@
 - training is asynchronous and based on callbacks because we don't want to lock the browser
 
 
-### Simple Model Training
+### Simple Model Training - change me
 
 ![](https://miro.medium.com/max/1400/0*oY2OG7MFBN4eK1AN.)
 
@@ -114,8 +114,21 @@ return model.fit(trainXs, trainYs, {
 #### Sprite Sheets
 - prohibitively expensive to load individual images (from a web browser)
 - load them all together as a sprite sheet ex - [MNIST sprite sheet.png](https://storage.googleapis.com/learnjs-data/model-builder/mnist_images.png)
+
+## Course Incomplete
+
+# Course 2 - Device based Models with TFLite
+## [Javascript in TensorFlow](https://www.tensorflow.org/js)
+
+# Course 3 - Browser Based Models with TF.js
+## [Javascript in TensorFlow](https://www.tensorflow.org/js)
+
+# Course 4 - Browser Based Models with TF.js
+## [Javascript in TensorFlow](https://www.tensorflow.org/js)
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDcwODczMDE3LDQ2NTQwMjExNSwxNTY2OD
-EyMTYsLTEzMzM2MDEzMjYsMTMwNjgwNzQzLDYzMjY1NjU2NCwt
-NjgyNTkzOTM1LC02NjA1NjA3NjksMjAyODQ1Nzc5M119
+eyJoaXN0b3J5IjpbMTEwNjUwMDY3LDQ3MDg3MzAxNyw0NjU0MD
+IxMTUsMTU2NjgxMjE2LC0xMzMzNjAxMzI2LDEzMDY4MDc0Myw2
+MzI2NTY1NjQsLTY4MjU5MzkzNSwtNjYwNTYwNzY5LDIwMjg0NT
+c3OTNdfQ==
 -->
