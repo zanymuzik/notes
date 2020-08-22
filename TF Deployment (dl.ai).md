@@ -121,6 +121,11 @@ return model.fit(trainXs, trainYs, {
 
 ## [Week 1 - Intro](https://www.coursera.org/learn/device-based-models-tensorflow/home/week/1)
 
+### Mobile AI Platform
+- Lightweight
+- Low Power device
+- Avoid round trip to server (to make a ML RPC call)
+	- Also more 
 
 
 
@@ -135,8 +140,8 @@ return model.fit(trainXs, trainYs, {
 # Course 4 - Advanced Deployment Scenarios
 ## 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1OTQxNDE2NCwtMTM0NzA3NzQ0Nyw5NT
-k5MzM0OTksNDcwODczMDE3LDQ2NTQwMjExNSwxNTY2ODEyMTYs
-LTEzMzM2MDEzMjYsMTMwNjgwNzQzLDYzMjY1NjU2NCwtNjgyNT
-kzOTM1LC02NjA1NjA3NjksMjAyODQ1Nzc5M119
+eyJoaXN0b3J5IjpbODU1NDI0NTY0LC0xMzQ3MDc3NDQ3LDk1OT
+kzMzQ5OSw0NzA4NzMwMTcsNDY1NDAyMTE1LDE1NjY4MTIxNiwt
+MTMzMzYwMTMyNiwxMzA2ODA3NDMsNjMyNjU2NTY0LC02ODI1OT
+M5MzUsLTY2MDU2MDc2OSwyMDI4NDU3NzkzXX0=
 -->
