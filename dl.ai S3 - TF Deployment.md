@@ -118,17 +118,21 @@ return model.fit(trainXs, trainYs, {
 ## Course Incomplete
 
 # Course 2 - Device based Models with TFLite
-[https://www.coursera.org/learn/device-based-models-tensorflow](https://www.coursera.org/learn/device-based-models-tensorflow)
-## [Javascript in TensorFlow](https://www.tensorflow.org/js)
+## [Devices in TF](https://www.coursera.org/learn/device-based-models-tensorflow)
+
+
+
+
+
+
 
 # Course 3 - Data Pipelines
-## [Javascript in TensorFlow](https://www.tensorflow.org/js)
+## 
 
 # Course 4 - Advanced Deployment Scenarios
-## [Javascript in TensorFlow](https://www.tensorflow.org/js)
-
+## 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTkzNjA1NjA5LDQ3MDg3MzAxNyw0NjU0MD
+eyJoaXN0b3J5IjpbOTU5OTMzNDk5LDQ3MDg3MzAxNyw0NjU0MD
 IxMTUsMTU2NjgxMjE2LC0xMzMzNjAxMzI2LDEzMDY4MDc0Myw2
 MzI2NTY1NjQsLTY4MjU5MzkzNSwtNjYwNTYwNzY5LDIwMjg0NT
 c3OTNdfQ==
