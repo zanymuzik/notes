@@ -148,9 +148,14 @@ return model.fit(trainXs, trainYs, {
 
 ### Techniques
 #### Quantization
-- Reducing model 
+- Reducing model precision
 #### Weight Pruning
-#### 
+- Reducing the overall number of parameters
+#### Model Topology Transform
+- Changes the model topology to make model more efficient 
+
+#### Why quantization
+- 
 
 
 
@@ -165,10 +170,10 @@ return model.fit(trainXs, trainYs, {
 # Course 4 - Advanced Deployment Scenarios
 ## 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDM4Njc1ODMsMTkwMzk2NTE5MiwtMT
-Q2MDM2NzkwMywxMDMzMjQyNDgwLC0yMDQ5OTk3MDgsNzcwMTEx
-MTExLC0xMzQ3MDc3NDQ3LDk1OTkzMzQ5OSw0NzA4NzMwMTcsND
-Y1NDAyMTE1LDE1NjY4MTIxNiwtMTMzMzYwMTMyNiwxMzA2ODA3
-NDMsNjMyNjU2NTY0LC02ODI1OTM5MzUsLTY2MDU2MDc2OSwyMD
-I4NDU3NzkzXX0=
+eyJoaXN0b3J5IjpbNDk0NjkzMDIwLDE5MDM5NjUxOTIsLTE0Nj
+AzNjc5MDMsMTAzMzI0MjQ4MCwtMjA0OTk5NzA4LDc3MDExMTEx
+MSwtMTM0NzA3NzQ0Nyw5NTk5MzM0OTksNDcwODczMDE3LDQ2NT
+QwMjExNSwxNTY2ODEyMTYsLTEzMzM2MDEzMjYsMTMwNjgwNzQz
+LDYzMjY1NjU2NCwtNjgyNTkzOTM1LC02NjA1NjA3NjksMjAyOD
+Q1Nzc5M119
 -->
