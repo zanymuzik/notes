@@ -155,9 +155,10 @@ return model.fit(trainXs, trainYs, {
 - Changes the model topology to make model more efficient 
 
 #### Why quantization
-- Mobile devices are resource constrained and need low latency
-- Glued? optimizations reduce the precision of weights and biases of the model
-- 
+- All CPU platforms are supported
+- Reduce latency and inference costs
+- Allow execution on 
+- Optimize models for special purpose HW accelerators (TPUs)
 
 
 
@@ -172,10 +173,10 @@ return model.fit(trainXs, trainYs, {
 # Course 4 - Advanced Deployment Scenarios
 ## 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTAwNjU5MjU4LDE5MDM5NjUxOTIsLTE0Nj
-AzNjc5MDMsMTAzMzI0MjQ4MCwtMjA0OTk5NzA4LDc3MDExMTEx
-MSwtMTM0NzA3NzQ0Nyw5NTk5MzM0OTksNDcwODczMDE3LDQ2NT
-QwMjExNSwxNTY2ODEyMTYsLTEzMzM2MDEzMjYsMTMwNjgwNzQz
-LDYzMjY1NjU2NCwtNjgyNTkzOTM1LC02NjA1NjA3NjksMjAyOD
-Q1Nzc5M119
+eyJoaXN0b3J5IjpbMTM4NzA1MjUwMSwxOTAzOTY1MTkyLC0xND
+YwMzY3OTAzLDEwMzMyNDI0ODAsLTIwNDk5OTcwOCw3NzAxMTEx
+MTEsLTEzNDcwNzc0NDcsOTU5OTMzNDk5LDQ3MDg3MzAxNyw0Nj
+U0MDIxMTUsMTU2NjgxMjE2LC0xMzMzNjAxMzI2LDEzMDY4MDc0
+Myw2MzI2NTY1NjQsLTY4MjU5MzkzNSwtNjYwNTYwNzY5LDIwMj
+g0NTc3OTNdfQ==
 -->
