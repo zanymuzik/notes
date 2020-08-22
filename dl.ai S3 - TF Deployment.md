@@ -142,10 +142,11 @@ return model.fit(trainXs, trainYs, {
 - Inference performance on the device is important
 	- software - use NN API on android devices
 	- hardware - use edge TPU, GPU or CPU optimizations
-- Delegates 
+- [GPU Delegates](https://youtu.be/QSbAUxWfxQw)
 	- graph execution happens on hardware, using device GPU
-	- Optimize ops based on coaslesces and re-writes
+	- Optimize ops based on coalesces and re-writes
 
+### 
 
 
 
@@ -160,9 +161,9 @@ return model.fit(trainXs, trainYs, {
 # Course 4 - Advanced Deployment Scenarios
 ## 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzMzI0MjQ4MCwtMjA0OTk5NzA4LDc3MD
-ExMTExMSwtMTM0NzA3NzQ0Nyw5NTk5MzM0OTksNDcwODczMDE3
-LDQ2NTQwMjExNSwxNTY2ODEyMTYsLTEzMzM2MDEzMjYsMTMwNj
-gwNzQzLDYzMjY1NjU2NCwtNjgyNTkzOTM1LC02NjA1NjA3Njks
-MjAyODQ1Nzc5M119
+eyJoaXN0b3J5IjpbLTE0NjAzNjc5MDMsMTAzMzI0MjQ4MCwtMj
+A0OTk5NzA4LDc3MDExMTExMSwtMTM0NzA3NzQ0Nyw5NTk5MzM0
+OTksNDcwODczMDE3LDQ2NTQwMjExNSwxNTY2ODEyMTYsLTEzMz
+M2MDEzMjYsMTMwNjgwNzQzLDYzMjY1NjU2NCwtNjgyNTkzOTM1
+LC02NjA1NjA3NjksMjAyODQ1Nzc5M119
 -->
