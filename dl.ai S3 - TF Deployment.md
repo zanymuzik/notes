@@ -170,8 +170,13 @@ tf.lite.TFLiteConverter.from_concrete_functions()
 - SavedModel is universal API for saving a TF model
 	- Metagraph for metadata in the model
 	- Allows versioning of models
-	- 
 
+### Code
+```
+# E
+export_dir = '/tmp/saved_model'
+tf.saved_model.save(model, export_dir)
+```
 
 
 
@@ -183,10 +188,10 @@ tf.lite.TFLiteConverter.from_concrete_functions()
 # Course 4 - Advanced Deployment Scenarios
 ## 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTAxMDA5MDg4LDE5MDM5NjUxOTIsLTE0Nj
-AzNjc5MDMsMTAzMzI0MjQ4MCwtMjA0OTk5NzA4LDc3MDExMTEx
-MSwtMTM0NzA3NzQ0Nyw5NTk5MzM0OTksNDcwODczMDE3LDQ2NT
-QwMjExNSwxNTY2ODEyMTYsLTEzMzM2MDEzMjYsMTMwNjgwNzQz
-LDYzMjY1NjU2NCwtNjgyNTkzOTM1LC02NjA1NjA3NjksMjAyOD
-Q1Nzc5M119
+eyJoaXN0b3J5IjpbNDQ3MjUzNzMwLDkwMTAwOTA4OCwxOTAzOT
+Y1MTkyLC0xNDYwMzY3OTAzLDEwMzMyNDI0ODAsLTIwNDk5OTcw
+OCw3NzAxMTExMTEsLTEzNDcwNzc0NDcsOTU5OTMzNDk5LDQ3MD
+g3MzAxNyw0NjU0MDIxMTUsMTU2NjgxMjE2LC0xMzMzNjAxMzI2
+LDEzMDY4MDc0Myw2MzI2NTY1NjQsLTY4MjU5MzkzNSwtNjYwNT
+YwNzY5LDIwMjg0NTc3OTNdfQ==
 -->
