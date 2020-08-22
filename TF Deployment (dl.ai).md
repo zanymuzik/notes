@@ -130,12 +130,12 @@ return model.fit(trainXs, trainYs, {
 - Pre trained model
 
 ### Components of TFLite
-- Converter - outside the device
-	- create tflite models
-	- reduce size
-- Interpreter - on the device
-	- inference of converter models
-	- uses reduce set of tf ops
+#### Converter - outside the device
+- create tflite models
+- reduce size
+#### Interpreter - on the device
+- inference of converter models
+- uses reduce set of tf ops
 
 ### Architecture
 - Common format for mobile device
@@ -146,7 +146,10 @@ return model.fit(trainXs, trainYs, {
 	- graph execution happens on hardware, using device GPU
 	- Optimize ops based on coalesces and re-writes
 
-### Te
+### Techniques
+#### Quantization
+#### Weight Pruning
+#### 
 
 
 
@@ -161,7 +164,7 @@ return model.fit(trainXs, trainYs, {
 # Course 4 - Advanced Deployment Scenarios
 ## 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTExMjMzNCwtMTQ2MDM2NzkwMywxMD
+eyJoaXN0b3J5IjpbMTkwMzk2NTE5MiwtMTQ2MDM2NzkwMywxMD
 MzMjQyNDgwLC0yMDQ5OTk3MDgsNzcwMTExMTExLC0xMzQ3MDc3
 NDQ3LDk1OTkzMzQ5OSw0NzA4NzMwMTcsNDY1NDAyMTE1LDE1Nj
 Y4MTIxNiwtMTMzMzYwMTMyNiwxMzA2ODA3NDMsNjMyNjU2NTY0
