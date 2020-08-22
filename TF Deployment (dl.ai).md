@@ -161,7 +161,13 @@ return model.fit(trainXs, trainYs, {
 - Optimize models for special purpose HW accelerators (TPUs)
 
 ### Save Model Format
-- TF Mod
+- TF Model -> Saved Model -> Convertor -> tflite model
+```
+tf.lite.TFLiteConverter.from_saved_model()
+tf.lite.TFLiteConverter.from_keras_model()
+tf.lite.TFLiteConverter.from_concrete_fu_model()
+
+```
 
 
 
@@ -174,10 +180,10 @@ return model.fit(trainXs, trainYs, {
 # Course 4 - Advanced Deployment Scenarios
 ## 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjE4Nzc3MzU0LDE5MDM5NjUxOTIsLTE0Nj
-AzNjc5MDMsMTAzMzI0MjQ4MCwtMjA0OTk5NzA4LDc3MDExMTEx
-MSwtMTM0NzA3NzQ0Nyw5NTk5MzM0OTksNDcwODczMDE3LDQ2NT
-QwMjExNSwxNTY2ODEyMTYsLTEzMzM2MDEzMjYsMTMwNjgwNzQz
-LDYzMjY1NjU2NCwtNjgyNTkzOTM1LC02NjA1NjA3NjksMjAyOD
-Q1Nzc5M119
+eyJoaXN0b3J5IjpbLTIxMDQ1OTk3ODcsMTkwMzk2NTE5MiwtMT
+Q2MDM2NzkwMywxMDMzMjQyNDgwLC0yMDQ5OTk3MDgsNzcwMTEx
+MTExLC0xMzQ3MDc3NDQ3LDk1OTkzMzQ5OSw0NzA4NzMwMTcsND
+Y1NDAyMTE1LDE1NjY4MTIxNiwtMTMzMzYwMTMyNiwxMzA2ODA3
+NDMsNjMyNjU2NTY0LC02ODI1OTM5MzUsLTY2MDU2MDc2OSwyMD
+I4NDU3NzkzXX0=
 -->
