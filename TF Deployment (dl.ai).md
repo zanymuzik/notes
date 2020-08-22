@@ -216,8 +216,8 @@ tflite_convert --output_file=model.tflite --keras_model_file=model.h5
 - Quantization after training is done on the model
 	- vs quantizing the model during training
 - Improvement in model size and latency
-- at the cost of  Degradation in model accuracy 
--
+	- at the cost of degradation in model accuracy 
+- Quantization uses onk
 
 
 
@@ -230,7 +230,7 @@ tflite_convert --output_file=model.tflite --keras_model_file=model.h5
 # Course 4 - Advanced Deployment Scenarios
 ## 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExODgxMDk4NSwtMTMwNjg2NDA1LDkwMT
+eyJoaXN0b3J5IjpbMTI1ODcwMjQxNCwtMTMwNjg2NDA1LDkwMT
 AwOTA4OCwxOTAzOTY1MTkyLC0xNDYwMzY3OTAzLDEwMzMyNDI0
 ODAsLTIwNDk5OTcwOCw3NzAxMTExMTEsLTEzNDcwNzc0NDcsOT
 U5OTMzNDk5LDQ3MDg3MzAxNyw0NjU0MDIxMTUsMTU2NjgxMjE2
