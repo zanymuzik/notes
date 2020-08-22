@@ -155,6 +155,8 @@ return model.fit(trainXs, trainYs, {
 - Changes the model topology to make model more efficient 
 
 #### Why quantization
+- Mobile devices are resource constrained and need low latency
+- Glued? optimizations reduce the precision of weights and biases of the model
 - 
 
 
@@ -170,7 +172,7 @@ return model.fit(trainXs, trainYs, {
 # Course 4 - Advanced Deployment Scenarios
 ## 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDk0NjkzMDIwLDE5MDM5NjUxOTIsLTE0Nj
+eyJoaXN0b3J5IjpbNTAwNjU5MjU4LDE5MDM5NjUxOTIsLTE0Nj
 AzNjc5MDMsMTAzMzI0MjQ4MCwtMjA0OTk5NzA4LDc3MDExMTEx
 MSwtMTM0NzA3NzQ0Nyw5NTk5MzM0OTksNDcwODczMDE3LDQ2NT
 QwMjExNSwxNTY2ODEyMTYsLTEzMzM2MDEzMjYsMTMwNjgwNzQz
