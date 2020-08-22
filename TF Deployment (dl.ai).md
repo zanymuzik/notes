@@ -221,7 +221,12 @@ tflite_convert --output_file=model.tflite --keras_model_file=model.h5
 	- or let it choose the right balance (DEFAULT)
 - For Edge TPUs, accelerator uses only integers for Edge TPUs
 	- quantization can reduce size by 4x
-	- 
+- Use generator 
+	- COME BACK AND UNDERSTAND
+
+### TF-Select
+- Not all models are supported for conversion
+- 
 
 
 
@@ -238,11 +243,11 @@ tflite_convert --output_file=model.tflite --keras_model_file=model.h5
 # Course 4 - Advanced Deployment Scenarios
 ## 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTI1NTAyOTQxLC0yMDQzOTg1NTU3LC0xMz
-A2ODY0MDUsOTAxMDA5MDg4LDE5MDM5NjUxOTIsLTE0NjAzNjc5
-MDMsMTAzMzI0MjQ4MCwtMjA0OTk5NzA4LDc3MDExMTExMSwtMT
-M0NzA3NzQ0Nyw5NTk5MzM0OTksNDcwODczMDE3LDQ2NTQwMjEx
-NSwxNTY2ODEyMTYsLTEzMzM2MDEzMjYsMTMwNjgwNzQzLDYzMj
-Y1NjU2NCwtNjgyNTkzOTM1LC02NjA1NjA3NjksMjAyODQ1Nzc5
-M119
+eyJoaXN0b3J5IjpbLTEzNjU3NDIwMzcsNTI1NTAyOTQxLC0yMD
+QzOTg1NTU3LC0xMzA2ODY0MDUsOTAxMDA5MDg4LDE5MDM5NjUx
+OTIsLTE0NjAzNjc5MDMsMTAzMzI0MjQ4MCwtMjA0OTk5NzA4LD
+c3MDExMTExMSwtMTM0NzA3NzQ0Nyw5NTk5MzM0OTksNDcwODcz
+MDE3LDQ2NTQwMjExNSwxNTY2ODEyMTYsLTEzMzM2MDEzMjYsMT
+MwNjgwNzQzLDYzMjY1NjU2NCwtNjgyNTkzOTM1LC02NjA1NjA3
+NjldfQ==
 -->
