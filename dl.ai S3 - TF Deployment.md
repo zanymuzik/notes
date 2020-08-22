@@ -139,7 +139,9 @@ return model.fit(trainXs, trainYs, {
 
 ### Architecture
 - Common format for mobile device
-- 
+- Inference performance on the device is important
+	- software - use NN API on android devices (software)
+	- hardware - use edge TPU 
 
 
 
@@ -155,9 +157,9 @@ return model.fit(trainXs, trainYs, {
 # Course 4 - Advanced Deployment Scenarios
 ## 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzc5NzE3MDQsLTIwNDk5OTcwOCw3Nz
-AxMTExMTEsLTEzNDcwNzc0NDcsOTU5OTMzNDk5LDQ3MDg3MzAx
-Nyw0NjU0MDIxMTUsMTU2NjgxMjE2LC0xMzMzNjAxMzI2LDEzMD
-Y4MDc0Myw2MzI2NTY1NjQsLTY4MjU5MzkzNSwtNjYwNTYwNzY5
-LDIwMjg0NTc3OTNdfQ==
+eyJoaXN0b3J5IjpbLTg4NzMzNzE0MSwtMjA0OTk5NzA4LDc3MD
+ExMTExMSwtMTM0NzA3NzQ0Nyw5NTk5MzM0OTksNDcwODczMDE3
+LDQ2NTQwMjExNSwxNTY2ODEyMTYsLTEzMzM2MDEzMjYsMTMwNj
+gwNzQzLDYzMjY1NjU2NCwtNjgyNTkzOTM1LC02NjA1NjA3Njks
+MjAyODQ1Nzc5M119
 -->
