@@ -157,10 +157,11 @@ return model.fit(trainXs, trainYs, {
 #### Why quantization
 - All CPU platforms are supported
 - Reduce latency and inference costs
-- Allow execution on hardfwa
+- Allow execution on hardware restricted to fixed point ops
 - Optimize models for special purpose HW accelerators (TPUs)
 
-
+### Save Model Format
+- TF Model -> 
 
 
 
@@ -173,7 +174,7 @@ return model.fit(trainXs, trainYs, {
 # Course 4 - Advanced Deployment Scenarios
 ## 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0MjE1MjM2NCwxOTAzOTY1MTkyLC0xND
+eyJoaXN0b3J5IjpbMTIyNTY3NTQyNCwxOTAzOTY1MTkyLC0xND
 YwMzY3OTAzLDEwMzMyNDI0ODAsLTIwNDk5OTcwOCw3NzAxMTEx
 MTEsLTEzNDcwNzc0NDcsOTU5OTMzNDk5LDQ3MDg3MzAxNyw0Nj
 U0MDIxMTUsMTU2NjgxMjE2LC0xMzMzNjAxMzI2LDEzMDY4MDc0
