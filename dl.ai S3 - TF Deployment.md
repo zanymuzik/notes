@@ -131,8 +131,12 @@ return model.fit(trainXs, trainYs, {
 
 ### Components of TFLite
 - Converter
+	- create tflite models
+	- reduce size
+- Interpreter 
+	- inference of converter models
+	- uses reduce set of tf ops
 	- 
-- Interpreter
 
 
 
@@ -148,9 +152,9 @@ return model.fit(trainXs, trainYs, {
 # Course 4 - Advanced Deployment Scenarios
 ## 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDk5OTcwOCw3NzAxMTExMTEsLTEzND
-cwNzc0NDcsOTU5OTMzNDk5LDQ3MDg3MzAxNyw0NjU0MDIxMTUs
-MTU2NjgxMjE2LC0xMzMzNjAxMzI2LDEzMDY4MDc0Myw2MzI2NT
-Y1NjQsLTY4MjU5MzkzNSwtNjYwNTYwNzY5LDIwMjg0NTc3OTNd
-fQ==
+eyJoaXN0b3J5IjpbLTQ3NDcyMDU5NiwtMjA0OTk5NzA4LDc3MD
+ExMTExMSwtMTM0NzA3NzQ0Nyw5NTk5MzM0OTksNDcwODczMDE3
+LDQ2NTQwMjExNSwxNTY2ODEyMTYsLTEzMzM2MDEzMjYsMTMwNj
+gwNzQzLDYzMjY1NjU2NCwtNjgyNTkzOTM1LC02NjA1NjA3Njks
+MjAyODQ1Nzc5M119
 -->
