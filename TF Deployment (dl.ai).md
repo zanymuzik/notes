@@ -172,6 +172,8 @@ tf.lite.TFLiteConverter.from_concrete_functions()
 	- Allows versioning of models
 
 ### Code
+
+#### From SavedModel
 ```
 # Export the saved model
 export_dir = '/tmp/saved_model'
@@ -183,9 +185,10 @@ tflite_model = converter.convert()
 
 # Save the tflite model
 tflite_model_file = pathlib.Path('/tmp/foo.tflite')
-tflite_
+tflite_model_file.write_bytes(tflite_model)
 ```
 
+#
 
 
 
@@ -196,10 +199,10 @@ tflite_
 # Course 4 - Advanced Deployment Scenarios
 ## 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDg2MDE1MzUsOTAxMDA5MDg4LDE5MD
-M5NjUxOTIsLTE0NjAzNjc5MDMsMTAzMzI0MjQ4MCwtMjA0OTk5
-NzA4LDc3MDExMTExMSwtMTM0NzA3NzQ0Nyw5NTk5MzM0OTksND
-cwODczMDE3LDQ2NTQwMjExNSwxNTY2ODEyMTYsLTEzMzM2MDEz
-MjYsMTMwNjgwNzQzLDYzMjY1NjU2NCwtNjgyNTkzOTM1LC02Nj
-A1NjA3NjksMjAyODQ1Nzc5M119
+eyJoaXN0b3J5IjpbMjM0OTk2NDc0LDkwMTAwOTA4OCwxOTAzOT
+Y1MTkyLC0xNDYwMzY3OTAzLDEwMzMyNDI0ODAsLTIwNDk5OTcw
+OCw3NzAxMTExMTEsLTEzNDcwNzc0NDcsOTU5OTMzNDk5LDQ3MD
+g3MzAxNyw0NjU0MDIxMTUsMTU2NjgxMjE2LC0xMzMzNjAxMzI2
+LDEzMDY4MDc0Myw2MzI2NTY1NjQsLTY4MjU5MzkzNSwtNjYwNT
+YwNzY5LDIwMjg0NTc3OTNdfQ==
 -->
