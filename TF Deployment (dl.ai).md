@@ -137,7 +137,9 @@ return model.fit(trainXs, trainYs, {
 	- inference of converter models
 	- uses reduce set of tf ops
 
-
+### Architecture
+- Common format for mobile device
+- 
 
 
 
@@ -153,7 +155,7 @@ return model.fit(trainXs, trainYs, {
 # Course 4 - Advanced Deployment Scenarios
 ## 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTE2NDYzODcsLTIwNDk5OTcwOCw3Nz
+eyJoaXN0b3J5IjpbLTIwMzc5NzE3MDQsLTIwNDk5OTcwOCw3Nz
 AxMTExMTEsLTEzNDcwNzc0NDcsOTU5OTMzNDk5LDQ3MDg3MzAx
 Nyw0NjU0MDIxMTUsMTU2NjgxMjE2LC0xMzMzNjAxMzI2LDEzMD
 Y4MDc0Myw2MzI2NTY1NjQsLTY4MjU5MzkzNSwtNjYwNTYwNzY5
