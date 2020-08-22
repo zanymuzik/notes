@@ -123,10 +123,17 @@ return model.fit(trainXs, trainYs, {
 
 ### Mobile AI Platform
 - Lightweight
-- Low Power device
+- Low latency device
 - Avoid round trip to server (to make a ML RPC call)
 	- Also more privacy sensitive
-- 
+- Low Power
+- Pre trained model
+
+### Components of TFLite
+- Converter
+	- 
+- Interpreter
+
 
 
 
@@ -141,8 +148,9 @@ return model.fit(trainXs, trainYs, {
 # Course 4 - Advanced Deployment Scenarios
 ## 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzcwMTExMTExLC0xMzQ3MDc3NDQ3LDk1OT
-kzMzQ5OSw0NzA4NzMwMTcsNDY1NDAyMTE1LDE1NjY4MTIxNiwt
-MTMzMzYwMTMyNiwxMzA2ODA3NDMsNjMyNjU2NTY0LC02ODI1OT
-M5MzUsLTY2MDU2MDc2OSwyMDI4NDU3NzkzXX0=
+eyJoaXN0b3J5IjpbLTIwNDk5OTcwOCw3NzAxMTExMTEsLTEzND
+cwNzc0NDcsOTU5OTMzNDk5LDQ3MDg3MzAxNyw0NjU0MDIxMTUs
+MTU2NjgxMjE2LC0xMzMzNjAxMzI2LDEzMDY4MDc0Myw2MzI2NT
+Y1NjQsLTY4MjU5MzkzNSwtNjYwNTYwNzY5LDIwMjg0NTc3OTNd
+fQ==
 -->
