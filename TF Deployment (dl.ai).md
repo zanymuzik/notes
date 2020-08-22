@@ -205,8 +205,13 @@ tflite_model_file.write_bytes(tflite_model)
 
 #### Command line usage
 ```
-t
+# From SavedModel
+tflite_convert --output_file=model.tflite --saved_model_file=/tmp/saved_model
+
+# From Keras
+tflite_convert --output_file=model.tflite --keras_model_file=model.h5
 ```
+
 
 
 
@@ -220,10 +225,10 @@ t
 # Course 4 - Advanced Deployment Scenarios
 ## 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1NDc3NDEyNCw5MDEwMDkwODgsMTkwMz
-k2NTE5MiwtMTQ2MDM2NzkwMywxMDMzMjQyNDgwLC0yMDQ5OTk3
-MDgsNzcwMTExMTExLC0xMzQ3MDc3NDQ3LDk1OTkzMzQ5OSw0Nz
-A4NzMwMTcsNDY1NDAyMTE1LDE1NjY4MTIxNiwtMTMzMzYwMTMy
-NiwxMzA2ODA3NDMsNjMyNjU2NTY0LC02ODI1OTM5MzUsLTY2MD
-U2MDc2OSwyMDI4NDU3NzkzXX0=
+eyJoaXN0b3J5IjpbLTE4OTkxODkzNzUsOTAxMDA5MDg4LDE5MD
+M5NjUxOTIsLTE0NjAzNjc5MDMsMTAzMzI0MjQ4MCwtMjA0OTk5
+NzA4LDc3MDExMTExMSwtMTM0NzA3NzQ0Nyw5NTk5MzM0OTksND
+cwODczMDE3LDQ2NTQwMjExNSwxNTY2ODEyMTYsLTEzMzM2MDEz
+MjYsMTMwNjgwNzQzLDYzMjY1NjU2NCwtNjgyNTkzOTM1LC02Nj
+A1NjA3NjksMjAyODQ1Nzc5M119
 -->
