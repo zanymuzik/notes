@@ -146,7 +146,7 @@ return model.fit(trainXs, trainYs, {
 	- graph execution happens on hardware, using device GPU
 	- Optimize ops based on coalesces and re-writes
 
-### 
+### Te
 
 
 
@@ -161,9 +161,9 @@ return model.fit(trainXs, trainYs, {
 # Course 4 - Advanced Deployment Scenarios
 ## 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjAzNjc5MDMsMTAzMzI0MjQ4MCwtMj
-A0OTk5NzA4LDc3MDExMTExMSwtMTM0NzA3NzQ0Nyw5NTk5MzM0
-OTksNDcwODczMDE3LDQ2NTQwMjExNSwxNTY2ODEyMTYsLTEzMz
-M2MDEzMjYsMTMwNjgwNzQzLDYzMjY1NjU2NCwtNjgyNTkzOTM1
-LC02NjA1NjA3NjksMjAyODQ1Nzc5M119
+eyJoaXN0b3J5IjpbLTE4OTExMjMzNCwtMTQ2MDM2NzkwMywxMD
+MzMjQyNDgwLC0yMDQ5OTk3MDgsNzcwMTExMTExLC0xMzQ3MDc3
+NDQ3LDk1OTkzMzQ5OSw0NzA4NzMwMTcsNDY1NDAyMTE1LDE1Nj
+Y4MTIxNiwtMTMzMzYwMTMyNiwxMzA2ODA3NDMsNjMyNjU2NTY0
+LC02ODI1OTM5MzUsLTY2MDU2MDc2OSwyMDI4NDU3NzkzXX0=
 -->
