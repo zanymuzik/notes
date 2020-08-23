@@ -225,9 +225,16 @@ tflite_convert --output_file=model.tflite --keras_model_file=model.h5
 	- COME BACK AND UNDERSTAND
 
 ### TF-Select
-- Not all models are supported for conversion (tflite op set is smaller 
+- Not all models are supported for conversion 
+	- tflite op set is smaller than regular set
 - TF-Select to overcome unsupported ops
-- 
+```
+# Convert
+converter = tf.lite.TFLiteConverter.from_saved_model(saved_model_dir)
+converter.target_ops = [
+tflite_model = converter.convert()
+
+```
 
 
 
@@ -244,5 +251,5 @@ tflite_convert --output_file=model.tflite --keras_model_file=model.h5
 # Course 4 - Advanced Deployment Scenarios
 ## 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODEyMTI0NTE2LDE1MzU3MzU1N119
+eyJoaXN0b3J5IjpbLTIxMjc3Nzg2MzksMTUzNTczNTU3XX0=
 -->
