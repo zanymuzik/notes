@@ -232,10 +232,11 @@ tflite_convert --output_file=model.tflite --keras_model_file=model.h5
 # Convert
 converter = tf.lite.TFLiteConverter.from_saved_model(saved_model_dir)
 converter.target_ops = [tf.lite.OpsSet.TFLITE_BUILTINS,
-						tf.lite.OpsSet.SELECT_TF_OPS]
-						 
+			tf.lite.OpsSet.SELECT_TF_OPS]			 
 tflite_model = converter.convert()
 ```
+
+### Optimization Paths
 
 
 
@@ -252,5 +253,5 @@ tflite_model = converter.convert()
 # Course 4 - Advanced Deployment Scenarios
 ## 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3NzM4MjUxOCwxNTM1NzM1NTddfQ==
+eyJoaXN0b3J5IjpbLTk5MDgxNjUxMiwxNTM1NzM1NTddfQ==
 -->
