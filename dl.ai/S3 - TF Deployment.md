@@ -237,7 +237,7 @@ converter.target_ops = [tf.lite.OpsSet.TFLITE_BUILTINS,
 tflite_model = converter.convert()
 ```
 
-### TFLite Interpreter in Python
+### TFLite Interpreter in Python 
 - Does not need the mobile device to test
 	- could be tested on servers/desktops
 ```
@@ -255,6 +255,9 @@ interpreter.invoke()
 tflite_results = interpreter.get_tensor(output_details[0]['index'])
 
 ```
+### 
+
+### Transfer Learning
 
 
 
@@ -272,6 +275,6 @@ tflite_results = interpreter.get_tensor(output_details[0]['index'])
 # Course 4 - Advanced Deployment Scenarios
 ## 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDkyMTQ5MTg4LDU0NDQxNTU2MCwxNTM1Nz
-M1NTddfQ==
+eyJoaXN0b3J5IjpbLTExNjY3ODQ2NjksNTQ0NDE1NTYwLDE1Mz
+U3MzU1N119
 -->
