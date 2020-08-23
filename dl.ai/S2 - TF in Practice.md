@@ -551,7 +551,7 @@ Q: What the hell is a centered window? ([https://www.coursera.org/learn/tensorfl
 - Labels = Next value
 
 #### Colab 1
-- Week 2 - Lesson 1](https://colab.research.google.com/github/lmoroney/dlaicourse/blob/master/TensorFlow%20In%20Practice/Course%204%20-%20S%2BP/S%2BP%20Week%202%20Lesson%201.ipynb)
+- [Week 2 - Lesson 1](https://colab.research.google.com/github/lmoroney/dlaicourse/blob/master/TensorFlow%20In%20Practice/Course%204%20-%20S%2BP/S%2BP%20Week%202%20Lesson%201.ipynb)
 
 ```
 dataset = tf.data.Dataset.range(10)
@@ -663,5 +663,5 @@ tf.keras.layers.Lambda(lambda x: x * 100.0)
 - 1 Dim CNN window (input_shape = [None, 1])
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0MDg4MTg1Ml19
+eyJoaXN0b3J5IjpbMTgyMjkyMzc1NSwtNjQwODgxODUyXX0=
 -->
