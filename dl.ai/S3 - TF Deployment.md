@@ -239,7 +239,8 @@ tflite_model = converter.convert()
 
 ### TFLite Interpreter in Python
 - Does not need the mobile device to test
-- 
+	- v
+''''
 
 
 
@@ -257,5 +258,6 @@ tflite_model = converter.convert()
 # Course 4 - Advanced Deployment Scenarios
 ## 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQ0NDE1NTYwLDE1MzU3MzU1N119
+eyJoaXN0b3J5IjpbMTc0NzMzNTU5Niw1NDQ0MTU1NjAsMTUzNT
+czNTU3XX0=
 -->
