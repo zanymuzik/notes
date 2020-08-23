@@ -539,8 +539,9 @@ tf.keras.layers.Dense(1, activation='sigmoid')
 - [Week1-Lesson2](https://colab.research.google.com/github/lmoroney/dlaicourse/blob/master/TensorFlow%20In%20Practice/Course%204%20-%20S%2BP/S%2BP_Week_1_Lesson_2.ipynb)
 - [Week1-Lesson3](https://colab.research.google.com/github/lmoroney/dlaicourse/blob/master/TensorFlow%20In%20Practice/Course%204%20-%20S%2BP/S%2BP%20Week%201%20-%20Lesson%203%20-%20Notebook.ipynb#scrollTo=y7QztBIVR1tb)
 
-Q: Does the moving average of Series(t-T) has a different window size?
-Q: What the hell is a centered window? ([https://www.coursera.org/learn/tensorflow-sequences-time-series-and-prediction/lecture/4s0E8/trailing-versus-centered-windows](https://www.coursera.org/learn/tensorflow-sequences-time-series-and-prediction/lecture/4s0E8/trailing-versus-centered-windows))
+### AI
+- Q: Does the moving average of Series(t-T) has a different window size?
+- Q: What the hell is a [centered window](https://www.coursera.org/learn/tensorflow-sequences-time-series-and-prediction/lecture/4s0E8/trailing-versus-centered-windows)?
 
 ## [Week 2 - ML for Time Series](https://www.coursera.org/learn/tensorflow-sequences-time-series-and-prediction/home/week/2)
 
@@ -663,5 +664,6 @@ tf.keras.layers.Lambda(lambda x: x * 100.0)
 - 1 Dim CNN window (input_shape = [None, 1])
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyMjkyMzc1NSwtNjQwODgxODUyXX0=
+eyJoaXN0b3J5IjpbLTEzNDM4MDczNzgsMTgyMjkyMzc1NSwtNj
+QwODgxODUyXX0=
 -->
