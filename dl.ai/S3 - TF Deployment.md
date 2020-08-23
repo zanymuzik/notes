@@ -222,6 +222,7 @@ tflite_convert --output_file=model.tflite --keras_model_file=model.h5
 - For Edge TPUs, accelerator uses only integers for Edge TPUs
 	- quantization can reduce size by 4x
 - Use generator 
+	- use a representation dataset to optimize the tflite model
 	- COME BACK AND UNDERSTAND
 
 ### TF-Select - experimental feature
@@ -236,7 +237,8 @@ converter.target_ops = [tf.lite.OpsSet.TFLITE_BUILTINS,
 tflite_model = converter.convert()
 ```
 
-### Optimization Paths
+### TFLite Interpreter in Python (without mobile devic
+
 
 
 
@@ -253,5 +255,5 @@ tflite_model = converter.convert()
 # Course 4 - Advanced Deployment Scenarios
 ## 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5MDgxNjUxMiwxNTM1NzM1NTddfQ==
+eyJoaXN0b3J5IjpbMjczODY5MzMxLDE1MzU3MzU1N119
 -->
