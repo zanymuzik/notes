@@ -244,11 +244,5 @@ tflite_convert --output_file=model.tflite --keras_model_file=model.h5
 # Course 4 - Advanced Deployment Scenarios
 ## 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzNTczNTU3LDUyNTUwMjk0MSwtMjA0Mz
-k4NTU1NywtMTMwNjg2NDA1LDkwMTAwOTA4OCwxOTAzOTY1MTky
-LC0xNDYwMzY3OTAzLDEwMzMyNDI0ODAsLTIwNDk5OTcwOCw3Nz
-AxMTExMTEsLTEzNDcwNzc0NDcsOTU5OTMzNDk5LDQ3MDg3MzAx
-Nyw0NjU0MDIxMTUsMTU2NjgxMjE2LC0xMzMzNjAxMzI2LDEzMD
-Y4MDc0Myw2MzI2NTY1NjQsLTY4MjU5MzkzNSwtNjYwNTYwNzY5
-XX0=
+eyJoaXN0b3J5IjpbMTUzNTczNTU3XX0=
 -->
