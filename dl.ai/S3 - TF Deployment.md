@@ -255,7 +255,8 @@ interpreter.invoke()
 tflite_results = interpreter.get_tensor(output_details[0]['index'])
 
 ```
-### 
+### Running the model
+Continue from [https://www.coursera.org/learn/device-based-models-tensorflow/lecture/R3tiz/running-the-models](https://www.coursera.org/learn/device-based-models-tensorflow/lecture/R3tiz/running-the-models)
 
 ### Transfer Learning
 
@@ -275,6 +276,6 @@ tflite_results = interpreter.get_tensor(output_details[0]['index'])
 # Course 4 - Advanced Deployment Scenarios
 ## 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjY3ODQ2NjksNTQ0NDE1NTYwLDE1Mz
-U3MzU1N119
+eyJoaXN0b3J5IjpbLTk3NDA3NzYwMiw1NDQ0MTU1NjAsMTUzNT
+czNTU3XX0=
 -->
