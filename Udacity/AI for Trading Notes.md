@@ -135,5 +135,5 @@ B-->C[Modeling]
 [NLP in stock market](https://towardsdatascience.com/nlp-in-the-stock-market-8760d062eb92)
 [Numpy Python Cheat Sheet.pdf](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Numpy_Python_Cheat_Sheet.pdf)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2MDAyNTQ5LDMzODI1MDk3Nl19
+eyJoaXN0b3J5IjpbMTU2MDAyNTQ5XX0=
 -->
