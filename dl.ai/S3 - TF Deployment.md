@@ -239,8 +239,22 @@ tflite_model = converter.convert()
 
 ### TFLite Interpreter in Python
 - Does not need the mobile device to test
-	- v
-''''
+	- could be tested on servers/desktops
+```
+# Load TFLite model and allocate tensors.
+interpreter = tf.lite.Interpreter(model_content=tflite_model)
+interpreter.allocate_tensors()
+
+# Get input and output tensors.
+input_details = interpreter.get_input_details()
+output_details = interpreter.get_output_details()
+
+# Run the interpreter
+interpreter.set_tensor(input_details[0]['index'], input_data)
+interpreter.invoke()
+tflite_results = interpreter.get_tensor(output_details[0]['index'])
+
+```
 
 
 
@@ -258,6 +272,6 @@ tflite_model = converter.convert()
 # Course 4 - Advanced Deployment Scenarios
 ## 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0NzMzNTU5Niw1NDQ0MTU1NjAsMTUzNT
-czNTU3XX0=
+eyJoaXN0b3J5IjpbNDkyMTQ5MTg4LDU0NDQxNTU2MCwxNTM1Nz
+M1NTddfQ==
 -->
