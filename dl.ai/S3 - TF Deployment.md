@@ -119,6 +119,8 @@ return model.fit(trainXs, trainYs, {
 
 # [Course 2 - Device based Models with TFLite](https://www.coursera.org/learn/device-based-models-tensorflow)
 
+[https://www.tensorflow.org/lite](https://www.tensorflow.org/lite)
+
 ## [Week 1 - Intro](https://www.coursera.org/learn/device-based-models-tensorflow/home/week/1)
 
 ### Mobile AI Platform
@@ -276,6 +278,6 @@ Continue from [https://www.coursera.org/learn/device-based-models-tensorflow/lec
 # Course 4 - Advanced Deployment Scenarios
 ## 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3NDA3NzYwMiw1NDQ0MTU1NjAsMTUzNT
-czNTU3XX0=
+eyJoaXN0b3J5IjpbNDczNTIyMjY3LC05NzQwNzc2MDIsNTQ0ND
+E1NTYwLDE1MzU3MzU1N119
 -->
