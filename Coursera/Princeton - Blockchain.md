@@ -10,9 +10,10 @@
 - Fixed size output
 - Efficient to compute
 
-#### Technical properties to be cryptographically secure
+#### Cryptographically Secure
 - Collision-Free
-- Hi
+- Hiding (one way hash)
+- Binding (commitment)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjI3MTU2ODEsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbNTYyNzAxMzExLDczMDk5ODExNl19
 -->
