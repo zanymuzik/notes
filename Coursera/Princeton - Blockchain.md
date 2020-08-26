@@ -10,8 +10,9 @@
 - Fixed size output
 - Efficient to compute
 
-####
-
+#### Technical properties to be cryptographically secure
+- Collision-Free
+- Hi
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDc2NTg4MjMsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTE2MjI3MTU2ODEsNzMwOTk4MTE2XX0=
 -->
