@@ -306,10 +306,13 @@ Bitmap.createScaledBitmap(bitmap, INPUT_SIZE, INPUT_SIZE, false)
 
 // create bytebuffer
 ```
-#### Enference
+#### Inference
 ```
 val result = Array(1) { FloatArray(2) }
 interpreter.run(byteBuffer, result)
+
+# use an android priority queue to sort the result
+# and take top value (based on confidence)
 ```
 
 
@@ -340,7 +343,7 @@ interpreter.run(byteBuffer, result)
 # Course 4 - Advanced Deployment Scenarios
 ## 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3ODM1Njc3MSw3NDQxODgxNjMsMTA2Nz
-Y2MTc1OSwtOTQyNzYwMjE4LDQ3MzUyMjI2NywtOTc0MDc3NjAy
-LDU0NDQxNTU2MCwxNTM1NzM1NTddfQ==
+eyJoaXN0b3J5IjpbMTk4MjA4MTkxLDc0NDE4ODE2MywxMDY3Nj
+YxNzU5LC05NDI3NjAyMTgsNDczNTIyMjY3LC05NzQwNzc2MDIs
+NTQ0NDE1NTYwLDE1MzU3MzU1N119
 -->
