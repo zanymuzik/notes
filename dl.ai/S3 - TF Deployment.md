@@ -279,12 +279,11 @@ B --> C
 C --> D
 ```
 
-```
-
-```
-
-
-
+### Interpreter
+#### Initialize the interpreter
+- Prepare Input
+- Do inference
+- 
 
 
 
@@ -314,7 +313,7 @@ C --> D
 # Course 4 - Advanced Deployment Scenarios
 ## 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2NzY2MTc1OSwtOTQyNzYwMjE4LDQ3Mz
-UyMjI2NywtOTc0MDc3NjAyLDU0NDQxNTU2MCwxNTM1NzM1NTdd
-fQ==
+eyJoaXN0b3J5IjpbLTE0NDQ4NDk4MTksMTA2NzY2MTc1OSwtOT
+QyNzYwMjE4LDQ3MzUyMjI2NywtOTc0MDc3NjAyLDU0NDQxNTU2
+MCwxNTM1NzM1NTddfQ==
 -->
