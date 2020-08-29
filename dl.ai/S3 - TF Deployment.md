@@ -269,10 +269,14 @@ Continue from [https://www.coursera.org/learn/device-based-models-tensorflow/lec
 
 ### App Architecture
 ```mermaid
-graph TD;
-A(View --> Preprocess Image --> 
-
-
+graph LRT;
+A(View) 
+B(Preprocess Image) 
+C(TFLite Classifier) 
+D(Result)
+A --> B 
+B --> C 
+C --> D
 ```
 
 
@@ -306,7 +310,7 @@ A(View --> Preprocess Image -->
 # Course 4 - Advanced Deployment Scenarios
 ## 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzMxOTc5NDMsLTk0Mjc2MDIxOCw0Nz
-M1MjIyNjcsLTk3NDA3NzYwMiw1NDQ0MTU1NjAsMTUzNTczNTU3
-XX0=
+eyJoaXN0b3J5IjpbMzc3MjM1NDAxLC05NDI3NjAyMTgsNDczNT
+IyMjY3LC05NzQwNzc2MDIsNTQ0NDE1NTYwLDE1MzU3MzU1N119
+
 -->
