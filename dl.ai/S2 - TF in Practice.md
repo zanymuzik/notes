@@ -290,7 +290,7 @@ model = Model(pre_trained_model.input, x)
 |---	|---	|---	|
 train_generator|flow_from_directory(... , class_mode='binary') | flow_from_directory(... , class_mode='categorical')  
 |  final layer 	| keras.layers.Dense(1, activation='sigmoid') | keras.layers.Dense(num_classes, activation='softmax')  	| 
-| loss fxn  	| model.compile(..., loss='binary_crossentropy') | mode.compile(..., loss='catagorical_crossentropy')  |
+| loss fxn  	| model.compile(..., loss='binary_crossentropy') | mode.compile(..., loss='categorical_crossentropy')  |
 
 ### AI: Need to research-
 1 [https://keras.io/api/lKeras::Losses/](https://keras.io/api/losses/)
@@ -664,6 +664,6 @@ tf.keras.layers.Lambda(lambda x: x * 100.0)
 - 1 Dim CNN window (input_shape = [None, 1])
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDM4MDczNzgsMTgyMjkyMzc1NSwtNj
-QwODgxODUyXX0=
+eyJoaXN0b3J5IjpbMTk5OTY2OTk5NCwtMTM0MzgwNzM3OCwxOD
+IyOTIzNzU1LC02NDA4ODE4NTJdfQ==
 -->
