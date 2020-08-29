@@ -282,10 +282,14 @@ C --> D
 ### Interpreter
 #### Initialize the interpreter
 ```
-setNumThreads()
-setUseNNAPI(true) # Enable hw acceleration
-addDelegate(true) # for GPU
+val tfLiteIntepreter = 
+i.setNumThreads()
+i.setUseNNAPI(true) # Enable hw acceleration
+i.addDelegate(true) # for GPU
 ```
+
+#### Load the model
+
 
 - Prepare Input
 - Do inference
@@ -319,7 +323,7 @@ addDelegate(true) # for GPU
 # Course 4 - Advanced Deployment Scenarios
 ## 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQ0MTg4MTYzLDEwNjc2NjE3NTksLTk0Mj
-c2MDIxOCw0NzM1MjIyNjcsLTk3NDA3NzYwMiw1NDQ0MTU1NjAs
-MTUzNTczNTU3XX0=
+eyJoaXN0b3J5IjpbODIwMzk3MjcyLDc0NDE4ODE2MywxMDY3Nj
+YxNzU5LC05NDI3NjAyMTgsNDczNTIyMjY3LC05NzQwNzc2MDIs
+NTQ0NDE1NTYwLDE1MzU3MzU1N119
 -->
