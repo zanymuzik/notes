@@ -270,7 +270,8 @@ Continue from [https://www.coursera.org/learn/device-based-models-tensorflow/lec
 ### App Architecture
 ```mermaid
 graph TD;
-View <--> Preprocess Image <-->  
+A(View --> Preprocess Image --> 
+
 
 ```
 
@@ -305,7 +306,7 @@ View <--> Preprocess Image <-->
 # Course 4 - Advanced Deployment Scenarios
 ## 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0Mzc4MjU3NzYsLTk0Mjc2MDIxOCw0Nz
+eyJoaXN0b3J5IjpbLTIwMzMxOTc5NDMsLTk0Mjc2MDIxOCw0Nz
 M1MjIyNjcsLTk3NDA3NzYwMiw1NDQ0MTU1NjAsMTUzNTczNTU3
 XX0=
 -->
