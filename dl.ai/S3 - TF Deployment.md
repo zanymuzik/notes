@@ -267,7 +267,12 @@ Continue from [https://www.coursera.org/learn/device-based-models-tensorflow/lec
 
 ## [Week 2 - Android](https://www.coursera.org/learn/device-based-models-tensorflow/home/week/2)
 
-### A
+### App Architecture
+```mermai
+graphTD
+View<--> 
+
+```
 
 
 
@@ -300,7 +305,7 @@ Continue from [https://www.coursera.org/learn/device-based-models-tensorflow/lec
 # Course 4 - Advanced Deployment Scenarios
 ## 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTIzMTgzMDMsLTk0Mjc2MDIxOCw0Nz
-M1MjIyNjcsLTk3NDA3NzYwMiw1NDQ0MTU1NjAsMTUzNTczNTU3
-XX0=
+eyJoaXN0b3J5IjpbMjA0MDU5Njk4NiwtOTQyNzYwMjE4LDQ3Mz
+UyMjI2NywtOTc0MDc3NjAyLDU0NDQxNTU2MCwxNTM1NzM1NTdd
+fQ==
 -->
