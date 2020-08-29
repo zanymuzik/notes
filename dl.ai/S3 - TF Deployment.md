@@ -268,9 +268,9 @@ Continue from [https://www.coursera.org/learn/device-based-models-tensorflow/lec
 ## [Week 2 - Android](https://www.coursera.org/learn/device-based-models-tensorflow/home/week/2)
 
 ### App Architecture
-```mermai
-graphTD
-View<--> 
+```mermaid
+graph TD;
+View <--> Preprocess Image <-->  
 
 ```
 
@@ -305,7 +305,7 @@ View<-->
 # Course 4 - Advanced Deployment Scenarios
 ## 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0MDU5Njk4NiwtOTQyNzYwMjE4LDQ3Mz
-UyMjI2NywtOTc0MDc3NjAyLDU0NDQxNTU2MCwxNTM1NzM1NTdd
-fQ==
+eyJoaXN0b3J5IjpbLTE0Mzc4MjU3NzYsLTk0Mjc2MDIxOCw0Nz
+M1MjIyNjcsLTk3NDA3NzYwMiw1NDQ0MTU1NjAsMTUzNTczNTU3
+XX0=
 -->
