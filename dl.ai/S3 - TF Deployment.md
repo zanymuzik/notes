@@ -267,7 +267,8 @@ Continue from [https://www.coursera.org/learn/device-based-models-tensorflow/lec
 
 ## [Week 2 - Android](https://www.coursera.org/learn/device-based-models-tensorflow/home/week/2)
 
-### 
+### Installation 
+
 
 
 
@@ -299,6 +300,6 @@ Continue from [https://www.coursera.org/learn/device-based-models-tensorflow/lec
 # Course 4 - Advanced Deployment Scenarios
 ## 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1MzY4MDA5NCw0NzM1MjIyNjcsLTk3ND
+eyJoaXN0b3J5IjpbLTk0Mjc2MDIxOCw0NzM1MjIyNjcsLTk3ND
 A3NzYwMiw1NDQ0MTU1NjAsMTUzNTczNTU3XX0=
 -->
