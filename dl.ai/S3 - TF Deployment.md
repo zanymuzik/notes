@@ -281,6 +281,12 @@ C --> D
 
 ### Interpreter
 #### Initialize the interpreter
+```
+setNumThreads()
+setUseNNAPI(true) # Enable hw acceleration
+addDelegate(true) # for GPU
+```
+
 - Prepare Input
 - Do inference
 - 
@@ -313,7 +319,7 @@ C --> D
 # Course 4 - Advanced Deployment Scenarios
 ## 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDQ4NDk4MTksMTA2NzY2MTc1OSwtOT
-QyNzYwMjE4LDQ3MzUyMjI2NywtOTc0MDc3NjAyLDU0NDQxNTU2
-MCwxNTM1NzM1NTddfQ==
+eyJoaXN0b3J5IjpbNzQ0MTg4MTYzLDEwNjc2NjE3NTksLTk0Mj
+c2MDIxOCw0NzM1MjIyNjcsLTk3NDA3NzYwMiw1NDQ0MTU1NjAs
+MTUzNTczNTU3XX0=
 -->
