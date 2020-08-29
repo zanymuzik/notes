@@ -282,16 +282,20 @@ C --> D
 ### Interpreter
 #### Initialize the interpreter
 ```
-val tfLiteIntepreter = 
+val i = Interpreter.Options()
 i.setNumThreads()
-i.setUseNNAPI(true) # Enable hw acceleration
+i.setUseNNAPI(true) # Enable hw acceleration using NN API
+i.setAllowFp16PrecisionForFp32() # use less precision
 i.addDelegate(true) # for GPU
 ```
 
 #### Load the model
+```
+assetManager.openFd("model")
+tflite = Interpreter(model, options)
+```
 
-
-- Prepare Input
+#### Prepare Input
 - Do inference
 - 
 
@@ -323,7 +327,7 @@ i.addDelegate(true) # for GPU
 # Course 4 - Advanced Deployment Scenarios
 ## 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODIwMzk3MjcyLDc0NDE4ODE2MywxMDY3Nj
-YxNzU5LC05NDI3NjAyMTgsNDczNTIyMjY3LC05NzQwNzc2MDIs
-NTQ0NDE1NTYwLDE1MzU3MzU1N119
+eyJoaXN0b3J5IjpbLTE1MzM5OTIyODAsNzQ0MTg4MTYzLDEwNj
+c2NjE3NTksLTk0Mjc2MDIxOCw0NzM1MjIyNjcsLTk3NDA3NzYw
+Miw1NDQ0MTU1NjAsMTUzNTczNTU3XX0=
 -->
