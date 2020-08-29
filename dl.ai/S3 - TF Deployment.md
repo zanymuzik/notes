@@ -296,7 +296,11 @@ tflite = Interpreter(model, options)
 ```
 
 #### Prepare Input
-- Do inference
+- input needs to be resized
+- ARGB values -> normalized RGB for model inference
+- individual color (R,G,B) = shift and mask 
+
+#### Do inference
 - 
 
 
@@ -327,7 +331,7 @@ tflite = Interpreter(model, options)
 # Course 4 - Advanced Deployment Scenarios
 ## 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzM5OTIyODAsNzQ0MTg4MTYzLDEwNj
+eyJoaXN0b3J5IjpbLTE1NDY2Nzg3MTksNzQ0MTg4MTYzLDEwNj
 c2NjE3NTksLTk0Mjc2MDIxOCw0NzM1MjIyNjcsLTk3NDA3NzYw
 Miw1NDQ0MTU1NjAsMTUzNTczNTU3XX0=
 -->
