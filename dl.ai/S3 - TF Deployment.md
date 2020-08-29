@@ -300,17 +300,17 @@ tflite = Interpreter(model, options)
 - ARGB values -> normalized RGB for model inference
 - individual color (R,G,B) = shift and mask 
 - normalize for each channel
-- 
 ```
 // to resize
 Bitmap.createScaledBitmap(bitmap, INPUT_SIZE, INPUT_SIZE, false)
 
 // create bytebuffer
-
 ```
-
-#### Do inference
-- 
+#### Enference
+```
+val result = Array(1) { FloatArray(2) }
+interpreter.run(byteBuffer, result)
+```
 
 
 
@@ -340,7 +340,7 @@ Bitmap.createScaledBitmap(bitmap, INPUT_SIZE, INPUT_SIZE, false)
 # Course 4 - Advanced Deployment Scenarios
 ## 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjgxNjc0NjUsNzQ0MTg4MTYzLDEwNjc2Nj
-E3NTksLTk0Mjc2MDIxOCw0NzM1MjIyNjcsLTk3NDA3NzYwMiw1
-NDQ0MTU1NjAsMTUzNTczNTU3XX0=
+eyJoaXN0b3J5IjpbLTc3ODM1Njc3MSw3NDQxODgxNjMsMTA2Nz
+Y2MTc1OSwtOTQyNzYwMjE4LDQ3MzUyMjI2NywtOTc0MDc3NjAy
+LDU0NDQxNTU2MCwxNTM1NzM1NTddfQ==
 -->
