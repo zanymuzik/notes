@@ -261,6 +261,13 @@ tflite_results = interpreter.get_tensor(output_details[0]['index'])
 Continue from [https://www.coursera.org/learn/device-based-models-tensorflow/lecture/R3tiz/running-the-models](https://www.coursera.org/learn/device-based-models-tensorflow/lecture/R3tiz/running-the-models)
 
 ### Transfer Learning
+## INCOMPLETE
+
+
+
+## [Week 2 - Android](https://www.coursera.org/learn/device-based-models-tensorflow/home/week/2)
+
+### 
 
 
 
@@ -271,6 +278,20 @@ Continue from [https://www.coursera.org/learn/device-based-models-tensorflow/lec
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+## [Week 3 ](https://www.coursera.org/learn/device-based-models-tensorflow/home/week/3)
+
+## [Week 2 ](https://www.coursera.org/learn/device-based-models-tensorflow/home/week/4)
 
 # Course 3 - Data Pipelines
 ## 
@@ -278,6 +299,6 @@ Continue from [https://www.coursera.org/learn/device-based-models-tensorflow/lec
 # Course 4 - Advanced Deployment Scenarios
 ## 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDczNTIyMjY3LC05NzQwNzc2MDIsNTQ0ND
-E1NTYwLDE1MzU3MzU1N119
+eyJoaXN0b3J5IjpbMTA1MzY4MDA5NCw0NzM1MjIyNjcsLTk3ND
+A3NzYwMiw1NDQ0MTU1NjAsMTUzNTczNTU3XX0=
 -->
