@@ -354,10 +354,12 @@ interpreter.run(byteBuffer, result)
 - designed to work offline
 - ex - [Sparkfun Edge](https://www.sparkfun.com/products/15170)
 
-### TF on single board
-- Compile TF from source -> creates whl file
-- Install with pip
-- Use TF interpreter only (tflite_runtime)
+### TF on single board 
+ 1. Compile TF from source -> creates whl file
+ 2. Install with pip
+ 3. Use TF interpreter only (tflite_runtime)
+
+
 
 
 
@@ -367,9 +369,9 @@ interpreter.run(byteBuffer, result)
 # Course 4 - Advanced Deployment Scenarios
 ## 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzMjY3MzI3LDE4MTc4MjA2MiwtMTcwOD
-U5ODA4LDE5NTMwNTQ0NTYsLTY0MTYxOTE0MiwxMDQwODE5MTMs
-MTk4MjA4MTkxLDc0NDE4ODE2MywxMDY3NjYxNzU5LC05NDI3Nj
-AyMTgsNDczNTIyMjY3LC05NzQwNzc2MDIsNTQ0NDE1NTYwLDE1
-MzU3MzU1N119
+eyJoaXN0b3J5IjpbLTEyNjIzMDQzMzYsLTQzMjY3MzI3LDE4MT
+c4MjA2MiwtMTcwODU5ODA4LDE5NTMwNTQ0NTYsLTY0MTYxOTE0
+MiwxMDQwODE5MTMsMTk4MjA4MTkxLDc0NDE4ODE2MywxMDY3Nj
+YxNzU5LC05NDI3NjAyMTgsNDczNTIyMjY3LC05NzQwNzc2MDIs
+NTQ0NDE1NTYwLDE1MzU3MzU1N119
 -->
