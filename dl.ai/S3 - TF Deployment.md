@@ -322,9 +322,16 @@ interpreter.run(byteBuffer, result)
 
 
 
-## [Week 3 ](https://www.coursera.org/learn/device-based-models-tensorflow/home/week/3)
+## [Week 3 - iOS ](https://www.coursera.org/learn/device-based-models-tensorflow/home/week/3)
 
-## [Week 2 ](https://www.coursera.org/learn/device-based-models-tensorflow/home/week/4)
+## skipped
+
+## [Week 4 - Raspberry Pi ](https://www.coursera.org/learn/device-based-models-tensorflow/home/week/4)
+
+###
+
+
+
 
 # Course 3 - Data Pipelines
 ## 
@@ -332,7 +339,8 @@ interpreter.run(byteBuffer, result)
 # Course 4 - Advanced Deployment Scenarios
 ## 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0MDgxOTEzLDE5ODIwODE5MSw3NDQxOD
-gxNjMsMTA2NzY2MTc1OSwtOTQyNzYwMjE4LDQ3MzUyMjI2Nywt
-OTc0MDc3NjAyLDU0NDQxNTU2MCwxNTM1NzM1NTddfQ==
+eyJoaXN0b3J5IjpbLTY0MTYxOTE0MiwxMDQwODE5MTMsMTk4Mj
+A4MTkxLDc0NDE4ODE2MywxMDY3NjYxNzU5LC05NDI3NjAyMTgs
+NDczNTIyMjY3LC05NzQwNzc2MDIsNTQ0NDE1NTYwLDE1MzU3Mz
+U1N119
 -->
