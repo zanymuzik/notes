@@ -328,7 +328,10 @@ interpreter.run(byteBuffer, result)
 
 ## [Week 4 - Raspberry Pi ](https://www.coursera.org/learn/device-based-models-tensorflow/home/week/4)
 
-###
+### Adoption of Smart devices > Mobile phones
+- Smaller, faster model
+- On device accelerators
+- 
 
 
 
@@ -339,8 +342,8 @@ interpreter.run(byteBuffer, result)
 # Course 4 - Advanced Deployment Scenarios
 ## 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0MTYxOTE0MiwxMDQwODE5MTMsMTk4Mj
-A4MTkxLDc0NDE4ODE2MywxMDY3NjYxNzU5LC05NDI3NjAyMTgs
-NDczNTIyMjY3LC05NzQwNzc2MDIsNTQ0NDE1NTYwLDE1MzU3Mz
-U1N119
+eyJoaXN0b3J5IjpbMTk1MzA1NDQ1NiwtNjQxNjE5MTQyLDEwND
+A4MTkxMywxOTgyMDgxOTEsNzQ0MTg4MTYzLDEwNjc2NjE3NTks
+LTk0Mjc2MDIxOCw0NzM1MjIyNjcsLTk3NDA3NzYwMiw1NDQ0MT
+U1NjAsMTUzNTczNTU3XX0=
 -->
