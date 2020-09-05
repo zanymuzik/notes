@@ -352,8 +352,11 @@ interpreter.run(byteBuffer, result)
 - Reduced memory/storage
 - small form factor
 - designed to work offline
-- ex - Sparkfun Edge 
+- ex - [Sparkfun Edge](https://www.sparkfun.com/products/15170)
 
+### TF on single board
+- Compile TF from source
+- 
 
 # Course 3 - Data Pipelines
 ## 
@@ -361,7 +364,7 @@ interpreter.run(byteBuffer, result)
 # Course 4 - Advanced Deployment Scenarios
 ## 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU5NzYxODQyLDE4MTc4MjA2MiwtMTcwOD
+eyJoaXN0b3J5IjpbMjgxODk2NjA0LDE4MTc4MjA2MiwtMTcwOD
 U5ODA4LDE5NTMwNTQ0NTYsLTY0MTYxOTE0MiwxMDQwODE5MTMs
 MTk4MjA4MTkxLDc0NDE4ODE2MywxMDY3NjYxNzU5LC05NDI3Nj
 AyMTgsNDczNTIyMjY3LC05NzQwNzc2MDIsNTQ0NDE1NTYwLDE1
