@@ -352,7 +352,7 @@ interpreter.run(byteBuffer, result)
 - Reduced memory/storage
 - small form factor
 - designed to work offline
-- ex - Sparkfun Edge
+- ex - Sparkfun Edge 
 
 
 # Course 3 - Data Pipelines
@@ -361,9 +361,9 @@ interpreter.run(byteBuffer, result)
 # Course 4 - Advanced Deployment Scenarios
 ## 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxNzgyMDYyLC0xNzA4NTk4MDgsMTk1Mz
-A1NDQ1NiwtNjQxNjE5MTQyLDEwNDA4MTkxMywxOTgyMDgxOTEs
-NzQ0MTg4MTYzLDEwNjc2NjE3NTksLTk0Mjc2MDIxOCw0NzM1Mj
-IyNjcsLTk3NDA3NzYwMiw1NDQ0MTU1NjAsMTUzNTczNTU3XX0=
-
+eyJoaXN0b3J5IjpbOTU5NzYxODQyLDE4MTc4MjA2MiwtMTcwOD
+U5ODA4LDE5NTMwNTQ0NTYsLTY0MTYxOTE0MiwxMDQwODE5MTMs
+MTk4MjA4MTkxLDc0NDE4ODE2MywxMDY3NjYxNzU5LC05NDI3Nj
+AyMTgsNDczNTIyMjY3LC05NzQwNzc2MDIsNTQ0NDE1NTYwLDE1
+MzU3MzU1N119
 -->
