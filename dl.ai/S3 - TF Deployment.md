@@ -338,8 +338,10 @@ interpreter.run(byteBuffer, result)
 
 ###  Coral.ai 
 - Edge TPU (using dev board or accelerator)
-- MendelOS (MBT)
-- Edge TP
+- MendelOS + toolkit (mdt)
+- Edge TPU Compiler 
+- Edge TPU [Models](https://coral.ai/models/)
+
 
 
 
@@ -350,9 +352,9 @@ interpreter.run(byteBuffer, result)
 # Course 4 - Advanced Deployment Scenarios
 ## 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY0NDk0MDM5LC0xNzA4NTk4MDgsMTk1Mz
-A1NDQ1NiwtNjQxNjE5MTQyLDEwNDA4MTkxMywxOTgyMDgxOTEs
-NzQ0MTg4MTYzLDEwNjc2NjE3NTksLTk0Mjc2MDIxOCw0NzM1Mj
-IyNjcsLTk3NDA3NzYwMiw1NDQ0MTU1NjAsMTUzNTczNTU3XX0=
-
+eyJoaXN0b3J5IjpbLTIxMjIxMTMyNTIsLTE3MDg1OTgwOCwxOT
+UzMDU0NDU2LC02NDE2MTkxNDIsMTA0MDgxOTEzLDE5ODIwODE5
+MSw3NDQxODgxNjMsMTA2NzY2MTc1OSwtOTQyNzYwMjE4LDQ3Mz
+UyMjI2NywtOTc0MDc3NjAyLDU0NDQxNTU2MCwxNTM1NzM1NTdd
+fQ==
 -->
