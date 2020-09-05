@@ -332,7 +332,9 @@ interpreter.run(byteBuffer, result)
 - Smaller, faster model
 - On device accelerators
 - Local inference for disconnected devices
-	- avoid RTT
+	- avoid RTT latency
+- Privacy is better
+- Better power consumption (without network connection) 
 
 
 
@@ -343,8 +345,8 @@ interpreter.run(byteBuffer, result)
 # Course 4 - Advanced Deployment Scenarios
 ## 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTU5NzExNTMsMTk1MzA1NDQ1NiwtNj
-QxNjE5MTQyLDEwNDA4MTkxMywxOTgyMDgxOTEsNzQ0MTg4MTYz
-LDEwNjc2NjE3NTksLTk0Mjc2MDIxOCw0NzM1MjIyNjcsLTk3ND
-A3NzYwMiw1NDQ0MTU1NjAsMTUzNTczNTU3XX0=
+eyJoaXN0b3J5IjpbLTE3MDg1OTgwOCwxOTUzMDU0NDU2LC02ND
+E2MTkxNDIsMTA0MDgxOTEzLDE5ODIwODE5MSw3NDQxODgxNjMs
+MTA2NzY2MTc1OSwtOTQyNzYwMjE4LDQ3MzUyMjI2NywtOTc0MD
+c3NjAyLDU0NDQxNTU2MCwxNTM1NzM1NTddfQ==
 -->
