@@ -334,7 +334,12 @@ interpreter.run(byteBuffer, result)
 - Local inference for disconnected devices
 	- avoid RTT latency
 - Privacy is better
-- Better power consumption (without network connection) 
+- Better power consumption (without network connection)
+
+###  Coral.ai 
+- Edge TPU (using dev board or accelerator)
+- MendelOS (MBT)
+- Edge TP
 
 
 
@@ -345,8 +350,9 @@ interpreter.run(byteBuffer, result)
 # Course 4 - Advanced Deployment Scenarios
 ## 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDg1OTgwOCwxOTUzMDU0NDU2LC02ND
-E2MTkxNDIsMTA0MDgxOTEzLDE5ODIwODE5MSw3NDQxODgxNjMs
-MTA2NzY2MTc1OSwtOTQyNzYwMjE4LDQ3MzUyMjI2NywtOTc0MD
-c3NjAyLDU0NDQxNTU2MCwxNTM1NzM1NTddfQ==
+eyJoaXN0b3J5IjpbOTY0NDk0MDM5LC0xNzA4NTk4MDgsMTk1Mz
+A1NDQ1NiwtNjQxNjE5MTQyLDEwNDA4MTkxMywxOTgyMDgxOTEs
+NzQ0MTg4MTYzLDEwNjc2NjE3NTksLTk0Mjc2MDIxOCw0NzM1Mj
+IyNjcsLTk3NDA3NzYwMiw1NDQ0MTU1NjAsMTUzNTczNTU3XX0=
+
 -->
