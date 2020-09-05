@@ -331,7 +331,8 @@ interpreter.run(byteBuffer, result)
 ### Adoption of Smart devices > Mobile phones
 - Smaller, faster model
 - On device accelerators
-- 
+- Local inference for disconnected devices
+	- avoid RTT
 
 
 
@@ -342,8 +343,8 @@ interpreter.run(byteBuffer, result)
 # Course 4 - Advanced Deployment Scenarios
 ## 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1MzA1NDQ1NiwtNjQxNjE5MTQyLDEwND
-A4MTkxMywxOTgyMDgxOTEsNzQ0MTg4MTYzLDEwNjc2NjE3NTks
-LTk0Mjc2MDIxOCw0NzM1MjIyNjcsLTk3NDA3NzYwMiw1NDQ0MT
-U1NjAsMTUzNTczNTU3XX0=
+eyJoaXN0b3J5IjpbLTEyOTU5NzExNTMsMTk1MzA1NDQ1NiwtNj
+QxNjE5MTQyLDEwNDA4MTkxMywxOTgyMDgxOTEsNzQ0MTg4MTYz
+LDEwNjc2NjE3NTksLTk0Mjc2MDIxOCw0NzM1MjIyNjcsLTk3ND
+A3NzYwMiw1NDQ0MTU1NjAsMTUzNTczNTU3XX0=
 -->
