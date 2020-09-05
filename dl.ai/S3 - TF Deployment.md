@@ -347,6 +347,10 @@ interpreter.run(byteBuffer, result)
 - Raspbian OS - debian based
 - Can be clubbed with coral accelerator for inference
 
+### Micro-controller
+- Can be embedded into hardware
+- Reduced memory/storage
+- small form factor
 
 
 # Course 3 - Data Pipelines
@@ -355,9 +359,9 @@ interpreter.run(byteBuffer, result)
 # Course 4 - Advanced Deployment Scenarios
 ## 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQ4MjIxNjMyLC0xNzA4NTk4MDgsMTk1Mz
-A1NDQ1NiwtNjQxNjE5MTQyLDEwNDA4MTkxMywxOTgyMDgxOTEs
-NzQ0MTg4MTYzLDEwNjc2NjE3NTksLTk0Mjc2MDIxOCw0NzM1Mj
-IyNjcsLTk3NDA3NzYwMiw1NDQ0MTU1NjAsMTUzNTczNTU3XX0=
+eyJoaXN0b3J5IjpbMTI2ODg1MTY2NywtMTcwODU5ODA4LDE5NT
+MwNTQ0NTYsLTY0MTYxOTE0MiwxMDQwODE5MTMsMTk4MjA4MTkx
+LDc0NDE4ODE2MywxMDY3NjYxNzU5LC05NDI3NjAyMTgsNDczNT
+IyMjY3LC05NzQwNzc2MDIsNTQ0NDE1NTYwLDE1MzU3MzU1N119
 
 -->
