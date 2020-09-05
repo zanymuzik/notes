@@ -357,7 +357,8 @@ interpreter.run(byteBuffer, result)
 ### TF on single board
 - Compile TF from source -> creates whl file
 - Install with pip
-- Use TF interpreter only (tflite
+- Use TF interpreter only (tflite_runtime)
+
 
 
 # Course 3 - Data Pipelines
@@ -366,9 +367,9 @@ interpreter.run(byteBuffer, result)
 # Course 4 - Advanced Deployment Scenarios
 ## 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzE2OTMyNzksMTgxNzgyMDYyLC0xNz
-A4NTk4MDgsMTk1MzA1NDQ1NiwtNjQxNjE5MTQyLDEwNDA4MTkx
-MywxOTgyMDgxOTEsNzQ0MTg4MTYzLDEwNjc2NjE3NTksLTk0Mj
-c2MDIxOCw0NzM1MjIyNjcsLTk3NDA3NzYwMiw1NDQ0MTU1NjAs
-MTUzNTczNTU3XX0=
+eyJoaXN0b3J5IjpbLTQzMjY3MzI3LDE4MTc4MjA2MiwtMTcwOD
+U5ODA4LDE5NTMwNTQ0NTYsLTY0MTYxOTE0MiwxMDQwODE5MTMs
+MTk4MjA4MTkxLDc0NDE4ODE2MywxMDY3NjYxNzU5LC05NDI3Nj
+AyMTgsNDczNTIyMjY3LC05NzQwNzc2MDIsNTQ0NDE1NTYwLDE1
+MzU3MzU1N119
 -->
