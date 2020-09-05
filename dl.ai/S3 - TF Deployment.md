@@ -338,11 +338,14 @@ interpreter.run(byteBuffer, result)
 
 ###  Coral devices
 - Edge TPU (using dev board or accelerator)
-- MendelOS + toolkit (mdt)
+- MendelOS (debian based) + toolkit (mdt)
 - Edge TPU Compiler 
 - Edge TPU [Models](https://coral.ai/models/)
-- [github](https://github.com/google-coral)
+- [Coral github](https://github.com/google-coral)
 
+### RaspPi
+- Raspbian OS - debian based
+- Can be clubbed with coral accelerator for inference
 
 
 
@@ -352,7 +355,7 @@ interpreter.run(byteBuffer, result)
 # Course 4 - Advanced Deployment Scenarios
 ## 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwOTU3NjE3LC0xNzA4NTk4MDgsMTk1Mz
+eyJoaXN0b3J5IjpbMzQ4MjIxNjMyLC0xNzA4NTk4MDgsMTk1Mz
 A1NDQ1NiwtNjQxNjE5MTQyLDEwNDA4MTkxMywxOTgyMDgxOTEs
 NzQ0MTg4MTYzLDEwNjc2NjE3NTksLTk0Mjc2MDIxOCw0NzM1Mj
 IyNjcsLTk3NDA3NzYwMiw1NDQ0MTU1NjAsMTUzNTczNTU3XX0=
