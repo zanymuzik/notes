@@ -337,7 +337,7 @@ interpreter.run(byteBuffer, result)
 - Better power consumption (without network connection)
 
 ###  Coral devices
-- Edge TPU (using dev board or accelerator)
+- [Edge TPU](https://cloud.google.com/edge-tpu) (using dev board or accelerator)
 - MendelOS (debian based) + toolkit (mdt)
 - Edge TPU Compiler 
 - Edge TPU [Models](https://coral.ai/models/)
@@ -369,9 +369,9 @@ interpreter.run(byteBuffer, result)
 # Course 4 - Advanced Deployment Scenarios
 ## 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjIzMDQzMzYsLTQzMjY3MzI3LDE4MT
-c4MjA2MiwtMTcwODU5ODA4LDE5NTMwNTQ0NTYsLTY0MTYxOTE0
-MiwxMDQwODE5MTMsMTk4MjA4MTkxLDc0NDE4ODE2MywxMDY3Nj
-YxNzU5LC05NDI3NjAyMTgsNDczNTIyMjY3LC05NzQwNzc2MDIs
-NTQ0NDE1NTYwLDE1MzU3MzU1N119
+eyJoaXN0b3J5IjpbMjAyMDM3Nzk3MywtMTI2MjMwNDMzNiwtND
+MyNjczMjcsMTgxNzgyMDYyLC0xNzA4NTk4MDgsMTk1MzA1NDQ1
+NiwtNjQxNjE5MTQyLDEwNDA4MTkxMywxOTgyMDgxOTEsNzQ0MT
+g4MTYzLDEwNjc2NjE3NTksLTk0Mjc2MDIxOCw0NzM1MjIyNjcs
+LTk3NDA3NzYwMiw1NDQ0MTU1NjAsMTUzNTczNTU3XX0=
 -->
