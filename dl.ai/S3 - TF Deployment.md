@@ -359,6 +359,10 @@ interpreter.run(byteBuffer, result)
  2. Install with pip
  3. Use TF interpreter only (tflite_runtime)
 
+### Image Classification Example (https://www.tensorflow.org/lite/models/image_classification/overview)
+- Pre-quantized Mobilenet trained on ImageNet
+- 1000 classes
+- 
 
 
 
@@ -369,9 +373,10 @@ interpreter.run(byteBuffer, result)
 # Course 4 - Advanced Deployment Scenarios
 ## 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyMDM3Nzk3MywtMTI2MjMwNDMzNiwtND
-MyNjczMjcsMTgxNzgyMDYyLC0xNzA4NTk4MDgsMTk1MzA1NDQ1
-NiwtNjQxNjE5MTQyLDEwNDA4MTkxMywxOTgyMDgxOTEsNzQ0MT
-g4MTYzLDEwNjc2NjE3NTksLTk0Mjc2MDIxOCw0NzM1MjIyNjcs
-LTk3NDA3NzYwMiw1NDQ0MTU1NjAsMTUzNTczNTU3XX0=
+eyJoaXN0b3J5IjpbLTE0MDE4NDQwMzQsMjAyMDM3Nzk3MywtMT
+I2MjMwNDMzNiwtNDMyNjczMjcsMTgxNzgyMDYyLC0xNzA4NTk4
+MDgsMTk1MzA1NDQ1NiwtNjQxNjE5MTQyLDEwNDA4MTkxMywxOT
+gyMDgxOTEsNzQ0MTg4MTYzLDEwNjc2NjE3NTksLTk0Mjc2MDIx
+OCw0NzM1MjIyNjcsLTk3NDA3NzYwMiw1NDQ0MTU1NjAsMTUzNT
+czNTU3XX0=
 -->
