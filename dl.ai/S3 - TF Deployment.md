@@ -362,8 +362,7 @@ interpreter.run(byteBuffer, result)
 ### [Image Classification](https://www.tensorflow.org/lite/models/image_classification/overview) with TF Lite
 - Pre-quantized Mobilenet trained on ImageNet
 - 1000 classes
-- [Example](https://github.com/lmoroney/dlaicourse/tree/master/TensorFlow%20Deployment/Course%202%20-%20TensorFlow%20Lite/Week%204/Examples/image_classification)
-- 
+- [classify.py](https://github.com/lmoroney/dlaicourse/blob/master/TensorFlow%20Deployment/Course%202%20-%20TensorFlow%20Lite/Week%204/Examples/image_classification/classify.py) on raspPi
 
 
 
@@ -374,10 +373,10 @@ interpreter.run(byteBuffer, result)
 # Course 4 - Advanced Deployment Scenarios
 ## 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzNzY2ODg5NCwxMTIxNzkyNDIwLDIwMj
-AzNzc5NzMsLTEyNjIzMDQzMzYsLTQzMjY3MzI3LDE4MTc4MjA2
-MiwtMTcwODU5ODA4LDE5NTMwNTQ0NTYsLTY0MTYxOTE0MiwxMD
-QwODE5MTMsMTk4MjA4MTkxLDc0NDE4ODE2MywxMDY3NjYxNzU5
-LC05NDI3NjAyMTgsNDczNTIyMjY3LC05NzQwNzc2MDIsNTQ0ND
-E1NTYwLDE1MzU3MzU1N119
+eyJoaXN0b3J5IjpbLTEwMDQxNzUzMTEsMTEyMTc5MjQyMCwyMD
+IwMzc3OTczLC0xMjYyMzA0MzM2LC00MzI2NzMyNywxODE3ODIw
+NjIsLTE3MDg1OTgwOCwxOTUzMDU0NDU2LC02NDE2MTkxNDIsMT
+A0MDgxOTEzLDE5ODIwODE5MSw3NDQxODgxNjMsMTA2NzY2MTc1
+OSwtOTQyNzYwMjE4LDQ3MzUyMjI2NywtOTc0MDc3NjAyLDU0ND
+QxNTU2MCwxNTM1NzM1NTddfQ==
 -->
