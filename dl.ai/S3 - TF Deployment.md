@@ -314,18 +314,7 @@ interpreter.run(byteBuffer, result)
 # use an android priority queue to sort the result
 # and take top value (based on confidence)
 ```
-
-
-
-
-
-
-
-
-
-
-
-
+## INCOMPLETE
 
 
 
@@ -343,7 +332,7 @@ interpreter.run(byteBuffer, result)
 # Course 4 - Advanced Deployment Scenarios
 ## 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4MjA4MTkxLDc0NDE4ODE2MywxMDY3Nj
-YxNzU5LC05NDI3NjAyMTgsNDczNTIyMjY3LC05NzQwNzc2MDIs
-NTQ0NDE1NTYwLDE1MzU3MzU1N119
+eyJoaXN0b3J5IjpbMTA0MDgxOTEzLDE5ODIwODE5MSw3NDQxOD
+gxNjMsMTA2NzY2MTc1OSwtOTQyNzYwMjE4LDQ3MzUyMjI2Nywt
+OTc0MDc3NjAyLDU0NDQxNTU2MCwxNTM1NzM1NTddfQ==
 -->
