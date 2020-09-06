@@ -364,7 +364,7 @@ interpreter.run(byteBuffer, result)
 - 1000 classes
 
 ### [classify.py](https://github.com/lmoroney/dlaicourse/blob/master/TensorFlow%20Deployment/Course%202%20-%20TensorFlow%20Lite/Week%204/Examples/image_classification/classify.py) on raspPi
-- code is different than video - figure why?
+- classify.py code is different than classification.py (video) - figure [why](https://www.coursera.org/learn/device-based-models-tensorflow/discussions/weeks/4/threads/Unq9EI7HS4S6vRCOx9uExg)?
 ```
 # Load TFLite model and allocate tensors
 interpreter = Interpreter(model_path=model_path)
@@ -393,7 +393,7 @@ img_tensor = tf.cast(img_tensor, tf.uint8)
 # Course 4 - Advanced Deployment Scenarios
 ## 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxNTA5NDI5MSwtMTE0MTQ3NDg1LDgxNz
+eyJoaXN0b3J5IjpbMTgzMzQ1NTE0NiwtMTE0MTQ3NDg1LDgxNz
 U5ODMwNCwtNDM4ODU2MzAyLDExMjE3OTI0MjAsMjAyMDM3Nzk3
 MywtMTI2MjMwNDMzNiwtNDMyNjczMjcsMTgxNzgyMDYyLC0xNz
 A4NTk4MDgsMTk1MzA1NDQ1NiwtNjQxNjE5MTQyLDEwNDA4MTkx
