@@ -391,11 +391,10 @@ interpreter.invoke()
 predictions = interpreter.get_tensor(output_details[0]['index'])[0]
 
 # Get indices of the top k results
-_top_k_indices = np.argsort(predictions)[::-1][:top_k_results]
+_, top_k_indices = tf.math.top_k(predictions, k=top_k_results)
 
 for i in range(top_k_results):
-
-print(labels[top_k_indices[i]], predictions[top_k_indices[i]] / 255.0)
+	print(labels[top_k_indices[i]], predictions[top_k_indices[i]] / 255.0)
 ```
 
 
@@ -407,7 +406,7 @@ print(labels[top_k_indices[i]], predictions[top_k_indices[i]] / 255.0)
 # Course 4 - Advanced Deployment Scenarios
 ## 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjQyOTUzNDksLTExNDE0NzQ4NSw4MT
+eyJoaXN0b3J5IjpbLTIwNjE1MTY0OTAsLTExNDE0NzQ4NSw4MT
 c1OTgzMDQsLTQzODg1NjMwMiwxMTIxNzkyNDIwLDIwMjAzNzc5
 NzMsLTEyNjIzMDQzMzYsLTQzMjY3MzI3LDE4MTc4MjA2MiwtMT
 cwODU5ODA4LDE5NTMwNTQ0NTYsLTY0MTYxOTE0MiwxMDQwODE5
