@@ -395,7 +395,7 @@ for i in range(top_k_results):
 	print(labels[top_k_indices[i]], predictions[top_k_indices[i]] / 255.0)
 ```
 
-### Object
+### Object Detection 
 
 
 
@@ -405,11 +405,11 @@ for i in range(top_k_results):
 # Course 4 - Advanced Deployment Scenarios
 ## 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzkyOTM0MjM0LC0yMDYxNTE2NDkwLC0xMT
-QxNDc0ODUsODE3NTk4MzA0LC00Mzg4NTYzMDIsMTEyMTc5MjQy
-MCwyMDIwMzc3OTczLC0xMjYyMzA0MzM2LC00MzI2NzMyNywxOD
-E3ODIwNjIsLTE3MDg1OTgwOCwxOTUzMDU0NDU2LC02NDE2MTkx
-NDIsMTA0MDgxOTEzLDE5ODIwODE5MSw3NDQxODgxNjMsMTA2Nz
-Y2MTc1OSwtOTQyNzYwMjE4LDQ3MzUyMjI2NywtOTc0MDc3NjAy
-XX0=
+eyJoaXN0b3J5IjpbLTUzMzcxNDM2MywtMjA2MTUxNjQ5MCwtMT
+E0MTQ3NDg1LDgxNzU5ODMwNCwtNDM4ODU2MzAyLDExMjE3OTI0
+MjAsMjAyMDM3Nzk3MywtMTI2MjMwNDMzNiwtNDMyNjczMjcsMT
+gxNzgyMDYyLC0xNzA4NTk4MDgsMTk1MzA1NDQ1NiwtNjQxNjE5
+MTQyLDEwNDA4MTkxMywxOTgyMDgxOTEsNzQ0MTg4MTYzLDEwNj
+c2NjE3NTksLTk0Mjc2MDIxOCw0NzM1MjIyNjcsLTk3NDA3NzYw
+Ml19
 -->
