@@ -359,12 +359,10 @@ interpreter.run(byteBuffer, result)
  2. Install with pip
  3. Use TF interpreter only (tflite_runtime)
 
-### [Image Classification](https://www.tensorflow.org/lite/models/image_classification/overview) with TF Lite
+### [Image Classification](https://www.tensorflow.org/lite/models/image_classification/overview)
 - Pre-quantized Mobilenet trained on ImageNet
 - 1000 classes
-
-### [classify.py](https://github.com/lmoroney/dlaicourse/blob/master/TensorFlow%20Deployment/Course%202%20-%20TensorFlow%20Lite/Week%204/Examples/image_classification/classify.py) on raspPi
-- classify.py code is different than classification.py (video) - figure [why](https://www.coursera.org/learn/device-based-models-tensorflow/discussions/weeks/4/threads/Unq9EI7HS4S6vRCOx9uExg)?
+- [classify.py](https://github.com/lmoroney/dlaicourse/blob/master/TensorFlow%20Deployment/Course%202%20-%20TensorFlow%20Lite/Week%204/Examples/image_classification/classify.py)  code is different than classification.py (video) - figure [why](https://www.coursera.org/learn/device-based-models-tensorflow/discussions/weeks/4/threads/Unq9EI7HS4S6vRCOx9uExg)?
 ```
 # Load TFLite model and allocate tensors
 interpreter = Interpreter(model_path=model_path)
@@ -397,6 +395,7 @@ for i in range(top_k_results):
 	print(labels[top_k_indices[i]], predictions[top_k_indices[i]] / 255.0)
 ```
 
+### Object
 
 
 
@@ -406,11 +405,11 @@ for i in range(top_k_results):
 # Course 4 - Advanced Deployment Scenarios
 ## 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjE1MTY0OTAsLTExNDE0NzQ4NSw4MT
-c1OTgzMDQsLTQzODg1NjMwMiwxMTIxNzkyNDIwLDIwMjAzNzc5
-NzMsLTEyNjIzMDQzMzYsLTQzMjY3MzI3LDE4MTc4MjA2MiwtMT
-cwODU5ODA4LDE5NTMwNTQ0NTYsLTY0MTYxOTE0MiwxMDQwODE5
-MTMsMTk4MjA4MTkxLDc0NDE4ODE2MywxMDY3NjYxNzU5LC05ND
-I3NjAyMTgsNDczNTIyMjY3LC05NzQwNzc2MDIsNTQ0NDE1NTYw
+eyJoaXN0b3J5IjpbNzkyOTM0MjM0LC0yMDYxNTE2NDkwLC0xMT
+QxNDc0ODUsODE3NTk4MzA0LC00Mzg4NTYzMDIsMTEyMTc5MjQy
+MCwyMDIwMzc3OTczLC0xMjYyMzA0MzM2LC00MzI2NzMyNywxOD
+E3ODIwNjIsLTE3MDg1OTgwOCwxOTUzMDU0NDU2LC02NDE2MTkx
+NDIsMTA0MDgxOTEzLDE5ODIwODE5MSw3NDQxODgxNjMsMTA2Nz
+Y2MTc1OSwtOTQyNzYwMjE4LDQ3MzUyMjI2NywtOTc0MDc3NjAy
 XX0=
 -->
