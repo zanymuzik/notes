@@ -375,7 +375,7 @@ input_details = interpreter.get_input_details()
 output_details = interpreter.get_output_details()
 
 # Read image and decode 
-# code is different than notebook - not sure which one is newer
+# code is different than notebook - tf.io.read
 img = tf.io.read_file(filename)
 img_tensor = tf
 
@@ -390,7 +390,7 @@ img_tensor = tf
 # Course 4 - Advanced Deployment Scenarios
 ## 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4NDM2NTEwOSwtMTE0MTQ3NDg1LDgxNz
+eyJoaXN0b3J5IjpbMTA3MzA1ODk4MywtMTE0MTQ3NDg1LDgxNz
 U5ODMwNCwtNDM4ODU2MzAyLDExMjE3OTI0MjAsMjAyMDM3Nzk3
 MywtMTI2MjMwNDMzNiwtNDMyNjczMjcsMTgxNzgyMDYyLC0xNz
 A4NTk4MDgsMTk1MzA1NDQ1NiwtNjQxNjE5MTQyLDEwNDA4MTkx
