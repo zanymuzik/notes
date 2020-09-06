@@ -373,7 +373,14 @@ interpreter.allocate_tensors()
 # Get input and output tensors.
 input_details = interpreter.get_input_details()
 output_details = interpreter.get_output_details()
+
+# Read image and decode 
+# code is different than notebook - not sure which one is newer
+img = tf.io.read_file(filename)
+img
+
 ```
+
 
 
 
@@ -383,11 +390,11 @@ output_details = interpreter.get_output_details()
 # Course 4 - Advanced Deployment Scenarios
 ## 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDE0NzQ4NSw4MTc1OTgzMDQsLTQzOD
-g1NjMwMiwxMTIxNzkyNDIwLDIwMjAzNzc5NzMsLTEyNjIzMDQz
-MzYsLTQzMjY3MzI3LDE4MTc4MjA2MiwtMTcwODU5ODA4LDE5NT
-MwNTQ0NTYsLTY0MTYxOTE0MiwxMDQwODE5MTMsMTk4MjA4MTkx
-LDc0NDE4ODE2MywxMDY3NjYxNzU5LC05NDI3NjAyMTgsNDczNT
-IyMjY3LC05NzQwNzc2MDIsNTQ0NDE1NTYwLDE1MzU3MzU1N119
-
+eyJoaXN0b3J5IjpbLTE1NTUyMTEyNTYsLTExNDE0NzQ4NSw4MT
+c1OTgzMDQsLTQzODg1NjMwMiwxMTIxNzkyNDIwLDIwMjAzNzc5
+NzMsLTEyNjIzMDQzMzYsLTQzMjY3MzI3LDE4MTc4MjA2MiwtMT
+cwODU5ODA4LDE5NTMwNTQ0NTYsLTY0MTYxOTE0MiwxMDQwODE5
+MTMsMTk4MjA4MTkxLDc0NDE4ODE2MywxMDY3NjYxNzU5LC05ND
+I3NjAyMTgsNDczNTIyMjY3LC05NzQwNzc2MDIsNTQ0NDE1NTYw
+XX0=
 -->
