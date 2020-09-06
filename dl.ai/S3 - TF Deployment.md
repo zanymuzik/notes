@@ -377,7 +377,7 @@ output_details = interpreter.get_output_details()
 # Read image and decode 
 # code is different than notebook - not sure which one is newer
 img = tf.io.read_file(filename)
-img
+img_tensor = tf
 
 ```
 
@@ -390,11 +390,11 @@ img
 # Course 4 - Advanced Deployment Scenarios
 ## 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTUyMTEyNTYsLTExNDE0NzQ4NSw4MT
-c1OTgzMDQsLTQzODg1NjMwMiwxMTIxNzkyNDIwLDIwMjAzNzc5
-NzMsLTEyNjIzMDQzMzYsLTQzMjY3MzI3LDE4MTc4MjA2MiwtMT
-cwODU5ODA4LDE5NTMwNTQ0NTYsLTY0MTYxOTE0MiwxMDQwODE5
-MTMsMTk4MjA4MTkxLDc0NDE4ODE2MywxMDY3NjYxNzU5LC05ND
-I3NjAyMTgsNDczNTIyMjY3LC05NzQwNzc2MDIsNTQ0NDE1NTYw
-XX0=
+eyJoaXN0b3J5IjpbLTU4NDM2NTEwOSwtMTE0MTQ3NDg1LDgxNz
+U5ODMwNCwtNDM4ODU2MzAyLDExMjE3OTI0MjAsMjAyMDM3Nzk3
+MywtMTI2MjMwNDMzNiwtNDMyNjczMjcsMTgxNzgyMDYyLC0xNz
+A4NTk4MDgsMTk1MzA1NDQ1NiwtNjQxNjE5MTQyLDEwNDA4MTkx
+MywxOTgyMDgxOTEsNzQ0MTg4MTYzLDEwNjc2NjE3NTksLTk0Mj
+c2MDIxOCw0NzM1MjIyNjcsLTk3NDA3NzYwMiw1NDQ0MTU1NjBd
+fQ==
 -->
