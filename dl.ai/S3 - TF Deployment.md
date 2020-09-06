@@ -375,10 +375,13 @@ input_details = interpreter.get_input_details()
 output_details = interpreter.get_output_details()
 
 # Read image and decode 
-# code is different than notebook - tf.io.read
+# code is different than notebook - tf.io.read_file is tf 2.3 so perhaps newer
 img = tf.io.read_file(filename)
-img_tensor = tf
+img_tensor = tf.image.decode_image(img)
 
+# Preprocess image
+img_tensor = tf.image.resize(img_tensor, size)
+img_tensor = tf.cast(img_tensor, tf.uint8)
 ```
 
 
@@ -390,7 +393,7 @@ img_tensor = tf
 # Course 4 - Advanced Deployment Scenarios
 ## 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3MzA1ODk4MywtMTE0MTQ3NDg1LDgxNz
+eyJoaXN0b3J5IjpbMTgxNTA5NDI5MSwtMTE0MTQ3NDg1LDgxNz
 U5ODMwNCwtNDM4ODU2MzAyLDExMjE3OTI0MjAsMjAyMDM3Nzk3
 MywtMTI2MjMwNDMzNiwtNDMyNjczMjcsMTgxNzgyMDYyLC0xNz
 A4NTk4MDgsMTk1MzA1NDQ1NiwtNjQxNjE5MTQyLDEwNDA4MTkx
