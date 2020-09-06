@@ -382,6 +382,20 @@ img_tensor = tf.image.decode_image(img)
 # Preprocess image
 img_tensor = tf.image.resize(img_tensor, size)
 img_tensor = tf.cast(img_tensor, tf.uint8)
+  
+# Point the data to be used for testing and run the interpreter
+interpreter.set_tensor(input_details[0]['index'], input_data)
+interpreter.invoke()
+
+# Obtain results and map them to the classes
+predictions = interpreter.get_tensor(output_details[0]['index'])[0]
+
+# Get indices of the top k results
+_top_k_indices = np.argsort(predictions)[::-1][:top_k_results]
+
+for i in range(top_k_results):
+
+print(labels[top_k_indices[i]], predictions[top_k_indices[i]] / 255.0)
 ```
 
 
@@ -393,11 +407,11 @@ img_tensor = tf.cast(img_tensor, tf.uint8)
 # Course 4 - Advanced Deployment Scenarios
 ## 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzMzQ1NTE0NiwtMTE0MTQ3NDg1LDgxNz
-U5ODMwNCwtNDM4ODU2MzAyLDExMjE3OTI0MjAsMjAyMDM3Nzk3
-MywtMTI2MjMwNDMzNiwtNDMyNjczMjcsMTgxNzgyMDYyLC0xNz
-A4NTk4MDgsMTk1MzA1NDQ1NiwtNjQxNjE5MTQyLDEwNDA4MTkx
-MywxOTgyMDgxOTEsNzQ0MTg4MTYzLDEwNjc2NjE3NTksLTk0Mj
-c2MDIxOCw0NzM1MjIyNjcsLTk3NDA3NzYwMiw1NDQ0MTU1NjBd
-fQ==
+eyJoaXN0b3J5IjpbLTE5NjQyOTUzNDksLTExNDE0NzQ4NSw4MT
+c1OTgzMDQsLTQzODg1NjMwMiwxMTIxNzkyNDIwLDIwMjAzNzc5
+NzMsLTEyNjIzMDQzMzYsLTQzMjY3MzI3LDE4MTc4MjA2MiwtMT
+cwODU5ODA4LDE5NTMwNTQ0NTYsLTY0MTYxOTE0MiwxMDQwODE5
+MTMsMTk4MjA4MTkxLDc0NDE4ODE2MywxMDY3NjYxNzU5LC05ND
+I3NjAyMTgsNDczNTIyMjY3LC05NzQwNzc2MDIsNTQ0NDE1NTYw
+XX0=
 -->
