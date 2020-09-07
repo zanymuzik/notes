@@ -396,6 +396,7 @@ for i in range(top_k_results):
 ```
 
 ### Object Detection 
+- Detect 
 
 
 
@@ -405,7 +406,7 @@ for i in range(top_k_results):
 # Course 4 - Advanced Deployment Scenarios
 ## 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzMzcxNDM2MywtMjA2MTUxNjQ5MCwtMT
+eyJoaXN0b3J5IjpbMjA4ODQ0MDY5NSwtMjA2MTUxNjQ5MCwtMT
 E0MTQ3NDg1LDgxNzU5ODMwNCwtNDM4ODU2MzAyLDExMjE3OTI0
 MjAsMjAyMDM3Nzk3MywtMTI2MjMwNDMzNiwtNDMyNjczMjcsMT
 gxNzgyMDYyLC0xNzA4NTk4MDgsMTk1MzA1NDQ1NiwtNjQxNjE5
