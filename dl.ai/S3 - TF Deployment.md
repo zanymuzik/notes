@@ -401,14 +401,15 @@ for i in range(top_k_results):
 - 
 
 
-AI 
+AI - Research [https://developers.google.com/ml-kit](https://developers.google.com/ml-kit)
+
 # Course 3 - Data Pipelines
 ## 
 
 # Course 4 - Advanced Deployment Scenarios
 ## 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0MTk0MDY2OCwtNzYxNjk4NTcyLC0yMD
+eyJoaXN0b3J5IjpbLTkwNjU4ODQ1NSwtNzYxNjk4NTcyLC0yMD
 YxNTE2NDkwLC0xMTQxNDc0ODUsODE3NTk4MzA0LC00Mzg4NTYz
 MDIsMTEyMTc5MjQyMCwyMDIwMzc3OTczLC0xMjYyMzA0MzM2LC
 00MzI2NzMyNywxODE3ODIwNjIsLTE3MDg1OTgwOCwxOTUzMDU0
