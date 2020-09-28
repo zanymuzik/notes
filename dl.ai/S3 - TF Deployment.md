@@ -399,21 +399,125 @@ for i in range(top_k_results):
 - Detect multiple objects and their class
 - Pre-optimized MobileNet SSD trained on COCO dataset
 - 
-
+## Incomplete
 
 AI - Research [https://developers.google.com/ml-kit](https://developers.google.com/ml-kit)
 
-# Course 3 - Data Pipelines
-## 
+# [Course 3 - Data Pipelines](https://www.coursera.org/learn/data-pipelines-tensorflow/home/welcome)
 
-# Course 4 - Advanced Deployment Scenarios
-## 
+## [Week 1 - Intro to data pipelines](https://www.coursera.org/learn/data-pipelines-tensorflow/home/week/1)
+
+### Types of data
+- Images
+- Audio
+- Video
+- Structured
+- Text
+- Translate
+
+### Standard Datasets
+- TF Datasets ([TFDS](https://www.tensorflow.org/datasets/api_docs/python/tfds))
+	- consistent API
+	- easy to consume and publush 
+
+### Data ETL
+- Extract
+- Transform
+- Load
+
+### TFDS
+- easy to use and change data
+- DatasetInfo for information on the dataset
+- Versioning
+	- Major.Minor.Patch
+	- ok to have * for wildcard (for ex -  mnist:1.\*.\*)
+- Easy to specify split
+	- allow custom splits by name
+
+### Split API - [https://www.tensorflow.org/datasets/splits](https://www.tensorflow.org/datasets/splits)
+- Legacy - tfds.split()
+	- Supports all datasets
+	- Merging
+	- Sub-spliting 
+	- Slicing
+- New - S3
+
+#### Merge
+> all = tfds.Split.TRAIN +  tfds.Split.TEST 
+
+#### Sub-split
+> tfds.Split.TRAIN.subsplit(k=4)
+- equal number of samples
+- no overlapping
+- contiguous
+
+#### Slicing
+> middle_20_percent = tfds.Split.TRAIN.subsplit(tfds.percent[10:30])
+- good for getting portions of data
+
+#### Weighted splits
+> middle_20_percent = tfds.Split.TRAIN.subsplit(weighted=[2, 1, 1])
+- same as slicing, just a different param
+
+### Splits API (S3) - New API (tdfs.core.Experiment.S3)
+- string literals 
+- "train + test" or "train[:20]"
+
+#### k-folds
+- some shenanigans to implement that
+```
+val_ds = tfds.load('mnist:3.*.*', split=['train[{}%:{}%]'.format(k, k+20) for k in  range(0, 100, 20)])
+train_ds = tfds.load('mnist:3.*.*', split=['train[:{}%]+train[{}%:]'.format(k, k+20) for k in  range(0, 100, 20)])
+```
+[colab 2 - split example](https://github.com/lmoroney/dlaicourse/blob/master/TensorFlow%20Deployment/Course%203%20-%20TensorFlow%20Datasets/Week%201/Examples/splits_api.ipynb)
+
+## [Week 2 - TF Data Services](https://www.coursera.org/learn/data-pipelines-tensorflow/home/week/2)
+
+### tf.data handles the data in pipelines
+- tf.data.Dataset
+	- basic idea of a dataset
+	- map(func) - per element op
+- ex dataset = tf.data.Dataset.from_tensor_slices((x_train, y_train))
+
+### Feature Column
+- used a join tables
+- Categorical Column
+- Dense Column
+- Bucketized Column
+- numer = tf.feature. 
+
+#### Numeric Column
+identity_feature_column = 
+tf.feature_column.numeric_column(key="Bowling")
+
+#### Bucketized Column
+ 
+#### Categorical Column
+Cross two columns
+categorical_column_with_hash_bucket(hash_bucket_size = 100)
+
+#### Crossed Column
+
+#### Embedding Column
+- same a glove
+- project words into a unit circle
+- num_dim = num_category ^ 1/4
+
+
+[colab 1](https://github.com/lmoroney/dlaicourse/blob/master/TensorFlow%20Deployment/Course%203%20-%20TensorFlow%20Datasets/Week%202/Examples/feature_columns.ipynb)
+
+[colab 2](https://github.com/lmoroney/dlaicourse/blob/master/TensorFlow%20Deployment/Course%203%20-%20TensorFlow%20Datasets/Week%202/Examples/data.ipynb)
+
+
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwNjU4ODQ1NSwtNzYxNjk4NTcyLC0yMD
-YxNTE2NDkwLC0xMTQxNDc0ODUsODE3NTk4MzA0LC00Mzg4NTYz
-MDIsMTEyMTc5MjQyMCwyMDIwMzc3OTczLC0xMjYyMzA0MzM2LC
-00MzI2NzMyNywxODE3ODIwNjIsLTE3MDg1OTgwOCwxOTUzMDU0
-NDU2LC02NDE2MTkxNDIsMTA0MDgxOTEzLDE5ODIwODE5MSw3ND
-QxODgxNjMsMTA2NzY2MTc1OSwtOTQyNzYwMjE4LDQ3MzUyMjI2
-N119
+eyJoaXN0b3J5IjpbODM4MDI2MzcyLC03NjE2OTg1NzIsLTIwNj
+E1MTY0OTAsLTExNDE0NzQ4NSw4MTc1OTgzMDQsLTQzODg1NjMw
+MiwxMTIxNzkyNDIwLDIwMjAzNzc5NzMsLTEyNjIzMDQzMzYsLT
+QzMjY3MzI3LDE4MTc4MjA2MiwtMTcwODU5ODA4LDE5NTMwNTQ0
+NTYsLTY0MTYxOTE0MiwxMDQwODE5MTMsMTk4MjA4MTkxLDc0ND
+E4ODE2MywxMDY3NjYxNzU5LC05NDI3NjAyMTgsNDczNTIyMjY3
+XX0=
 -->
