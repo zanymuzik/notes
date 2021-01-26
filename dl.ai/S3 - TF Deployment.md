@@ -471,6 +471,8 @@ train_ds = tfds.load('mnist:3.*.*', split=['train[:{}%]+train[{}%:]'.format(k, k
 ```
 [colab 2 - split example](https://github.com/lmoroney/dlaicourse/blob/master/TensorFlow%20Deployment/Course%203%20-%20TensorFlow%20Datasets/Week%201/Examples/splits_api.ipynb)
 
+[Week 1 - Exercise](https://github.com/lmoroney/dlaicourse/blob/master/TensorFlow%20Deployment/Course%203%20-%20TensorFlow%20Datasets/Week%201/Exercises/TFDS_Week1_Exercise.ipynb)
+
 ## [Week 2 - TF Data Services](https://www.coursera.org/learn/data-pipelines-tensorflow/home/week/2)
 
 ### tf.data handles the data in pipelines
@@ -513,11 +515,11 @@ categorical_column_with_hash_bucket(hash_bucket_size = 100)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODM4MDI2MzcyLC03NjE2OTg1NzIsLTIwNj
-E1MTY0OTAsLTExNDE0NzQ4NSw4MTc1OTgzMDQsLTQzODg1NjMw
-MiwxMTIxNzkyNDIwLDIwMjAzNzc5NzMsLTEyNjIzMDQzMzYsLT
-QzMjY3MzI3LDE4MTc4MjA2MiwtMTcwODU5ODA4LDE5NTMwNTQ0
-NTYsLTY0MTYxOTE0MiwxMDQwODE5MTMsMTk4MjA4MTkxLDc0ND
-E4ODE2MywxMDY3NjYxNzU5LC05NDI3NjAyMTgsNDczNTIyMjY3
-XX0=
+eyJoaXN0b3J5IjpbMzI1NzU1NjMsODM4MDI2MzcyLC03NjE2OT
+g1NzIsLTIwNjE1MTY0OTAsLTExNDE0NzQ4NSw4MTc1OTgzMDQs
+LTQzODg1NjMwMiwxMTIxNzkyNDIwLDIwMjAzNzc5NzMsLTEyNj
+IzMDQzMzYsLTQzMjY3MzI3LDE4MTc4MjA2MiwtMTcwODU5ODA4
+LDE5NTMwNTQ0NTYsLTY0MTYxOTE0MiwxMDQwODE5MTMsMTk4Mj
+A4MTkxLDc0NDE4ODE2MywxMDY3NjYxNzU5LC05NDI3NjAyMThd
+fQ==
 -->
