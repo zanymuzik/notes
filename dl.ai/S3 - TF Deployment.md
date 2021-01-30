@@ -511,15 +511,16 @@ categorical_column_with_hash_bucket(hash_bucket_size = 100)
 [colab 2](https://github.com/lmoroney/dlaicourse/blob/master/TensorFlow%20Deployment/Course%203%20-%20TensorFlow%20Datasets/Week%202/Examples/data.ipynb)
 
 
+## [Week 3 - TFDS Pie](https://www.coursera.org/learn/data-pipelines-tensorflow/home/week/3)
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzI1NzU1NjMsODM4MDI2MzcyLC03NjE2OT
-g1NzIsLTIwNjE1MTY0OTAsLTExNDE0NzQ4NSw4MTc1OTgzMDQs
-LTQzODg1NjMwMiwxMTIxNzkyNDIwLDIwMjAzNzc5NzMsLTEyNj
-IzMDQzMzYsLTQzMjY3MzI3LDE4MTc4MjA2MiwtMTcwODU5ODA4
-LDE5NTMwNTQ0NTYsLTY0MTYxOTE0MiwxMDQwODE5MTMsMTk4Mj
-A4MTkxLDc0NDE4ODE2MywxMDY3NjYxNzU5LC05NDI3NjAyMThd
-fQ==
+eyJoaXN0b3J5IjpbLTE4NTAyMzA0NjAsMzI1NzU1NjMsODM4MD
+I2MzcyLC03NjE2OTg1NzIsLTIwNjE1MTY0OTAsLTExNDE0NzQ4
+NSw4MTc1OTgzMDQsLTQzODg1NjMwMiwxMTIxNzkyNDIwLDIwMj
+AzNzc5NzMsLTEyNjIzMDQzMzYsLTQzMjY3MzI3LDE4MTc4MjA2
+MiwtMTcwODU5ODA4LDE5NTMwNTQ0NTYsLTY0MTYxOTE0MiwxMD
+QwODE5MTMsMTk4MjA4MTkxLDc0NDE4ODE2MywxMDY3NjYxNzU5
+XX0=
 -->
