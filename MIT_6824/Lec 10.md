@@ -1,14 +1,19 @@
-6.824 2020 Lecture 10: Database logging, quorums, Amazon Aurora
+6.824 2020## Lecture 10: Database logging, quorums, Amazon Aurora
 
-Amazon Aurora, Verbitski et al., SIGMOD 2017.
+### Amazon Aurora, Verbitski et al., SIGMOD 2017. [https://www.allthingsdistributed.com/files/p1041-verbitski.pdf]
+https://www.allthingsdistributed.com/2019/03/Amazon-Aurora-design-cloud-native-relational-database.html
+https://github.com/lzl7/paper-reading/blob/master/database/Amazon-Aurora-Design-Considerations-for-High-Throughput-Cloud-Native-Relational-Databases.md
+https://blog.the-pans.com/amazon-aurora/
+https://news.ycombinator.com/item?id=19252497
+
 
 Why are we reading the Aurora paper?
-  successful recent cloud service, solves serious problems for customers
-  big payoff for good design (Table 1)
-  shows limits of general-purpose storage abstraction
-  many tidbits about what's important in real-world cloud infrastructure
+  - successful recent cloud service, solves serious problems for customers
+  - big payoff for good design (Table 1)
+  - shows limits of general-purpose storage abstraction
+  - many tidbits about what's important in real-world cloud infrastructure
 
-Here's my understanding of the story that led to Aurora.
+#### Here's my understanding of the story that led to Aurora.
 
 Amazon EC2 -- cloud computing, aimed at web sites
   [VMM, linux guests, www servers &c]
@@ -272,5 +277,5 @@ What are the take-away lessons?
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU3ODUzNTI0XX0=
+eyJoaXN0b3J5IjpbLTk3MTM5MzU3MywyNTc4NTM1MjRdfQ==
 -->
