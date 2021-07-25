@@ -1,4 +1,4 @@
-6.824 2020## Lecture 10: Database logging, quorums, Amazon Aurora
+# Lecture 10: Database logging, quorums, Amazon Aurora
 
 ### Amazon Aurora, Verbitski et al., SIGMOD 2017. [https://www.allthingsdistributed.com/files/p1041-verbitski.pdf]
 https://www.allthingsdistributed.com/2019/03/Amazon-Aurora-design-cloud-native-relational-database.html
@@ -277,5 +277,6 @@ What are the take-away lessons?
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3MTM5MzU3MywyNTc4NTM1MjRdfQ==
+eyJoaXN0b3J5IjpbNjY1NTk4MTYsLTk3MTM5MzU3MywyNTc4NT
+M1MjRdfQ==
 -->
